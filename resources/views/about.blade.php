@@ -175,8 +175,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                
-                               
+
+
                             </div>
                         </div>
                     </div>
@@ -186,5 +186,5 @@
     </div>
 </div>
 @include('partials.welcome.partners')
-@include('partials.welcome.engagement')
+{{-- @include('partials.welcome.engagement') --}}
 @endsection
