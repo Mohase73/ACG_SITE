@@ -1,0 +1,305 @@
+/*
+** Dark Section background and Dark Muted background sections - .ds and .ds.ms
+*/
+/* dark grey background section - .ds */
+.ds {
+  background-color: $darkgreyColor;
+  color: $lightColor;
+  & * & {
+    background-color: darken($darkgreyColor, 5%);
+  }
+  .list-unstyled{
+    color: $lightColor;
+  }
+}
+
+/* dark background section - .ds.ms */
+.ds.ms {
+  background-color: $darkColor;
+  & & {
+    background-color: lighten($darkColor, 2%);
+  }
+}
+
+/* dark section blue - .ds.bs */
+.ds.bs {
+  background-color: $darkBlueColorLighter;
+}
+
+.ds {
+  a:not(.btn) {
+      color: $lightColor;
+    &:hover {
+      color: $colorMain2;
+    }
+    &.color-main{
+      color: $colorMain;
+    &:hover{
+      color: $lightColor;
+    }
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $lightColor;
+    a {
+      color: $lightColor;
+      &:hover {
+
+      }
+    }
+  }
+
+  &.ms{
+    &.page_footer{
+      .widget{
+        &.widget_nav_menu{
+          ul li{
+            a:not(.btn){
+              color: $fontColor;
+              &:hover{
+                color: $lightColor;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+  //light section in dark section - .ds .ls
+  .ls {
+    background-color: $lightColor;
+    color: $fontColor;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $darkgreyColor;
+      a {
+        color: inherit;
+        &:hover {
+          color: $colorMain;
+        }
+      }
+    }
+    a:not(.btn) {
+      color: $darkgreyColor;
+      &:hover {
+        color: $colorMain;
+      }
+    }
+    .btn-maincolor:hover,
+    .btn-maincolor2:hover,
+    .btn-maincolor3:hover,
+    .btn-maincolor4:hover{
+      color: $darkgreyColor;
+    }
+  }
+  //end of .ls inside .ds
+
+  label {
+    color: $darkgreyColor;
+  }
+
+  hr {
+    border-color: $darkBorderColor;
+    background-color: $darkBorderColor;
+  }
+  blockquote, .blockquote {
+    color: $darkFontColor;
+  }
+
+  pre {
+    color: $darkFontColor;
+  }
+
+  .muted-bg,
+  .hero-bg {
+    background-color: $darkBackgroundColor;
+  }
+
+  .bordered {
+    border-color: $darkBorderColor;
+  }
+  .color-main {
+    color: $colorMain;
+  }
+  .color-main2 {
+    color: $colorMain2;
+  }
+  .color-dark,
+  .color-darkgrey {
+    color: $darkgreyColor;
+    border-color: $darkgreyColor;
+  }
+
+  .links-maincolor a {
+    color: $colorMain;
+    &:hover {
+      color: $lightColor;
+    }
+  }
+  .links-maincolor2 a {
+    color: $colorMain2;
+    &:hover {
+      color: $lightColor;
+    }
+  }
+  .links-maincolor3 a {
+    color: $colorMain3;
+    &:hover {
+      color: $lightColor;
+    }
+  }
+
+  .links-grey a {
+    color: $darkFontColor;
+    &:hover {
+      color: $lightColor;
+    }
+  }
+
+  .links-darkgrey a {
+    color: $lightColor;
+    &:hover {
+      color: $colorMain;
+    }
+  }
+  //sections with borders
+  &.s-bordertop:before,
+  &.s-borderbottom:after,
+  &.s-bordertop-container .container:before,
+  &.s-borderbottom-container .container:after {
+    background-color: $darkBorderColor;
+
+  }
+  &.s-bordered-columns {
+    [class*='col-'] + [class*='col-']:before {
+      background-color: $darkBorderColor;
+    }
+  }
+
+  //buttons
+  .btn-link{
+    color: $lightColor;
+    &:hover{
+      color: $colorMain;
+    }
+  }
+  .btn-square{
+    color: $lightColor;
+    border-color: $lightColor;
+    &:hover{
+      background-color: $lightColor;
+      color: $darkgreyColor;
+    }
+  }
+
+  .btn-maincolor,
+  .btn-maincolor2,
+  .btn-maincolor3,
+  .btn-maincolor4,
+  .btn-maincolor5{
+    &:hover{
+      color: $lightColor;
+      &::after{
+        opacity: 1;
+      }
+    }
+  }
+
+  .btn-darkgrey{
+    color: $darkgreyColor;
+    &::after{
+      background-color: $lightColor;
+    }
+    &::before{
+      border-color: $lightColor;
+    }
+    &:hover {
+      background-color: transparent;
+      color: $lightColor;
+    }
+  }
+
+  .btn-outline-maincolor,
+  .btn-outline-maincolor2,
+  .btn-outline-maincolor3,
+  .btn-outline-maincolor4,
+  .btn-outline-maincolor5{
+    color: $lightColor;
+    &:hover{
+      color: $lightColor;
+    }
+  }
+
+  .btn-outline-maincolor:hover{
+    border-color: $colorMain2;
+  }
+  .btn-outline-maincolor2:hover{
+    border-color: $colorMain;
+  }
+  .btn-outline-maincolor3:hover{
+    border-color: $colorMain4;
+  }
+  .btn-outline-maincolor4:hover{
+    border-color: $colorMain3;
+  }
+
+  .btn-outline-darkgrey{
+    color: $lightColor;
+    &::after{
+      background-color: $lightColor;
+    }
+    &::before{
+      border-color: $lightColor;
+    }
+    &:hover {
+      background-color: transparent;
+      color: $darkgreyColor;
+    }
+  }
+
+  .btn-shadow{
+    box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.6);
+    &:hover{
+      box-shadow: 0px 0px 0px 1.5em rgba(255, 255, 255, 0);
+      color: $darkgreyColor;
+    }
+  }
+
+  //social icons
+  a.fa {
+    color: $darkFontColor;
+    border-color: $darkFontColor;
+  }
+  a.bg-icon {
+    background-color: $darkBackgroundColor;
+  }
+
+  .fa.color-icon:hover {
+    color: $lightColor;
+  }
+
+  .color-icon.bg-icon {
+    background-color: $darkBackgroundColor;
+  }
+  .color-icon.bg-icon:hover {
+    color: $lightColor;
+  }
+
+  .color-bg-icon:hover {
+    background-color: $colorMain;
+  }
+}

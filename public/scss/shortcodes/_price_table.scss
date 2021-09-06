@@ -1,0 +1,348 @@
+.owl-carousel{
+  .pricing-plan{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+.col-xl-4 .pricing-plan{
+  @media (min-width: 1200px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+.pricing-plan {
+  box-shadow: $boxShadow;
+  text-align: center;
+  padding: 50px 10px;
+  position: relative;
+  z-index: 1;
+  color: $fontColor;
+
+
+  &:hover{
+    &::after{
+      opacity: 1;
+    }
+  }
+
+  .price-wrap {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 37px 0 9px;
+    color: $darkgreyColor;
+
+    &.underline{
+      padding-bottom: 0;
+      &::after{
+        bottom: 5px;
+        background-color: $lightColor;
+      }
+    }
+
+    &[class*='bg-'] {
+      padding: 30px 30px 10px;
+      margin-top: 50px;
+      margin-bottom: 0;
+    }
+  }
+  [class*='bg-'] {
+    padding: 10px 30px 30px;
+    margin-left: -41px;
+    margin-right: -41px;
+  }
+  .plan-name {
+    &[class*='bg-'] {
+      padding-top: 30px;
+      margin-top: -40px;
+    }
+    h3 {
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0;
+    }
+  }
+
+  .custom-wrap{
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: -1px;
+    margin-top: 20px;
+    color: $darkgreyColor;
+    .plan-value{
+      font-size: 60px;
+    }
+    .plan-value-units{
+      font-size: 37px;
+    }
+  }
+
+  .plan-description {
+    text-transform: capitalize;
+    color: $darkgreyColor;
+    line-height: 1;
+    margin-top: 20px;
+  }
+
+  hr{
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+
+  .plan-sign{
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    top: -4px;
+  }
+
+  .plan-price{
+    font-size: 24px;
+    line-height: 1;
+    position: relative;
+    font-weight: 600;
+  }
+
+  .plan-decimals {
+    font-size: 16px;
+    position: relative;
+  }
+
+
+  @media(min-width: 1200px) {
+    padding: 50px 10px;
+    [class*='bg-'] {
+      margin-left: -61px;
+      margin-right: -61px;
+    }
+    .plan-name[class*='bg-'] {
+      margin-top: -57px;
+    }
+  }
+
+  .plan-features {
+    .list-unstyled{
+      color: $fontColor;
+      li{
+        line-height: 23px;
+      }
+    }
+  }
+
+  .plan-button {
+    margin-top: 45px;
+    .btn{
+      min-width: 135px;
+      color: $lightColor;
+      &:hover{
+        color: $darkgreyColor;
+      }
+    }
+  }
+
+  //featured border
+  &.plan-featured {
+    overflow: hidden;
+    &::before{
+      content: 'Featured';
+      position: absolute;
+      top: 50px;
+      right: -22px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      height: 75px;
+      color: $lightColor;
+      background-color: transparent;
+      width: 200px;
+      transform: rotate(45deg);
+      transform-origin: bottom right;
+    }
+    &.main::before{
+      background-color: $colorMain;
+    }
+    &.main2::before{
+      background-color: $colorMain2;
+    }
+    &.main3::before{
+      background-color: $colorMain3;
+    }
+    &.main4::before{
+      background-color: $colorMain4;
+    }
+    &.main5::before{
+      background-color: $colorMain5;
+    }
+  }
+}
+
+.fw-pricing{
+  display: flex;
+  overflow: auto;
+  flex-wrap: nowrap;
+  &.type-1{
+    @media (max-width: 575px) {
+      padding: 0 15px;
+    }
+    .fw-heading-row,
+    .fw-pricing-row,
+    .fw-switch-row{
+      border-top: 1px solid $borderColor;
+      border-bottom: 1px solid $borderColor;
+      min-height: 50px;
+      display: flex;
+      align-items: center;
+      padding: 5px 20px;
+      justify-content: flex-end;
+    }
+    .fw-switch-row, .fw-heading-row{
+      justify-content: center;
+    }
+    .fw-switch-row i{
+      color: $colorMain;
+    }
+    .price-wrap{
+      margin: 0;
+    }
+    .plan-price{
+      font-size: 16px;
+    }
+    .fw-switch-row{
+      color: $darkgreyColor;
+    }
+    h3{
+      font-weight: 600;
+    }
+    .fw-package{
+      & > div{
+        &:nth-child(odd) {
+          background-color: $greyColor;
+          border-color: $greyColor!important;
+        }
+        &:not(:last-child) {
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .fw-package-wrap{
+      &:first-child{
+        .fw-heading-row,
+        .fw-pricing-row,
+        .fw-switch-row{
+          border-left: 1px solid $borderColor;
+          justify-content: flex-start;
+        }
+      }
+      &:last-child{
+        .fw-heading-row,
+        .fw-pricing-row,
+        .fw-switch-row{
+          border-right: 1px solid $borderColor;
+        }
+      }
+      &:not(:first-child) {
+        .plan-price{
+          color: $colorMain;
+          font-size: 24px;
+          font-weight: bold;
+          @media (max-width: 575px) {
+            font-size: 20px;
+          }
+        }
+        .price-sign{
+          position: relative;
+          top: -4px;
+          font-size: 14px;
+          font-weight: bold;
+          color: $colorMain;
+        }
+        .price-wrap p{
+          color: $fontColor;
+          @media (max-width: 991px) {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .pricing-plan{
+      box-shadow: none;
+      padding: 0;
+    }
+  }
+  &.type-2{
+    box-shadow: $boxShadow;
+    .fw-heading-row,
+    .fw-pricing-row,
+    .fw-switch-row{
+      min-height: 50px;
+      display: flex;
+      align-items: center;
+      padding: 5px 20px;
+      justify-content: flex-end;
+    }
+    .fw-switch-row, .fw-heading-row{
+      justify-content: center;
+    }
+    .fw-heading-row{
+      min-height: 60px;
+    }
+    .fw-switch-row i{
+      color: $colorMain;
+    }
+    .price-wrap{
+      margin: 0;
+    }
+    .plan-price{
+      font-size: 16px;
+    }
+    .fw-switch-row{
+      color: $darkgreyColor;
+    }
+    h3{
+      font-weight: 600;
+    }
+    .fw-package{
+
+      & > div{
+        background-color: $lightColor;
+        &:nth-child(even) {
+          background-color: $greyColor;
+          border-color: $greyColor!important;
+        }
+      }
+    }
+    .fw-package-wrap{
+      &:first-child{
+        .fw-heading-row,
+        .fw-pricing-row,
+        .fw-switch-row{
+          justify-content: flex-start;
+        }
+      }
+      &:not(:last-child){
+        border-right: 1px solid $borderColor;
+      }
+      &:not(:first-child) {
+        .plan-price{
+          color: $colorMain;
+          font-size: 24px;
+          font-weight: bold;
+        }
+        .price-sign{
+          position: relative;
+          top: -4px;
+          font-size: 14px;
+          font-weight: bold;
+          color: $colorMain;
+        }
+        .price-wrap p{
+          color: $fontColor;
+        }
+      }
+    }
+    .pricing-plan{
+      box-shadow: none;
+      padding: 0;
+    }
+  }
+}

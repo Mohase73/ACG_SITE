@@ -1,0 +1,71 @@
+/*
+* Ajax Domain Checker
+*/
+.fw-page-builder-content{
+  #domain-form{
+    max-width: 1170px;
+  }
+  #domain-form #wdc-style{
+    #form + div{
+      max-width: unset!important;
+    }
+    @media (max-width: 767px) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .input-group{
+      margin-top: 0;
+      box-shadow: none;
+      border: none!important;
+      background: transparent;
+      max-width: unset!important;
+    }
+    #Search{
+      border-radius: 30px!important;
+      background-color: $lightColor;
+      border: 1px solid $borderColor!important;
+      padding: 10px 30px;
+      color: $fontColor;
+      height: 44px !important;
+      font-size: 16px;
+      &:focus,
+      &:active{
+        border-color: darken($borderColor, 15%)!important;
+      }
+      @media (max-width: 767px) {
+        border-radius: 30px!important;
+      }
+    }
+    .input-group-btn{
+      border-top: none!important;
+      border-right: none!important;
+      border-bottom: none!important;
+      border-width: 20px;
+      background-color: transparent!important;
+      border-color: transparent!important;
+      @media (max-width: 767px) {
+        text-align: center;
+        padding-top: 20px;
+        display: inline-block;
+      }
+    }
+    #Submit{
+      padding-top: 10px!important;
+      padding-bottom: 10px!important;
+      height: auto!important;
+      border-radius: 20px!important;
+      letter-spacing: unset;
+      background: linear-gradient(to right, rgba($colorMain, 1) 0%, rgba($colorMain2, 1) 100%);
+      font-size: 16px;
+      text-transform: capitalize;
+      min-width: auto;
+      color: $lightColor;
+      position: relative;
+      z-index: 1;
+      @media (max-width: 767px) {
+        display: inline-block;
+        width: auto;
+      }
+    }
+  }
+}

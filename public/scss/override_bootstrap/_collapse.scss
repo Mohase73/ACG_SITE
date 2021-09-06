@@ -1,0 +1,136 @@
+/* bootstrap collapse*/
+//unstyled
+[data-toggle="collapse"] {
+  display: inline-block;
+  position: relative;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  &:after {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -7px;
+    font-size: 14px;
+    font-family: "Font Awesome 5 Free", sans-serif;
+    content: "\f078";
+  }
+  &.collapsed {
+    &:after {
+      content: "\f054";
+    }
+  }
+}
+
+//cards as tabs
+[role="tablist"] {
+  .card {
+    border-radius: 0;
+    border: none;
+    background: none;
+    margin-bottom: 8px;
+    box-shadow: $boxShadow;
+  }
+  .card-header {
+    padding: 0;
+    background: none;
+    border: none;
+
+    a {
+      font-size: 16px;
+      text-transform: unset;
+      font-weight: 400;
+      line-height: 1;
+      display: block;
+      padding: 18px 50px 18px 20px;
+      margin: 0;
+      background-color: $lightColor;
+      border: none;
+      color: $darkgreyColor;
+      word-wrap: break-word;
+      i{
+        margin-right: 20px;
+        color: $colorMain;
+      }
+      &:before,
+      &:after {
+        text-align: center;
+        font-family: inherit;
+        font-weight: 100;
+        content: '';
+        width: 50px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        color: $darkgreyColor;
+        background-color: transparent;
+        transition: opacity 0.3s ease-in-out;
+      }
+      &:after {
+        height: 30px;
+        line-height: 30px;
+        margin-top: -15px;
+        font-size: 15px;
+        vertical-align: top;
+        top: 50%;
+        bottom: auto;
+        content: '\f077';
+        font-family: "Font Awesome 5 Free", sans-serif;
+        background: none;
+        font-weight: bold;
+        color: $darkgreyColor;
+        transition: all .3s ease-in-out;
+      }
+      &:not(.btn):hover {
+
+        color: $darkgreyColor;
+      }
+      &.collapsed {
+        background-color: $lightColor;
+        color: $fontColor;
+        i{
+          color:$colorMain;
+        }
+        &:after {
+          font-family: "Font Awesome 5 Free", sans-serif;
+          margin-top: -15px;
+          font-size: 13px;
+          color: $darkgreyColor;
+          transform: rotate(180deg);
+        }
+        &:hover{
+          color: $darkgreyColor;
+        }
+      }
+    }
+  }
+
+  [role="tab"] {
+    a{
+      display: block;
+    }
+  }
+  .card{
+    .card-body{
+      background-color: $lightColor;
+    }
+  }
+  .card-body {
+    padding: 3px 22px 12px 22px;
+    background-color: transparent;
+  }
+  .media img {
+    max-width: 80px;
+  }
+}
+#accordion02{
+  .card-body{
+    margin-bottom: 0px;
+  }
+}
+.ds.ms{
+  [role="tablist"] .card-header a.collapsed{
+    background-color: $darkgreyColor;
+  }
+}

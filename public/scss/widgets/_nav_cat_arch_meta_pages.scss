@@ -1,0 +1,285 @@
+/*
+widget_archive
+widget_categories
+widget_nav_menu
+widget_meta
+widget_pages
+widget_recent_comments
+widget_recent_entries
+*/
+.widget_archive,
+.widget_categories,
+  //widget pages has following div inside:
+.widget_nav_menu,
+  //.menu-all-pages-container,
+.widget_meta,
+.widget_pages,
+.widget_recent_comments,
+.widget_recent_entries {
+  .widget-title{
+    margin-bottom: 0.99em;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    ul {
+      li {
+        border-top: 1px solid $borderColor;
+        border-bottom: none;
+        padding-left: 20px;
+        min-height: 51px;
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+  li + li {
+    border-top: none;
+  }
+  //fix for unit test
+  //empty menu item
+  a:empty,
+  li > a:not([href]) {
+    display: none !important;
+  }
+}
+
+.ds{
+  .widget_archive,
+  .widget_categories,
+    //widget pages has following div inside:
+  .widget_nav_menu,
+    //.menu-all-pages-container,
+  .widget_meta,
+  .widget_pages{
+    li{
+      & > a:before {
+        color: $colorMain2;
+      }
+    }
+  }
+}
+
+.widget_archive,
+.widget_categories,
+  //widget pages has following div inside:
+.widget_nav_menu,
+  //.menu-all-pages-container,
+.widget_meta,
+.widget_pages {
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: $colorMain;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    border-bottom: 1px solid $borderColor;
+    &:first-child{
+      border-top: 1px solid $borderColor;
+    }
+    a {
+      flex-grow: 10;
+      display: inline-block;
+      padding: 10px 0 9px 0;
+      position: relative;
+      color: $fontColor;
+      font-weight: 400;
+      &:hover{
+        color: $darkgreyColor;
+      }
+    }
+
+    & > a:before {
+      @include widget-a-before();
+    }
+  }
+}
+
+.page_footer{
+  .widget_nav_menu{
+    li{
+      border: none;
+      a{
+        padding: 0;
+      }
+    }
+  }
+}
+
+.widget_recent_comments{
+  li {
+    flex-grow: 10;
+    display: inline-block;
+    padding: 12px 0 11px 0;
+    position: relative;
+    font-weight: 300;
+    border-bottom: 1px solid $borderColor;
+    width: 100%;
+    &:first-child{
+      border-top: 1px solid $borderColor;
+    }
+    a{
+      color: $fontColor;
+      font-weight: 400;
+      &:hover{
+        color: $darkgreyColor;
+      }
+    }
+    span{
+    }
+    &::before {
+      @include widget-a-before();
+    }
+  }
+}
+
+.widget_recent_entries {
+  li {
+    flex-grow: 10;
+    display: inline-block;
+    padding: 12px 0 11px 0;
+    border-bottom: 1px solid $borderColor;
+    width: 100%;
+    &:before {
+      @include widget-a-before();
+    }
+    &:first-child{
+      border-top: 1px solid $borderColor;
+    }
+    a{
+      color: $fontColor;
+      font-weight: 400;
+      &:hover{
+        color: $darkgreyColor;
+      }
+    }
+  }
+}
+
+//recent entries in footer
+.page_footer{
+  .social-icons{
+    a.fa{
+      color: #78a6bf;
+      border-color: #78a6bf;
+      &:hover{
+        color: $lightColor;
+        border-color: $lightColor;
+      }
+    }
+  }
+  .widget{
+    h3.widget-title{
+      font-size: 24px;
+      margin-bottom: 1.3em;
+      line-height: 0.9;
+      text-align: left;
+      color: $colorMain2;
+      @media (max-width: 767px) {
+        text-align: center;
+        &::after{
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+      @media (max-width: 575px) {
+        margin-bottom: 30px;
+      }
+    }
+
+    &.widget_instagram{
+      .widget-title{
+        margin-bottom: 1.6em;
+      }
+    }
+    &.widget_mailchimp{
+      form,
+      .form-control{
+        max-width: 100%;
+      }
+    }
+    li.media{
+      margin-bottom: 21px;
+    }
+  }
+  .widget_icons_list{
+    font-weight: 300;
+    .icon-inline + .icon-inline{
+      margin-top: 4px;
+    }
+    .social-icons{
+      margin-top: 20px;
+      display: inline-block;
+    }
+  }
+}
+
+//nav menu in topline and copyright
+.page_copyright, .page_topline {
+  .widget_nav_menu li {
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .widget_nav_menu li:before {
+    content: '';
+    position: absolute;
+    padding: 0;
+    left: -5px;
+    top: 5px;
+    bottom: 5px;
+    width: 1px;
+    background-color: $borderColorRGBA;
+    opacity: 0.3;
+    display: block;
+  }
+  .widget_nav_menu li:first-child:before {
+    display: none;
+  }
+  .widget_nav_menu a {
+    padding: 0 10px;
+  }
+  .widget_nav_menu a:before {
+    display: none;
+  }
+}
+
+//dropdown lists
+.widget_categories,
+.widget_archive {
+
+}
+
+//Widget Slider
+.widgets-title{
+  font-size: 20px;
+  text-transform: initial;
+  a:hover{
+    color: $colorMain;
+  }
+}
+
+//Media
+.widget{
+  .media{
+    display: flex;
+    align-items: center;
+    .media-body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-grow: 1;
+      .item-meta{
+        margin-bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,251 @@
+.bg-select{background: rgb(175, 240, 137) !important; }
+.text-xs{font-size: 9px !important; color:red; padding:5px 0 !important; }
+.text-sm{font-size: 11px !important; color:red; padding:5px 0 !important; }
+.no-p h2 {
+    margin-bottom: 0em;
+}
+
+span.helper-text.red-text {
+    color: red;
+    font-size: smaller;
+}
+.iti.iti--allow-dropdown {
+    width: 100%;
+}
+.aide-icon{
+    font-size: 21px;
+    padding-right: 13px;
+}
+.font-20{
+    font-size: 20px;
+}
+#loader {
+    margin: 40px;
+  }
+  .loader {
+    margin: auto;
+    border: 16px solid #e3e3e3;
+    border-radius: 50%;
+    border-top: 16px solid #1565c0;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  #loading {
+    margin: 40px;
+  }
+  .loading {
+    position:absolute;
+    left: 50%;
+    top:50%;
+    margin: auto;
+    border: 16px solid #e3e3e3;
+    background-color:whitesmoke;
+    border-radius: 50%;
+    border-top: 16px solid #8CC53D;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  span.helper-text.red-text {
+    color: red;
+    font-size: 11px;
+}
+.profil-image-image-zone {
+    height: 300px;
+}
+img.user-prfil-image {
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.dl dt{float:left;width:41%;padding: 0!important;overflow:hidden;clear:left;text-align:right;text-overflow:ellipsis;white-space:nowrap;line-height: 1rem;font-size: .9em;}
+.dl dd{margin-left: 44%;line-height: 1rem;font-size: .9em;}
+.dl-crime dt{float:left;width:46%;padding: 0!important;overflow:hidden;clear:left;text-align:right;text-overflow:ellipsis;white-space:nowrap;line-height: 1rem;font-size: .9em;}
+.dl-crime dd{margin-left: 48%;line-height: 1rem;font-size: .9em;}
+.nom_item_par_collapse{
+    position: relative;
+    right: 0;
+}
+.acc_head {
+    display: flex !important;
+    justify-content: space-between;
+}
+.banner {
+	background-image: linear-gradient(to right, rgba(2, 96, 173, 0.931) 0%, rgba(93, 247, 239, 0.774) 100%), url('../images/pngs/bg.png');
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+  }
+.card-header.d-spaece-around {
+    justify-content: space-between;
+}
+svg.iconify {
+    font-size: x-large;
+    /* padding-right: 71px; */
+    margin-right: 5px;
+}
+
+// .crime-gallerie .crime-image {
+//   display: block;
+// }
+
+// .crime-gallerie {
+//   position: relative;
+//   z-index: 9999999999;
+//   padding: 10px;
+//   display: flex;
+//   flex-flow: row wrap;
+//   justify-content: space-between;
+//   transition: all .5s ease-in-out;
+//   transform: translateZ(0);
+//   &.pop {
+//     filter: blur(10px);
+//   }
+//   .crime-figure {
+//     flex-basis: 33.333%;
+//     padding: 10px;
+//     overflow: hidden;
+//     cursor: pointer;
+//       .crime-image {
+//       width: 100%;
+//       transition: all .3s ease-in-out;
+//     }
+//      .crime-figcaption {
+//       display: none;
+//     }
+
+//   }
+//   .crime-figure:hover .crime-figcaption {
+//     display: block;
+//   }
+// }
+// .crime-gallerie .popup {
+//   position: absolute;
+//   z-index: 9999999999999999999999999999;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100vh;
+//   background: #fff;
+//   opacity: 0;
+//   transition: opacity .5s ease-in-out .2s;
+//   &.pop {
+//     opacity: 1;
+//     transition: opacity .2s ease-in-out 0s;
+//     .crime-figure {
+//       margin-top: 0;
+//       opacity: 1;
+//     }
+//   }
+//  .crime-figure {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     transform-origin: 0 0;
+//     margin-top: 30px;
+//     opacity: 0;
+//     animation: poppy 500ms linear both;
+//      .crime-image {
+//       position: relative;
+//       z-index: 2;
+//       //box-shadow: 0 1px 5px rgba(0, 0, 0, .2), 0 6px 30px rgba(0, 0, 0, .4);
+//     }
+//        .crime-figcaption {
+//       position: absolute;
+//       bottom: 50px;
+//       background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.78));
+//       z-index: 9999999999999999999999999999;
+//       width: 100%;
+//       padding: 100px 20px 20px 20px;
+//       color: #fff;
+//       font-family: 'Open Sans', sans-serif;
+//       font-size: 32px;
+//         .crime-small {
+//         font-size: 11px;
+//         display: block;
+//         text-transform: uppercase;
+//         margin-top: 12px;
+//         text-indent: 3px;
+//         opacity: .7;
+//         letter-spacing: 1px;
+//       }
+//     }
+//      .shadow {
+//       position: relative;
+//       z-index: 1;
+//       top: -56px;
+//       margin: 0 auto;
+//       background-position: center bottom;
+//       background-repeat: no-repeat;
+//       width: 98%;
+//       height: 50px;
+//       opacity: .9;
+//       filter: blur(16px) contrast(1.5);
+//       transform: scale(0.95, -0.7);
+//       transform-origin: center bottom;
+//     }
+//   }
+//    .close {
+//     position: absolute;
+//     z-index: 3;
+//     top: 10px;
+//     right: 10px;
+//     width: 25px;
+//     height: 25px;
+//     cursor: pointer;
+//     background: url(.close);
+//     border-radius: 25px;
+//     background: rgba(0, 0, 0, .1);
+//     box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+//       .crime-svg {
+//       width: 100%;
+//       height: 100%;
+//     }
+//   }
+// }
+ .crime-gallerie {
+   position: relative;
+   z-index: 9999999999;
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: center;
+   align-items: center;
+   transition: all .5s ease-in-out;
+ }
+ .crime-rideau{
+  display: none;
+   width: 100%;
+   height: 100%;
+   padding-bottom: 2em;
+   position: absolute;
+   z-index: 9999999999;
+   top: 0;
+   left: 0;
+   background-color: rgba(0,0,0,0.2);
+   cursor: pointer;
+}
+
+// .crime-figure:hover .crime-rideau .crime-figcaption{
+//   display:flex;
+// }
+// .crime-figure:hover .crime-figcaption {
+//   width: 100%;
+//   height: 100%;
+//   padding-bottom: 2em;
+//   z-index: 99999999999999;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   background-color: rgba(0,0,0,0.5);
+//   cursor: pointer;
+// }
+
+
+

@@ -1,0 +1,61 @@
+/* bootstrap breadcrumbs*/
+.ds{
+  .breadcrumb{
+    & > li{
+      a:not(.btn){
+        color: $lightColor;
+        &:hover{
+          color: $colorMain2;
+        }
+      }
+    }
+  }
+  .breadcrumb-item + .breadcrumb-item::before{
+    color: $lightColor;
+  }
+}
+.breadcrumb {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
+  color: $colorMain2;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  line-height: 32px;
+  & > li {
+    display: inline-block;
+    padding: 0;
+    float: none;
+    a:not(.btn){
+      color: $darkgreyColor;
+      &:hover{
+        color: $colorMain2;
+      }
+    }
+  }
+
+  .text-center & {
+    justify-content: center;
+  }
+  @media (min-width: 992px) {
+    .text-lg-right & {
+      justify-content: flex-end;
+    }
+  }
+}
+
+.breadcrumb > .active {
+  opacity: 1;
+  color: $colorMain2;
+  font-weight: 400;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  padding: 0 11px 0 9px;
+  content: '|';
+  display: inline-block;
+  font-size: 18px;
+  position: relative;
+}

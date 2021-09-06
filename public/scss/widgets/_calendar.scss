@@ -1,0 +1,186 @@
+/* widget_calendar */
+.col-xl-3 {
+  @media (min-width: 1200px) {
+    .calendar_wrap {
+      thead {
+        font-size: 12px;
+        th {
+          padding: 10px 4px;
+          &:first-child {
+            padding-left: 10px;
+          }
+          &:last-child {
+            padding-right: 10px;
+          }
+        }
+      }
+      tbody {
+        font-size: 12px;
+        tr:first-child td{
+          padding-top: 20px;
+        }
+        tr:last-child td{
+          padding-bottom: 20px;
+        }
+        td {
+          padding: 10px 3px;
+          &:first-child {
+            padding-left: 10px;
+          }
+          &:last-child {
+            padding-right: 10px;
+          }
+        }
+      }
+      tfoot td a{
+        padding: 0 10px;
+      }
+    }
+  }
+}
+.calendar_wrap {
+  width: 100%;
+  margin-bottom: 0;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.ds{
+  .widget_calendar{
+    caption{
+      color: $darkgreyColor;
+    }
+  }
+}
+.widget_calendar {
+  table {
+    margin: 0;
+    position: relative;
+    text-align: center;
+    box-shadow: $boxShadow;
+    //experiment
+    display: flex;
+    flex-direction: column;
+
+    td, th{
+      border: none;
+    }
+  }
+
+  caption {
+    line-height: 1;
+    padding: 18px 0;
+    text-align: center;
+    color: $darkgreyColor;
+    background-color: $lightColor;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  thead {
+    background-color: $lightColor;
+    color: $darkgreyColor;
+    border: 1px solid $borderColor;
+    box-shadow: inset 0px 15px 10px 0px rgba(0, 0, 0, 0.04);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+
+    th {
+      padding: 20px 8px;
+      text-align: center;
+      width: 100px;
+    }
+
+    @media (max-width: 575px) {
+      th{
+        padding: 18px 4px;
+        font-size: 12px;
+      }
+    }
+  }
+
+  tbody {
+    font-size: 16px;
+    font-weight: 300;
+    tr {
+
+      &:first-child {
+        td {
+          padding-top: 35px;
+        }
+      }
+      &:last-child {
+        td {
+          padding-bottom: 35px;
+        }
+      }
+    }
+    td {
+      padding: 9px 4px;
+      position: relative;
+      width: 100px;
+      &.pad{
+        color: lighten($fontColor, 20%);
+      }
+      a {
+        color: $colorMain;
+      }
+    }
+  }
+
+  th {
+    color: inherit;
+  }
+
+  tfoot {
+    td {
+      position: absolute;
+      top: 0;
+      a {
+
+        text-align: center;
+        height: 60px;
+        line-height: 60px;
+        display: inline-block;
+        padding: 0 17px;
+        font-size: 0;
+        color: transparent;
+        &:hover {
+          opacity: 0.4;
+        }
+        &:before,
+        &:after {
+          color: $darkgreyColor;
+          font-size: 10px;
+          font-family: "Font Awesome 5 Free", sans-serif;
+          font-weight: 900;
+        }
+      }
+      &.pad {
+        display: none;
+      }
+    }
+
+    //prev
+    td:first-child {
+      left: 0;
+      padding: 0;
+      border-right: 1px solid $borderColor;
+      a {
+        &:before {
+          content: '\f053';
+        }
+      }
+    }
+    //next
+    td:last-child {
+      right: 0;
+      padding: 0;
+      border-left: 1px solid $borderColor;
+      a {
+        &:after {
+          content: '\f054';
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,355 @@
+/*
+** Buttons
+ */
+.btn{
+  transition: all .3s ease-in-out;
+}
+.btn:hover {
+  cursor: pointer;
+}
+form{
+  .btn +.btn{
+    @media (min-width: 576px) {
+      margin-left: 20px;
+    }
+
+    @media(max-width: 374px){
+      margin-top: 10px;
+    }
+  }
+}
+.btn.focus,
+.btn:focus {
+  box-shadow: 0 0 3px 0 rgba(100, 100, 100, .75);
+}
+
+.btn-secondary {
+  border-color: $borderColor;
+  color: $darkgreyColor;
+}
+
+/*color background buttons*/
+.btn-shadow{
+  background: $lightColor;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.19);
+  border: 1px solid $borderColor;
+  transition: all .5s ease-in-out;
+  &.btn-shadow-grey{
+    background: $greyColor;
+  }
+}
+
+.btn.btn-square{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  color: $darkgreyColor;
+  border: 3px solid $darkgreyColor;
+  background-color: transparent;
+  transition: all .3s ease-in-out;
+  min-width: unset;
+  &:hover{
+    background-color: $darkgreyColor;
+    color: $lightColor;
+  }
+}
+.btn.btn-circle{
+  background-color: transparent;
+  border: 2px solid $lightColor;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  min-width: unset;
+  padding: 5px;
+  font-size: 12px;
+  color: $lightColor;
+  transition: all .3s ease-in-out;
+  &:hover{
+    background-color: $lightColor;
+    color: $colorMain2;
+  }
+}
+.btn-maincolor,
+.btn-maincolor2,
+.btn-maincolor3,
+.btn-maincolor4,
+.btn-maincolor5,
+.btn-darkgrey {
+  border: none;
+  color: $darkgreyColor;
+  position: relative;
+  background-color: transparent;
+  z-index: 1;
+  overflow: hidden;
+  &::before{
+    content: '';
+    border: 2px solid transparent;
+    display: inline-block;
+    border-radius: 35px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -1px;
+    left: -1px;
+    width: calc(100% + 1px);
+    bottom: -1px;
+    background-color: transparent;
+    border-radius: 35px;
+    transition: all .5s ease-in-out;
+  }
+}
+
+.btn-maincolor {
+  &::before{
+    border-color: $colorMain;
+  }
+  &::after{
+    background-color: $colorMain;
+  }
+  &:hover{
+    color: $darkgreyColor;
+    &::after{
+      width: 0;
+    }
+  }
+}
+
+
+.btn-maincolor2 {
+  &::before{
+    border-color: $colorMain2;
+  }
+  &::after{
+    background-color: $colorMain2;
+  }
+  &:hover{
+    color: $darkgreyColor;
+    &::after{
+      width: 0;
+    }
+  }
+}
+
+.btn-maincolor3 {
+  &::before{
+    border-color: $colorMain3;
+  }
+  &::after{
+    background-color: $colorMain3;
+  }
+  &:hover{
+    color: $darkgreyColor;
+    &::after{
+      width: 0;
+    }
+  }
+}
+
+.btn-maincolor4 {
+  &::before{
+    border-color: $colorMain4;
+  }
+  &::after{
+    background-color: $colorMain4;
+  }
+  &:hover{
+    color: $darkgreyColor;
+    &::after{
+      width: 0;
+    }
+  }
+}
+
+.btn-maincolor5 {
+  &::before{
+    border-color: $colorMain5;
+  }
+  &::after{
+    background-color: $colorMain5;
+  }
+  &:hover{
+    color: $darkgreyColor;
+    &::after{
+      width: 0;
+    }
+  }
+}
+
+.btn-darkgrey {
+  color: $lightColor;
+  &::before{
+    border-color: $darkgreyColor;
+  }
+  &::after{
+    background-color: $darkgreyColor;
+  }
+  &:hover{
+    color: $darkgreyColor;
+    &::after{
+      width: 0;
+    }
+  }
+}
+
+/*color outline buttons*/
+.btn-outline-maincolor,
+.btn-outline-maincolor2,
+.btn-outline-maincolor3,
+.btn-outline-maincolor4,
+.btn-outline-maincolor5,
+.btn-outline-darkgrey{
+  border: none;
+  position: relative;
+  background-color: transparent;
+  z-index: 1;
+  overflow: hidden;
+  &:hover{
+    color: $darkgreyColor;
+  }
+  &::before{
+    content: '';
+    border: 2px solid transparent;
+    display: inline-block;
+    border-radius: 35px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -1px;
+    left: -1px;
+    width: 0;
+    bottom: -1px;
+    background-color: transparent;
+    border-radius: 35px;
+    transition: all .5s ease-in-out;
+  }
+}
+
+.btn-outline-darkgrey{
+  &:hover{
+    color: $lightColor;
+  }
+}
+
+.btn-outline-maincolor {
+  color: $darkgreyColor;
+  &::before{
+    border-color: $colorMain;
+  }
+  &::after{
+    background-color: $colorMain;
+  }
+  &:hover{
+    &::after{
+      width: calc(100% + 1px);
+    }
+  }
+}
+
+.btn-outline-maincolor2 {
+  color: $darkgreyColor;
+  &::before{
+    border-color: $colorMain2;
+  }
+  &::after{
+    background-color: $colorMain2;
+  }
+  &:hover{
+    &::after{
+      width: calc(100% + 1px);
+    }
+  }
+}
+
+.btn-outline-maincolor3 {
+  color: $darkgreyColor;
+  &::before{
+    border-color: $colorMain3;
+  }
+  &::after{
+    background-color: $colorMain3;
+  }
+  &:hover{
+    &::after{
+      width: calc(100% + 1px);
+    }
+  }
+}
+
+.btn-outline-maincolor4 {
+  color: $darkgreyColor;
+  &::before{
+    border-color: $colorMain4;
+  }
+  &::after{
+    background-color: $colorMain4;
+  }
+  &:hover{
+    &::after{
+      width: calc(100% + 1px);
+    }
+  }
+}
+
+.btn-outline-maincolor5 {
+  color: $darkgreyColor;
+  &::before{
+    border-color: $colorMain5;
+  }
+  &::after{
+    background-color: $colorMain5;
+  }
+  &:hover{
+    &::after{
+      width: calc(100% + 1px);
+    }
+  }
+}
+
+.btn-outline-darkgrey {
+  color: $darkgreyColor;
+  &::before{
+    border-color: $darkgreyColor;
+  }
+  &::after{
+    background-color: $darkgreyColor;
+  }
+  &:hover{
+    &::after{
+      width: calc(100% + 1px);
+    }
+  }
+}
+
+.simple_link{
+  color: $colorMain;
+  &::after{
+    content: '\f054';
+    font-family: "Font Awesome 5 Free", sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+  &:hover{
+    color: $darkgreyColor;
+  }
+}
