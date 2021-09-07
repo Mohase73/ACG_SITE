@@ -21,12 +21,12 @@ Background color for dark muted section (.ds.ms): #8CC53D
 Border colors for elements in light section (and .bordered elements): #ebebee, rgba(0, 0, 0, 0.1)
 Background color for elements in light section (.hero-bg): #f9fafa
 
-Dark section (.ds) colors: 
+Dark section (.ds) colors:
 Text color in dark section: #aeb1b4
 Border colors for elements in dark section: #4a535e
 Background color for elements in dark section (.hero-bg): #222739
 
-Color section (.cs) colors: 
+Color section (.cs) colors:
 Background color for elements in color section: rgba(255, 255, 255, 0.1)
 Border color for elements in color section: rgba(255, 255, 255, 0.15)
 
@@ -3671,7 +3671,7 @@ html[xmlns] .slides {
 
 */
 /*
-	
+
 	1. Buttons
 
  */
@@ -3963,7 +3963,7 @@ a.pswp__share--download:hover {
 }
 
 /*
-	
+
 	4. Caption
 
  */
@@ -4154,7 +4154,7 @@ a.pswp__share--download:hover {
 }
 
 /*
-	
+
 	6. Additional styles
 
  */
@@ -4300,8 +4300,8 @@ a.pswp__share--download:hover {
 	margin-top: 0;
 }
 
-/* 
-** Time Table 
+/*
+** Time Table
 */
 #timetable span {
 	display: block;
@@ -4393,7 +4393,7 @@ a.pswp__share--download:hover {
 	color: #fff;
 }
 
-/* 
+/*
 ** toTop
 */
 #toTop {
@@ -10863,6 +10863,7 @@ body.boxed {
 		padding-top: 30px;
 	}
 }
+
 
 /* vertical media item */
 .ds.ms .vertical-item {
@@ -22883,7 +22884,7 @@ body.active-side-header.slide-right .page_header_side {
 	}
 }
 
-/* 
+/*
 ** Intro Section Styles
 */
 .page_slider {
@@ -26034,7 +26035,7 @@ a.more-link:not(.btn) {
 	display: none;
 }
 
-/* 
+/*
 ** Template Specific Styles
 */
 #box_wrapper > section,

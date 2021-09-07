@@ -15,16 +15,16 @@
 
 
                             <li>
-                                <a href="#">L'entreprise</a>
+                                <a href="/">L'entreprise</a>
                                 <ul>
                                     <li>
-                                        <a href="#">A propos de nous</a>
+                                        <a href="{{url('about')}}">A propos de nous</a>
                                     </li>
                                     <li>
-                                        <a href="#">Partenaires</a>
+                                        <a href="{{url('partenaire')}}">Partenaires</a>
                                     </li>
                                     <li>
-                                        <a href="#">Contacts</a>
+                                        <a href="{{url('contact')}}">Contacts</a>
                                     </li>
                                 </ul>
                             </li>

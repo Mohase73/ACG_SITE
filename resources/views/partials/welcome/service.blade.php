@@ -57,7 +57,7 @@
                     <div class="icon-styled ">
                         <a href="service-single.html">
                             <img class="color-main" style="height:70px; width: 70px;" src="/fonts/icones/smartphone.png" alt="" srcset="">
-                        </a>
+                        </a> 
                     </div>
                     <h5><a href="service-single.html">Campagne SMS</a></h5>
                     <p>Envoie ou diffusion de messages groupés , API SMS  </p>
