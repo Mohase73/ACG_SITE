@@ -46,6 +46,12 @@ Route::get('/contact', function(){
 Route::get('/about', function(){
     return view('pages.a-propos.about');
 });
+Route::get('/partenaire', function(){
+    return view('pages.a-propos.partners');
+});
+Route::get('/contact', function(){
+    return view('pages.a-propos.contact');
+});
 Route::get('/portfolio', function(){
     return view('portfolio');
 });
