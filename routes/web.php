@@ -52,6 +52,12 @@ Route::get('/partenaire', function(){
 Route::get('/contact', function(){
     return view('pages.a-propos.contact');
 });
+Route::get('/centre-appel', function(){
+    return view('pages.a-propos.centre-appel');
+});
+Route::get('/service', function(){
+    return view('pages.a-propos.service');
+});
 Route::get('/portfolio', function(){
     return view('portfolio');
 });

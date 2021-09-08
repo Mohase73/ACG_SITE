@@ -29,7 +29,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Nos services</a>
+                                <a href="{{url('service')}}">Nos services</a>
                                 <ul style="width: auto !important">
 
 
@@ -43,7 +43,7 @@
                                     </li>
 
                                     <li style="width: auto !important">
-                                        <a href="#">Centre d'appel</a>
+                                        <a href="{{url('centre-appel')}}">Centre d'appel</a>
                                     </li>
                                     <li style="width: auto !important">
                                         <a href="#">Campagne SMS</a>

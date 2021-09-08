@@ -28,7 +28,7 @@
                 <div class="divider-55 hidden-below-lg"></div>
                 <div class="divider-30 hidden-above-lg"></div>
                 <div class="special-heading font-weight-light">
-                    <p class="color-darkgrey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec justo rutrum leo feugiat <br> tincidunt. Mauris eleifend efficitur ex, pretium suscipit orci volutpat et.</p>
+                    <p class="color-darkgrey">Vous pouvez nous laissez un message nous vous reviendrons sous peu.</p>
                 </div>
                 <div class="divider-60 hidden-below-lg"></div>
                 <div class="divider-30 hidden-above-lg"></div>
@@ -40,15 +40,15 @@
 
                         <div class="col-sm-6">
                             <div class="form-group has-placeholder">
-                                <label for="name">Enter your name<span class="required"></span></label>
-                                <input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Enter your name">
+                                <label for="name">Entrer votre nom<span class="required"></span></label>
+                                <input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Entrer votre nom">
                             </div>
                         </div>
 
                         <div class="col-sm-6">
                             <div class="form-group has-placeholder">
-                                <label for="email">Enter your email<span class="required"></span></label>
-                                <input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Enter your email">
+                                <label for="email">Entrer votre E-mail<span class="required"></span></label>
+                                <input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Entrer votre E-mail">
                             </div>
                         </div>
 
@@ -59,8 +59,8 @@
                         <div class="col-sm-12 mb-0">
 
                             <div class="form-group has-placeholder">
-                                <label for="message">Enter your message</label>
-                                <textarea aria-required="true" rows="5" cols="45" name="message" id="message" class="form-control" placeholder="Enter your message"></textarea>
+                                <label for="message">Entrer votre message</label>
+                                <textarea aria-required="true" rows="5" cols="45" name="message" id="message" class="form-control" placeholder="Entrer votre message"></textarea>
                             </div>
                         </div>
 
@@ -70,7 +70,7 @@
                         <div class="col-12">
 
                             <div class="form-group ">
-                                <button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor2 btn-short mb-0 ">Email us
+                                <button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor2 btn-short mb-0 ">Envoyer
                                 </button>
                             </div>
 
@@ -164,8 +164,8 @@
             <div class="col-12 p-30 box-shadow animate" data-animation="scaleAppear">
                 <div class="page_map">
                     <div class="marker">
-                        <div class="marker-address">sydney, australia, Liverpool street, 66</div>
-                        <div class="marker-title">First Marker</div>
+                        <div class="marker-address">Burki Faso, Mali, Niger, Benin, 66</div>
+                        <div class="marker-title">Afric Consulting Group</div>
                         <div class="marker-description">
 
                             <ul class="list-unstyled">
@@ -176,7 +176,7 @@
                                         </span>
 
                                         <span>
-                                            Sydney, Australia, Liverpool street, 66
+                                            Burki Faso, Mali, Niger, Benin, 66
                                         </span>
                                     </span>
                                 </li>
@@ -208,8 +208,8 @@
                                 </li>
                             </ul>
                         </div>
-
-                        <img class="marker-icon" src="images/map_marker_icon.png" alt="img">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.3530649607796!2d-1.5422701847620088!3d12.359266181360985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2e95ea002b52a5%3A0x4fed721a83bb5871!2sPetit%20Paris%2C%20Ouagadougou!5e0!3m2!1sfr!2sbf!4v1631091097690!5m2!1sfr!2sbf" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        {{-- <img class="marker-icon" src="images/map_marker_icon.png" alt="img"> --}}
                     </div>
                 </div>
             </div>
