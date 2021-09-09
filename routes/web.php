@@ -52,6 +52,27 @@ Route::get('/partenaire', function(){
 Route::get('/contact', function(){
     return view('pages.a-propos.contact');
 });
+Route::get('/centre-appel', function(){
+    return view('pages.service.centre-appel');
+});
+Route::get('/service', function(){
+    return view('pages.service.service');
+});
+Route::get('/kiosque', function(){
+    return view('pages.service.kiosque');
+});
+Route::get('/dev', function(){
+    return view('pages.service.dev');
+});
+Route::get('/sms', function(){
+    return view('pages.service.sms');
+});
+Route::get('/digital', function(){
+    return view('pages.service.digital');
+});
+Route::get('/formation', function(){
+    return view('pages.service.formation');
+});
 Route::get('/portfolio', function(){
     return view('portfolio');
 });

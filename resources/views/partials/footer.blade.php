@@ -83,11 +83,11 @@
                         <ul class="menu">
 
                             <li class="menu-item">
-                                <a href="#">
+                                <a href="{{url('about')}}">
                                     A propos de nous
                                 </a>
                             <li class="menu-item">
-                                <a href="#" class="contact_modal_window">
+                                <a href="{{url('contact')}}" class="contact_modal_window">
                                     Nous contacter
                                 </a>
                             </li>
@@ -97,7 +97,7 @@
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="#">
+                                <a href="{{url('service')}}">
                                     Nos service
                                 </a>
                             </li>

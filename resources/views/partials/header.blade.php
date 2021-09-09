@@ -29,30 +29,30 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Nos services</a>
+                                <a href="{{url('service')}}">Nos services</a>
                                 <ul style="width: auto !important">
 
 
                                     <li style="width: auto !important">
-                                        <a href="#">Service Kiosque</a>
+                                        <a href="{{url('kiosque')}}">Service Kiosque</a>
                                     </li>
 
 
                                     <li style="width: auto !important">
-                                        <a href="#">Développement Web et Mobile</a>
+                                        <a href="{{url('dev')}}">Développement Web et Mobile</a>
                                     </li>
 
                                     <li style="width: auto !important">
-                                        <a href="#">Centre d'appel</a>
+                                        <a href="{{url('centre-appel')}}">Centre d'appel</a>
                                     </li>
                                     <li style="width: auto !important">
-                                        <a href="#">Campagne SMS</a>
+                                        <a href="{{url('sms')}}">Campagne SMS</a>
                                     </li>
                                     <li style="width: auto !important">
-                                        <a href="#">Transformation digital</a>
+                                        <a href="{{url('digital')}}">Transformation digital</a>
                                     </li>
                                     <li style="width: auto !important">
-                                        <a href="#">Formations</a>
+                                        <a href="{{url('formation')}}">Formations</a>
                                     </li>
                                 </ul>
                             </li>
