@@ -52,6 +52,7 @@ Route::get('/partenaire', function(){
 Route::get('/contact', function(){
     return view('pages.a-propos.contact');
 });
+//route service
 Route::get('/centre-appel', function(){
     return view('pages.service.centre-appel');
 });
@@ -72,6 +73,21 @@ Route::get('/digital', function(){
 });
 Route::get('/formation', function(){
     return view('pages.service.formation');
+});
+//route actualités
+Route::get('/actualite', function(){
+    return view('pages.actualite.actualite');
+});
+//route des formations
+Route::get('/ligne', function(){
+    return view('pages.formation.ligne');
+});
+Route::get('/present', function(){
+    return view('pages.formation.present');
+});
+//Route de la boutique
+Route::get('/boutique', function(){
+    return view('pages.boutique.boutique');
 });
 Route::get('/portfolio', function(){
     return view('portfolio');

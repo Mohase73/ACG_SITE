@@ -21,6 +21,7 @@
 	<link rel="stylesheet" href="css/animations.css">
 	<link rel="stylesheet" href="css/font-awesome5.css">
 	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
 
 	<script src="js/vendor/modernizr-custom.js"></script>
 
