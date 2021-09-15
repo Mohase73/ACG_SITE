@@ -56,23 +56,18 @@
                                     </li>
                                 </ul>
                             </li>
-
-                            <!--  Features -->
                             <li>
-                                <a href="#">Actualités</a>
+                                <a href="{{url('actualite')}}">Actualités</a>
                             </li>
-                            <!-- eof features -->
-
-                            <!-- blog -->
                             <li>
-                                <a href="#">Formations</a>
+                                <a href="{{url('formation')}}">Formations</a>
                                 <ul>
 
                                     <li>
-                                        <a href="#">Formation en ligne</a>
+                                        <a href="{{url('ligne')}}">Formation en ligne</a>
                                     </li>
                                     <li>
-                                        <a href="#">Formation en présentielle</a>
+                                        <a href="{{url('present')}}">Formation en présentielle</a>
                                     </li>
 
                                 </ul>
@@ -80,7 +75,7 @@
                             <!-- eof blog -->
 
                             <li>
-                                <a href="#">Boutique</a>
+                                <a href="{{url('boutique')}}">Boutique</a>
                             </li>
 
 

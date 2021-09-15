@@ -14,7 +14,7 @@
 
 				<p class="color-darkgrey">Une question?, une récommandation?, un projet?</p>
 				<div class="divider-35"></div>
-				<form class="modal-contact-form" method="post" action="/">
+				<form class="modal-contact-form" method="post" action="{{url('contact')}}">
 
 					<div class="row c-mb-10 c-gutter-10">
 
@@ -48,8 +48,7 @@
 						<div class="col-12">
 
 							<div class="form-group ">
-								<button type="submit" id="contact_form_submit_modal" name="contact_submit" class="btn btn-maincolor2 btn-short ">Envoyer
-								</button>
+								<button type="submit" id="contact_form_submit_modal"  class="btn btn-maincolor2 btn-short ">Envoyer</button>
 							</div>
 
 							<div class="mb--5"></div>

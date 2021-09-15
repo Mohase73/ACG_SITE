@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
+
 // Route::get('/',                                             'AdminNavigationController@accueil')->name('bienvenue');
 Route::prefix('admin')->group(function () {
     //Route::get('/',                                      'AdminNavigationController@accueil')->name('accueil');
@@ -23,7 +25,8 @@ Route::get('newsletter', 'NewsletterController@manageMailChimp');
 Route::post('subscribe',['as'=>'subscribe','uses'=>'NewsletterController@subscribe']);
 Route::post('sendCompaign',['as'=>'sendCompaign','uses'=>'NewsletterController@sendCompaign']);
 
-
+//Formulaire de contact
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
 
 
@@ -52,6 +55,7 @@ Route::get('/partenaire', function(){
 Route::get('/contact', function(){
     return view('pages.a-propos.contact');
 });
+//route service
 Route::get('/centre-appel', function(){
     return view('pages.service.centre-appel');
 });
@@ -72,6 +76,21 @@ Route::get('/digital', function(){
 });
 Route::get('/formation', function(){
     return view('pages.service.formation');
+});
+//route actualités
+Route::get('/actualite', function(){
+    return view('pages.actualite.actualite');
+});
+//route des formations
+Route::get('/ligne', function(){
+    return view('pages.formation.ligne');
+});
+Route::get('/present', function(){
+    return view('pages.formation.present');
+});
+//Route de la boutique
+Route::get('/boutique', function(){
+    return view('pages.boutique.boutique');
 });
 Route::get('/portfolio', function(){
     return view('portfolio');
