@@ -49,6 +49,7 @@ return array(
     'App\\Models\\Article' => $baseDir . '/app/Models/Article.php',
     'App\\Models\\Blog' => $baseDir . '/app/Models/Blog.php',
     'App\\Models\\CategorieArticle' => $baseDir . '/app/Models/CategorieArticle.php',
+    'App\\Models\\Contact' => $baseDir . '/app/Models/Contact.php',
     'App\\Models\\Newsletter' => $baseDir . '/app/Models/Newsletter.php',
     'App\\Models\\Partenaire' => $baseDir . '/app/Models/Partenaire.php',
     'App\\Models\\Particulier' => $baseDir . '/app/Models/Particulier.php',

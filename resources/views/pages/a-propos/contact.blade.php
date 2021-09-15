@@ -34,8 +34,8 @@
                 <div class="divider-30 hidden-above-lg"></div>
             </div>
             <div class="col-lg-6 animate" data-animation="pullDown">
-                <form class="contact-form" method="post" action="/">
-
+                <form class="contact-form" method="post" action="{{url('contact')}}">
+                    @csrf
                     <div class="row c-mb-10 c-gutter-10">
 
                         <div class="col-sm-6">
@@ -51,8 +51,6 @@
                                 <input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Entrer votre E-mail">
                             </div>
                         </div>
-
-
                     </div>
                     <div class="row mb-45">
 
@@ -70,8 +68,7 @@
                         <div class="col-12">
 
                             <div class="form-group ">
-                                <button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor2 btn-short mb-0 ">Envoyer
-                                </button>
+                                <button type="submit" id="contact_form_submit"  class="btn btn-maincolor2 btn-short mb-0 ">Envoyer</button>
                             </div>
 
                             <div class="mb--5"></div>

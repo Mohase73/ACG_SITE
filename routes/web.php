@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
+
 // Route::get('/',                                             'AdminNavigationController@accueil')->name('bienvenue');
 Route::prefix('admin')->group(function () {
     //Route::get('/',                                      'AdminNavigationController@accueil')->name('accueil');
@@ -23,7 +25,8 @@ Route::get('newsletter', 'NewsletterController@manageMailChimp');
 Route::post('subscribe',['as'=>'subscribe','uses'=>'NewsletterController@subscribe']);
 Route::post('sendCompaign',['as'=>'sendCompaign','uses'=>'NewsletterController@sendCompaign']);
 
-
+//Formulaire de contact
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
 
 
