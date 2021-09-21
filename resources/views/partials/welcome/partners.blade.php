@@ -18,30 +18,30 @@
             <li style="list-style-type: none" class="product type-product">
                 <a href="shop-product-right.html">
                     <img src="images/partners/telecel.jpeg" class="" alt="img">
-            
+
                 </a>
-             
+
             </li>
 
             <li style="list-style-type: none" class="product type-product">
                 <a href="shop-product-right.html">
                     <img src="images/partners/moovAfrica.jpg" class="" alt="img">
-                    
+
                 </a>
             </li>
 
 
             <li style="list-style-type: none" class="product type-product">
                 <a href="shop-product-right.html">
-                    <img src="images/partners/malitel.png" class="" alt="img">
-                    
+                    <img src="images/partners/malitel.jpg" class="" alt="img">
+
                 </a>
-                
+
             </li>
             <li style="list-style-type: none" class="product type-product">
                 <a href="shop-product-right.html">
                     <img src="images/partners/orange.jpg" class="" alt="img">
-                  
+
                 </a>
             </li>
 
@@ -49,32 +49,43 @@
             <li style="list-style-type: none" class="product type-product">
                 <a href="shop-product-right.html">
                     <img src="images/partners/coris.jpg" class="" alt="img">
-                    
+
                 </a>
-            
+
             </li>
 
             <li style="list-style-type: none" class="product type-product">
                 <a href="shop-product-right.html">
                     <img src="images/partners/ikoula.png" class="" alt="img">
-                  
+
                 </a>
             </li>
             <li style="list-style-type: none" class="product type-product">
                 <a href="shop-product-right.html">
                     <img src="images/partners/unify.png" class="" alt="img">
-                  
+
                 </a>
             </li>
             <li style="list-style-type: none" class="product type-product">
                 <a href="shop-product-right.html">
-                    <img src="images/partners/itancia.jpg" class="" alt="img">
-                  
+                    <img src="images/partners/itancia.png" class="" alt="img">
+                </a>
+            </li>
+
+            <li style="list-style-type: none" class="product type-product">
+                <a href="shop-product-right.html">
+                    <img src="images/partners/atel.jpg" class="" alt="img">
+                </a>
+            </li>
+
+            <li style="list-style-type: none" class="product type-product">
+                <a href="shop-product-right.html">
+                    <img src="images/partners/tritux.jpeg" class="" alt="img">
                 </a>
             </li>
         </ul>
 
     </div>
 
-       
+
 </div>

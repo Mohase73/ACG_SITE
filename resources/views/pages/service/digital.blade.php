@@ -35,7 +35,7 @@
                                 Afric Consulting Group fait de la transformation digitale.
                             </p>
                             <p>
-                            qui est une nouvelle étape dans cette révolution numérique. Ce terme désigne l'intégration des nouvelles technologies dans l'ensemble des activités d'une entreprise afin de simplifier le travail des employés et d'améliorer ses performances..
+                                Aujourd'hui, dans nos sociétés moderne le digital est devenu un facteur essentiel voir indispensable à la prospérité de votre entreprise. Bon nombre d’entreprise se tourne vers lui et cela pour divers raisons. La transformation digitale de votre entreprise vous permettra entre autre d’améliorer votre notoriété auprès de  vos clients, étendre votre zone de chalandise, réduire vos frais d’acquisition de nouveaux clients, améliorer votre communication tout en réduisant son coût, avoir une culture d’entreprise forte, gérer de façons efficace vos équipes mais surtout mieux connaître vos clients afin de leur offrir une meilleure expérience clients.
                             </p>
                             <ul class="list-styled color-darkgrey">
                                 <li>facilite une communication en temps réel ; </li>
@@ -43,8 +43,12 @@
                                 <li>Contactez nous au <span class="color-main">+226 25 41 64 66</span></li>
                             </ul>
                             <p>
-                                La transformation digitale, parfois appelée transformation numérique, désigne le processus qui consiste, pour une organisation, à intégrer pleinement les technologies digitales dans l'ensemble de ses activités.
+                                Dans le processus d’accompagnement à la digitalisation, ACG effectue tout d’abord une étude complète de votre entreprise afin de desceller ses besoins et suite à cela des propositions de solutions vous seront faites afin que vous choisissiez celle qui est le plus en phase avec vos valeurs.
+                                Ensuite l’étape de développement de vos solutions qui se fera de manière agile et collaborative afin que vous puissiez suivre de façon active le niveau de progression.
+                                Et pour terminer, vos bénéficierez d’un suivi pour la prise en main effectifs de ces solutions.
                             </p>
+                            {{-- <a  href="images/digital/digital.pdf" type="application/pdf" target="_blank" class="simple_link">Lire plus</a> --}}
+                             <a href="images/digital/digital.pdf" download="Tranformation-digital" class="simple_link">Lire plus</a>
                         </div>
                     </div>
                 </article>

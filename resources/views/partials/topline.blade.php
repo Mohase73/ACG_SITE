@@ -1,4 +1,3 @@
-	<!--topline section visible only on small screens|-->
     <section class="page_topline ds ms s-py-5">
         <div class="container">
             <div class="row align-items-center">
@@ -29,10 +28,7 @@
                             <i class="fas fa-phone"></i>
                         </span>
                         <span>
-                            
                             <a href="phone:+22625416466">+226 25 41 64 66</a>
-
-
                         </span>
                     </span>
                     <span class="icon-inline hidden-below-md">
@@ -40,11 +36,10 @@
                             <i class="fas fa-pencil-alt"></i>
                         </span>
                         <span>
-                            <a href="mailto:example@example.com">polytico@example.com</a>
+                            <a href="mailto:medias@africconsultinggroup.com">medias@africconsultinggroup.com</a>
                         </span>
                     </span>
                 </div>
             </div>
         </div>
     </section>
-    <!--eof topline-->
