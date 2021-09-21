@@ -20,8 +20,8 @@
                             <img class="color-main" style="height:70px; width: 70px;" src="/fonts/icones/computer.png" alt="" srcset="">
                         </a>
                     </div>
-                    <h5><a href="service-single.html">Service Kiosque</a></h5>
-                    <p>Conception et mise en place de kiosque mobile, Création et mise à jour de contenue.</p>
+                    <h5><a href="service-single.html">Service à valeurs Ajoutées</a></h5>
+                    <p>Services Vocaux et Services SMS.</p>
                     <div class="divider-40"></div>
                     <a href="service-single.html" class="simple_link">Lire plus</a>
                 </div>
@@ -57,7 +57,7 @@
                     <div class="icon-styled ">
                         <a href="service-single.html">
                             <img class="color-main" style="height:70px; width: 70px;" src="/fonts/icones/smartphone.png" alt="" srcset="">
-                        </a> 
+                        </a>
                     </div>
                     <h5><a href="service-single.html">Campagne SMS</a></h5>
                     <p>Envoie ou diffusion de messages groupés , API SMS  </p>

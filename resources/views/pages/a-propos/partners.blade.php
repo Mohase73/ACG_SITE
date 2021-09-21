@@ -54,7 +54,7 @@
                                 <div class="divider-40 hidden-below-lg"></div>
                                 <div class="divider-25 hidden-above-lg"></div>
                                 <p>
-                                    est un réseau de télécommunication.
+                                    Réseau de télécommunication.
                                 </p>
                                 <div class="divider-40 hidden-below-lg"></div>
                                 <div class="divider-25 hidden-above-lg"></div>
@@ -102,7 +102,7 @@
                     <div class="row">
                         <div class="col-lg-6 order-1 order-lg-2">
                             <div class="item-media cover-image">
-                                <img src="images/partners/orange.jpg" alt="img">
+                                <img src="images/partners/Orange.jpg" alt="img">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="https://www.orange.fr/" target="_blank"></a>
                                 </div>
@@ -118,7 +118,7 @@
                                 <div class="divider-40 hidden-below-lg"></div>
                                 <div class="divider-25 hidden-above-lg"></div>
                                 <p>
-                                    Réseau de Télécommunication nationale
+                                    Réseau de Télécommunication
                                 </p>
                                 <div class="divider-40 hidden-below-lg"></div>
                                 <div class="divider-25 hidden-above-lg"></div>
@@ -133,7 +133,7 @@
                     <div class="row">
                         <div class="col-lg-6 order-1 order-lg-2">
                             <div class="item-media cover-image">
-                                <img src="images/partners/malitel.png" alt="img">
+                                <img src="images/partners/malitel.jpg" alt="img">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="http://www.moov-africa.ml/" target="_blank"></a>
                                 </div>
@@ -142,7 +142,7 @@
                         <div class="col-lg-6 order-2 order-lg-1">
                             <div class="item-content p-20 text-center text-lg-left">
                                 <div class="divider-20 hidden-above-lg"></div>
-                                <h6 class=" mt-0 mb-0"><a href="http://www.moov-africa.ml/">Malitel</a></h6>
+                                <h6 class=" mt-0 mb-0"><a href="http://www.moov-africa.ml/">Moov Africa Mali</a></h6>
                                 <div class="divider-25 hidden-below-lg"></div>
                                 <div class="divider-15 hidden-above-lg"></div>
                                 <p class="color-darkgrey mb-0">Opérateur de Télécommunication</p>
@@ -231,7 +231,136 @@
                     <div class="row">
                         <div class="col-lg-6 order-1 order-lg-2">
                             <div class="item-media cover-image">
-                                <img src="images/partners/itancia.jpg" alt="img">
+                                <img src="images/partners/itancia.png" alt="img">
+                                <div class="media-links">
+                                    <a class="abs-link" title="" href="itancia.com" target="_blank"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-2 order-lg-1">
+                            <div class="item-content p-20 text-center text-lg-left">
+                                <div class="divider-20 hidden-above-lg"></div>
+                                <h6 class=" mt-0 mb-0"><a href="itancia.com" target="_blank">Itancia</a></h6>
+                                <div class="divider-25 hidden-below-lg"></div>
+                                <div class="divider-15 hidden-above-lg"></div>
+                                <p class="color-darkgrey mb-0">Distributeur et Prestataire</p>
+                                <div class="divider-40 hidden-below-lg"></div>
+                                <div class="divider-25 hidden-above-lg"></div>
+                                <p>
+                                    Solutions de communication
+                                </p>
+                                <div class="divider-40 hidden-below-lg"></div>
+                                <div class="divider-25 hidden-above-lg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider-40 hidden-above-lg"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="team-item c-gutter-0 shadow-hover2">
+                    <div class="row">
+                        <div class="col-lg-6 order-1 order-lg-2">
+                            <div class="item-media cover-image p-2">
+                                <img src="images/partners/unify.png" alt="img">
+                                <div class="media-links">
+                                    <a class="abs-link" title="" href="unify.com" target="_blank"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-2 order-lg-1">
+                            <div class="item-content p-20 text-center text-lg-left">
+                                <div class="divider-20 hidden-above-lg"></div>
+                                <h6 class=" mt-0 mb-0"><a href="unify.com" target="_blank">Unify</a></h6>
+                                <div class="divider-25 hidden-below-lg"></div>
+                                <div class="divider-15 hidden-above-lg"></div>
+                                <p class="color-darkgrey mb-0">Marketing Digital</p>
+                                <div class="divider-40 hidden-below-lg"></div>
+                                <div class="divider-25 hidden-above-lg"></div>
+                                <p>
+                                    Offres et solutions de travails
+                                </p>
+                                <div class="divider-40 hidden-below-lg"></div>
+                                <div class="divider-25 hidden-above-lg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider-40 hidden-above-lg"></div>
+            </div>
+        </div>
+
+        <div class="row mt-5 pt-5">
+            <div class="col-md-6">
+                <div class="team-item c-gutter-0 shadow-hover2">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="item-media cover-image p-2">
+                                <img src="images/partners/atel.jpg" alt="img">
+                                <div class="media-links">
+                                    <a class="abs-link" title="" href="https://burkina.coris.bank/" target="_blank"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="item-content p-20 text-center text-lg-left">
+                                <div class="divider-20 hidden-above-lg"></div>
+                                <h6 class=" mt-0 mb-0"><a href="https://burkina.coris.bank/" target="_blank">Atel Mali</a></h6>
+                                <div class="divider-25 hidden-below-lg"></div>
+                                <div class="divider-10 hidden-above-lg"></div>
+                                <p class="color-darkgrey mb-0">Opérateur de télécommunication</p>
+                                <div class="divider-40 hidden-below-lg"></div>
+                                <div class="divider-25 hidden-above-lg"></div>
+                                <p>
+                                    Opérateur de télécommunication du Mali.
+                                </p>
+                                <div class="divider-40 hidden-below-lg"></div>
+                                <div class="divider-25 hidden-above-lg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider-70 hidden-below-lg"></div>
+                <div class="divider-40 hidden-above-lg"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="team-item c-gutter-0 shadow-hover2">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="item-media cover-image">
+                                <img class="p-2" src="images/partners/tritux.jpeg" alt="img">
+                                <div class="media-links">
+                                    <a class="abs-link" target="_blank" title="" href="ikoula.com"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="item-content p-20 text-center text-lg-left">
+                                <div class="divider-20 hidden-above-lg"></div>
+                                <h6 class=" mt-0 mb-0"><a href="ikoula.com">Tritux</a></h6>
+                                <div class="divider-25 hidden-below-lg"></div>
+                                <div class="divider-15 hidden-above-lg"></div>
+                                <p class="color-darkgrey mb-0">Ingénierie logicielle</p>
+                                <div class="divider-40 hidden-below-lg"></div>
+                                <div class="divider-25 hidden-above-lg"></div>
+                                <p>
+                                    Développement des systèmes d'informations.
+                                </p>
+                                <div class="divider-40 hidden-below-lg"></div>
+                                <div class="divider-25 hidden-above-lg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider-70 hidden-below-lg"></div>
+                <div class="divider-40 hidden-above-lg"></div>
+            </div>
+            {{--  <div class="col-md-6">
+                <div class="team-item c-gutter-0 shadow-hover2">
+                    <div class="row">
+                        <div class="col-lg-6 order-1 order-lg-2">
+                            <div class="item-media cover-image">
+                                <img src="images/partners/itancia.png" alt="img">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="itancia.com" target="_blank"></a>
                                 </div>
@@ -287,7 +416,7 @@
                     </div>
                 </div>
                 <div class="divider-40 hidden-above-lg"></div>
-            </div>
+            </div>  --}}
         </div>
     </div>
 </section>

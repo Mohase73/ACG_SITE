@@ -34,7 +34,7 @@
 
 
                                     <li style="width: auto !important">
-                                        <a href="{{url('kiosque')}}">Service Kiosque</a>
+                                        <a href="{{url('kiosque')}}">Services À Valeurs Ajoutées</a>
                                     </li>
 
 
@@ -45,14 +45,14 @@
                                     <li style="width: auto !important">
                                         <a href="{{url('centre-appel')}}">Centre d'appel</a>
                                     </li>
-                                    <li style="width: auto !important">
+                                    {{-- <li style="width: auto !important">
                                         <a href="{{url('sms')}}">Campagne SMS</a>
+                                    </li> --}}
+                                    <li style="width: auto !important">
+                                        <a href="{{url('formation')}}">Formations</a>
                                     </li>
                                     <li style="width: auto !important">
                                         <a href="{{url('digital')}}">Transformation digital</a>
-                                    </li>
-                                    <li style="width: auto !important">
-                                        <a href="{{url('formation')}}">Formations</a>
                                     </li>
                                 </ul>
                             </li>

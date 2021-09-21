@@ -25,12 +25,19 @@
         <div class="row">
             <div class="col-12 text-center">
                 <h2 class="special-heading underline text-dark">
-                    <span>Notre centre d'appel</span>
+                    <span>Qui sommes nous?</span>
                 </h2>
                 <div class="divider-55 hidden-below-lg"></div>
                 <div class="divider-40 hidden-above-lg"></div>
                 <div class="special-heading font-weight-light">
-                    <p class="color-darkgrey">C'es notre ensemble de moyens, humains, immobiliers, mobiliers et techniques <br> qui nous permettrons de prendre en charge la rélation distante entre vous et nous.</p>
+                    <p class="color-darkgrey">AFRIC CONSULTING GROUP (ACG) est un groupe
+                        implanté dans plusieurs pays à savoir le Burkina Faso, le Mali,
+                        et le Niger. Nous intervenons dans le domaine de la télécommunication à travers
+                        un réseau de centre d’appel installé et mise à la disposition de
+                        sa clientèle, et les services à valeur ajouté tel que le IVR, les
+                        services SMS, les services vocaux, le digital. Nous disposons d’un réseau de partenaires techniques nationaux
+                        et internationaux, grâce à qui, nous offrons des services de qualité,
+                        répondant à l’attente de ses clients !</p>
                 </div>
                 <div class="divider-60 hidden-below-lg"></div>
                 <div class="divider-40 hidden-above-lg"></div>
@@ -51,7 +58,7 @@
                         </a>
                     </div>
                     <h5><a href="#">Télésécretariat</a></h5>
-                    <p> Nos Télésecrétaires Assurent la Gestion des Appels & de votre Agenda en Temps Réel. </p>
+                    {{--  <p> Nos Télésecrétaires Assurent la Gestion des Appels & de votre Agenda en Temps Réel. </p>  --}}
                     <div class="divider-40"></div>
                     <a href="#" class="simple_link">Lire plus</a>
                 </div>
@@ -65,7 +72,7 @@
                         </a>
                     </div>
                     <h5><a href="#">Appel Entrant</a></h5>
-                    <p>ces appels sont effectués par des clients ou des partenaires qui souhaitent recevoir des informations.....</p>
+                    {{--  <p>ces appels sont effectués par des clients ou des partenaires qui souhaitent recevoir des informations.....</p>  --}}
                     <div class="divider-40"></div>
                     <a href="#" class="simple_link">Lire plus</a>
                 </div>
@@ -79,7 +86,7 @@
                         </a>
                     </div>
                     <h5><a href="#">Appel Sortant</a></h5>
-                    <p>ces appels sont effectués par le personnel du centre d’appel dans le but de prospecter et d’informer les clients ..... </p>
+                    {{--  <p>ces appels sont effectués par le personnel du centre d’appel dans le but de prospecter et d’informer les clients ..... </p>  --}}
                     <div class="divider-40"></div>
                     <a href="#" class="simple_link">Lire plus</a>
                 </div>
@@ -93,7 +100,7 @@
                         </a>
                     </div>
                     <h5><a href="#">Gestion de la relation client</a></h5>
-                    <p> C'est la mise en œuvre de moyens et de techniques dans le but de créer et d'entretenir une relation ...... </p>
+                    {{--  <p> C'est la mise en œuvre de moyens et de techniques dans le but de créer et d'entretenir une relation ...... </p>  --}}
                     <div class="divider-40"></div>
                     <a href="#" class="simple_link">Lire plus</a>
                 </div>
@@ -107,7 +114,7 @@
                         </a>
                     </div>
                     <h5><a href="#">Téléconseiller</a></h5>
-                    <p>Optez pour nos Télésecrétaires Spécialisées pour votre Cabinet Médical, votre TPE, PME. </p>
+                    {{--  <p>Optez pour nos Télésecrétaires Spécialisées pour votre Cabinet Médical, votre TPE, PME. </p>  --}}
                     <div class="divider-40"></div>
                     <a href="#" class="simple_link">Lire plus</a>
                 </div>
@@ -121,7 +128,7 @@
                         </a>
                     </div>
                     <h5><a href="#">Centre d'Assistance</a></h5>
-                    <p> Relation de Confiance. Confidentialité. Contrat sans engagement. Gain Organisationnel. </p>
+                    {{--  <p> Relation de Confiance. Confidentialité. Contrat sans engagement. Gain Organisationnel. </p>  --}}
                     <div class="divider-40"></div>
                     <a href="#" class="simple_link">Lire plus</a>
                 </div>
@@ -134,7 +141,7 @@
         <div class="container">
             <div class="col-12 text-center">
                 <h2 class="special-heading underline text-dark">
-                    <span>Le prix d'un call center</span>
+                    <span>Notre équipement</span>
                 </h2>
                 <div class="divider-55 hidden-below-lg"></div>
                 <div class="divider-40 hidden-above-lg"></div>
@@ -145,7 +152,16 @@
                         <div>
                             <div class="col-12 text-center">
                                 <p class=" text-center text-left">
-                                Besoin de faire appel à un call center pour vos activités professionnelles? Les prix des centres d’appels sont peut-être le facteur le plus important dans tout le processus d’externalisation. De nombreuses variables entrent en jeu dans les coûts, notamment : les niveaux de compétence, le type de travail, le lieu et la durée de l’application.
+                                    Le Multimedia Contact Center intégré (centre de contact multimédia) d'OpenScape Business vous permet d'améliorer le service auprès de vos clients et donc la
+                                    satisfaction de ces derniers. Grâce à la répartition
+                                    intelligente des conversations, vos clients sont servis
+                                    rapidement et de manière compétente; ils sont toujours mis
+                                    en relation avec le collaborateur approprié. Outre la
+                                    répartition des appels, vous pouvez également proposer à
+                                    vos clients de prendre contact par e-mail ou par fax.
+                                    Exactement comme pour les appels, les demandes
+                                    formulées via ces médias sont toujours et automatiquement
+                                    envoyées au bon collaborateur.
                                 </p>
                                 <div class="divider-55 hidden-below-lg"></div>
                                 <div class="divider-40 hidden-above-lg"></div>
@@ -160,18 +176,12 @@
                                                     <table id="data-table1" class="table table-striped table-bordered text-nowrap w-100 table-sm">
                                                         <thead>
                                                             <tr>
-                                                                <th class="wd-15p">Services</th>
-                                                                <th>Prix</th>
+                                                                <th class="wd-15p">Serveur</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
                                                             <tr>
-                                                                <td style="background-color: #8CC53D"> <a  class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Appels de plusieurs clients en même temps</a></td>
-                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 1000 à 2000f par minute </a></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td style="background-color: #8CC53D"> <a class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Appels exclusifs pour un client</a></td>
-                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 5000 à 10000f par minute </a></td>
+                                                                <td style="background-color: #8CC53D"> <a  class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >X8 OpenScape Business</a></td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
@@ -187,7 +197,7 @@
                 </div>
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
-                            <img style="height: 500px !important" src="/images/centre-appel/prix.jpg" alt="img">
+                            <img style="height: 600px !important" src="/images/centre-appel/equipement.jpg" alt="img">
                     </div>
                 </div>
             </div>
@@ -201,7 +211,7 @@
         <div class="container">
             <div class="col-12 text-center">
                 <h2 class="special-heading underline text-dark">
-                    <span>Vous avez bésoin d'aide?</span>
+                    <span>Normes supportées</span>
                 </h2>
                 <div class="divider-60 hidden-below-lg"></div>
                 <div class="divider-40 hidden-above-lg"></div>
@@ -210,7 +220,7 @@
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
                         <a href="images/video-bg.png" class="photoswipe-link" data-width="970" data-height="515" data-iframe="https://www.youtube.com/embed/WwvNiN2_Jlk">
-                            <img style="height: 600px !important" src="/images/centre-appel/call.jpg" alt="img">
+                            <img style="height: 700px !important" src="/images/centre-appel/call.jpg" alt="img">
                         </a>
                     </div>
                 </div>
@@ -218,34 +228,35 @@
                     <div class="ls ms">
                         <div>
                             <p class=" text-center text-lg-left">
-                                <span>Vous pouvez nous contacter en appelant notre  service client 7jours/7, 24h/24 :</span>
+                                <span>
+                                    Un call center a pour mission de prendre en charge la gestion de la relation client d'une entreprise et parfois ses campagnes de prospection. Il constitue à lui seul une solution complète pour répondre aux besoins de la clientèle, en entretenant un certain lien avec elle et en la fidélisant. Vous pouvez nous contacter en appelant notre  service client 7jours/7, 24h/24:</span>
                             </p>
-                            <div class="divider-55 hidden-below-lg"></div>
                             <div class="divider-40 hidden-above-lg"></div>
                             <div class=" font-weight-light widget widget_nav_menu" style="color: black !important">
                                     <div class="menu-container">
                                         <ul class="menu">
 
                                             <li class="menu-item">
-                                                <a href="">en visitant notre service client</a>
+                                                <a href="">RFC 2822 Internet Message Format</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="">par téléphone +226 25 41 64 66</a>
+                                                <a href="">RFC 1877 PPP Internet Protocol Control Protocol</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="">en envoyant un courriel à <span style="color: 8CC53D">admin@africconsultinggroup.com</span></a>
+                                                <a href="">NAT : RFC 2663 NAT</span></a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="">en remplissant un formulaire de plainte</a>
+                                                <a href="">IPSec : RFC 2403 IPsec Authentication - MD5</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="">en remplissant un formulaire d'incident réseau</a>
+                                                <a href="">SNMP : RFC 1213 MIB-II</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="">QdS : IEEE 802.1p Priority Tagging</a>
                                             </li>
                                         </ul>
                                     </div>
                             </div>
-                            <div class="divider-60 hidden-below-lg"></div>
-                            <div class="divider-40 hidden-above-lg"></div>
                             <div class="divider-60 hidden-below-lg"></div>
                             <div class="divider-40 hidden-above-lg"></div>
                             <a href="{{url('contact')}}" class="btn btn-maincolor2 btn-short">Contactez nous</a>
@@ -256,7 +267,136 @@
         </div>
     </div>
 </section>
+<section class="ls s-py-lg-5 s-py-xl-0 container-px-0 c-gutter-0 bg-light">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="col-12 text-center">
+                <h2 class="special-heading underline text-dark">
+                    <span>Vos bénéfices</span>
+                </h2>
+                <div class="divider-55 hidden-below-lg"></div>
+                <div class="divider-40 hidden-above-lg"></div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 section-special right text-center text-lg-left">
+                    <div class="ls ms ">
+                        <div>
+                            <div class="col-12 text-center">
+                                <p class=" text-center text-left">
+                                    Avoir un centre d’appel, apporte de nombreux avantages à l’entreprise.
+                                </p>
+                                <div class="divider-55 hidden-below-lg"></div>
+                                <div class="divider-40 hidden-above-lg"></div>
+                                <div class="divider-60 hidden-below-lg"></div>
+                                <div class="divider-40 hidden-above-lg"></div>
 
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="table-responsive">
+                                                    <table id="data-table1" class="table table-striped table-bordered text-nowrap w-100 table-sm">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="wd-15p">Bénéfices</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td > <a  class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Décongestion des standards</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td > <a  class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Prise et traitement rapide des appels entrants</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td > <a  class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Fidélisation de la clientèle</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td > <a  class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Mutualisation ressources et locaux</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td > <a  class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Mise à disposition des salles de centre d’appel</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td > <a  class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Mise à disposition des téléopérateurs</a></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 post_format-post-format-video">
+                    <div class="embed-responsive text-center">
+                            <img style="height: 550px !important" src="/images/centre-appel/benefice.jpg" alt="img">
+                    </div>
+                </div>
+            </div>
+            <div class="divider-60 hidden-below-lg"></div>
+            <div class="divider-40 hidden-above-lg"></div>
+        </div>
+    </div>
+</section>
+<section class="ls s-py-lg-5 s-py-xl-0 container-px-0 c-gutter-0">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="col-12 text-center">
+                <h2 class="special-heading underline text-dark">
+                    <span>Avantages de nos solutions</span>
+                </h2>
+                <div class="divider-60 hidden-below-lg"></div>
+                <div class="divider-40 hidden-above-lg"></div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 post_format-post-format-video">
+                    <div class="embed-responsive text-center">
+                        <a href="images/video-bg.png" class="photoswipe-link" data-width="970" data-height="515" data-iframe="https://www.youtube.com/embed/WwvNiN2_Jlk">
+                            <img style="height: 465px !important" src="/images/centre-appel/avantages.jpeg" alt="img">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 section-special right text-center text-lg-left">
+                    <div class="ls ms">
+                        <div>
+                            <p class=" text-center text-lg-left">
+                                <span>
+                                    Le centre de contact permet de fidéliser les clients de différentes manières.</span>
+                            </p>
+                            <div class="divider-40 hidden-above-lg"></div>
+                            <div class=" font-weight-light widget widget_nav_menu" style="color: black !important">
+                                    <div class="menu-container">
+                                        <ul class="menu">
+
+                                            <li class="menu-item">
+                                                <a href="">Disponibilité 24 heures sur 24, 7 jours sur 7</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="">Assistance et changement aisés et rapides par
+                                                    Internet ou le téléphone</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="">Possibilité rapide et flexible d´avoir accès à
+                                                    l´information désirée</span></a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="">Solutions sécurisées</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="ls s-py-60 s-py-md-90 s-py-xl-150 c-gutter-30 ">
     <div class="container">
         <div class="row">

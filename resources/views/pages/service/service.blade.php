@@ -69,6 +69,17 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="row pt-3 pl-md-4">
+                                        <div class="text-center d-flex">
+                                            <div class="col-md-4">
+                                                <a href="{{ asset('pdf/Presentation.pdf') }}" download="Presentation" class="btn btn-maincolor2 btn-short" > <span class="text-dark">Télécharger</span> </a>
+                                            </div>
+                                            <div class="col-md-4"></div>
+                                            <div class="col-md-4">
+                                                <a href="{{ asset('pdf/Presentation.pdf') }}" target="_blank" class="btn" style="background-color: #cfcfcf"> <span class="text-dark">Détails</span> </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -131,6 +142,17 @@
                                         </ul>
                                     </div>
                             </div>
+                            <div class="row pt-3 pl-md-4">
+                                <div class="text-center d-flex">
+                                    <div class="col-md-4">
+                                        <a href="{{ asset('pdf/Presentation.pdf') }}" download="Presentation" class="btn btn-maincolor2 btn-short" > <span class="text-dark">Télécharger</span> </a>
+                                    </div>
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-4">
+                                        <a href="{{ asset('pdf/Presentation.pdf') }}" target="_blank" class="btn" style="background-color: #cfcfcf"> <span class="text-dark">Détails</span> </a>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="divider-60 hidden-below-lg"></div>
                             <div class="divider-40 hidden-above-lg"></div>
                         </div>
@@ -140,7 +162,7 @@
         </div>
     </div>
 </section>
-<section class="ls s-py-lg-5 s-py-xl-0 container-px-0 c-gutter-0 bg-light">
+ <section class="ls s-py-lg-5 s-py-xl-0 container-px-0 c-gutter-0 bg-light">
     <div class="container-fluid">
         <div class="container">
             <div class="col-12 text-center">
@@ -158,38 +180,19 @@
                                 <p class=" text-center text-rigth">
                                     Le Serveur Vocal Interactif, ou SVI, est une technologie de téléphonie qui permet aux clients d'interagir avec le système hôte de l'entreprise par le biais de menus vocaux configurables, en utilisant des tonalités DTMF en temps réel.
                                 </p>
-                                <div class="divider-55 hidden-below-lg"></div>
-                                <div class="divider-40 hidden-above-lg"></div>
-
-                                {{-- <div class="row">
-                                    <div class="col-md-12 col-lg-12">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <div class="table-responsive">
-                                                    <table id="data-table1" class="table table-striped table-bordered text-nowrap w-100 table-sm">
-                                                        <thead>
-                                                            <tr>
-                                                                <th class="wd-15p">Services</th>
-                                                                <th>Prix</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td style="background-color: #8CC53D"> <a  class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Appels de plusieurs clients en même temps</a></td>
-                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 1000 à 2000f par minute </a></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td style="background-color: #8CC53D"> <a class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Appels exclusifs pour un client</a></td>
-                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 5000 à 10000f par minute </a></td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </div>
+                                <div class="row pt-3 pl-md-4">
+                                    <div class="text-center d-flex">
+                                        <div class="col-md-4">
+                                            <a href="{{ asset('pdf/Presentation.pdf') }}" download="Presentation" class="btn btn-maincolor2 btn-short" > <span class="text-dark">Télécharger</span> </a>
+                                        </div>
+                                        <div class="col-md-4"></div>
+                                        <div class="col-md-4">
+                                            <a href="{{ asset('pdf/Presentation.pdf') }}" target="_blank" class="btn" style="background-color: #cfcfcf"> <span class="text-dark">Détails</span> </a>
                                         </div>
                                     </div>
-                                </div> --}}
-
+                                </div>
+                                <div class="divider-55 hidden-below-lg"></div>
+                                <div class="divider-40 hidden-above-lg"></div>
                             </div>
                         </div>
                     </div>
@@ -250,6 +253,17 @@
                                         </ul>
                                     </div>
                             </div>
+                            <div class="row pt-3 pl-md-4">
+                                <div class="text-center d-flex">
+                                    <div class="col-md-4">
+                                        <a href="{{ asset('pdf/Presentation.pdf') }}" download="Presentation" class="btn btn-maincolor2 btn-short" > <span class="text-dark">Télécharger</span> </a>
+                                    </div>
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-4">
+                                        <a href="{{ asset('pdf/Presentation.pdf') }}" target="_blank" class="btn" style="background-color: #cfcfcf"> <span class="text-dark">Détails</span> </a>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="divider-60 hidden-below-lg"></div>
                             <div class="divider-40 hidden-above-lg"></div>
                         </div>
@@ -279,6 +293,17 @@
                                 </p>
                                 <div class="divider-55 hidden-below-lg"></div>
                                 <div class="divider-40 hidden-above-lg"></div>
+                                <div class="row pt-3 pl-md-4">
+                                    <div class="text-center d-flex">
+                                        <div class="col-md-4">
+                                            <a href="{{ asset('pdf/Presentation.pdf') }}" download="Presentation" class="btn btn-maincolor2 btn-short" > <span class="text-dark">Télécharger</span> </a>
+                                        </div>
+                                        <div class="col-md-4"></div>
+                                        <div class="col-md-4">
+                                            <a href="{{ asset('pdf/Presentation.pdf') }}" target="_blank" class="btn" style="background-color: #cfcfcf"> <span class="text-dark">Détails</span> </a>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="divider-60 hidden-below-lg"></div>
                                 <div class="divider-40 hidden-above-lg"></div>
 
@@ -374,6 +399,17 @@
                                         </ul>
                                     </div>
                             </div>
+                            <div class="row pt-3 pl-md-4">
+                                <div class="text-center d-flex">
+                                    <div class="col-md-4">
+                                        <a href="{{ asset('pdf/Presentation.pdf') }}" download="Presentation" class="btn btn-maincolor2 btn-short" > <span class="text-dark">Télécharger</span> </a>
+                                    </div>
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-4">
+                                        <a href="{{ asset('pdf/Presentation.pdf') }}" target="_blank" class="btn" style="background-color: #cfcfcf"> <span class="text-dark">Détails</span> </a>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="divider-60 hidden-below-lg"></div>
                             <div class="divider-40 hidden-above-lg"></div>
                         </div>
@@ -385,3 +421,34 @@
 </section>
 
 @endsection
+
+
+
+{{-- <div class="row">
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="table-responsive">
+                                                    <table id="data-table1" class="table table-striped table-bordered text-nowrap w-100 table-sm">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="wd-15p">Services</th>
+                                                                <th>Prix</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="background-color: #8CC53D"> <a  class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Appels de plusieurs clients en même temps</a></td>
+                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 1000 à 2000f par minute </a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="background-color: #8CC53D"> <a class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Appels exclusifs pour un client</a></td>
+                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 5000 à 10000f par minute </a></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> --}}

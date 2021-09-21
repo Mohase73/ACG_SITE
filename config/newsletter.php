@@ -1,4 +1,6 @@
 <?php
+use Newsletter;
+Newsletter::subscribe('alainguigma99@gmail.com');
 
 return [
 
@@ -57,5 +59,5 @@ return [
      * If you're having trouble with https connections, set this to false.
      */
     'ssl' => true,
-
 ];
+
