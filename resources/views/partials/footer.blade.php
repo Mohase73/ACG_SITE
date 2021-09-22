@@ -38,11 +38,12 @@
                     </p>
                 </div>
                 <span class="social-icons">
-                    <a href="#" class="fab fa-facebook-f" title="facebook"></a>
-                    <a href="#" class="fab fa-telegram-plane" title="telegram"></a>
-                    <a href="#" class="fab fa-linkedin" title="linkedin"></a>
-                    <a href="#" class="fab fa-instagram" title="instagram"></a>
-                    <a href="#" class="fab fa-youtube" title="youtube"></a>
+                    <a href="https://www.facebook.com/acgburkinafaso"  target="_blank" class="fab fa-facebook-square " title="facebook"></a>
+                    <a href="https://twitter.com/ConsultingAfric"  target="_blank" class="fab fa-twitter-square " title="twitter"></a>
+                    {{--  <a href="#" class="fab fa-telegram-plane" title="telegram"></a>  --}}
+                    <a href="https://www.linkedin.com/company/afric-consulting-group"  target="_blank" class="fab fa-linkedin " title="linkedin"></a>
+                    {{--  <a href="#" class="fab fa-instagram" title="instagram"></a>  --}}
+                    {{--  <a href="#" class="fab fa-youtube" title="youtube"></a>  --}}
                 </span>
                 <div class="divider-60 divider-lg-0"></div>
             </div>
@@ -56,12 +57,12 @@
                         Veillez souscrire à notre newsletter pour ne manqueraucune information.
                     </p>
 
-                    <form class="signup" action="/">
+                    <form class="signup" action="{{url('subscribe')}}" method="POST">
                         <label for="mailchimp_email">
                             <span class="screen-reader-text ">Souscrire:</span>
                         </label>
 
-                        <input id="mailchimp_email" name="email" type="email" class="form-control mailchimp_email" placeholder="Entrer votre email">
+                        <input id="mailchimp_email" name="from_email" type="email" class="form-control mailchimp_email" placeholder="Entrer votre email">
 
                         <button type="submit" class="search-submit">
                             <span class="screen-reader-text">Souscrire</span>
@@ -102,7 +103,7 @@
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="#">
+                                <a href="{{url('boutique')}}">
                                     Boutique
                                 </a>
                             </li>
@@ -127,10 +128,10 @@
                 <div class="widget widget_nav_menu">
                     <ul class="menu">
                         <li>
-                            <a href="#">Nos partenaires</a>
+                            <a href="{{url('partenaire')}}">Nos partenaires</a>
                         </li>
                         <li>
-                            <a href="#">Actualités</a>
+                            <a href="{{url('actualite')}}">Actualités</a>
                         </li>
                         <li>
                             <a href="#" class="login_modal_window">Connexion</a>

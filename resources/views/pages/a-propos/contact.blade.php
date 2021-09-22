@@ -91,8 +91,7 @@
                                     Address
                                 </h5>
                                 <p>
-                                    Gounghinhin, Ouagadougou
-                                    Avenue de la grande mosquée
+                                    Secteur 8; Rue 8.38; 3ième Etage de l'Immeuble abritant le cabinet d'expertise comptable(CDEC-I), 01 BP 588
                                 </p>
                             </div>
                         </div>
@@ -108,7 +107,6 @@
                                     Téléphone
                                 </h5>
                                 <p>
-                                    Numéro fixe service
                                     +226 25 41 64 66
                                 </p>
                             </div>
@@ -125,7 +123,6 @@
                                     Fixe
                                 </h5>
                                 <p>
-                                    Numéro fixe client
                                     +226 25 41 64 66
                                 </p>
                             </div>
@@ -142,8 +139,7 @@
                                     Email
                                 </h5>
                                 <p>
-                                    admin@africconsultinggroup.com
-                                    agents@africconsultinggroup.com
+                                    medias@africconsultinggroup.com
                                 </p>
                             </div>
                         </div>
@@ -196,10 +192,7 @@
                                         </span>
 
                                         <span>
-                                            admin@africconsultinggroup.com
-                                        </span>
-                                        <span>
-                                            agent@africconsultinggroup.com
+                                            medias@africconsultinggroup.com
                                         </span>
                                     </span>
                                 </li>

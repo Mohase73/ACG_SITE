@@ -1,7 +1,4 @@
 <?php
-use Newsletter;
-Newsletter::subscribe('alainguigma99@gmail.com');
-
 return [
 
     /*
