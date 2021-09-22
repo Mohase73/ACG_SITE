@@ -4,10 +4,10 @@
                 <div class="col-6 text-center text-md-left">
                     <span class="hidden-below-xl ">
                         <span class="social-icons">
-                            <a href="#" class="fab fa-facebook-square " title="facebook"></a>
-                            <a href="#" class="fab fa-twitter-square " title="twitter"></a>
-                            <a href="#" class="fab fa-instagram " title="instagram"></a>
-                            <a href="#" class="fab fa-linkedin " title="linkedin"></a>
+                            <a href="https://www.facebook.com/acgburkinafaso"  target="_blank" class="fab fa-facebook-square " title="facebook"></a>
+                            <a href="https://twitter.com/ConsultingAfric"  target="_blank" class="fab fa-twitter-square " title="twitter"></a>
+                            {{--  <a href="#" class="fab fa-instagram " title="instagram"></a>  --}}
+                            <a href="https://www.linkedin.com/company/afric-consulting-group"  target="_blank" class="fab fa-linkedin " title="linkedin"></a>
                         </span>
                     </span>
                     <span class="header-icons hidden-above-xl">

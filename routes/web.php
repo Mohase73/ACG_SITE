@@ -43,7 +43,7 @@ Route::get('/connexion', 'ConnexionController@index')->name('connexion');
 Route::get('/welcome', function(){
     return view('accueil');
 });
-Route::get('/contact', function(){
+Route::get('/contacts', function(){
     return view('contact');
 });
 Route::get('/about', function(){
