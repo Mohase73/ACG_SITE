@@ -79,7 +79,15 @@ Route::get('/formation', function(){
 });
 // réservations des formations
 Route::get('formation', FormationController::class)->name('formation');
-
+//dashboard de réservation
+Route::prefix('dashboard')->middleware('auth')->group(function () {
+    Route::get('rents', function () {
+        return view('back.index', ['title' => 'Mes réservations']);
+    })->name('rents');
+    Route::get('payments', function () {
+        return view('back.index', ['title' => 'Mes paiements']);
+    })->name('payments');
+});
 //route actualités
 Route::get('/actualite', function(){
     return view('pages.actualite.actualite');

@@ -25,6 +25,13 @@
   }
 </style>
 
+<!-- Alpine v2 -->
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+<!-- Alpine v3 -->
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+
 	<script src="js/vendor/modernizr-custom.js"></script>
 
 	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/082c12a54b227be288d41240d/ca51500c854ff0ca570a2a7b1.js");</script>

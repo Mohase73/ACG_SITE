@@ -1,9 +1,4 @@
 <div>
-    <style>
-        .fc .fc-bg-event {
-            background: darkred;
-        }
-      </style>
     <div>
         <div class="p-6" wire:ignore>
             <input wire:model="idCalendar" type="text" hidden>
@@ -37,33 +32,32 @@
                 };
             });
         });
-    </script>
 
-    <script>
+
         let calendar = new FullCalendar.Calendar(element, {
-        ...
-        select: info => {
-            calendar.event = {
-                start: info.startStr,
-                end: info.endStr,
-                allDay: info.allDay,
-                display: 'background'
-            };
-            Livewire.emit('openModal', 'confirm', {
-                calendarId: calendar.id,
-                dateStart: info.startStr,
-                dateEnd: info.endStr
-            });
-        },
-    });
-    </script>
-    <script>
+            select: info => {
+                calendar.event = {
+                    start: info.startStr,
+                    end: info.endStr,
+                    allDay: info.allDay,
+                    display: 'background'
+                };
+                Livewire.emit('openModal', 'confirm', {
+                    calendarId: calendar.id,
+                    dateStart: info.startStr,
+                    dateEnd: info.endStr
+                });
+            },
+        });
+
+
+
         calendar.id = @this.idCalendar;
         calendar.render();
         Livewire.on('eventChecked', data => {
             if(calendar.id == data.id && data.ok) {
-                calendar.addEvent(calendar.event);
-                @this.addEvent(calendar.event);
+                calendar.addEvent(calendar.reservation);
+                @this.addEvent(calendar.reservation);
             }
         });
     </script>

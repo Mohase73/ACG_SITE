@@ -174,6 +174,9 @@
         <div class="row mt-4">
             <div class="col-md-2"></div>
             <div class="col-md-8 ">
+                <a href="{{ route('rents') }}" >
+                    Mon tableau de bord
+                  </a>
                 @foreach($formations as $formation)
                 <p class="my-6 text-1xl leading-tight">Les jours en rouge ne sont malheureusement pas disponibles</p>
                 <div class="mt-3 mb-3 pb-3  ">
@@ -187,8 +190,8 @@
 @livewireScripts
 @stack('scripts')
 @livewire('livewire-ui-modal')
-@livewireUIScripts
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+{{--  @livewireUIScripts  --}}
+{{--  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>  --}}
 </section>
 
 @endsection
