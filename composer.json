@@ -18,10 +18,12 @@
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.1",
         "laravelcollective/html": "^6.2",
-        "livewire/livewire": "^2.3",
+        "livewire-ui/modal": "^1.0",
+        "livewire/livewire": "^2.6",
         "mbezhanov/faker-provider-collection": "^1.2",
         "spatie/laravel-newsletter": "^4.10",
-        "uxweb/sweet-alert": "^2.0"
+        "uxweb/sweet-alert": "^2.0",
+        "ext-zip": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
@@ -68,5 +70,11 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
+    },
+    "repositories": {
+        "mongogento": {
+            "type": "vcs",
+            "url": "https://github.com/jdchmiel/mongogento/"
+        }
     }
 }

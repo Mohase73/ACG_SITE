@@ -139,4 +139,59 @@
     </div>
 </section>
 
+<section class="ls s-py-lg-5 s-py-xl-0 container-px-0 c-gutter-0 pt-2">
+    <table id="table_id" class="display">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Titre</th>
+                <th>Texte1</th>
+                <th>Texte2</th>
+                <th>Texte3</th>
+            </tr>
+        </thead>
+        @foreach ($formations  as $formation)
+        <tbody>
+            <tr>
+                <td>{{$formation -> id}}</td>
+                <td>{{$formation -> title}}</td>
+                <td>{{$formation -> text1}}</td>
+                <td>{{$formation -> text2}}</td>
+                <td>{{$formation -> text3}}</td>
+            </tr>
+        </tbody>
+        @endforeach
+    </table>
+</section>
+
+<section>
+    <style>
+        .fc .fc-bg-reservation {
+            background: darkred;
+        }
+      </style>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 ">
+                <a href="{{ route('rents') }}" >
+                    Mon tableau de bord
+                  </a>
+                @foreach($formations as $formation)
+                <p class="my-6 text-1xl leading-tight">Les jours en rouge ne sont malheureusement pas disponibles</p>
+                <div class="mt-3 mb-3 pb-3  ">
+                    <livewire:calendar :idCalendar="$formation->id" />
+                </div>
+                @endforeach
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+@livewireScripts
+@stack('scripts')
+@livewire('livewire-ui-modal')
+{{--  @livewireUIScripts  --}}
+{{--  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>  --}}
+</section>
+
 @endsection

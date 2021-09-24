@@ -27,9 +27,9 @@
 
                     <div class="images" data-columns="4">
                         <figure>
-                            <div data-thumb="images/shop/11.jpg">
-                                <a href="images/shop/11.jpg">
-                                    <img src="images/shop/11.jpg" alt="img" data-caption="" data-src="images/shop/11.jpg" data-large_image="images/shop/11.jpg" data-large_image_width="1000" data-large_image_height="1000">
+                            <div data-thumb="images/shop/11.png">
+                                <a href="images/shop/11.png">
+                                    <img src="images/shop/11.png" alt="img" data-caption="" data-src="images/shop/11.jpg" data-large_image="images/shop/11.jpg" data-large_image_width="1000" data-large_image_height="1000">
                                 </a>
                             </div>
                             <div data-thumb="images/shop/11_back.jpg">
@@ -55,62 +55,35 @@
                     <div class="summary entry-summary">
 
                         <h1 class="product_title entry-title">
-                            Expédiez votre idée</h1>
+                            NEXTO</h1>
                         <div class="woocommerce-product-rating">
                             <div class="star-rating">
-                                <span style="width:72.6%">Évalué <strong class="rating">4.33</strong> sur 5 basé sur<span class="rating">3</span>
+                                <span style="width:72.6%">Évalué <strong class="rating">4.33</strong> sur 5 basé sur<span class="rating">500</span>
                                 évaluations des clients</span>
                             </div>
-                            <a href="#reviews" class="woocommerce-review-link" rel="nofollow">(<span class="count">3</span> Clients
+                            <a href="#reviews" class="woocommerce-review-link" rel="nofollow">(<span class="count">500</span> Clients
                                 Commentaires)</a>
                         </div>
 
                         <p class="price">
                             <span>
-                                <span>fcfa</span>20.00
+                                <span>fcfa</span> 500.00
                             </span>
                         </p>
                         <div>
                             <p>
-                                Chez Afric Consulting Group nous vous proposons une solution simple rapide et sécurisée pour revendre votre ordinateur portable PC ou Mac. Qu'il soit en parfait état ou hors service, nous vous proposerons une solution de valorisation.</p>
+                                Malgré la popularité des réseaux sociaux La messagerie court sms est
+                                toujours la technologie de choix pour envoyer des messages et des
+                                rappels importants aux membres de la famille, aux collègues, aux associés,
+                                aux clients, aux étudiants, aux enseignants, aux patients etc. <br>
+                                Le NEXTO a été mis en place afin d'aider les structures et même les particuliers
+                                à difuser en masse leur message en un clique et à tout moment sans avoir besoin de
+                                mettre en place des infrastures onéreuse à cet effet.
+                        </p>
                         </div>
 
                         <form>
-
-                            <table class="variations">
-                                <tbody>
-                                    <tr>
-
-                                        <td class="value">
-                                            <label for="pa_color">Couleur</label>
-                                            <select id="pa_color" class="wc-default-select" name="attribute_pa_color" data-attribute_name="attribute_pa_color">
-                                                <option value="">Choisir une couleure</option>
-                                                <option value="blue" class="attached enabled">Bleue</option>
-                                            </select>
-                                        </td>
-                                    </tr>
-                                    <tr>
-
-                                        <td class="value">
-                                            <label for="pa_size">Marque</label>
-                                            <select id="pa_size" class="wc-default-select" name="attribute_pa_size" data-attribute_name="attribute_pa_size">
-                                                <option value="">Choisir une marque</option>
-                                                <option value="x-small" class="attached enabled">HP</option>
-                                                <option value="small" class="attached enabled">Lenovo</option>
-                                                <option value="medium" class="attached enabled">Dell</option>
-                                                <option value="large" class="attached enabled">Asus</option>
-                                                {{--  <option value="x-large" class="attached enabled">X Large</option>
-                                                <option value="xx-large" class="attached enabled">XX Large</option>
-                                                <option value="xxx-large" class="attached enabled">XXX Large</option>  --}}
-                                            </select>
-
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-
-                            <div class="single_variation_wrap">
+                            <div class="single_variation_wrap mt-4">
                                 <div>
                                     <div class="quantity">
                                         <input type="button" value="+" class="plus">
@@ -134,7 +107,7 @@
                             </span>
 
 
-                            <span class="posted_in">Categories: <a href="shop-left.html" rel="tag">Machines</a>, <a href="shop-left.html" rel="tag">Ordinateurs</a>
+                            <span class="posted_in">Categories: <a href="shop-left.html" rel="tag">SMS</a>
                             </span>
                             <span class="tagged_as">Étiqueter: <a href="shop-left.html" rel="tag">Ventes</a></span>
 
@@ -147,10 +120,10 @@
 
                         <ul class="tabs wc-tabs" role="tablist">
                             <li class="description_tab" id="tab-title-description" role="tab" aria-controls="tab-description">
-                                <a href="#tab-description">Description</a>
+                                <a href="#tab-description">Nexto</a>
                             </li>
                             <li class="additional_information_tab active" id="tab-title-additional_information" role="tab" aria-controls="tab-additional_information">
-                                <a href="#tab-additional_information">Information additionnelle</a>
+                                <a href="#tab-additional_information">Téléphone ou le PC</a>
                             </li>
                             <li class="reviews_tab" id="tab-title-reviews" role="tab" aria-controls="tab-reviews">
                                 <a href="#tab-reviews">
@@ -163,26 +136,28 @@
                             <h2>Description</h2>
 
                             <p>
-                                Pour vendre du matériel informatique en ligne, vous pouvez passer par des plateformes connues (Amazon, eBay, PriceMinister) ou bien créer votre site de e-commerce. Il est possible de faire de la vente informatique à la fois en ligne et en magasin. Il est également possible de faire uniquement l'un ou l'autre..</p>
+                                Nexto est une application web et mobile qui vous permet d'envoyer plusieurs sms a vos clients ou amis en un clic.
+                                Rédiger votre sms, programmez la date d'envoi ou l'envoi immédiat, puis choisissez les destinataires, cliquez
+                                et c'est parti !.</p>
                         </div>
                         <div class="panel wc-tab" id="tab-additional_information" role="tabpanel" aria-labelledby="tab-title-additional_information">
 
-                            <h2>Information additionnelle</h2>
+                            <h2>Vous pouvez utiliser votre téléphone portable tout comme votre PC pour envoyer un message à un ou à plusieurs groupes.</h2>
 
                             <table class="shop_attributes">
 
 
                                 <tbody>
                                     <tr>
-                                        <th>Couleure</th>
+                                        <th>Téléphone</th>
                                         <td>
-                                            <p>Grise</p>
+                                            <p>Envoyer messages groupés</p>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th>Marque</th>
+                                        <th>PC</th>
                                         <td>
-                                            <p>Lenovo, HP, Asus, Dell</p>
+                                            <p>Profiter des fonctionnalités</p>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -344,215 +319,111 @@
 
                             <li class="product">
                                 <a href="shop-product-left.html">
-                                    <span class="onsale">Serveur!</span>
+                                    <span class="onsale">SMS Personnel!</span>
                                     <img src="images/shop/07.jpg" alt="img">
-                                    <h2>Expédiez votre idée</h2>
+                                    <h2>Envoie d'SMS personnels</h2>
                                     <div class="star-rating">
                                         <span style="width:80%">Évalué <strong class="rating">4.00</strong> hors de 5</span>
                                     </div>
                                     <span class="price">
                                         <span>
-                                            <span>fcfa</span>30.00
+                                            10 <span>fcfa</span>
                                         </span>
                                         –
                                         <span>
-                                            <span>fcfa</span>35.00
+                                            25 <span>fcfa</span>
                                         </span>
                                     </span>
                                 </a>
-                                <a rel="nofollow" href="shop-product-left.html" data-quantity="1" data-product_id="40" data-product_sku="" class="button product_type_variable add_to_cart_button">Select
-                                    options</a>
+                                <a rel="nofollow" href="https://www.nexto.bf/" target="blank" data-quantity="1" data-product_id="40" data-product_sku="" class="button product_type_variable add_to_cart_button">www.nexto.bf</a>
                             </li>
                             <li class="product">
                                 <a href="shop-product-left.html">
-                                    <span class="onsale">Bureau!</span>
-                                    <img src="images/shop/06.jpg" alt="img">
-                                    <h2>Bureau</h2>
+                                    <span class="onsale">SMS Groupés!</span>
+                                    <img src="images/shop/06.jpeg" alt="img">
+                                    <h2>Envoie d'SMS groupés 100</h2>
                                     <div class="star-rating">
                                         <span style="width:80%">Évalué <strong class="rating">4.00</strong> hors de 5</span>
                                     </div>
                                     <span class="price">
                                         <span>
-                                            <span>fcfa</span>35.00
+                                            500 <span>fcfa</span>
                                         </span>
                                     </span>
                                 </a>
-                                <a rel="nofollow" href="#" data-quantity="1" data-product_id="60" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Ajouter au panier</a>
+                                <a rel="nofollow" href="https://www.nexto.bf/" target="blank" data-quantity="1" data-product_id="60" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">www.nexto.bf</a>
                             </li>
 
                             <li class="product">
                                 <a href="shop-product-left.html">
-                                    <span class="onsale">Dev web!</span>
+                                    <span class="onsale">SMS Groupés!</span>
                                     <img src="images/shop/08.jpg" alt="img">
-                                    <h2>Solution numérique</h2>
+                                    <h2>Envoie d'SMS groupés 500</h2>
                                     <div class="star-rating">
                                         <span style="width:80%">Évalué <strong class="rating">4.00</strong> hors de 5</span>
                                     </div>
                                     <span class="price">
                                         <span>
-                                            <span>fcfa</span>20.00
+                                            1500 <span>fcfa</span>
                                         </span>
                                     </span>
                                 </a>
-                                <a rel="nofollow" href="#" data-quantity="1" data-product_id="60" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Ajouter au panier</a>
+                                <a rel="nofollow" href="https://www.nexto.bf/" target="blank" data-quantity="1" data-product_id="60" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">www.nexto.bf</a>
                             </li>
                             <li class="product">
                                 <a href="shop-product-left.html">
-                                    <span class="onsale">Ordinateurs!</span>
-                                    <img src="images/shop/28.jpg" alt="img">
-                                    <h2>Ordinateurs</h2>
+                                    <span class="onsale">SMS Groupés!</span>
+                                    <img src="images/shop/28.png" alt="img">
+                                    <h2>Envoie d'SMS groupés 1000</h2>
                                     <div class="star-rating">
                                         <span style="width:90%">Évalué <strong class="rating">4.50</strong> hors de 5</span>
                                     </div>
                                     <span class="price">
                                         <span>
-                                            <span>fcfa</span>4.00
+                                            4000 <span>fcfa</span>
                                         </span>
                                     </span>
                                 </a>
-                                <a rel="nofollow" href="#" data-quantity="1" data-product_id="60" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Ajouter au panier</a>
+                                <a rel="nofollow" href="https://www.nexto.bf/" target="blank" data-quantity="1" data-product_id="60" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">www.nexto.bf</a>
                             </li>
 
 
                         </ul>
 
                     </section>
-
-
-                    <section class="related products">
-
-                        <h2>Produits connexes</h2>
-
-                        <ul class="products">
-
-
-                            <li class="product">
-                                <a href="shop-product-left.html">
-                                    <img src="images/shop/05.jpg" alt="img">
-                                    <h2>Digital</h2>
-                                    <div class="star-rating">
-                                        <span style="width:80%">Évalué <strong class="rating">4.00</strong> hors de 5</span>
-                                    </div>
-                                    <span class="price">
-                                        <span>
-                                            <span>fcfa</span>35.00
-                                        </span>
-                                    </span>
-                                </a>
-                                <a rel="nofollow" href="#" data-quantity="1" data-product_id="56" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Ajouter au panier</a>
-                            </li>
-
-
-                            <li class="product">
-                                <a href="shop-product-left.html">
-                                    <img src="images/shop/04.jpg" alt="img">
-                                    <h2>Carte </h2>
-                                    <div class="star-rating">
-                                        <span style="width:60%">Évalué <strong class="rating">3.00</strong> hors de 5</span>
-                                    </div>
-                                    <span class="price">
-                                        <span>
-                                            <span>fcfa</span>35.00
-                                        </span>
-                                    </span>
-                                </a>
-                                <a rel="nofollow" href="#" data-quantity="1" data-product_id="53" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Ajouter au panier</a>
-                            </li>
-
-
-                            <li class="product">
-                                <a href="shop-product-left.html">
-                                    <img src="images/shop/02.jpg" alt="img">
-                                    <h2>Carte</h2>
-                                    <div class="star-rating">
-                                        <span style="width:90%">Évalué <strong class="rating">4.50</strong> hors de 5</span>
-                                    </div>
-                                    <span class="price">
-                                        <span>
-                                            <span>fcfa</span>35.00
-                                        </span>
-                                    </span>
-                                </a>
-                                <a rel="nofollow" href="#" data-quantity="1" data-product_id="47" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Ajouter au panier</a>
-                            </li>
-
-
-                            <li class="product">
-                                <a href="shop-product-left.html">
-                                    <img src="images/shop/06.jpg" alt="img">
-                                    <h2>Bureau</h2>
-                                    <div class="star-rating">
-                                        <span style="width:80%">Évalué <strong class="rating">4.00</strong> hors de 5</span>
-                                    </div>
-                                    <span class="price">
-                                        <span>
-                                            <span>fcfa</span>35.00
-                                        </span>
-                                    </span>
-                                </a>
-                                <a rel="nofollow" href="#" data-quantity="1" data-product_id="60" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Ajouter au panier</a>
-                            </li>
-
-
-                            <li class="product">
-                                <a href="shop-product-left.html">
-                                    <img src="images/shop/03.jpg" alt="img">
-                                    <h2>Caméra</h2>
-                                    <div class="star-rating">
-                                        <span style="width:90%">Évalué <strong class="rating">4.50</strong> hors de 5</span>
-                                    </div>
-                                    <span class="price">
-                                        <span>
-                                            <span>fcfa</span>37.00
-                                        </span>
-                                    </span>
-                                </a>
-                                <a rel="nofollow" href="#" data-quantity="1" data-product_id="97" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Ajouter au panier</a>
-                            </li>
-
-
-                        </ul>
-
-                    </section>
-
-
                 </div>
             </main>
 
             <aside class="col-lg-4 col-xl-4 order-lg-1 mb-0">
                 <div class="widget woocommerce widget_product_categories">
-                    <h3 class="widget-title">Server Web</h3>
+                    <h3 class="widget-title">Ventes SMS</h3>
                     <ul class="product-categories">
                         <li class="cat-item cat-parent">
-                            <a href="shop-right.html">HP</a>
+                            <a href="https://www.nexto.bf/" target="_blank" >Votre compte</a>
                             <span class="count">(12)</span>
                             <ul class="children">
                                 <li class="cat-item">
-                                    <a href="shop-right.html">Lenovo</a>
+                                    <a href="https://www.nexto.bf/" target="_blank" >Votre Signature</a>
                                     <span class="count">(46)</span>
                                 </li>
                                 <li class="cat-item">
-                                    <a href="shop-right.html">Dell</a>
+                                    <a href="https://www.nexto.bf/" target="_blank" >Equité entre opérateurs</a>
                                     <span class="count">(165)</span>
                                 </li>
                             </ul>
                         </li>
                         <li class="cat-item cat-parent">
-                            <a href="shop-right.html">Mac</a>
+                            <a href="https://www.nexto.bf/" target="_blank" >Planifier vos envois</a>
                             <span class="count">(16)</span>
                             <ul class="children">
                                 <li class="cat-item">
-                                    <a href="shop-right.html">Asus</a>
-                                    <span class="count">(24)</span>
-                                </li>
-                                <li class="cat-item">
-                                    <a href="shop-right.html">Électronique</a>
+                                    <a href="https://www.nexto.bf/" target="_blank" >Utilisez le Téléphone ou le PC</a>
                                     <span class="count">(2)</span>
                                 </li>
                             </ul>
                         </li>
                         <li class="cat-item">
-                            <a href="shop-right.html">Bureau</a>
+                            <a href="https://www.nexto.bf/" target="_blank" >Grouper vos correspondants</a>
                             <span class="count">(45)</span>
                         </li>
                     </ul>
@@ -583,27 +454,25 @@
                         <ul class="woocommerce-mini-cart cart_list product_list_widget ">
                             <li class="woocommerce-mini-cart-item mini_cart_item">
                                 <a href="#" class="remove" aria-label="Remove this item" data-product_id="73" data-product_sku="">×</a>
-                                <a href="shop-product-right.html">
-                                    <img src="images/shop/26.jpg" alt="img">Les cartes mères sont en promotion
+                                <a href="https://www.nexto.bf/">
+                                    <img src="images/shop/26.jpg" alt="img">La vente des SMS est en promotion
                                 </a>
 
                                 <span class="quantity">1 ×
                                     <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">fcfa</span>
-                                        12.00
+                                        1200 <span class="woocommerce-Price-currencySymbol">fcfa</span>
                                     </span>
                                 </span>
                             </li>
                             <li class="woocommerce-mini-cart-item mini_cart_item">
                                 <a href="#" class="remove" aria-label="Remove this item" data-product_id="76" data-product_sku="">×</a>
-                                <a href="shop-product-right.html">
-                                    <img src="images/shop/26.jpg" alt="img">Il y'a une réduction de 30% hatez vous stock limité
+                                <a href="https://www.nexto.bf/">
+                                    <img src="images/shop/26.jpg" alt="img">Il y'a une réduction de 10% hatez vous stock limité
                                 </a>
 
                                 <span class="quantity">1 ×
                                     <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">fcfa</span>
-                                        15.00
+                                        1500 <span class="woocommerce-Price-currencySymbol">fcfa</span>
                                     </span>
                                 </span>
                             </li>
@@ -612,13 +481,12 @@
                         <p class="woocommerce-mini-cart__total total">
                             <strong>Total:</strong>
                             <span class="woocommerce-Price-amount amount">
-                                <span class="woocommerce-Price-currencySymbol">fcfa</span>
-                                27.00
+                                2700 <span class="woocommerce-Price-currencySymbol">fcfa</span>
                             </span>
                         </p>
 
                         <p class="woocommerce-mini-cart__buttons buttons mt-50">
-                            <a href="shop-cart.html" class="button mb-0 wc-forward">Voir le panier</a>
+                            <a href="{{url('contact')}}" class="button mb-0 wc-forward">Contactez Nous</a>
                         </p>
                     </div>
                 </div>
@@ -628,9 +496,9 @@
                     <h3 class="widget-title">Meilleurs produits</h3>
                     <ul class="product_list_widget">
                         <li>
-                            <a href="shop-product-right.html">
+                            <a href="https://www.nexto.bf/">
                                 <img src="images/shop/01.jpg" alt="img">
-                                <span class="product-title">Smartphone</span>
+                                <span class="product-title">SMS Groupés</span>
                             </a>
                             <div class="star-rating">
                                 <span style="width:100%">Évalué
@@ -639,171 +507,12 @@
                                 </span>
                             </div>
                             <span class="woocommerce-Price-amount amount">
+                                2000
                                 <span class="woocommerce-Price-currencySymbol">fcfa</span>
-                                20.00
-                            </span>
-                        </li>
-
-                        <li>
-                            <a href="shop-product-right.html">
-                                <img src="images/shop/02.jpg" alt="img">
-                                <span class="product-title">Électronique</span>
-                            </a>
-                            <div class="star-rating">
-                                <span style="width:100%">Évalué
-                                    <strong class="rating">5.00</strong>
-                                    hors de 5
-                                </span>
-                            </div>
-                            <span class="woocommerce-Price-amount amount">
-                                <span class="woocommerce-Price-currencySymbol">fcfa</span>
-                                9.00
-                            </span>
-                        </li>
-
-                        <li>
-                            <a href="shop-product-right.html">
-                                <img src="images/shop/03.jpg" alt="img">
-                                <span class="product-title">Caméra</span>
-                            </a>
-                            <div class="star-rating">
-                                <span style="width:100%">Évalué
-                                    <strong class="rating">5.00</strong>
-                                    hors de 5
-                                </span>
-                            </div>
-                            <span class="woocommerce-Price-amount amount">
-                                <span class="woocommerce-Price-currencySymbol">fcfa</span>
-                                18.00
-                            </span>
-                        </li>
-
-                        <li>
-                            <a href="shop-product-right.html">
-                                <img src="images/shop/04.jpg" alt="img">
-                                <span class="product-title">Qualité carte</span>
-                            </a>
-                            <div class="star-rating">
-                                <span style="width:93.4%">Évalué
-                                    <strong class="rating">4.67</strong>
-                                    hors de 5
-                                </span>
-                            </div>
-                            <span class="woocommerce-Price-amount amount">
-                                <span class="woocommerce-Price-currencySymbol">fcfa</span>
-                                35.00
-                            </span>
-                        </li>
-
-                        <li>
-                            <a href="shop-product-right.html">
-                                <img src="images/shop/05.jpg" alt="img">
-                                <span class="product-title">Qualité ordinateur</span>
-                            </a>
-                            <div class="star-rating">
-                                <span style="width:90%">Évalué
-                                    <strong class="rating">4.50</strong>
-                                    hors de 5
-                                </span>
-                            </div>
-                            <span class="woocommerce-Price-amount amount">
-                                <span class="woocommerce-Price-currencySymbol">fcfa</span>
-                                20.00
                             </span>
                         </li>
                     </ul>
                 </div>
-
-
-                {{--  <div class="widget woocommerce widget_price_filter">
-
-                    <h3 class="widget-title">Price Filter</h3>
-
-                    <form method="get" action="/">
-                        <div class="price_slider_wrapper">
-                            <div class="price_slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="">
-                                <div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 10%; width: 70%;">
-
-                                </div>
-                                <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 10%;">
-                                    <span class="from">fcfa21</span>
-                                </span>
-                                <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 80%;">
-                                    <span class="to">fcfa28</span>
-                                </span>
-                            </div>
-                            <div class="price_slider_amount">
-                                <input type="text" id="min_price" name="min_price" value="" data-min="20" placeholder="Min price" style="display: none;">
-                                <input type="text" id="max_price" name="max_price" value="" data-max="30" placeholder="Max price" style="display: none;">
-                                <button type="submit" class="button mt-4">Filter</button>
-
-                                <div class="clear"></div>
-
-                            </div>
-                        </div>
-                    </form>
-                </div>  --}}
-{{--
-
-                <div class="widget woocommerce widget_layered_nav">
-                    <h3 class="widget-title">Filters</h3>
-                    <ul>
-                        <li class="wc-layered-nav-term chosen">
-                            <a href="shop-right.html">Black</a>
-                            <span class="count">(85)</span>
-                        </li>
-                        <li class="wc-layered-nav-term">
-                            <a href="#">Blue</a>
-                            <span class="count">(12)</span>
-                        </li>
-                        <li class="wc-layered-nav-term">
-                            <a href="#">Green</a>
-                            <span class="count">(41)</span>
-                        </li>
-                        <li class="wc-layered-nav-term">
-                            <a href="#">Yellow</a>
-                            <span class="count">(12)</span>
-                        </li>
-                        <li class="wc-layered-nav-term">
-                            <a href="#">Red</a>
-                            <span class="count">(26)</span>
-                        </li>
-                    </ul>
-                </div>
-
-
-                <div class="widget woocommerce widget_product_tag_cloud">
-
-                    <h3 class="widget-title">Price Filter</h3>
-
-                    <div class="tagcloud">
-                        <a href="shop-right.html" class="tag-cloud-link" aria-label="album (1 product)">
-                            Album
-                        </a>
-                        <a href="shop-right.html" class="tag-cloud-link" aria-label="premium (1 product)">
-                            Premium
-                        </a>
-                        <a href="shop-right.html" class="tag-cloud-link" aria-label="product (1 product)">
-                            Product
-                        </a>
-                        <a href="shop-right.html" class="tag-cloud-link" aria-label="single (1 product)">
-                            Single
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="widget woocommerce widget_layered_nav">
-                    <h3 class="widget-title">Colors Filter</h3>
-
-                    <select class="dropdown_layered_nav_color">
-                        <option value="">Any color</option>
-                        <option value="black">Black</option>
-                        <option value="blue">Blue</option>
-                        <option value="green">Green</option>
-                    </select>
-
-                </div>  --}}
 
             </aside>
 
