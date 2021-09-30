@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
-
+use App\Http\Controllers\CentreAppelController;
+use App\Http\Controllers\RoleController;
+use App\Http\Controllers\TransformationDigitalController;
 // Route::get('/',                                             'AdminNavigationController@accueil')->name('bienvenue');
 Route::prefix('admin')->group(function () {
     //Route::get('/',                                      'AdminNavigationController@accueil')->name('accueil');
@@ -46,39 +48,40 @@ Route::get('/welcome', function(){
 Route::get('/contacts', function(){
     return view('contact');
 });
-Route::get('/about', function(){
+Route::get('/a_propos_de_nous', function(){
     return view('pages.a-propos.about');
 });
-Route::get('/partenaire', function(){
+Route::get('/nos_partenaire', function(){
     return view('pages.a-propos.partners');
 });
-Route::get('/contact', function(){
+Route::get('/nous_contactez', function(){
     return view('pages.a-propos.contact');
 });
 //route service
-Route::get('/centre-appel', function(){
-    return view('pages.service.centre-appel');
-});
-Route::get('/service', function(){
+Route::get('/service/centre-appel',[CentreAppelController::class , 'index'])->name('service.centre_appel');
+Route::get('/nos-service', function(){
     return view('pages.service.service');
 });
-Route::get('/kiosque', function(){
+Route::get('service_a_valeur_ajouter', function(){
     return view('pages.service.kiosque');
 });
-Route::get('/dev', function(){
+Route::get('developpement_web', function(){
     return view('pages.service.dev');
 });
-Route::get('/sms', function(){
+Route::get('campagne_sms', function(){
     return view('pages.service.sms');
 });
-Route::get('/digital', function(){
-    return view('pages.service.digital');
-});
-Route::get('/formation', function(){
+Route::resource('transformation_digital','TransformationDigitalController');
+// Route::post('transformation', [TransformationDigitalController::class, 'store']);
+Route::get('formation', function(){
     return view('pages.service.formation');
 });
+//fullcalandar actualite
+// Route::get('/actualite', ActualiteController::class)->name('actualite');
+
 // réservations des formations
 Route::get('formation', FormationController::class)->name('formation');
+Route::resource('formations', 'FormationController');
 //dashboard de réservation
 Route::prefix('dashboard')->middleware('auth')->group(function () {
     Route::get('rents', function () {
@@ -93,10 +96,10 @@ Route::get('/actualite', function(){
     return view('pages.actualite.actualite');
 });
 //route des formations
-Route::get('/ligne', function(){
+Route::get('/formation_en_ligne', function(){
     return view('pages.formation.ligne');
 });
-Route::get('/present', function(){
+Route::get('/formation_en_presentielle', function(){
     return view('pages.formation.present');
 });
 //Route de la boutique

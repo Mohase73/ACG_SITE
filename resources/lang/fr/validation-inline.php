@@ -131,4 +131,11 @@ return [
         ],
     ],
     'attributes'           => [],
+
+    'credit_card'          => [
+        'card_expiration_year_invalid'  => "L'année d'expiration n'est pas correcte",
+        'card_expiration_month_invalid' => "Le mois d'expiration n'est pas correct",
+        'card_cvc_invalid'              => "Le CVC est invalide",
+        'card_invalid'                  => "Le numéro est invalide",
+    ],
 ];

@@ -139,7 +139,7 @@
     </div>
 </section>
 
-<section class="ls s-py-lg-5 s-py-xl-0 container-px-0 c-gutter-0 pt-2">
+{{--  <section class="ls s-py-lg-5 s-py-xl-0 container-px-0 c-gutter-0 pt-2">
     <table id="table_id" class="display">
         <thead>
             <tr>
@@ -162,9 +162,9 @@
         </tbody>
         @endforeach
     </table>
-</section>
+</section>  --}}
 
-<section>
+{{--  <section>
     <style>
         .fc .fc-bg-reservation {
             background: darkred;
@@ -187,11 +187,12 @@
             <div class="col-md-2"></div>
         </div>
     </div>
-@livewireScripts
+
+</section>  --}}
+
+{{--  @livewireScripts
 @stack('scripts')
-@livewire('livewire-ui-modal')
+@livewire('livewire-ui-modal')  --}}
 {{--  @livewireUIScripts  --}}
 {{--  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>  --}}
-</section>
-
 @endsection

@@ -25,11 +25,12 @@
 				<div class="divider-35"></div>
 
 				<div class="social-icons">
-					<a href="#" class="fab fa-facebook-f" title="facebook"></a>
-					<a href="#" class="fab fa-telegram-plane" title="telegram"></a>
-					<a href="#" class="fab fa-linkedin" title="linkedin"></a>
-					<a href="#" class="fab fa-instagram" title="instagram"></a>
-					<a href="#" class="fab fa-youtube" title="youtube"></a>
+					<a href="https://www.facebook.com/acgburkinafaso" class="fab fa-facebook-f" title="facebook"></a>
+                    {{-- <a href="#" class="fab fa-telegram-plane" title="telegram"></a> --}}
+                    <a href="https://twitter.com/ConsultingAfric"  target="_blank" class="fab fa-twitter-square " title="twitter"></a>
+                    <a href="https://www.linkedin.com/company/afric-consulting-group" class="fab fa-linkedin" title="linkedin"></a>
+                    {{-- <a href="#" class="fab fa-instagram" title="instagram"></a>
+                    <a href="#" class="fab fa-youtube" title="youtube"></a> --}}
 				</div>
 				<div class="divider-20"></div>
 				<p class="color-darkgrey">Ou utilisez votre E-mail</p>

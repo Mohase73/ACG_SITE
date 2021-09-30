@@ -28,7 +28,7 @@ class NewsletterController extends Controller
 
         try {
 
-       	
+
             $this->newsletter
             ->lists
             ->subscribe(
@@ -60,7 +60,7 @@ class NewsletterController extends Controller
 	        'list_id'   => $this->listId,
 	        'subject' => $request->input('subject'),
 	        'from_name' => $request->input('from_email'),
-	        'from_email' => 'alainguigma99@gmail.com',
+	        'from_email' => 'medias@africconsultinggroup.com',
 	        'to_name' => $request->input('to_email')
 	        ];
 
@@ -73,7 +73,7 @@ class NewsletterController extends Controller
 	        $this->newsletter->campaigns->send($campaign['id']);
 
         	return redirect()->back()->with('success','Campagne de mail envoyée avec succès');
-    	
+
         } catch (Exception $e) {
         	return redirect()->back()->with('error','Erreur d\'email');
         }

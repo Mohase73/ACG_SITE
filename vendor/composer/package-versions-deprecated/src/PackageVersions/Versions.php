@@ -53,7 +53,9 @@ final class Versions
   'guzzlehttp/guzzle' => '7.3.0@7008573787b430c1c1f650e3722d9bba59967628',
   'guzzlehttp/promises' => '1.4.1@8e7d04f1f6450fef59366c399cfad4b9383aa30d',
   'guzzlehttp/psr7' => '2.0.0@1dc8d9cba3897165e16d12bb13d813afb1eb3fe7',
+  'laravel-validation-rules/credit-card' => '1.6.0@0c20ee11d7647a605f05460fcdffd2b0442cda8a',
   'laravel/framework' => 'v8.61.0@3d528d3d3c8ecb444b50a266c212a52973a6669b',
+  'laravel/legacy-factories' => 'v1.1.0@5e3fe2fd5fda64e20ea5c74c831a7346294e902a',
   'laravel/tinker' => 'v2.6.1@04ad32c1a3328081097a181875733fa51f402083',
   'laravel/ui' => 'v3.3.0@07d725813350c695c779382cbd6dac0ab8665537',
   'laravelcollective/html' => 'v6.2.1@ae15b9c4bf918ec3a78f092b8555551dd693fde3',
@@ -62,7 +64,7 @@ final class Versions
   'league/flysystem' => '1.1.5@18634df356bfd4119fe3d6156bdb990c414c14ea',
   'league/mime-type-detection' => '1.7.0@3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3',
   'livewire-ui/modal' => '1.0.1@0fe7036574868758f328e2266ecf27d3b30b7555',
-  'livewire/livewire' => 'v2.6.5@e39edcae6b1971b2d0f327a8e25c40e3d68cb7a0',
+  'livewire/livewire' => 'v2.6.7@7e8ded3cc496858b0a35c1c9355e5af79985bd0c',
   'mbezhanov/faker-provider-collection' => '1.2.1@076c00f0d438f12ec7da0fdaadbfb7940913763e',
   'monolog/monolog' => '2.3.4@437e7a1c50044b92773b361af77620efb76fff59',
   'nesbot/carbon' => '2.53.1@f4655858a784988f880c1b8c7feabbf02dfdf045',
@@ -156,7 +158,7 @@ final class Versions
   'sebastian/type' => '2.3.4@b8cd8a1c753c90bc1a0f5372170e3e489136f914',
   'sebastian/version' => '3.0.2@c6c1022351a901512170118436c764e473f6de8c',
   'theseer/tokenizer' => '1.2.1@34a41e998c2183e22995f158c581e7b5e755ab9e',
-  'laravel/laravel' => 'dev-master@0278412dcb2c22e2d51442e08fc0911bd41fa0f2',
+  'laravel/laravel' => 'dev-master@209a9a48772dc3dc42492bb75fede6275270f85a',
 );
 
     private function __construct()

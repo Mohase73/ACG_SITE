@@ -122,7 +122,7 @@
 //          document.querySelector('#smartwizard').classList.remove('d-none');
 //         console.log(data.responseJSON);
 //       swal({
-//        position: 'center',
+//        position: 'center',contact-form-respond
 //        icon: 'error',
 //        title: 'Une erreur s\'est produite, Veullez réessayer',
 //        button: false,
@@ -351,7 +351,7 @@ $('body').on('click', '#submit3', function (event) {
 //     $('.crime-figure').click(function(){
 //       popup.open($(this));
 //     });
-    
+
 //     $(document).on('click', '.crime-image', function(){
 //       return false;
 //     }).on('click', '.popup', function(){
