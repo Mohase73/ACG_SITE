@@ -18,41 +18,40 @@
                                 <a href="/">L'entreprise</a>
                                 <ul>
                                     <li>
-                                        <a href="{{url('about')}}">A propos de nous</a>
+                                        <a href="{{url('a_propos_de_nous')}}">A propos de nous</a>
                                     </li>
                                     <li>
-                                        <a href="{{url('partenaire')}}">Partenaires</a>
+                                        <a href="{{url('nos_partenaire')}}">Partenaires</a>
                                     </li>
                                     <li>
-                                        <a href="{{url('contact')}}">Contacts</a>
+                                        <a href="{{url('nous_contactez')}}">Contacts</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="{{url('service')}}">Nos services</a>
+                                <a href="{{url('nos-service')}}">Nos services</a>
                                 <ul style="width: auto !important">
 
 
                                     <li style="width: auto !important">
-                                        <a href="{{url('kiosque')}}">Services À Valeurs Ajoutées</a>
+                                        <a href="{{url('service_a_valeur_ajouter')}}">Services À Valeurs Ajoutées</a>
                                     </li>
 
 
                                     <li style="width: auto !important">
-                                        <a href="{{url('dev')}}">Développement Web et Mobile</a>
+                                        <a href="{{url('developpement_web')}}">Développement Web et Mobile</a>
                                     </li>
-
                                     <li style="width: auto !important">
                                         <a href="{{url('centre-appel')}}">Centre d'appel</a>
                                     </li>
                                     {{-- <li style="width: auto !important">
-                                        <a href="{{url('sms')}}">Campagne SMS</a>
+                                        <a href="{{url('campagne_sms')}}">Campagne SMS</a>
                                     </li> --}}
                                     <li style="width: auto !important">
                                         <a href="{{url('formation')}}">Formations</a>
                                     </li>
                                     <li style="width: auto !important">
-                                        <a href="{{url('digital')}}">Transformation digital</a>
+                                        <a href="{{url('transformation_digital')}}">Transformation digital</a>
                                     </li>
                                 </ul>
                             </li>
@@ -64,10 +63,10 @@
                                 <ul>
 
                                     <li>
-                                        <a href="{{url('ligne')}}">Formation en ligne</a>
+                                        <a href="{{url('formation_en_ligne')}}">Formation en ligne</a>
                                     </li>
                                     <li>
-                                        <a href="{{url('present')}}">Formation en présentielle</a>
+                                        <a href="{{url('formation_en_presentielle')}}">Formation en présentielle</a>
                                     </li>
 
                                 </ul>

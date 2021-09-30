@@ -3,9 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Contact;
+// use Mail;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
+    public function index(Request $request){
+        return view('pages.a-propos.contact');
+    }
     public function store(Request $request) {
         $this->validate($request, [
             'name' => 'required',
@@ -26,6 +32,7 @@ class ContactController extends Controller
             $message->from($request->email);
             $message->to('alainguigma99@gmail.com', 'Admin')->subject($request->get('nama'));
         });
-        return back()->with('success', 'Nous avons reçu votre mail nous vous reviendrons sous peu.');
+        return view('pages.a-propos.contact')->with('success', 'Nous avons reçu votre mail nous vous reviendrons sous peu.');
     }
+
 }

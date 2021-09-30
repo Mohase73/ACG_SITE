@@ -10,7 +10,7 @@ class Formation extends Model
 {
     use HasFactory;
     public $timestamps = false;
-    protected $fillable = ['id', 'text1', 'text2', 'text3', 'image'];
+    protected $fillable = ['id', 'uuid', 'name', 'phone', 'reservation', 'module', 'formation', 'email', 'message'];
 
     public function reservations()
     {

@@ -23,10 +23,10 @@ class Calendar extends Component
         $reservation['formation_id'] = $this->idCalendar;
         Reservation::create($reservation);
     }
-    
+
     public function render()
     {
-        $this->reservations = json_encode(Formation::find($this->idCalendar)->reservations()->get());
+        // $this->reservations = json_encode(Formation::find($this->idCalendar)->reservations()->get());
         return view('livewire.calendar');
     }
 

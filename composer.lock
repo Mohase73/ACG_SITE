@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bdb50272c7345f7d4a9c9e4c18170908",
+    "content-hash": "ff399b08a1d564d2d13d024bfaa8eced",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1457,6 +1457,60 @@
             "time": "2021-06-30T20:03:07+00:00"
         },
         {
+            "name": "laravel-validation-rules/credit-card",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-validation-rules/credit-card.git",
+                "reference": "0c20ee11d7647a605f05460fcdffd2b0442cda8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-validation-rules/credit-card/zipball/0c20ee11d7647a605f05460fcdffd2b0442cda8a",
+                "reference": "0c20ee11d7647a605f05460fcdffd2b0442cda8a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^5.5|^6.0|^7.0|^8.0",
+                "illuminate/translation": "^5.5|^6.0|^7.0|^8.0",
+                "illuminate/validation": "^5.5|^6.0|^7.0|^8.0",
+                "php": "7.*|8.*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.5",
+                "orchestra/testbench": "^3.5|^4.0|^5.0",
+                "phpunit/phpunit": "6.2.*|^8.5.8|^9.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LVR\\CreditCard\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Darius Matulionis",
+                    "email": "darius@matulionis.lt"
+                }
+            ],
+            "description": "Validate credit card number, expiration date, cvc",
+            "keywords": [
+                "credit card",
+                "laravel",
+                "validation",
+                "validator"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel-validation-rules/credit-card/issues",
+                "source": "https://github.com/laravel-validation-rules/credit-card/tree/1.6.0"
+            },
+            "time": "2021-01-27T20:14:50+00:00"
+        },
+        {
             "name": "laravel/framework",
             "version": "v8.61.0",
             "source": {
@@ -1624,6 +1678,62 @@
                 "source": "https://github.com/laravel/framework"
             },
             "time": "2021-09-14T13:31:32+00:00"
+        },
+        {
+            "name": "laravel/legacy-factories",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/legacy-factories.git",
+                "reference": "5e3fe2fd5fda64e20ea5c74c831a7346294e902a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/legacy-factories/zipball/5e3fe2fd5fda64e20ea5c74c831a7346294e902a",
+                "reference": "5e3fe2fd5fda64e20ea5c74c831a7346294e902a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/macroable": "^8.0",
+                "php": "^7.3|^8.0",
+                "symfony/finder": "^3.4|^4.0|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Illuminate\\Database\\Eloquent\\LegacyFactoryServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "helpers.php"
+                ],
+                "psr-4": {
+                    "Illuminate\\Database\\Eloquent\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The legacy version of the Laravel Eloquent factories.",
+            "homepage": "http://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "time": "2020-10-27T14:25:32+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -2226,16 +2336,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v2.6.5",
+            "version": "v2.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "e39edcae6b1971b2d0f327a8e25c40e3d68cb7a0"
+                "reference": "7e8ded3cc496858b0a35c1c9355e5af79985bd0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/e39edcae6b1971b2d0f327a8e25c40e3d68cb7a0",
-                "reference": "e39edcae6b1971b2d0f327a8e25c40e3d68cb7a0",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/7e8ded3cc496858b0a35c1c9355e5af79985bd0c",
+                "reference": "7e8ded3cc496858b0a35c1c9355e5af79985bd0c",
                 "shasum": ""
             },
             "require": {
@@ -2286,7 +2396,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v2.6.5"
+                "source": "https://github.com/livewire/livewire/tree/v2.6.7"
             },
             "funding": [
                 {
@@ -2294,7 +2404,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-09-18T23:19:07+00:00"
+            "time": "2021-09-25T22:50:47+00:00"
         },
         {
             "name": "mbezhanov/faker-provider-collection",
@@ -8705,7 +8815,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.3"
+        "ext-zip": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"

@@ -8,13 +8,15 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.3",
+        "ext-zip": "*",
         "doctrine/dbal": "^3.1",
         "drewm/mailchimp-api": "^2.5",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "laravel-validation-rules/credit-card": "^1.6",
         "laravel/framework": "^8.0",
+        "laravel/legacy-factories": "^1.1",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.1",
         "laravelcollective/html": "^6.2",
@@ -22,8 +24,7 @@
         "livewire/livewire": "^2.6",
         "mbezhanov/faker-provider-collection": "^1.2",
         "spatie/laravel-newsletter": "^4.10",
-        "uxweb/sweet-alert": "^2.0",
-        "ext-zip": "*"
+        "uxweb/sweet-alert": "^2.0"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",

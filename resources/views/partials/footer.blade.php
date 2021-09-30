@@ -54,10 +54,11 @@
                     <h3 class="widget-title text-white text-bold">Newsletter</h3>
 
                     <p>
-                        Veillez souscrire à notre newsletter pour ne manqueraucune information.
+                        Veillez souscrire à notre newsletter pour ne manquer aucune information.
                     </p>
 
                     <form class="signup" action="{{url('subscribe')}}" method="POST">
+                        @csrf
                         <label for="mailchimp_email">
                             <span class="screen-reader-text ">Souscrire:</span>
                         </label>
@@ -84,21 +85,21 @@
                         <ul class="menu">
 
                             <li class="menu-item">
-                                <a href="{{url('about')}}">
+                                <a href="{{url('a_propos_de_nous')}}">
                                     A propos de nous
                                 </a>
                             <li class="menu-item">
-                                <a href="{{url('contact')}}" class="contact_modal_window">
+                                <a href="{{url('nous_contactez')}}" class="contact_modal_window">
                                     Nous contacter
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="#">
+                                <a href="{{url('formation')}}">
                                     Nos formations
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="{{url('service')}}">
+                                <a href="{{url('nos_service')}}">
                                     Nos service
                                 </a>
                             </li>
@@ -128,7 +129,7 @@
                 <div class="widget widget_nav_menu">
                     <ul class="menu">
                         <li>
-                            <a href="{{url('partenaire')}}">Nos partenaires</a>
+                            <a href="{{url('nos_partenaire')}}">Nos partenaires</a>
                         </li>
                         <li>
                             <a href="{{url('actualite')}}">Actualités</a>

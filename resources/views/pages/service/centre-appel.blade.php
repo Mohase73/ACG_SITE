@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-12 text-center">
                 <h2 class="special-heading underline text-dark">
-                    <span>Qui sommes nous?</span>
+                    <span>Qui sommes nous ?</span>
                 </h2>
                 <div class="divider-55 hidden-below-lg"></div>
                 <div class="divider-40 hidden-above-lg"></div>
@@ -44,7 +44,7 @@
             </div>
             <div class="col-12 text-center">
                 <h2 class="special-heading underline">
-                    <span>Comment pouvons nous vous aidez?</span>
+                    <span>Comment pouvons nous vous aidez ?</span>
                 </h2>
                 <div class="divider-60 hidden-below-lg"></div>
                 <div class="divider-40 hidden-above-lg"></div>
@@ -267,7 +267,7 @@
         </div>
     </div>
 </section>
-<section class="ls s-py-lg-5 s-py-xl-0 container-px-0 c-gutter-0 bg-light">
+{{-- <section class="ls s-py-lg-5 s-py-xl-0 container-px-0 c-gutter-0 bg-light">
     <div class="container-fluid">
         <div class="container">
             <div class="col-12 text-center">
@@ -342,6 +342,62 @@
             <div class="divider-40 hidden-above-lg"></div>
         </div>
     </div>
+</section> --}}
+<section class="ls s-py-lg-5 s-py-xl-0 container-px-0 c-gutter-0">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="col-12 text-center">
+                <h2 class="special-heading underline text-dark">
+                    <span>Vos bénéfices</span>
+                </h2>
+                <div class="divider-60 hidden-below-lg"></div>
+                <div class="divider-40 hidden-above-lg"></div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 section-special left text-center text-lg-left">
+                    <div class="ls ms">
+                        <div>
+                            <p class=" text-center text-lg-left">
+                                <span>
+                                    Avoir un centre d’appel, apporte de nombreux avantages à l’entreprise.</span>
+                            </p>
+                            <div class="divider-40 hidden-above-lg"></div>
+                            <div class=" font-weight-light widget widget_nav_menu" style="color: black !important">
+                                    <div class="menu-container">
+                                        <ul class="menu">
+
+                                            <li class="menu-item">
+                                                <a href="">Décongestion des standards</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="">Prise et traitement rapide des appels entrants</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="">Fidélisation de la clientèle</span></a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="">Mutualisation ressources et locaux</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="">Mise à disposition des salles de centre d’appel</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="">Mise à disposition des téléopérateurs</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 post_format-post-format-video">
+                    <div class="embed-responsive text-center">
+                        <img style="height: 510px !important" src="/images/centre-appel/benefice.jpg" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section class="ls s-py-lg-5 s-py-xl-0 container-px-0 c-gutter-0">
     <div class="container-fluid">
@@ -402,7 +458,7 @@
         <div class="row">
             <div class="col-12 text-center">
                 <h2 class="special-heading underline text-dark">
-                    <span>Questions fréquemments posées?</span>
+                    <span>Questions fréquemments posées ?</span>
                 </h2>
                 <div class="divider-55 hidden-below-lg"></div>
                 <div class="divider-40 hidden-above-lg"></div>
@@ -418,7 +474,7 @@
                         <div class="card-header" role="tab" id="collapse01_header">
                             <h5>
                                 <a data-toggle="collapse" href="#collapse01" aria-expanded="true" aria-controls="collapse01">
-                                    <i class="far fa-question-circle"></i>Comment vous contactez?
+                                    <i class="far fa-question-circle"></i>Comment vous contactez ?
                                 </a>
                             </h5>
                         </div>
@@ -433,7 +489,7 @@
                         <div class="card-header" role="tab" id="collapse02_header">
                             <h5>
                                 <a class="collapsed" data-toggle="collapse" href="#collapse02" aria-expanded="false" aria-controls="collapse02">
-                                    <i class="far fa-question-circle"></i>Quel est fonctionnement de votre télésecretariat?
+                                    <i class="far fa-question-circle"></i>Quel est fonctionnement de votre télésecretariat ?
                                 </a>
                             </h5>
                         </div>
@@ -447,7 +503,7 @@
                         <div class="card-header" role="tab" id="collapse03_header">
                             <h5>
                                 <a class="collapsed" data-toggle="collapse" href="#collapse03" aria-expanded="false" aria-controls="collapse03">
-                                    <i class="far fa-question-circle"></i>Comment fonctionne Gestion De La Relation Client?
+                                    <i class="far fa-question-circle"></i>Comment fonctionne Gestion De La Relation Client ?
                                 </a>
                             </h5>
                         </div>
@@ -465,7 +521,7 @@
                         <div class="card-header" role="tab" id="collapse06_header">
                             <h5>
                                 <a class="collapsed" data-toggle="collapse" href="#collapse06" aria-expanded="true" aria-controls="collapse06">
-                                    <i class="far fa-question-circle"></i>Quel est le fontionnement de votre téléconseil?
+                                    <i class="far fa-question-circle"></i>Quel est le fontionnement de votre téléconseil ?
                                 </a>
                             </h5>
                         </div>
@@ -480,7 +536,7 @@
                         <div class="card-header" role="tab" id="collapse07_header">
                             <h5>
                                 <a class="collapsed" data-toggle="collapse" href="#collapse07" aria-expanded="false" aria-controls="collapse07">
-                                    <i class="far fa-question-circle"></i>Comment fonctionne votre centre d'assistance?
+                                    <i class="far fa-question-circle"></i>Comment fonctionne votre centre d'assistance ?
                                 </a>
                             </h5>
                         </div>
@@ -494,7 +550,7 @@
                         <div class="card-header" role="tab" id="collapse08_header">
                             <h5>
                                 <a class="collapsed" data-toggle="collapse" href="#collapse08" aria-expanded="false" aria-controls="collapse08">
-                                    <i class="far fa-question-circle"></i>Est il possible d'éffectuer en recevoir des appels dans vos locaux?
+                                    <i class="far fa-question-circle"></i>Est il possible d'éffectuer en recevoir des appels dans vos locaux ?
                                 </a>
                             </h5>
                         </div>

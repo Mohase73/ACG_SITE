@@ -169,7 +169,7 @@
                         <span class="icon-styled fs-inherit">
                             <i class="fa fa-map-marker color-main"></i>
                         </span>
-                        <span>Gounghinhin, Ouagadougou Avenue de la grande mosquée</span>
+                        <span>Secteur 8; Rue 8.38; 3ième Etage de l'Immeuble abritant le cabinet d'expertise comptable(CDEC-I), 01 BP 588</span>
                     </p>
 
                     <p class="icon-inline">
@@ -183,13 +183,12 @@
                         <span class="icon-styled fs-inherit">
                             <i class="fas fa-pencil-alt color-main"></i>
                         </span>
-                        <span>admin@africconsultinggroup.com</span>
+                        <span>medias@africconsultinggroup.com</span>
                     </p>
                 </div>
 
-                <form class="contact-form" method="post" action="/">
-
-
+                <form class="contact-form" method="post" action="{{url('transformation_digital')}}">
+                    @csrf
                     <div class="form-group has-placeholder">
                         <label for="name">Votre nom complet <span class="required">*</span></label>
                         <input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Votre nom complet">
@@ -197,7 +196,12 @@
 
                     <div class="form-group has-placeholder">
                         <label for="phone">Téléphone<span class="required">*</span></label>
-                        <input type="text" aria-required="true" size="30" value="" name="phone" id="phone" class="form-control" placeholder="Votre téléphone">
+                        <input type="phone" aria-required="true" size="30" value="" name="phone" id="phone" class="form-control" placeholder="Votre téléphone">
+                    </div>
+
+                    <div class="form-group has-placeholder">
+                        <label for="phone">Service<span class="required">*</span></label>
+                        <input type="text" aria-required="true" size="30" value="" name="service" id="phone" class="form-control" placeholder="Votre service">
                     </div>
 
                     <div class="form-group has-placeholder">
@@ -210,7 +214,7 @@
                         <textarea aria-required="true" rows="4" cols="45" name="message" id="message" class="form-control" placeholder="Message"></textarea>
                     </div>
 
-                    <button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor2 btn-short mt-20 mb-0 ">Réservation
+                    <button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor2 btn-short mt-20 mb-0 ">Envoyer
                     </button>
 
 

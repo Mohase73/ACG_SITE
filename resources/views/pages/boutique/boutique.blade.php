@@ -335,7 +335,7 @@
                                         </span>
                                     </span>
                                 </a>
-                                <a rel="nofollow" href="https://www.nexto.bf/" target="blank" data-quantity="1" data-product_id="40" data-product_sku="" class="button product_type_variable add_to_cart_button">www.nexto.bf</a>
+                                <a rel="nofollow" href="https://www.nexto.bf/" target="blank" data-quantity="1" data-product_id="40" data-product_sku="" class="button product_type_variable add_to_cart_button">Acheter</a>
                             </li>
                             <li class="product">
                                 <a href="shop-product-left.html">
@@ -351,7 +351,7 @@
                                         </span>
                                     </span>
                                 </a>
-                                <a rel="nofollow" href="https://www.nexto.bf/" target="blank" data-quantity="1" data-product_id="60" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">www.nexto.bf</a>
+                                <a rel="nofollow" href="https://www.nexto.bf/" target="blank" data-quantity="1" data-product_id="60" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Acheter</a>
                             </li>
 
                             <li class="product">
@@ -368,7 +368,7 @@
                                         </span>
                                     </span>
                                 </a>
-                                <a rel="nofollow" href="https://www.nexto.bf/" target="blank" data-quantity="1" data-product_id="60" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">www.nexto.bf</a>
+                                <a rel="nofollow" href="https://www.nexto.bf/" target="blank" data-quantity="1" data-product_id="60" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Acheter</a>
                             </li>
                             <li class="product">
                                 <a href="shop-product-left.html">
@@ -384,7 +384,7 @@
                                         </span>
                                     </span>
                                 </a>
-                                <a rel="nofollow" href="https://www.nexto.bf/" target="blank" data-quantity="1" data-product_id="60" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">www.nexto.bf</a>
+                                <a rel="nofollow" href="https://www.nexto.bf/" target="blank" data-quantity="1" data-product_id="60" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Acheter</a>
                             </li>
 
 
@@ -497,7 +497,7 @@
                     <ul class="product_list_widget">
                         <li>
                             <a href="https://www.nexto.bf/">
-                                <img src="images/shop/01.jpg" alt="img">
+                                <img src="images/shop/01.jpeg" alt="img">
                                 <span class="product-title">SMS Groupés</span>
                             </a>
                             <div class="star-rating">

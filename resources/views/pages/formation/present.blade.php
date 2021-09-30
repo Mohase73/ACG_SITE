@@ -166,7 +166,8 @@
                         <span class="icon-styled fs-inherit">
                             <i class="fa fa-map-marker color-main"></i>
                         </span>
-                        <span>Gounghinhin, Ouagadougou Avenue de la grande mosquée</span>
+                        <span>
+                            Secteur 8; Rue 8.38; 3ième Etage de l'Immeuble abritant le cabinet d'expertise comptable(CDEC-I), 01 BP 588</span>
                     </p>
 
                     <p class="icon-inline">
@@ -180,13 +181,12 @@
                         <span class="icon-styled fs-inherit">
                             <i class="fas fa-pencil-alt color-main"></i>
                         </span>
-                        <span>admin@africconsultinggroup.com</span>
+                        <span>medias@africconsultinggroup.com</span>
                     </p>
                 </div>
 
-                <form class="contact-form" method="post" action="/">
-
-
+                <form class="contact-form" action="{{url('formations')}}" method="post">
+                    @csrf
                     <div class="form-group has-placeholder">
                         <label for="name">Votre nom complet <span class="required">*</span></label>
                         <input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Votre nom complet">
@@ -198,19 +198,36 @@
                     </div>
 
                     <div class="form-group has-placeholder">
+                        <label for="name">Réservation </label>
+                        <input type="hidden" aria-required="true" size="30" value="" name="reservation" id="name" class="form-control" placeholder="Votre réservation">
+                    </div>
+
+                    <div class="form-group has-placeholder">
+                        <label for="name">Module <span class="required">*</span></label>
+                        <input type="text" aria-required="true" size="30" value="" name="module" id="name" class="form-control" placeholder="Votre module">
+                    </div>
+
+                    <div class="form-group has-placeholder">
+                        <label for="name">Formation <span class="required">*</span></label>
+                        <select class="form-control" id="exampleFormControlSelect1" name="formation">
+                            <option >Formation en ligne</option>
+                            <option >Formation en presentielle</option>
+                          </select>
+                        {{--  <input type="text" aria-required="true" size="30" value="" name="formation" id="name" class="form-control" placeholder="Votre formation">  --}}
+                    </div>
+
+                    <div class="form-group has-placeholder">
                         <label for="email">Votre email<span class="required">*</span></label>
                         <input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Votre email">
                     </div>
 
                     <div class="form-group has-placeholder">
-                        <label for="message">Message</label>
-                        <textarea aria-required="true" rows="4" cols="45" name="message" id="message" class="form-control" placeholder="Message"></textarea>
+                        <label for="message">Suggestion</label>
+                        <textarea aria-required="true" rows="4" cols="45" name="suggestion" id="message" class="form-control" placeholder="Message"></textarea>
                     </div>
 
                     <button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor2 btn-short mt-20 mb-0 ">Réservation
                     </button>
-
-
                 </form>
 
 

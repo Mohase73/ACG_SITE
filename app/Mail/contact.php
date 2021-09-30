@@ -29,6 +29,6 @@ class contact extends Mailable
     public function build()
     {
         return $this->from('alainguigma99@gmail.com')
-        ->$this->view('view.name');
+        ->$this->view('mail');
     }
 }

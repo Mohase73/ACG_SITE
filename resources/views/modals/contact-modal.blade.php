@@ -15,7 +15,7 @@
 				<p class="color-darkgrey">Une question?, une récommandation?, un projet?</p>
 				<div class="divider-35"></div>
 				<form class="modal-contact-form" method="post" action="{{url('contact')}}">
-
+                    @csrf
 					<div class="row c-mb-10 c-gutter-10">
 
 						<div class="col-sm-6">
@@ -32,6 +32,21 @@
 							</div>
 						</div>
 					</div>
+					<div class="row c-mb-10 c-gutter-10">
+                        <div class="col-sm-6">
+                            <div class="form-group has-placeholder">
+                                <label for="name">Entrer votre numéro<span class="required"></span></label>
+                                <input type="number" aria-required="true" size="30" value="" name="phone" id="name" class="form-control" placeholder="Entrer votre numéro">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group has-placeholder">
+                                <label for="email">Entrer votre sujet<span class="required"></span></label>
+                                <input type="text" aria-required="true" size="30" value="" name="subject" id="email" class="form-control" placeholder="Entrer votre sujet">
+                            </div>
+                        </div>
+                </div>
 					<div class="row mb-45">
 
 						<div class="col-sm-12 mb-0">
