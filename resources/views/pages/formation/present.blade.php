@@ -185,7 +185,7 @@
                     </p>
                 </div>
 
-                <form class="contact-form" method="post" action="{{url('formations')}}">
+                <form class="contact-form" action="{{url('formations')}}" method="post">
                     @csrf
                     <div class="form-group has-placeholder">
                         <label for="name">Votre nom complet <span class="required">*</span></label>

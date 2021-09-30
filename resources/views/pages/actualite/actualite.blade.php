@@ -56,15 +56,17 @@
                             <div class="tag-wrapper">
                                 <span class="cat-links">
                                     <a href="{{url('boutique')}}">Boutique</a>
-                                    <a href="{{url('service')}}">Services</a>
+                                    <a href="{{url('nos-service')}}">Services</a>
                                     <a href="{{url('formation')}}">Formations</a>
                                 </span>
                             </div>
                             <div class="share_buttons">
-                                <a href="#" class="fab fa-facebook-f" title="facebook"></a>
-                                <a href="#" class="fas fa-paper-plane" title="telegram"></a>
-                                <a href="#" class="fab fa-linkedin-in" title="linkedin"></a>
-                                <a href="#" class="fab fa-instagram" title="instagram"></a>
+                                <a href="https://www.facebook.com/acgburkinafaso"  target="_blank" class="fab fa-facebook-square " title="facebook"></a>
+                                <a href="https://twitter.com/ConsultingAfric"  target="_blank" class="fab fa-twitter-square " title="twitter"></a>
+                                {{--  <a href="#" class="fab fa-telegram-plane" title="telegram"></a>  --}}
+                                <a href="https://www.linkedin.com/company/afric-consulting-group"  target="_blank" class="fab fa-linkedin " title="linkedin"></a>
+                                {{--  <a href="#" class="fab fa-instagram" title="instagram"></a>  --}}
+                                {{--  <a href="#" class="fab fa-youtube" title="youtube"></a>  --}}
                             </div>
                         </div>
 
@@ -105,15 +107,17 @@
                         <div class="meta-wrap">
                             <div class="tag-wrapper">
                                 <span class="cat-links">
-                                    <a href="{{url('about')}}">À Propos de nous</a>
-                                    <a href="{{url('partenaire')}}">Partenaires</a>
+                                    <a href="{{url('a_propos_de_nous')}}">À Propos de nous</a>
+                                    <a href="{{url('nos_partenaire')}}">Partenaires</a>
                                 </span>
                             </div>
                             <div class="share_buttons">
-                                <a href="#" class="fab fa-facebook-f" title="facebook"></a>
-                                <a href="#" class="fas fa-paper-plane" title="telegram"></a>
-                                <a href="#" class="fab fa-linkedin-in" title="linkedin"></a>
-                                <a href="#" class="fab fa-instagram" title="instagram"></a>
+                                <a href="https://www.facebook.com/acgburkinafaso"  target="_blank" class="fab fa-facebook-square " title="facebook"></a>
+                                <a href="https://twitter.com/ConsultingAfric"  target="_blank" class="fab fa-twitter-square " title="twitter"></a>
+                                {{--  <a href="#" class="fab fa-telegram-plane" title="telegram"></a>  --}}
+                                <a href="https://www.linkedin.com/company/afric-consulting-group"  target="_blank" class="fab fa-linkedin " title="linkedin"></a>
+                                {{--  <a href="#" class="fab fa-instagram" title="instagram"></a>  --}}
+                                {{--  <a href="#" class="fab fa-youtube" title="youtube"></a>  --}}
                             </div>
                         </div>
 
@@ -158,15 +162,17 @@
                         <div class="meta-wrap">
                             <div class="tag-wrapper">
                                 <span class="cat-links">
-                                    <a href="{{url('dev')}}">Dev Web</a>
-                                    <a href="{{url('service')}}">Services</a>
+                                    <a href="{{url('developpement_web')}}">Dev Web</a>
+                                    <a href="{{url('nos-service')}}">Services</a>
                                 </span>
                             </div>
                             <div class="share_buttons">
-                                <a href="#" class="fab fa-facebook-f" title="facebook"></a>
-                                <a href="#" class="fas fa-paper-plane" title="telegram"></a>
-                                <a href="#" class="fab fa-linkedin-in" title="linkedin"></a>
-                                <a href="#" class="fab fa-instagram" title="instagram"></a>
+                                <a href="https://www.facebook.com/acgburkinafaso"  target="_blank" class="fab fa-facebook-square " title="facebook"></a>
+                                <a href="https://twitter.com/ConsultingAfric"  target="_blank" class="fab fa-twitter-square " title="twitter"></a>
+                                {{--  <a href="#" class="fab fa-telegram-plane" title="telegram"></a>  --}}
+                                <a href="https://www.linkedin.com/company/afric-consulting-group"  target="_blank" class="fab fa-linkedin " title="linkedin"></a>
+                                {{--  <a href="#" class="fab fa-instagram" title="instagram"></a>  --}}
+                                {{--  <a href="#" class="fab fa-youtube" title="youtube"></a>  --}}
                             </div>
                         </div>
 
@@ -209,10 +215,12 @@
                             </span>
                         </div>
                         <div class="share_buttons">
-                            <a href="#" class="fab fa-facebook-f" title="facebook"></a>
-                            <a href="#" class="fas fa-paper-plane" title="telegram"></a>
-                            <a href="#" class="fab fa-linkedin-in" title="linkedin"></a>
-                            <a href="#" class="fab fa-instagram" title="instagram"></a>
+                            <a href="https://www.facebook.com/acgburkinafaso"  target="_blank" class="fab fa-facebook-square " title="facebook"></a>
+                            <a href="https://twitter.com/ConsultingAfric"  target="_blank" class="fab fa-twitter-square " title="twitter"></a>
+                            {{--  <a href="#" class="fab fa-telegram-plane" title="telegram"></a>  --}}
+                            <a href="https://www.linkedin.com/company/afric-consulting-group"  target="_blank" class="fab fa-linkedin " title="linkedin"></a>
+                            {{--  <a href="#" class="fab fa-instagram" title="instagram"></a>  --}}
+                            {{--  <a href="#" class="fab fa-youtube" title="youtube"></a>  --}}
                         </div>
                     </div>
 
@@ -236,7 +244,7 @@
 
                         <p class="mt-3">
                             <a href="#" class="link-underline">
-                                https://example.com//
+                                https://africconsultinggroup.bf
                             </a>
                         </p>
 
@@ -245,16 +253,18 @@
                         <div class="meta-wrap">
                             <div class="tag-wrapper">
                                 <span class="cat-links">
-                                    <a href="{{url('about')}}">À Propos de nous</a>
-                                    <a href="{{url('service')}}">Services</a>
-                                    <a href="{{url('contact')}}">Contacez nous</a>
+                                    <a href="{{url('a_propos_de_nous')}}">À Propos de nous</a>
+                                    <a href="{{url('nos-service')}}">Services</a>
+                                    <a href="{{url('nous_contactez')}}">Contacez nous</a>
                                 </span>
                             </div>
                             <div class="share_buttons">
-                                <a href="#" class="fab fa-facebook-f" title="facebook"></a>
-                                <a href="#" class="fas fa-paper-plane" title="telegram"></a>
-                                <a href="#" class="fab fa-linkedin-in" title="linkedin"></a>
-                                <a href="#" class="fab fa-instagram" title="instagram"></a>
+                                <a href="https://www.facebook.com/acgburkinafaso"  target="_blank" class="fab fa-facebook-square " title="facebook"></a>
+                                <a href="https://twitter.com/ConsultingAfric"  target="_blank" class="fab fa-twitter-square " title="twitter"></a>
+                                {{--  <a href="#" class="fab fa-telegram-plane" title="telegram"></a>  --}}
+                                <a href="https://www.linkedin.com/company/afric-consulting-group"  target="_blank" class="fab fa-linkedin " title="linkedin"></a>
+                                {{--  <a href="#" class="fab fa-instagram" title="instagram"></a>  --}}
+                                {{--  <a href="#" class="fab fa-youtube" title="youtube"></a>  --}}
                             </div>
                         </div>
 
@@ -282,7 +292,7 @@
                         </p>
 
                         <h5 class="mt-15 mb-0">
-                            <a href="#">L'administration</a>
+                            <a href="{{url('nous_contactez')}}">L'administration</a>
                         </h5>
 
 
@@ -337,16 +347,18 @@
                         <div class="meta-wrap">
                             <div class="tag-wrapper">
                                 <span class="cat-links">
-                                    <a href="{{url('kiosque')}}">Kiosque</a>
+                                    <a href="{{url('service_a_valeur_ajouter')}}">Kiosque</a>
                                     <a href="{{url('sms')}}">Campagne SMS</a>
-                                    <a href="{{url('digital')}}">Transforation Digital</a>
+                                    <a href="{{url('transformation_digital')}}">Transforation Digital</a>
                                 </span>
                             </div>
                             <div class="share_buttons">
-                                <a href="#" class="fab fa-facebook-f" title="facebook"></a>
-                                <a href="#" class="fas fa-paper-plane" title="telegram"></a>
-                                <a href="#" class="fab fa-linkedin-in" title="linkedin"></a>
-                                <a href="#" class="fab fa-instagram" title="instagram"></a>
+                                <a href="https://www.facebook.com/acgburkinafaso"  target="_blank" class="fab fa-facebook-square " title="facebook"></a>
+                                <a href="https://twitter.com/ConsultingAfric"  target="_blank" class="fab fa-twitter-square " title="twitter"></a>
+                                {{--  <a href="#" class="fab fa-telegram-plane" title="telegram"></a>  --}}
+                                <a href="https://www.linkedin.com/company/afric-consulting-group"  target="_blank" class="fab fa-linkedin " title="linkedin"></a>
+                                {{--  <a href="#" class="fab fa-instagram" title="instagram"></a>  --}}
+                                {{--  <a href="#" class="fab fa-youtube" title="youtube"></a>  --}}
                             </div>
                         </div>
 
@@ -411,10 +423,10 @@
 
                     <ul>
                         <li class="cat-item">
-                            <a href="{{url('kiosque')}}">Service Kiosque</a>
+                            <a href="{{url('service_a_valeur_ajouter')}}">Service Kiosque</a>
                             <ul class="children">
                                 <li class="cat-item">
-                                    <a href="{{url('dev')}}">Dev web et web mobile
+                                    <a href="{{url('developpement_web')}}">Dev web et web mobile
                                     </a>
                                 </li>
                                 <li class="cat-item">
@@ -424,20 +436,20 @@
                             </ul>
                         </li>
                         <li class="cat-item">
-                            <a href="{{url('digital')}}">Transforation digital</a>
+                            <a href="{{url('transformation_digital')}}">Transforation digital</a>
                         </li>
                         <li class="cat-item">
-                            <a href="{{url('service')}}">Services</a>
+                            <a href="{{url('nos-service')}}">Services</a>
                         </li>
                         <li class="cat-item">
                             <a href="{{url('formation')}}">Formations</a>
                         </li>
                         <li class="cat-item">
-                            <a href="{{url('sms')}}">Campagne SMS
+                            <a href="{{url('campagne_sms')}}">Campagne SMS
                             </a>
                         </li>
                         <li class="cat-item">
-                            <a href="{{url('contact')}}">Contactez nous
+                            <a href="{{url('nous_contactez')}}">Contactez nous
                             </a>
                         </li>
                     </ul>
@@ -538,11 +550,11 @@
 
                     <div class="tagcloud">
 
-                        <a href="{{url('ligne')}}" class="tag-cloud-link">
+                        <a href="{{url('formation_en_ligne')}}" class="tag-cloud-link">
                             Formation en ligne
                         </a>
 
-                        <a href="{{url('present')}}" class="tag-cloud-link">
+                        <a href="{{url('formation_en_presentielle')}}" class="tag-cloud-link">
                             Formation présentielle
                         </a>
 
@@ -550,11 +562,11 @@
                             Boutique
                         </a>
 
-                        <a href="{{url('about')}}" class="tag-cloud-link">
+                        <a href="{{url('a_propos_de_nous')}}" class="tag-cloud-link">
                             À propos de nous
                         </a>
 
-                        <a href="{{url('partenaire')}}" class="tag-cloud-link">
+                        <a href="{{url('nos_partenaire')}}" class="tag-cloud-link">
                             Nos partenaires
                         </a>
 
@@ -572,10 +584,10 @@
                             </a>
                             <div class="media-body">
                                 <h4 class="mb-2">
-                                    <a href="#">Formations</a>
+                                    <a href="{{url('formation')}}">Formations</a>
                                 </h4>
                                 <p class="item-meta">
-                                    <a href="#"><i class="far color-main fa-clock mr-2"></i>09 Sep 2021</a>
+                                    <a href="{{url('formation')}}"><i class="far color-main fa-clock mr-2"></i>09 Sep 2021</a>
                                 </p>
                             </div>
                         </li>
@@ -586,10 +598,10 @@
                             </a>
                             <div class="media-body">
                                 <h4 class="mb-2">
-                                    <a href="#">Centre d'appel</a>
+                                    <a href="{{url('centre-appel')}}">Centre d'appel</a>
                                 </h4>
                                 <p class="item-meta">
-                                    <a href="#"><i class="far color-main fa-clock mr-2"></i> 10 Sep 2021</a>
+                                    <a href="{{url('centre-appel')}}"><i class="far color-main fa-clock mr-2"></i> 10 Sep 2021</a>
                                 </p>
                             </div>
                         </li>
@@ -600,10 +612,10 @@
                             </a>
                             <div class="media-body">
                                 <h4 class="mb-2">
-                                    <a href="#">Boutique</a>
+                                    <a href="{{url('boutique')}}">Boutique</a>
                                 </h4>
                                 <p class="item-meta">
-                                    <a href="#"><i class="far color-main fa-clock mr-2"></i> 08 Sep 2021</a>
+                                    <a href="{{url('boutique')}}"><i class="far color-main fa-clock mr-2"></i> 08 Sep 2021</a>
                                 </p>
                             </div>
                         </li>

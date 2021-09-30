@@ -45,7 +45,7 @@
                                         <a href="{{url('centre-appel')}}">Centre d'appel</a>
                                     </li>
                                     {{-- <li style="width: auto !important">
-                                        <a href="{{url('service/campagne_sms')}}">Campagne SMS</a>
+                                        <a href="{{url('campagne_sms')}}">Campagne SMS</a>
                                     </li> --}}
                                     <li style="width: auto !important">
                                         <a href="{{url('formation')}}">Formations</a>

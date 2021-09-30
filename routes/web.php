@@ -29,6 +29,7 @@ Route::post('sendCompaign',['as'=>'sendCompaign','uses'=>'NewsletterController@s
 
 //Formulaire de contact
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
+Route::get('/nous_contactez', [ContactController::class, 'index'])->name('nous_contactez');
 
 
 
@@ -54,11 +55,8 @@ Route::get('/a_propos_de_nous', function(){
 Route::get('/nos_partenaire', function(){
     return view('pages.a-propos.partners');
 });
-Route::get('/nous_contactez', function(){
-    return view('pages.a-propos.contact');
-});
 //route service
-Route::get('/service/centre-appel',[CentreAppelController::class , 'index'])->name('service.centre_appel');
+Route::get('centre-appel',[CentreAppelController::class , 'index'])->name('service.centre_appel');
 Route::get('/nos-service', function(){
     return view('pages.service.service');
 });
