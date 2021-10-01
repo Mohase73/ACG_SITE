@@ -27,23 +27,18 @@
                 <article class="post ls vertical-item type-post status-publish format-standard has-post-thumbnail">
                     <div class="item-media">
                         <img src="images/actualite/Call.jpg" alt="img">
-                        <div class="media-links">
-                            <a class="abs-link" title="" href="blog-single-right.html"></a>
-                        </div>
                     </div>
                     <div class="item-content mt-35">
                         <p class="item-meta ">
                             <span>
-                                <a href="blog-single-right.html" rel="bookmark">
                                     <i class="far fa-clock color-main"></i>
                                     <time datetime="2018-03-18T15:15:12+00:00" class="published entry-date">10 Sep 2021</time>
-                                </a>
                             </span>
                         </p>
 
 
                         <h5 class="mt-15 mb-0">
-                            <a href="blog-single-right.html">Centre d'appel</a>
+                            <a href="{{url('centre-appel')}}">Centre d'appel</a>
                         </h5>
 
                         <p class="mt-3">
@@ -87,15 +82,13 @@
 
                         <p class="item-meta ">
                             <span>
-                                <a href="blog-single-right.html" rel="bookmark">
                                     <i class="far fa-clock color-main"></i>
                                     <time datetime="2018-03-18T15:15:12+00:00" class="published entry-date">09 Sep 2021</time>
-                                </a>
                             </span>
                         </p>
 
                         <h5 class="mt-15 mb-0">
-                            <a href="blog-single-right.html">Formations</a>
+                            <a href="{{url('formation')}}">Formations</a>
                         </h5>
 
                         <p class="mt-3">
@@ -142,15 +135,13 @@
 
                         <p class="item-meta ">
                             <span>
-                                <a href="blog-single-right.html" rel="bookmark">
                                     <i class="far fa-clock color-main"></i>
                                     <time datetime="2018-03-18T15:15:12+00:00" class="published entry-date">08 Sep 2021</time>
-                                </a>
                             </span>
                         </p>
 
                         <h5 class="mt-15 mb-0">
-                            <a href="blog-single-right.html">Boutique</a>
+                            <a href="{{url('boutique')}}">Boutique</a>
                         </h5>
 
                         <p class="mt-3">
@@ -183,7 +174,7 @@
 
                 <article class="cover-image ds s-overlay post type-post status-publish format-status post_format-post-format-status has-post-thumbnail">
                     <div class="post-thumbnail">
-                        <a href="blog-single-right.html">
+                        <a href="images/actualite/bureau.jpg">
                             <img src="images/actualite/bureau.jpg" alt="img">
                         </a>
                     </div><!-- .post-thumbnail -->
@@ -207,11 +198,9 @@
                         <div class="item-meta">
                             <span class="entry-date">
                                 <i class="far fa-clock color-main2"></i>
-                                <a href="blog-single-right.html" rel="bookmark">
                                     <time class="published updated" datetime="2018-03-18T15:15:12+00:00">
                                         12 Mai, 2021
                                     </time>
-                                </a>
                             </span>
                         </div>
                         <div class="share_buttons">
@@ -230,20 +219,13 @@
                     <div class="item-content ">
                         <p class="item-meta ">
                             <span>
-                                <a href="blog-single-right.html" rel="bookmark">
                                     <i class="far fa-clock color-main"></i>
                                     <time datetime="2018-03-18T15:15:12+00:00" class="published entry-date">12 Jan 2021</time>
-                                </a>
                             </span>
                         </p>
 
-
-                        <h5 class="mt-15 mb-0">
-                            <a href="blog-single-right.html"></a>
-                        </h5>
-
                         <p class="mt-3">
-                            <a href="#" class="link-underline">
+                            <a href="http://213.246.56.170:8066/welcome" class="link-underline">
                                 https://africconsultinggroup.bf
                             </a>
                         </p>
