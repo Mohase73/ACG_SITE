@@ -24,9 +24,9 @@ Route::get('/',function(){
 Auth::routes();
 
 //Route pour les newsletter
-// Route::get('newsletter', 'NewsletterController@manageMailChimp');
-// Route::post('subscribe',['as'=>'subscribe','uses'=>'NewsletterController@subscribe']);
-// Route::post('sendCompaign',['as'=>'sendCompaign','uses'=>'NewsletterController@sendCompaign']);
+Route::get('newsletter', 'NewsletterController@manageMailChimp');
+Route::post('subscribe',['as'=>'subscribe','uses'=>'NewsletterController@subscribe']);
+Route::post('sendCompaign',['as'=>'sendCompaign','uses'=>'NewsletterController@sendCompaign']);
 Route::get('/send-mail-using-mailchimp', [MailChimpController::class, 'index'])->name('send.mail.using.mailchimp.index');
 
 
