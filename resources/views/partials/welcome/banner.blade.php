@@ -14,16 +14,16 @@
                                     </div>
                                     <div class="intro-layer lists">
                                         <ul class="list-unstyled">
-                                            <li><i class="fab color-main2 fa-wordpress-simple mr-2"></i> Centre d'Appel</li>
-                                            <li><i class="fas color-main2 fa-database mr-2"></i> Campagne SMS</li>
+                                            <li class="d-flex"> <img class="color-main mr-2" style="height:20px; width: 20px;" src="/fonts/icones/call-center.png" alt="" srcset=""> Centre d'Appel</li>
+                                            <li class="d-flex"><img class="color-main mr-2" style="height:20px; width: 20px;" src="/fonts/icones/smartphone.png" alt="" srcset=""> Campagne SMS</li>
                                         </ul>
                                     </div>
-                                    <a href="contact.html" class="btn btn-maincolor2 ">Créer un compte <i class="fas fa-long-arrow-alt-right"></i></a>
-                                </div> <!-- eof .intro_layers -->
-                            </div> <!-- eof .intro_layers_wrapper -->
-                        </div> <!-- eof .col-* -->
-                    </div><!-- eof .row -->
-                </div><!-- eof .container-fluid -->
+                                    <a href="{{url('register')}}" class="btn btn-maincolor2 ">Créer un compte <i class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </li>
             <li class="ds cover-image s-overlay ">
                 <img src="images/pillone.jpeg" alt="img">
@@ -38,15 +38,15 @@
                             <div class="intro_layers_wrapper">
                                 <div class="intro_layers">
                                     <div class="intro-layer title">
-                                        <h2>Afric Consulting Group <br><span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
+                                        <h2>AFRIC CONSULTING GROUP <br><span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
                                     </div>
                                     <div class="intro-layer lists">
                                         <ul class="list-unstyled">
-                                            <li><i class="fas color-main2 fa-cloud mr-2"></i> Service Kiosque</li>
-                                            <li><i class="fas color-main2 fa-exchange-alt mr-2"></i> Formation</li>
+                                            <li class="d-flex"><img class="color-main mr-2" style="height:20px; width: 20px;" src="/fonts/icones/computer.png" alt="" srcset=""></i> Service À Valeur Ajouter</li>
+                                            <li class="d-flex"><img class="color-main mr-2" style="height:20px; width: 20px;" src="/fonts/icones/education.png" alt="" srcset=""></i> Formations</li>
                                         </ul>
                                     </div>
-                                    <a href="contact.html" class="btn btn-maincolor2 ">Contacter nous <i class="fas fa-long-arrow-alt-right"></i></a>
+                                    <a href="{{url('nous_contactez')}}" class="btn btn-maincolor2 ">Contacter nous <i class="fas fa-long-arrow-alt-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -62,15 +62,15 @@
                             <div class="intro_layers_wrapper">
                                 <div class="intro_layers">
                                     <div class="intro-layer title">
-                                        <h2>Afric Consulting Group <br><span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
+                                        <h2>AFRIC CONSULTING GROUP <br><span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
                                     </div>
                                     <div class="intro-layer lists">
                                          <ul class="list-unstyled">
-                                            <li><i class="fab color-main2 fa-wordpress-simple mr-2"></i> Développement Web et Mobile</li>
-                                            <li><i class="fas color-main2 fa-database mr-2"></i> Transformation Digital</li>
+                                            <li class="d-flex"><img class="color-main mr-2" style="height:20px; width: 20px;" src="/fonts/icones/codage-web.png" alt="" srcset=""> Développement Web et Mobile</li>
+                                            <li class="d-flex"><img class="color-main mr-2" style="height:20px; width: 20px;" src="/fonts/icones/digitalization.png" alt="" srcset=""></i> Transformation Digital</li>
                                         </ul>
                                     </div>
-                                    <a href="contact.html" class="btn btn-maincolor2 ">Nos Services  <i class="fas fa-long-arrow-alt-right"></i></a>
+                                    <a href="{{url('nos-service')}}" class="btn btn-maincolor2 ">Nos Services  <i class="fas fa-long-arrow-alt-right"></i></a>
                                 </div>
                             </div>
                         </div>
