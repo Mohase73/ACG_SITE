@@ -16,10 +16,10 @@ Vous avez reçu un e-mail de : {{ $name }} <br><br>
 
 Détails de l'utilisateur: <br><br>
 
-<p>Name: {{ $name }}</p> <br>
+<p>Nom: {{ $name }}</p> <br>
 <p>Email: {{ $email }}</p> <br>
-<p>Phone: {{ $phone }}</p> <br>
-<p>Subject: {{ $subject }}</p> <br>
+<p>Téléphone: {{ $phone }}</p> <br>
+<p>Sujet: {{ $subject }}</p> <br>
 <p>Message: {{ $user_query }}</p><br><br>
 
 Merci pour votre compréhension

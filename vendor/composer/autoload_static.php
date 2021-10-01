@@ -33,9 +33,9 @@ class ComposerStaticInit632aaefe8cc5629bb37d08314a0ff37e
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         '9cdd7b9056abc3081735233ba9dd9c7f' => __DIR__ . '/..' . '/facade/flare-client-php/src/helpers.php',
+        '40275907c8566c390185147049ef6e5d' => __DIR__ . '/..' . '/livewire/livewire/src/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
-        '40275907c8566c390185147049ef6e5d' => __DIR__ . '/..' . '/livewire/livewire/src/helpers.php',
         'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
         'a1af1fc0cffb5f61cbaf64dbe030fdb9' => __DIR__ . '/..' . '/laravel/legacy-factories/helpers.php',
         'f18cc91337d49233e5754e93f3ed9ec3' => __DIR__ . '/..' . '/laravelcollective/html/src/helpers.php',
@@ -604,6 +604,10 @@ class ComposerStaticInit632aaefe8cc5629bb37d08314a0ff37e
             'Mockery' => 
             array (
                 0 => __DIR__ . '/..' . '/mockery/mockery/library',
+            ),
+            'Mailchimp' => 
+            array (
+                0 => __DIR__ . '/..' . '/mailchimp/mailchimp/src',
             ),
         ),
     );
@@ -3561,6 +3565,21 @@ class ComposerStaticInit632aaefe8cc5629bb37d08314a0ff37e
         'Livewire\\Wireable' => __DIR__ . '/..' . '/livewire/livewire/src/Wireable.php',
         'Livewire\\WithFileUploads' => __DIR__ . '/..' . '/livewire/livewire/src/WithFileUploads.php',
         'Livewire\\WithPagination' => __DIR__ . '/..' . '/livewire/livewire/src/WithPagination.php',
+        'Mailchimp' => __DIR__ . '/..' . '/mailchimp/mailchimp/src/Mailchimp.php',
+        'Mailchimp_Campaigns' => __DIR__ . '/..' . '/mailchimp/mailchimp/src/Mailchimp/Campaigns.php',
+        'Mailchimp_Conversations' => __DIR__ . '/..' . '/mailchimp/mailchimp/src/Mailchimp/Conversations.php',
+        'Mailchimp_Ecomm' => __DIR__ . '/..' . '/mailchimp/mailchimp/src/Mailchimp/Ecomm.php',
+        'Mailchimp_Folders' => __DIR__ . '/..' . '/mailchimp/mailchimp/src/Mailchimp/Folders.php',
+        'Mailchimp_Gallery' => __DIR__ . '/..' . '/mailchimp/mailchimp/src/Mailchimp/Gallery.php',
+        'Mailchimp_Goal' => __DIR__ . '/..' . '/mailchimp/mailchimp/src/Mailchimp/Goal.php',
+        'Mailchimp_Helper' => __DIR__ . '/..' . '/mailchimp/mailchimp/src/Mailchimp/Helper.php',
+        'Mailchimp_Lists' => __DIR__ . '/..' . '/mailchimp/mailchimp/src/Mailchimp/Lists.php',
+        'Mailchimp_Mobile' => __DIR__ . '/..' . '/mailchimp/mailchimp/src/Mailchimp/Mobile.php',
+        'Mailchimp_Neapolitan' => __DIR__ . '/..' . '/mailchimp/mailchimp/src/Mailchimp/Neapolitan.php',
+        'Mailchimp_Reports' => __DIR__ . '/..' . '/mailchimp/mailchimp/src/Mailchimp/Reports.php',
+        'Mailchimp_Templates' => __DIR__ . '/..' . '/mailchimp/mailchimp/src/Mailchimp/Templates.php',
+        'Mailchimp_Users' => __DIR__ . '/..' . '/mailchimp/mailchimp/src/Mailchimp/Users.php',
+        'Mailchimp_Vip' => __DIR__ . '/..' . '/mailchimp/mailchimp/src/Mailchimp/Vip.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegrationAssertPostConditions' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegrationAssertPostConditions.php',
