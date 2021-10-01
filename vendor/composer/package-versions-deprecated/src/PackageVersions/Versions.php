@@ -65,6 +65,7 @@ final class Versions
   'league/mime-type-detection' => '1.7.0@3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3',
   'livewire-ui/modal' => '1.0.1@0fe7036574868758f328e2266ecf27d3b30b7555',
   'livewire/livewire' => 'v2.6.7@7e8ded3cc496858b0a35c1c9355e5af79985bd0c',
+  'mailchimp/mailchimp' => '2.0.6@7ac99b5ac746d5875c5c350ad7e3b83674c83ec1',
   'mbezhanov/faker-provider-collection' => '1.2.1@076c00f0d438f12ec7da0fdaadbfb7940913763e',
   'monolog/monolog' => '2.3.4@437e7a1c50044b92773b361af77620efb76fff59',
   'nesbot/carbon' => '2.53.1@f4655858a784988f880c1b8c7feabbf02dfdf045',
@@ -158,7 +159,7 @@ final class Versions
   'sebastian/type' => '2.3.4@b8cd8a1c753c90bc1a0f5372170e3e489136f914',
   'sebastian/version' => '3.0.2@c6c1022351a901512170118436c764e473f6de8c',
   'theseer/tokenizer' => '1.2.1@34a41e998c2183e22995f158c581e7b5e755ab9e',
-  'laravel/laravel' => 'dev-master@209a9a48772dc3dc42492bb75fede6275270f85a',
+  'laravel/laravel' => 'dev-master@bf9a93822db5b32f33fd82dfe9f1bfac77f01c71',
 );
 
     private function __construct()

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MailChimpController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CentreAppelController;
 use App\Http\Controllers\RoleController;
@@ -23,9 +24,11 @@ Route::get('/',function(){
 Auth::routes();
 
 //Route pour les newsletter
-Route::get('newsletter', 'NewsletterController@manageMailChimp');
-Route::post('subscribe',['as'=>'subscribe','uses'=>'NewsletterController@subscribe']);
-Route::post('sendCompaign',['as'=>'sendCompaign','uses'=>'NewsletterController@sendCompaign']);
+// Route::get('newsletter', 'NewsletterController@manageMailChimp');
+// Route::post('subscribe',['as'=>'subscribe','uses'=>'NewsletterController@subscribe']);
+// Route::post('sendCompaign',['as'=>'sendCompaign','uses'=>'NewsletterController@sendCompaign']);
+Route::get('/send-mail-using-mailchimp', [MailChimpController::class, 'index'])->name('send.mail.using.mailchimp.index');
+
 
 //Formulaire de contact
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');

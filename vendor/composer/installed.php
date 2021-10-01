@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '209a9a48772dc3dc42492bb75fede6275270f85a',
+        'reference' => 'bf9a93822db5b32f33fd82dfe9f1bfac77f01c71',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -472,7 +472,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '209a9a48772dc3dc42492bb75fede6275270f85a',
+            'reference' => 'bf9a93822db5b32f33fd82dfe9f1bfac77f01c71',
             'dev_requirement' => false,
         ),
         'laravel/legacy-factories' => array(
@@ -563,6 +563,15 @@
             'install_path' => __DIR__ . '/../livewire/livewire',
             'aliases' => array(),
             'reference' => '7e8ded3cc496858b0a35c1c9355e5af79985bd0c',
+            'dev_requirement' => false,
+        ),
+        'mailchimp/mailchimp' => array(
+            'pretty_version' => '2.0.6',
+            'version' => '2.0.6.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mailchimp/mailchimp',
+            'aliases' => array(),
+            'reference' => '7ac99b5ac746d5875c5c350ad7e3b83674c83ec1',
             'dev_requirement' => false,
         ),
         'mbezhanov/faker-provider-collection' => array(
