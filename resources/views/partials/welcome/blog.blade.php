@@ -17,7 +17,7 @@
                 <div class="owl-carousel" data-nav="false" data-loop="true" data-autoplay="false" data-items="1" data-responsive-lg="3" data-responsive-md="3" data-responsive-sm="2" data-responsive-xs="1">
                     <div class="vertical-item p-30 shadow-hover mx-10 my-20 text-center">
                         <div class="item-media">
-                            <img src="images/events/11.jpg" alt="img">
+                            <img src="images/actualite/Call.jpg" alt="img">
                         </div>
                         <div class="item-content mt-25">
                             <div class="item-meta">
@@ -25,26 +25,26 @@
                                     <a href="blog-left.html" rel="bookmark">
                                         <i class="far fa-clock"></i>
                                         <time class="published updated" datetime="2018-03-18T15:15:12+00:00">
-                                            January 23, 2019
+                                            10 Sep 2021
                                         </time>
                                     </a>
                                 </span>
                             </div>
                             <header class="entry-header">
                                 <h6 class="mt-3">
-                                    <a href="blog-single-full.html" rel="bookmark">
-                                        Cosy Bright Office In
+                                    <a href="{{url('centre-appel')}}" rel="bookmark">
+                                        Centre appel
                                     </a>
                                 </h6>
                             </header>
                             <div class="entry-content mt-3">
-                                <p>In our many years online and many hosts UnlimHost have been by far and away the best.</p>
+                                <p>Entreprises de télécommunications. ... Un opérateur de télécommunications est une entreprise qui commercialise des services en utilisant des infrastructures de télécommunications.</p>
                             </div>
                         </div>
                     </div>
                     <div class="vertical-item p-30 shadow-hover mx-10 my-20 text-center">
                         <div class="item-media">
-                            <img src="images/events/12.jpg" alt="img">
+                            <img src="images/actualite/formation.jpeg" alt="img">
                         </div>
                         <div class="item-content mt-25">
                             <div class="item-meta">
@@ -52,26 +52,26 @@
                                     <a href="blog-left.html" rel="bookmark">
                                         <i class="far fa-clock"></i>
                                         <time class="published updated" datetime="2018-03-18T15:15:12+00:00">
-                                            January 23, 2019
+                                            09 Sep 2021
                                         </time>
                                     </a>
                                 </span>
                             </div>
                             <header class="entry-header">
                                 <h6 class="mt-3">
-                                    <a href="blog-single-full.html" rel="bookmark">
-                                        Your Questions Our
+                                    <a href="{{url('formation')}}" rel="bookmark">
+                                        Formations
                                     </a>
                                 </h6>
                             </header>
                             <div class="entry-content mt-3">
-                                <p>In our many years online and many hosts UnlimHost have been by far and away the best.</p>
+                                <p>La compétence Télécom peut s'acquérir grâce à une formation qui facilitera votre embauche ou votre évolution professionnelle dans le domaine Communication. Pour ceux qui souhaitent trouver un emploi rapidement après une formation Télécom, un stage ou une alternance se révèlent souvent comme des choix pertinents.</p>
                             </div>
                         </div>
                     </div>
                     <div class="vertical-item p-30 shadow-hover mx-10 my-20 text-center">
                         <div class="item-media">
-                            <img src="images/events/13.jpg" alt="img">
+                            <img style="widows: 800px" src="images/actualite/boutique.jpg" alt="image">
                         </div>
                         <div class="item-content mt-25">
                             <div class="item-meta">
@@ -79,20 +79,20 @@
                                     <a href="blog-left.html" rel="bookmark">
                                         <i class="far fa-clock"></i>
                                         <time class="published updated" datetime="2018-03-18T15:15:12+00:00">
-                                            January 23, 2019
+                                            10 Sep 2021
                                         </time>
                                     </a>
                                 </span>
                             </div>
                             <header class="entry-header">
                                 <h6 class="mt-3">
-                                    <a href="blog-single-full.html" rel="bookmark">
-                                        Traveller Visiting Ice
+                                    <a href="{{url('boutique')}}" rel="bookmark">
+                                        Boutique
                                     </a>
                                 </h6>
                             </header>
                             <div class="entry-content mt-3">
-                                <p>In our many years online and many hosts UnlimHost have been by far and away the best.</p>
+                                <p> Le terme « télécommunications » se réfère à la transmission, l'émission ou la réception à distance de signaux diffusant des informations de toute nature : texte, image, son etc. Par opposition aux messagers et postiers, les télécommunications véhiculent les messages immatériels.</p>
                             </div>
                         </div>
                     </div>
