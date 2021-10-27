@@ -85,7 +85,7 @@
         <div class="row align-items-center">
             <div class="col-12 col-lg-6">
                 <div class="item-media cover-image">
-                    <img src="images/pillone_about.jpeg" alt="img">
+                    <img style="height: 650px" src="images/pillone_about.jpeg" alt="img">
                 </div>
             </div>
             <div class="col-12 col-lg-6 section-special right text-center text-lg-left z-index-2">
@@ -109,7 +109,7 @@
                         </div>
                         <div class="divider-60 hidden-below-lg"></div>
                         <div class="divider-40 hidden-above-lg"></div>
-                        <a href="#" class="btn btn-maincolor2 btn-short">Contact nous</a>
+                        <a href="{{url('nous_contactez')}}" class="btn btn-maincolor2 btn-short text-center">Contact nous</a>
                     </div>
                 </div>
             </div>
@@ -218,7 +218,7 @@
         <div class="row align-items-center">
             <div class="col-12 col-lg-6">
                 <div class="item-media cover-image">
-                    <img src="images/cover-bg2.jpg" alt="img">
+                    <img style="height: 650px" src="images/mission.jpg" alt="img">
                 </div>
             </div>
             <div class="col-12 col-lg-6 section-special right z-index-2">

@@ -25,7 +25,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-7">
-                <article class="vertical-item type-event status-publish format-standard has-post-thumbnail">
+                {{-- <article class="vertical-item type-event status-publish format-standard has-post-thumbnail mb-md-4">
                     <div class="item-media post-thumbnail">
                         <img src="images/formation/present1.jpg" alt="img">
                     </div>
@@ -47,8 +47,34 @@
                             </p>
                         </div>
                     </div>
-                </article>
+                </article> --}}
 
+                <article class="vertical-item type-event status-publish format-standard has-post-thumbnail">
+                    <div class="item-media post-thumbnail">
+                        <img src="images/formation/ini_inf2.png" alt="img">
+                    </div>
+                    <div class="item-content mt-40">
+                        <div class="entry-content">
+                            <p class="excerpt">
+                                Formation à l'initiation en maintenance informatique.
+                            </p>
+                            <p>
+                                Dans cet atelier d'initiation à la maintenance informatique vous allez découvrir les notions de base essentielles concernant l'informatique. Savoir diagnostiquer les principales pannes. Nous aurons des modules d'apprentissage suivants:
+                            </p>
+                            <ul class="list-styled color-darkgrey">
+                                <li>Architecture et fonctionnement; </li>
+                                <li>Diagnostique des différentes pannes;</li>
+                                <li>Résolution de panne;</li>
+                                <li>Installation de systéme d'exploitation;</li>
+                                <li>Virtualisation et télémaintenance;</li>
+                                <li>Contactez nous au <a class="color-main" href="tel:+22652133010">+226 52 13 30 10</a> ou au <a class="color-main" href="tel:+22666410768">+226 66 41 07 68</a></li>
+                            </ul>
+                            <p>
+                                Vous pouvez laisser vos informations <a target="_blank" class="color-main" href="https://forms.gle/ovHUk5CHAY1eF31KA">ici</a> ou nous envoyez un mail à <a class="color-main" href="mailto:cheick.kone@africconsultinggroup.com">cheick.kone@africconsultinggroup.com</a>. La formation débutera du 06 au 17 décembre 2021 dans nos locaux qui se trouve à Gounghin. <br> Prix : 25000fcfa, <br> Durée : 2semaines.
+                            </p>
+                        </div>
+                    </div>
+                </article>
 
             </div>
 
@@ -60,7 +86,7 @@
                         <div class="card-header" role="tab" id="collapse01_header">
                             <h5>
                                 <a data-toggle="collapse" href="#collapse01" aria-expanded="true" aria-controls="collapse01">
-                                    Créer son rythme et son planning.
+                                    OBJECTIFS.
                                 </a>
                             </h5>
                         </div>
@@ -75,7 +101,8 @@
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        Pour pouvoir suivre une formation en ligne il faut créer son emploie du temps.
+                                        Maîtriser la technologie et les compétences techniques pour assurer la configuration, la gestion et la maintenance de postes informatiques en environnement Microsoft Windows.
+Administrer un réseau local.
                                     </div>
                                 </div>
 
@@ -87,7 +114,7 @@
                         <div class="card-header" role="tab" id="collapse02_header">
                             <h5>
                                 <a class="collapsed" data-toggle="collapse" href="#collapse02" aria-expanded="false" aria-controls="collapse02">
-                                    Choisir son module en fonction de la demande du marché.
+                                    PUBLIC.
                                 </a>
                             </h5>
                         </div>
@@ -100,7 +127,7 @@
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        Pour ne pas avoir à avoir des régret plutard il est conseiller de faire des rechercher et en fonction de la demande du marché choisir son module.
+                                        Toute personne ayant à gérer une assistance interne, à installer des PC et gérer des connexions réseau.
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +139,7 @@
                         <div class="card-header" role="tab" id="collapse03_header">
                             <h5>
                                 <a class="collapsed" data-toggle="collapse" href="#collapse03" aria-expanded="false" aria-controls="collapse03">
-                                    Pensez à réviser régulièrement.
+                                    PRÉREQUIS.
                                 </a>
                             </h5>
                         </div>
@@ -127,7 +154,7 @@
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        Toujours trouver du temps pour faire des révisions pour ne pas oublier ce que vous avez appris.
+                                        Avoir des connaissances de base en informatique.
                                     </div>
                                 </div>
 
@@ -139,7 +166,7 @@
                         <div class="card-header" role="tab" id="collapse04_header">
                             <h5>
                                 <a class="collapsed" data-toggle="collapse" href="#collapse04" aria-expanded="false" aria-controls="collapse04">
-                                    Fixez-vous des objectifs.
+                                    PROGRAMME
                                 </a>
                             </h5>
                         </div>
@@ -152,7 +179,13 @@
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        Se fixer des objectifs et maximiser pour les atteindre et d'en faire votre priorité.
+                                        <ul class="list-styled color-darkgrey">
+                                            <li>Architecture et fonctionnement; </li>
+                                            <li>Diagnostique des différentes pannes;</li>
+                                            <li>Résolution de panne;</li>
+                                            <li>Installation de systéme d'exploitation;</li>
+                                            <li>Virtualisation et télémaintenance;</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -226,7 +259,7 @@
                         <textarea aria-required="true" rows="4" cols="45" name="suggestion" id="message" class="form-control" placeholder="Message"></textarea>
                     </div>
 
-                    <button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor2 btn-short mt-20 mb-0 ">Réservation
+                    <button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor2 btn-short mt-20 mb-0 ">Envoyer
                     </button>
                 </form>
 

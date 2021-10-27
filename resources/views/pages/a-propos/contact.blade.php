@@ -214,8 +214,9 @@
                                 </li>
                             </ul>
                         </div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.3530649607796!2d-1.5422701847620088!3d12.359266181360985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2e95ea002b52a5%3A0x4fed721a83bb5871!2sPetit%20Paris%2C%20Ouagadougou!5e0!3m2!1sfr!2sbf!4v1631091097690!5m2!1sfr!2sbf" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        {{-- <img class="marker-icon" src="images/map_marker_icon.png" alt="img"> --}}
+                        <div class="container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1948.7009024741592!2d-1.5413627091077136!3d12.355995677306993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2e95db59c8410d%3A0xc538aa36edadea3f!2srue%208.38%2C%20Goughin%2C%20Ouagadougou!5e0!3m2!1sfr!2sbf!4v1633337806774!5m2!1sfr!2sbf" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
