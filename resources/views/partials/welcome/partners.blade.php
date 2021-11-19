@@ -7,80 +7,77 @@
             </h2>
             <div class="divider-55 hidden-below-lg"></div>
             <div class="divider-40 hidden-above-lg"></div>
-            {{-- <div class="special-heading font-weight-light">
-                <p class="color-darkgrey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec justo rutrum leo feugiat <br> tincidunt. Mauris eleifend efficitur ex, pretium suscipit orci volutpat et.</p>
-            </div> --}}
             <div class="divider-60 hidden-below-lg"></div>
             <div class="divider-40 hidden-above-lg"></div>
         </div>
         <ul class="products">
 
-            <li style="list-style-type: none" class="product type-product">
-                <a href="shop-product-right.html">
-                    <img src="images/partners/telecel.jpeg" class="" alt="img">
+            <li style="list-style-type: none; height: 205px" class="product type-product">
+                <a href="https://www.telecelfaso.bf/" target="_blank">
+                    <img src="images/partners/telecel.webp" class="w-75 mt-5" alt="img">
 
                 </a>
 
             </li>
 
-            <li style="list-style-type: none" class="product type-product">
-                <a href="shop-product-right.html">
-                    <img src="images/partners/moovAfrica.jpg" class="" alt="img">
+            <li style="list-style-type: none; height: 205px" class="product type-product">
+                <a href="https://moov-africa.bf/Pages/index.aspx#" target="_blank">
+                    <img src="images/partners/moovAfrica.png" class="w-50 mt-5" alt="img">
 
                 </a>
             </li>
 
 
-            <li style="list-style-type: none" class="product type-product">
-                <a href="shop-product-right.html">
-                    <img src="images/partners/malitel.jpg" class="" alt="img">
+            <li style="list-style-type: none; height: 205px" class="product type-product">
+                <a href="https://www.moov-africa.ml/Pages/index.aspx" target="_blank">
+                    <img src="images/partners/malitel.png" class="w-50" alt="img">
 
                 </a>
 
             </li>
-            <li style="list-style-type: none" class="product type-product">
-                <a href="shop-product-right.html">
-                    <img src="images/partners/orange.jpg" class="" alt="img">
+            <li style="list-style-type: none; height: 205px" class="product type-product">
+                <a href="https://www.orange.bf/" target="_blank">
+                    <img src="images/partners/orange.png" class="mt-2" alt="img">
 
                 </a>
             </li>
 
 
-            <li style="list-style-type: none" class="product type-product">
-                <a href="shop-product-right.html">
-                    <img src="images/partners/coris.jpg" class="" alt="img">
+            <li style="list-style-type: none; height: 205px" class="product type-product">
+                <a href="https://burkina.coris.bank/" target="_blank">
+                    <img src="images/partners/coris.png" class="w-50" alt="img">
 
                 </a>
 
             </li>
 
-            <li style="list-style-type: none" class="product type-product">
-                <a href="shop-product-right.html">
-                    <img src="images/partners/ikoula.png" class="" alt="img">
+            <li style="list-style-type: none; height: 205px" class="product type-product">
+                <a href="https://www.ikoula.com/fr" target="_blank">
+                    <img src="images/partners/ikoula.jpg" class="w-75 mt-2" alt="img">
 
                 </a>
             </li>
-            <li style="list-style-type: none" class="product type-product">
-                <a href="shop-product-right.html">
-                    <img src="images/partners/unify.png" class="" alt="img">
+            <li style="list-style-type: none; height: 205px" class="product type-product">
+                <a href="https://unify.com/fr/" target="_blank">
+                    <img src="images/partners/unify.png" class="w-75 mt-4 mt-5" alt="img">
 
                 </a>
             </li>
-            <li style="list-style-type: none" class="product type-product">
-                <a href="shop-product-right.html">
-                    <img src="images/partners/itancia.png" class="" alt="img">
+            <li style="list-style-type: none; height: 205px" class="product type-product">
+                <a href="https://itancia.com/" target="_blank">
+                    <img src="images/partners/itancia.png" class="w-75 mt-4" alt="img">
                 </a>
             </li>
 
-            <li style="list-style-type: none" class="product type-product">
-                <a href="shop-product-right.html">
-                    <img src="images/partners/atel.jpg" class="" alt="img">
+            <li style="list-style-type: none; height: 205px" class="product type-product">
+                <a href="https://www.atel.fr/" target="_blank">
+                    <img src="images/partners/atel.png" class="w-75 mt-4" alt="img">
                 </a>
             </li>
 
-            <li style="list-style-type: none" class="product type-product">
-                <a href="shop-product-right.html">
-                    <img src="images/partners/tritux.jpeg" class="" alt="img">
+            <li style="list-style-type: none; height: 205px" class="product type-product">
+                <a href="https://www.tritux.fr/" target="_blank">
+                    <img src="images/partners/tritux.png" class="w-75 mt-5" alt="img">
                 </a>
             </li>
         </ul>
