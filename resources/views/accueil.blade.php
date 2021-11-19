@@ -10,5 +10,5 @@
 @include('partials.welcome.partners')
 @include('partials.welcome.blog')
 @include('partials.welcome.faq')
-@include('partials.welcome.call_center')
+@include('partials.welcome.call_center') 
 @endsection

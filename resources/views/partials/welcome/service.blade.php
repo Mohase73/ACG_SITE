@@ -7,9 +7,6 @@
                 </h2>
                 <div class="divider-55 hidden-below-lg"></div>
                 <div class="divider-40 hidden-above-lg"></div>
-                {{-- <div class="special-heading font-weight-light">
-                    <p class="color-darkgrey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec justo rutrum leo feugiat <br> tincidunt. Mauris eleifend efficitur ex, pretium suscipit orci volutpat et.</p>
-                </div> --}}
                 <div class="divider-60 hidden-below-lg"></div>
                 <div class="divider-40 hidden-above-lg"></div>
             </div>
@@ -21,7 +18,7 @@
                         </a>
                     </div>
                     <h5><a href="#">Service à valeurs Ajoutées</a></h5>
-                    <p>Services Vocaux et Services SMS.</p>
+                    <p>Services Vocaux et Services SMS pour les campagnes de SMS.</p>
                     <div class="divider-40"></div>
                     <a href="#" class="simple_link">Lire plus</a>
                 </div>
@@ -34,7 +31,7 @@
                         </a>
                     </div>
                     <h5><a href="#">Développent Web et mobile</a></h5>
-                    <p>Conception et création de sites web, applications USSD, applications web et applications mobiles.</p>
+                    <p>Conception et création de sites web, applications...</p>
                     <div class="divider-40"></div>
                     <a href="#" class="simple_link">Lire plus</a>
                 </div>
@@ -47,6 +44,8 @@
                         </a>
                     </div>
                     <h5><a href="#">Centre d'appel</a></h5>
+                    <div class="divider-60 hidden-below-lg"></div>
+                    <div class="divider-40 hidden-above-lg"></div>
                     <p>Service client, aide et support en permanance 24h/7j.</p>
                     <div class="divider-40"></div>
                     <a href="#" class="simple_link">lire plus</a>
@@ -60,7 +59,9 @@
                         </a>
                     </div>
                     <h5><a href="#">Campagne SMS</a></h5>
-                    <p>Envoie ou diffusion de messages groupés , API SMS  </p>
+                    <div class="divider-60 hidden-below-lg"></div>
+                     <div class="divider-40 hidden-above-lg"></div>
+                    <p>Envoie ou diffusion de messages groupés , API SMS gerzer par notre entreprise </p>
                     <div class="divider-40"></div>
                     <a href="#" class="simple_link">Lire plus</a>
                 </div>
@@ -86,7 +87,9 @@
                         </a>
                     </div>
                     <h5><a href="#">Formations</a></h5>
-                    <p>Initiation en informatique, Crypto monaie, entrepreunariat, programmation web, mobile, Robotique et Intelligence Artificielle </p>
+                    <div class="divider-60 hidden-below-lg"></div>
+                    <div class="divider-40 hidden-above-lg"></div>
+                    <p>Initiation en informatique, Crypto monaie, entrepreunariat, programmation web... </p>
                     <div class="divider-40"></div>
                     <a href="#" class="simple_link">Lire plus</a>
                 </div>

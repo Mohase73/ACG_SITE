@@ -16,7 +16,7 @@
             <div class="col-12">
                 <div class="owl-carousel" data-nav="false" data-loop="true" data-autoplay="false" data-items="1" data-responsive-lg="3" data-responsive-md="3" data-responsive-sm="2" data-responsive-xs="1">
                     <div class="vertical-item p-30 shadow-hover mx-10 my-20 text-center">
-                        <div class="item-media">
+                        <div class="item-media" style=" height: 205px">
                             <img src="images/actualite/Call.jpg" alt="img">
                         </div>
                         <div class="item-content mt-25">
@@ -43,8 +43,8 @@
                         </div>
                     </div>
                     <div class="vertical-item p-30 shadow-hover mx-10 my-20 text-center">
-                        <div class="item-media">
-                            <img src="images/actualite/formation.jpeg" alt="img">
+                        <div class="item-media" >
+                            <img src="images/actualite/formation.jpeg" style=" height: 205px" alt="img">
                         </div>
                         <div class="item-content mt-25">
                             <div class="item-meta">
@@ -65,13 +65,13 @@
                                 </h6>
                             </header>
                             <div class="entry-content mt-3">
-                                <p>La compétence Télécom peut s'acquérir grâce à une formation qui facilitera votre embauche ou votre évolution professionnelle dans le domaine Communication. Pour ceux qui souhaitent trouver un emploi rapidement après une formation Télécom, un stage ou une alternance se révèlent souvent comme des choix pertinents.</p>
+                                <p>La compétence Télécom peut s'acquérir grâce à une formation qui facilitera votre embauche ou votre évolution professionnelle dans le domaine Communication. Pour ceux qui souhaitent trouver un emploi rapidement.</p>
                             </div>
                         </div>
                     </div>
                     <div class="vertical-item p-30 shadow-hover mx-10 my-20 text-center">
-                        <div class="item-media">
-                            <img style="widows: 800px" src="images/actualite/boutique.jpg" alt="image">
+                        <div class="item-media" >
+                            <img style="widows: 800px; height: 205px" src="images/actualite/boutique.jpg" alt="image">
                         </div>
                         <div class="item-content mt-25">
                             <div class="item-meta">
@@ -92,7 +92,7 @@
                                 </h6>
                             </header>
                             <div class="entry-content mt-3">
-                                <p> Le terme « télécommunications » se réfère à la transmission, l'émission ou la réception à distance de signaux diffusant des informations de toute nature : texte, image, son etc. Par opposition aux messagers et postiers, les télécommunications véhiculent les messages immatériels.</p>
+                                <p> Le terme « télécommunications » se réfère à la transmission, l'émission ou la réception à distance de signaux diffusant des informations de toute nature : texte, image, son etc.les télécommunications véhiculent les messages immatériels.</p>
                             </div>
                         </div>
                     </div>
