@@ -54,7 +54,6 @@
                     <h3 class="widget-title text-white text-bold">Newsletter</h3>
 
                     <p>
-                        Veillez souscrire à notre newsletter pour ne manquer aucune information.
                     </p>
 
                     <form class="signup" action="{{url('subscribe')}}" method="POST">
@@ -71,7 +70,6 @@
                         <div class="response"></div>
                     </form>
 
-                    <p class="mb-0 mt-3 fs-12"><span class="color-main2">*</span> Les informations personnelles seront cryptées</p>
 
                 </div>
                 <div class="divider-60 divider-lg-0"></div>
@@ -94,8 +92,6 @@
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="{{url('formation')}}">
-                                    Nos formations
                                 </a>
                             </li>
                             <li class="menu-item">

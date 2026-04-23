@@ -7,7 +7,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CentreAppelController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\TransformationDigitalController;
-// Route::get('/',                                             'AdminNavigationController@accueil')->name('bienvenue');
+// Route::get('/',                                      'AdminNavigationController@accueil')->name('bienvenue');
 Route::prefix('admin')->group(function () {
     //Route::get('/',                                      'AdminNavigationController@accueil')->name('accueil');
     Route::resource('utilisateurs',                             'UtilisateursController');
@@ -38,10 +38,9 @@ Route::get('/nous_contactez', [ContactController::class, 'index'])->name('nous_c
 
 
 
+//Route pour les page d'accueil
 
-//Route de la    page d'accueil
-
-// Route::get('/', 'WelcomeController@index')->name('welcome');
+//Route::get('/', 'WelcomeController@accueil')->name('bienvenue');
 Route::get('/',function(){
     return redirect('/welcome');
 });
@@ -74,35 +73,25 @@ Route::get('campagne_sms', function(){
 });
 Route::resource('transformation_digital','TransformationDigitalController');
 // Route::post('transformation', [TransformationDigitalController::class, 'store']);
-Route::get('formation', function(){
-    return view('pages.service.formation');
-});
+
 //fullcalandar actualite
 // Route::get('/actualite', ActualiteController::class)->name('actualite');
 
-// réservations des formations
-Route::get('formation', FormationController::class)->name('formation');
-Route::resource('formations', 'FormationController');
-//dashboard de réservation
-Route::prefix('dashboard')->middleware('auth')->group(function () {
-    Route::get('rents', function () {
-        return view('back.index', ['title' => 'Mes réservations']);
-    })->name('rents');
-    Route::get('payments', function () {
-        return view('back.index', ['title' => 'Mes paiements']);
-    })->name('payments');
-});
+// réservations des formations - REMOVED
+
 //route actualités
 Route::get('/actualite', function(){
     return view('pages.actualite.actualite');
 });
-//route des formations
-Route::get('/formation_en_ligne', function(){
-    return view('pages.formation.ligne');
-});
-Route::get('/formation_en_presentielle', function(){
-    return view('pages.formation.present');
-});
+
+
+
+
+
+
+//route des formations - REMOVED
+
+
 //Route de la boutique
 Route::get('/boutique', function(){
     return view('pages.boutique.boutique');
@@ -152,9 +141,11 @@ Route::get('/clear-cache', function() {
 });
 
 Route::get('/controller', function() {
-    Artisan::call('make:model -c Accueil');
+    Artisan::call('make:livewire RobotMode');
+    Artisan::call('make:livewire RobotPower');
 
     return "Created successfully";
+
 });
 
 
@@ -167,20 +158,9 @@ Route::get('/fill-cache', function() {
 Route::get('/auto-load', function() {
 
     return  "<pre>". shell_exec ('composer dump-autoload')."</pre>";
+
 });
 Auth::routes();
-
-// Route::group(['prefix' => 'admin'], function () {
-//     Voyager::routes();
-
-// });
-
-
-
-
-
-
-
 
 
 
@@ -240,3 +220,7 @@ Route::get('/auto-load', function() {
 return "<pre>". shell_exec ('composer dump-autoload')."</pre>";
 
 });
+
+
+
+

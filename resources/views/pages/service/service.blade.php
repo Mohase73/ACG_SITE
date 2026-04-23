@@ -230,7 +230,6 @@
                     <div class="ls ms">
                         <div>
                             <p class=" text-center text-lg-left">
-                                <span>Il s'agit d'une application de messages utilisant une très faible bande passante, qui sont envoyés en temps réel à l'operateur pour obtenir les informations voulues</span>
                             </p>
                             <div class="divider-55 hidden-below-lg"></div>
                             <div class="divider-40 hidden-above-lg"></div>
@@ -239,7 +238,6 @@
                                         <ul class="menu">
 
                                             <li class="menu-item">
-                                                <a href="">Transmettre des informations basics</a>
                                             </li>
                                             <li class="menu-item">
                                                 <a href="">Activer le transfert d'appel</a>
@@ -365,7 +363,6 @@
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
                         <a href="images/video-bg.png" class="photoswipe-link" data-width="970" data-height="515" data-iframe="https://www.youtube.com/embed/WwvNiN2_Jlk">
-                            <img style="height: 550px !important" src="/images/service/formation.jpg" alt="img">
                         </a>
                     </div>
                 </div>

@@ -11,7 +11,7 @@
 								<form class="form-inline">
 									<div class="search-element">
 										<input type="search" class="form-control header-search" placeholder="Rechercher…" aria-label="Search" tabindex="1">
-										<button class="btn btn-primary-color" type="submit">
+										<button class="btn btn-primary" type="submit">
 											<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
 												<path d="M0 0h24v24H0V0z" fill="none" />
 												<path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" /></svg>
@@ -39,12 +39,12 @@
 											<path d="M0 0h24v24H0V0z" fill="none" />
 											<path d="M12 6.5c-2.49 0-4 2.02-4 4.5v6h8v-6c0-2.48-1.51-4.5-4-4.5z" opacity=".3" />
 											<path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z" /></svg>
-										<span class="pulse1 bg-success"></span>
+<span class="pulse1 bg-primary"></span>
 									</a>
 									<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
 										<div class="notifications-menu">
 											<a class="dropdown-item d-flex pb-4" href="#">
-												<span class="avatar mr-3 br-3 align-self-center avatar-md cover-image bg-primary brround">
+<span class="avatar mr-3 br-3 align-self-center avatar-md cover-image bg-primary brround">
 													<i class="fe fe-mail"></i></span>
 												<div>
 													<span class="font-weight-bold"> Commented on your post </span>
@@ -54,7 +54,7 @@
 												</div>
 											</a>
 											<a class="dropdown-item d-flex pb-4" href="#">
-												<span class="avatar avatar-md br-3 mr-3 align-self-center cover-image bg-secondary brround">
+<span class="avatar avatar-md br-3 mr-3 align-self-center cover-image bg-primary brround">
 													<i class="fe fe-download"></i>
 												</span>
 												<div>
@@ -98,7 +98,7 @@
 												</div>
 											</a>
 											<a class="dropdown-item d-flex pb-4" href="#">
-												<span class="avatar avatar-md br-3 mr-3 align-self-center cover-image bg-success brround">
+<span class="avatar avatar-md br-3 mr-3 align-self-center cover-image bg-primary brround">
 													<i class="fe fe-server"></i>
 												</span>
 												<div>
@@ -286,12 +286,12 @@
 										<path d="M0 0h24v24H0V0z" fill="none" />
 										<path d="M12 6.5c-2.49 0-4 2.02-4 4.5v6h8v-6c0-2.48-1.51-4.5-4-4.5z" opacity=".3" />
 										<path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z" /></svg>
-									<span class="pulse1 bg-success"></span>
+									<span class="pulse1 bg-secondary"></span>
 								</a>
 								<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
 									<div class="notifications-menu">
 										<a class="dropdown-item d-flex pb-4" href="#">
-											<span class="avatar mr-3 br-3 align-self-center avatar-md cover-image bg-primary brround">
+											<span class="avatar mr-3 br-3 align-self-center avatar-md cover-image bg-secondary brround">
 												<i class="fe fe-mail"></i></span>
 											<div>
 												<span class="font-weight-bold"> Commented on your post </span>
@@ -301,7 +301,7 @@
 											</div>
 										</a>
 										<a class="dropdown-item d-flex pb-4" href="#">
-											<span class="avatar avatar-md br-3 mr-3 align-self-center cover-image bg-secondary brround">
+<span class="avatar avatar-md br-3 mr-3 align-self-center cover-image bg-secondary brround">
 												<i class="fe fe-download"></i>
 											</span>
 											<div>
@@ -345,7 +345,7 @@
 											</div>
 										</a>
 										<a class="dropdown-item d-flex pb-4" href="#">
-											<span class="avatar avatar-md br-3 mr-3 align-self-center cover-image bg-success brround">
+											<span class="avatar avatar-md br-3 mr-3 align-self-center cover-image bg-secondary brround">
 												<i class="fe fe-server"></i>
 											</span>
 											<div>

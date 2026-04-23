@@ -48,10 +48,8 @@
                                         <a href="{{url('campagne_sms')}}">Campagne SMS</a>
                                     </li> --}}
                                     <li style="width: auto !important">
-                                        <a href="{{url('formation')}}">Formations</a>
                                     </li>
                                     <li style="width: auto !important">
-                                        <a href="{{url('transformation_digital')}}">Transformation digital</a>
                                     </li>
                                 </ul>
                             </li>
@@ -59,14 +57,11 @@
                                 <a href="{{url('actualite')}}">Actualités</a>
                             </li>
                             <li>
-                                <a href="{{url('formation')}}">Formations</a>
                                 <ul>
 
                                     <li>
-                                        <a href="{{url('formation_en_ligne')}}">Formation en ligne</a>
                                     </li>
                                     <li>
-                                        <a href="{{url('formation_en_presentielle')}}">Formation en présentielle</a>
                                     </li>
 
                                 </ul>

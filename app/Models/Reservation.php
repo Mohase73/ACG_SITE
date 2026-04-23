@@ -4,8 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-Use App\Models\Payment;
-Use App\Models\Formation;
+use App\Models\Payment;
 
 class Reservation extends Model
 {
@@ -24,9 +23,4 @@ class Reservation extends Model
     {
         return $this->hasOne(Payment::class);
     }
-    public function formation()
-    {
-        return $this->belongsTo(Formation::class);
-    }
-
 }

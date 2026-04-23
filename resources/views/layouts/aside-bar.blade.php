@@ -74,23 +74,9 @@
 						<div class="mb-3">
 							<p class="mb-2">Achieves<span class="float-right text-muted font-weight-normal">80%</span></p>
 							<div class="progress h-1">
-								<div class="progress-bar bg-primary w-80 " role="progressbar"></div>
-							</div>
-						</div>
-					</div>
-					<div class="progress-wrapper pt-2">
-						<div class="mb-3">
-							<p class="mb-2">Projects<span class="float-right text-muted font-weight-normal">60%</span></p>
-							<div class="progress h-1">
-								<div class="progress-bar bg-secondary w-60 " role="progressbar"></div>
-							</div>
-						</div>
-					</div>
-					<div class="progress-wrapper pt-2">
-						<div class="mb-3">
-							<p class="mb-2">Earnings<span class="float-right text-muted font-weight-normal">50%</span></p>
-							<div class="progress h-1">
-								<div class="progress-bar bg-success w-50" role="progressbar"></div>
+<div class="progress-bar bg-secondary w-80 " role="progressbar"></div>
+						<div class="progress-bar bg-secondary w-60 " role="progressbar"></div>
+						<div class="progress-bar bg-secondary w-50" role="progressbar"></div>
 							</div>
 						</div>
 					</div>

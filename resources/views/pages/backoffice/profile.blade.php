@@ -70,7 +70,7 @@
                         <div class="card-body wideget-user-contact">
                             <div class="media mb-5 mt-0">
                                 <div class="d-flex mr-3">
-                                    <span class="user-contact-icon bg-primary"><i class="fa fa-envelope text-white"></i></span>
+                                    <span class="user-contact-icon bg-secondary"><i class="fa fa-envelope text-white"></i></span>
                                 </div>
                                 <div class="media-body">
                                     <a href="#" class="text-dark">Support</a>
@@ -169,7 +169,7 @@
                                         <div class="col-md-6">
                                             <label>HTML5</label>
                                             <div class="progress progress-md mb-3">
-                                                <div class="progress-bar  bg-primary w-50">50%</div>
+                                                <div class="progress-bar  bg-secondary w-50">50%</div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">

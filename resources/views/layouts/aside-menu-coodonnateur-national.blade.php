@@ -7,7 +7,7 @@
                     </a>
 				    </div>
 				    <ul class="side-menu">
-                        <li class="bg-primary text-white">
+                        <li class="bg-secondary text-white">
                             <h3 class="text-white">{{Auth::user()->role->designation}}</h3>
                         </li>
 				        <li class="slide">

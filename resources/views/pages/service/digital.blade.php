@@ -4,7 +4,6 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Transformations Digitales </h1>
                 <ol class="breadcrumb mt-30">
                     <li class="breadcrumb-item">
                         <a href="./">Accueil</a>
@@ -13,7 +12,6 @@
                         <a href="{{url('service')}}">Nos services</a>
                     </li>
                     <li class="breadcrumb-item active">
-                        Transformation digitale
                     </li>
                 </ol>
             </div>
@@ -32,10 +30,8 @@
                     <div class="item-content mt-40">
                         <div class="entry-content">
                             <p class="excerpt">
-                                Afric Consulting Group fait de la transformation digitale.
                             </p>
                             <p>
-                                Aujourd'hui, dans nos sociétés moderne le digital est devenu un facteur essentiel voir indispensable à la prospérité de votre entreprise. Bon nombre d’entreprise se tourne vers lui et cela pour divers raisons. La transformation digitale de votre entreprise vous permettra entre autre d’améliorer votre notoriété auprès de  vos clients, étendre votre zone de chalandise, réduire vos frais d’acquisition de nouveaux clients, améliorer votre communication tout en réduisant son coût, avoir une culture d’entreprise forte, gérer de façons efficace vos équipes mais surtout mieux connaître vos clients afin de leur offrir une meilleure expérience clients.
                             </p>
                             <ul class="list-styled color-darkgrey">
                                 <li>facilite une communication en temps réel ; </li>
@@ -48,7 +44,6 @@
                                 Et pour terminer, vos bénéficierez d’un suivi pour la prise en main effectifs de ces solutions.
                             </p>
                             {{-- <a  href="images/digital/digital.pdf" type="application/pdf" target="_blank" class="simple_link">Lire plus</a> --}}
-                             <a href="images/digital/digital.pdf" download="Tranformation-digital" class="simple_link">Lire plus</a>
                         </div>
                     </div>
                 </article>
@@ -187,7 +182,6 @@
                     </p>
                 </div>
 
-                <form class="contact-form" method="post" action="{{url('transformation_digital')}}">
                     @csrf
                     <div class="form-group has-placeholder">
                         <label for="name">Votre nom complet <span class="required">*</span></label>

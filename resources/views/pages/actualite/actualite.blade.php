@@ -52,7 +52,6 @@
                                 <span class="cat-links">
                                     <a href="{{url('boutique')}}">Boutique</a>
                                     <a href="{{url('nos-service')}}">Services</a>
-                                    <a href="{{url('formation')}}">Formations</a>
                                 </span>
                             </div>
                             <div class="share_buttons">
@@ -88,7 +87,6 @@
                         </p>
 
                         <h5 class="mt-15 mb-0">
-                            <a href="{{url('formation')}}">Formations</a>
                         </h5>
 
                         <p class="mt-3">
@@ -424,7 +422,6 @@
                             <a href="{{url('nos-service')}}">Services</a>
                         </li>
                         <li class="cat-item">
-                            <a href="{{url('formation')}}">Formations</a>
                         </li>
                         <li class="cat-item">
                             <a href="{{url('campagne_sms')}}">Campagne SMS
@@ -532,11 +529,9 @@
 
                     <div class="tagcloud">
 
-                        <a href="{{url('formation_en_ligne')}}" class="tag-cloud-link">
                             Formation en ligne
                         </a>
 
-                        <a href="{{url('formation_en_presentielle')}}" class="tag-cloud-link">
                             Formation présentielle
                         </a>
 
@@ -566,10 +561,8 @@
                             </a>
                             <div class="media-body">
                                 <h4 class="mb-2">
-                                    <a href="{{url('formation')}}">Formations</a>
                                 </h4>
                                 <p class="item-meta">
-                                    <a href="{{url('formation')}}"><i class="far color-main fa-clock mr-2"></i>09 Sep 2021</a>
                                 </p>
                             </div>
                         </li>

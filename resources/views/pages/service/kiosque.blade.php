@@ -52,7 +52,6 @@
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
                         <a href="images/video-bg.png" class="photoswipe-link" data-width="970" data-height="515" data-iframe="https://www.youtube.com/embed/WwvNiN2_Jlk">
-                            <img style="height: 530px !important" src="/images/formation/ligne.jpg" alt="img">
                         </a>
                     </div>
                 </div>
@@ -328,7 +327,6 @@
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        Kiosques d’information (humour, resto, cinéma, hôtel ; bourse ….)
                                     </div>
                                 </div>
                             </div>
@@ -379,7 +377,6 @@
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        Le service alerte immobilier permet de rapprocher les acheteurs, des vendeurs et des bailleurs, des locataires par la diffusion d’informations pratique dans le domaine de l’immobilier.
                                     </div>
                                 </div>
                             </div>
@@ -487,7 +484,6 @@
                     </p>
                 </div>
 
-                <form class="contact-form" action="{{url('transformation_digital')}}" method="post">
                     @csrf
                     <div class="form-group has-placeholder">
                         <label for="name">Votre nom complet <span class="required">*</span></label>

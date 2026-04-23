@@ -92,7 +92,7 @@
 								<canvas id="canvasDoughnut" class="chartsh"></canvas>
 							</div>
 							<div class="mt-5 fs-12">
-								<div class="float-left mr-3"><span class="dot-label bg-primary mr-1"></span><span class="">Mens</span></div>
+								<div class="float-left mr-3"><span class="dot-label bg-secondary mr-1"></span><span class="">Mens</span></div>
 								<div class="float-left mr-3"><span class="dot-label bg-secondary mr-1"></span><span class="">Womens</span></div>
 								<div class="float-left mr-3"><span class="dot-label bg-secondary1 mr-1"></span><span class="">Kids</span></div>
 								<div class="float-left mr-3"><span class="dot-label bg-canvas1 mr-1"></span><span class="">Electronics</span></div>
@@ -146,7 +146,7 @@
 							<div class="mb-5">
 								<p class="mb-2">Total Profit<span class="float-right"><b>51,234</b><span class="text-muted ml-1">(80%)</span></span></p>
 								<div class="progress h-2">
-									<div class="progress-bar bg-primary w-80 " role="progressbar"></div>
+									<div class="progress-bar bg-secondary w-80 " role="progressbar"></div>
 								</div>
 							</div>
 							<div class="mb-5">
@@ -338,7 +338,7 @@
 										<span class="text-muted tx-12">Order ID: #1905</span>
 									</li>
 									<li class="mb-0">
-										<span class="avatar avatar-md brround cover-image task-icon1 bg-success">M</span>
+										<span class="avatar avatar-md brround cover-image task-icon1 bg-secondary">M</span>
 										<h6>Overdue Shipments<small class="float-right text-muted tx-11">25 Jan 2020</small></h6>
 										<span class="text-muted tx-12">Order ID: #8902</span>
 									</li>
