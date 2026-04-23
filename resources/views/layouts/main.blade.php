@@ -59,7 +59,7 @@
 	<script src="js/compressed.js"></script>
 	<script src="js/main.js"></script>
 
-    @livewire('livewire-ui-modal')
+    {{-- @livewire('livewire-ui-modal') --}}
 
     {{--  @livewireUIScripts  --}}
 
