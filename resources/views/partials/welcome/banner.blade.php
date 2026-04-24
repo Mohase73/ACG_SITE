@@ -10,12 +10,11 @@
                             <div class="intro_layers_wrapper">
                                 <div class="intro_layers">
                                     <div class="intro-layer title">
-                                        <h2>AFRIC CONSULTING GROUP <br> <span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
+                                        <h2>AFRIC CONSULTING GROUP <span class="color-main">TELECOM</span> <br> <span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
                                     </div>
                                     <div class="intro-layer lists">
                                         <ul class="list-unstyled">
-                                            <li class="d-flex"> <img class="color-main mr-2" style="height:20px; width: 20px;" src="/fonts/icones/call-center.png" alt="" srcset=""> Centre d'Appel</li>
-                                            <li class="d-flex"><img class="color-main mr-2" style="height:20px; width: 20px;" src="/fonts/icones/smartphone.png" alt="" srcset=""> Campagne SMS</li>
+                                            <li class="d-flex"> <span class="iconify color-main mr-2" data-icon="mdi:headset" style="font-size: 20px;"></span> Centre d'Appel</li>
                                         </ul>
                                     </div>
                                     <a href="{{url('register')}}" class="btn btn-maincolor2 ">Créer un compte <i class="fas fa-long-arrow-alt-right"></i></a>
@@ -38,12 +37,11 @@
                             <div class="intro_layers_wrapper">
                                 <div class="intro_layers">
                                     <div class="intro-layer title">
-                                        <h2>AFRIC CONSULTING GROUP <br><span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
+                                        <h2>AFRIC CONSULTING GROUP <span class="color-main">TELECOM</span> <br><span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
                                     </div>
                                     <div class="intro-layer lists">
                                         <ul class="list-unstyled">
-                                            <li class="d-flex"><img class="color-main mr-2" style="height:20px; width: 20px;" src="/fonts/icones/computer.png" alt="" srcset=""></i> Service À Valeur Ajouter</li>
-                                            <li class="d-flex"><img class="color-main mr-2" style="height:20px; width: 20px;" src="/fonts/icones/education.png" alt="" srcset=""></i> Formations</li>
+                                            <li class="d-flex"><span class="iconify color-main mr-2" data-icon="mdi:cloud-plus-outline" style="font-size: 20px;"></span> Service À Valeur Ajouter</li>
                                         </ul>
                                     </div>
                                     <a href="{{url('nous_contactez')}}" class="btn btn-maincolor2 ">Contacter nous <i class="fas fa-long-arrow-alt-right"></i></a>
@@ -62,12 +60,11 @@
                             <div class="intro_layers_wrapper">
                                 <div class="intro_layers">
                                     <div class="intro-layer title">
-                                        <h2>AFRIC CONSULTING GROUP <br><span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
+                                        <h2>AFRIC CONSULTING GROUP <span class="color-main">TELECOM</span> <br><span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
                                     </div>
                                     <div class="intro-layer lists">
                                          <ul class="list-unstyled">
-                                            <li class="d-flex"><img class="color-main mr-2" style="height:20px; width: 20px;" src="/fonts/icones/codage-web.png" alt="" srcset=""> Développement Web et Mobile</li>
-                                            <li class="d-flex"><img class="color-main mr-2" style="height:20px; width: 20px;" src="/fonts/icones/digitalization.png" alt="" srcset=""></i> Transformation Digital</li>
+                                            <li class="d-flex"><span class="iconify color-main mr-2" data-icon="mdi:code-tags" style="font-size: 20px;"></span> Développement Web et Mobile</li>
                                         </ul>
                                     </div>
                                     <a href="{{url('nos-service')}}" class="btn btn-maincolor2 ">Nos Services  <i class="fas fa-long-arrow-alt-right"></i></a>

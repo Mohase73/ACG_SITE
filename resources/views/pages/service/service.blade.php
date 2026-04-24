@@ -349,70 +349,50 @@
         </div>
     </div>
 </section>
-<section class="ls s-py-lg-5 s-py-xl-0 container-px-0 c-gutter-0">
+
+<section class="ls s-py-lg-5 s-py-xl-0 container-px-0 c-gutter-0 bg-light">
     <div class="container-fluid">
         <div class="container">
             <div class="col-12 text-center">
                 <h2 class="special-heading underline text-dark">
-                    <span>Formations</span>
+                    <span>Lovelink</span>
                 </h2>
-                <div class="divider-60 hidden-below-lg"></div>
+                <div class="divider-55 hidden-below-lg"></div>
                 <div class="divider-40 hidden-above-lg"></div>
             </div>
             <div class="row align-items-center">
-                <div class="col-12 col-lg-6 post_format-post-format-video">
-                    <div class="embed-responsive text-center">
-                        <a href="images/video-bg.png" class="photoswipe-link" data-width="970" data-height="515" data-iframe="https://www.youtube.com/embed/WwvNiN2_Jlk">
-                        </a>
-                    </div>
-                </div>
                 <div class="col-12 col-lg-6 section-special right text-center text-lg-left">
-                    <div class="ls ms">
+                    <div class="ls ms ">
                         <div>
-                            <p class=" text-center text-lg-left">
-                                <span>Pour un monde meilleur nous formons les jeunes dans les domaines du numérique, des investissement, et du buisness</span>
-                            </p>
-                            <div class="divider-55 hidden-below-lg"></div>
-                            <div class="divider-40 hidden-above-lg"></div>
-                            <div class=" font-weight-light widget widget_nav_menu" style="color: black !important">
-                                    <div class="menu-container">
-                                        <ul class="menu">
-
-                                            <li class="menu-item">
-                                                <a href="">Initiation en informatique</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="">Crypto monaie</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="">Entrepreunariat</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href=""> programmation web et mobile</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="">Robotique et Intelligence Artificielle</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                            </div>
-                            <div class="row pt-3 pl-md-4">
-                                <div class="text-center d-flex">
-                                    <div class="col-md-4">
-                                        <a href="{{ asset('pdf/Presentation.pdf') }}" download="Presentation" class="btn btn-maincolor2 btn-short" > <span class="text-dark">Télécharger</span> </a>
-                                    </div>
-                                    <div class="col-md-4"></div>
-                                    <div class="col-md-4">
-                                        <a href="{{ asset('pdf/Presentation.pdf') }}" target="_blank" class="btn" style="background-color: #cfcfcf"> <span class="text-dark">Détails</span> </a>
+                            <div class=" col-12 text-center">
+                                <p class=" text-center text-rigth">
+                                    Lovelink est le meilleur site de rencontre et de chat pour trouver l'amour. Connectez-vous avec des milliers de célibataires, discutez en toute sécurité et trouvez la personne qui vous correspond vraiment grâce à notre algorithme de matchmaking avancé.
+                                </p>
+                                <div class="row pt-3 pl-md-4">
+                                    <div class="text-center d-flex">
+                                        <div class="col-md-4">
+                                            <a href="#" class="btn btn-maincolor2 btn-short" > <span class="text-dark">S'inscrire</span> </a>
+                                        </div>
+                                        <div class="col-md-4"></div>
+                                        <div class="col-md-4">
+                                            <a href="#" class="btn" style="background-color: #cfcfcf"> <span class="text-dark">Découvrir</span> </a>
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="divider-55 hidden-below-lg"></div>
+                                <div class="divider-40 hidden-above-lg"></div>
                             </div>
-                            <div class="divider-60 hidden-below-lg"></div>
-                            <div class="divider-40 hidden-above-lg"></div>
                         </div>
                     </div>
                 </div>
+                <div class="col-12 col-lg-6 post_format-post-format-video">
+                    <div class="embed-responsive text-center">
+                            <span class="iconify color-main" data-icon="mdi:heart-outline" style="font-size: 250px;"></span>
+                    </div>
+                </div>
             </div>
+            <div class="divider-60 hidden-below-lg"></div>
+            <div class="divider-40 hidden-above-lg"></div>
         </div>
     </div>
 </section>

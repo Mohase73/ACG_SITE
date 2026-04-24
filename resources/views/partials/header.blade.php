@@ -31,25 +31,17 @@
                             <li>
                                 <a href="{{url('nos-service')}}">Nos services</a>
                                 <ul style="width: auto !important">
-
-
                                     <li style="width: auto !important">
                                         <a href="{{url('service_a_valeur_ajouter')}}">Services À Valeurs Ajoutées</a>
                                     </li>
-
-
                                     <li style="width: auto !important">
                                         <a href="{{url('developpement_web')}}">Développement Web et Mobile</a>
                                     </li>
                                     <li style="width: auto !important">
                                         <a href="{{url('centre-appel')}}">Centre d'appel</a>
                                     </li>
-                                    {{-- <li style="width: auto !important">
-                                        <a href="{{url('campagne_sms')}}">Campagne SMS</a>
-                                    </li> --}}
                                     <li style="width: auto !important">
-                                    </li>
-                                    <li style="width: auto !important">
+                                        <a href="#">Lovelink</a>
                                     </li>
                                 </ul>
                             </li>
