@@ -18,50 +18,51 @@
                                 <a href="/">L'entreprise</a>
                                 <ul>
                                     <li>
-                                        <a href="{{url('a_propos_de_nous')}}">A propos de nous</a>
+                                        <a href="{{ url('a_propos_de_nous') }}">A propos de nous</a>
                                     </li>
                                     <li>
-                                        <a href="{{url('nos_partenaire')}}">Partenaires</a>
+                                        <a href="{{ url('nos_partenaire') }}">Partenaires</a>
                                     </li>
                                     <li>
-                                        <a href="{{url('nous_contactez')}}">Contacts</a>
+                                        <a href="{{ url('nous_contactez') }}">Contacts</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="{{url('nos-service')}}">Nos services</a>
+                                <a href="{{ url('nos-service') }}">Nos services</a>
                                 <ul style="width: auto !important">
                                     <li style="width: auto !important">
-                                        <a href="{{url('service_a_valeur_ajouter')}}">Services À Valeurs Ajoutées</a>
+                                        <a href="{{ url('service_a_valeur_ajouter') }}">Services À Valeurs Ajoutées</a>
                                     </li>
                                     <li style="width: auto !important">
-                                        <a href="{{url('developpement_web')}}">Développement Web et Mobile</a>
+                                        <a href="{{ url('developpement_web') }}">Développement Web et Mobile</a>
                                     </li>
                                     <li style="width: auto !important">
-                                        <a href="{{url('centre-appel')}}">Centre d'appel</a>
-                                    </li>
-                                    <li style="width: auto !important">
-                                        <a href="#">Lovelink</a>
+                                        <a href="{{ url('centre-appel') }}">Centre d'appel</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="{{url('actualite')}}">Actualités</a>
+                                <a href="#">Nos solutions</a>
+                                <ul style="width: auto !important">
+                                    <li style="width: auto !important">
+                                        <a href="#">Solution 1</a>
+                                    </li>
+                                    <li style="width: auto !important">
+                                        <a href="#">Solution 2</a>
+                                    </li>
+                                    <li style="width: auto !important">
+                                        <a href="#">Solution 3</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li>
-                                <ul>
-
-                                    <li>
-                                    </li>
-                                    <li>
-                                    </li>
-
-                                </ul>
+                                <a href="{{ url('actualite') }}">Actualités</a>
                             </li>
                             <!-- eof blog -->
 
                             <li>
-                                <a href="{{url('boutique')}}">Boutique</a>
+                                <a href="{{ url('boutique') }}">Boutique</a>
                             </li>
 
 

@@ -10,7 +10,7 @@
                             <div class="intro_layers_wrapper">
                                 <div class="intro_layers">
                                     <div class="intro-layer title">
-                                        <h2>AFRIC CONSULTING GROUP <span class="color-main">TELECOM</span> <br> <span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
+                                        <h2>ACG <span class="color-main">TELECOM</span> <br> <span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
                                     </div>
                                     <div class="intro-layer lists">
                                         <ul class="list-unstyled">
@@ -37,7 +37,7 @@
                             <div class="intro_layers_wrapper">
                                 <div class="intro_layers">
                                     <div class="intro-layer title">
-                                        <h2>AFRIC CONSULTING GROUP <span class="color-main">TELECOM</span> <br><span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
+                                        <h2>ACG <span class="color-main">TELECOM</span> <br><span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
                                     </div>
                                     <div class="intro-layer lists">
                                         <ul class="list-unstyled">
@@ -60,7 +60,7 @@
                             <div class="intro_layers_wrapper">
                                 <div class="intro_layers">
                                     <div class="intro-layer title">
-                                        <h2>AFRIC CONSULTING GROUP <span class="color-main">TELECOM</span> <br><span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
+                                        <h2>ACG <span class="color-main">TELECOM</span> <br><span class="color-main2 border-img">Burkina Faso<sub class="font-weight-light">/Ouagadougou</sub></span></h2>
                                     </div>
                                     <div class="intro-layer lists">
                                          <ul class="list-unstyled">

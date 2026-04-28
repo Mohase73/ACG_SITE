@@ -51,21 +51,6 @@
                     <a href="#" class="simple_link">lire plus</a>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="icon-box shadow-layout text-center">
-                    <div class="icon-styled ">
-                        <a href="#">
-                            <span class="iconify color-main" data-icon="mdi:heart-outline" style="font-size: 70px;"></span>
-                        </a>
-                    </div>
-                    <h5><a href="#">Lovelink</a></h5>
-                    <div class="divider-60 hidden-below-lg"></div>
-                    <div class="divider-40 hidden-above-lg"></div>
-                    <p>Le meilleur site de Rencontre et de Chat pour trouver l'amour.</p>
-                    <div class="divider-40"></div>
-                    <a href="#" class="simple_link">Lire plus</a>
-                </div>
-            </div>
         </div>
     </div>
 </section>

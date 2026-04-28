@@ -19,11 +19,11 @@
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.6.0/locales-all.min.js"></script>
   @livewireStyles
 
-  <style>
-  .fc .fc-bg-event {
-      background: darkred;
-  }
-</style>
+   <style>
+   .fc .fc-bg-event {
+       background: darkred;
+   }
+   </style>
 
 <!-- Alpine v2 -->
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
