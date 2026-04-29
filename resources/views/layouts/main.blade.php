@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="css/font-awesome5.css">
 	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
 	<link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
+	<link rel="stylesheet" href="css/custom.css">
 
     <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.6.0/main.min.css' rel='stylesheet' />
   <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.6.0/main.js'></script>
@@ -59,6 +60,28 @@
 	</div>
 	<script src="js/compressed.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+		(function($){
+			$window = $(window);
+			$window.on('load', function(){
+				if($('#partners-carousel').length && !$('#partners-carousel').hasClass('owl-loaded')) {
+					$('#partners-carousel').addClass('owl-carousel top-right-nav').owlCarousel({
+						loop: true,
+						autoplay: true,
+						margin: 30,
+						nav: true,
+						dots: false,
+						navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
+						responsive: {
+							0:    { items: 1 },
+							767:  { items: 2 },
+							1200: { items: 4 }
+						}
+					});
+				}
+			});
+		})(jQuery);
+	</script>
 
     {{-- @livewire('livewire-ui-modal') --}}
 

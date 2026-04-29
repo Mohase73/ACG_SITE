@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
 @charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -9701,6 +9701,7 @@ button.bg-dark:focus {
 
 .font-weight-light {
   font-weight: 300 !important;
+  color: #FFFFFF;
 }
 
 .font-weight-lighter {

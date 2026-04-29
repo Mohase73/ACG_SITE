@@ -41,14 +41,14 @@
                         <div class="col-sm-6">
                             <div class="form-group has-placeholder">
                                 <label for="name">Entrer votre nom<span class="required"></span></label>
-                                <input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Entrer votre nom">
+                                <input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Entrer votre nom" autocomplete="name">
                             </div>
                         </div>
 
                         <div class="col-sm-6">
                             <div class="form-group has-placeholder">
                                 <label for="email">Entrer votre E-mail<span class="required"></span></label>
-                                <input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Entrer votre E-mail">
+                                <input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Entrer votre E-mail" autocomplete="email">
                             </div>
                         </div>
                     </div>
@@ -56,15 +56,15 @@
 
                         <div class="col-sm-6">
                             <div class="form-group has-placeholder">
-                                <label for="name">Entrer votre numéro<span class="required"></span></label>
-                                <input type="number" aria-required="true" size="30" value="" name="phone" id="name" class="form-control" placeholder="Entrer votre numéro">
+                                <label for="phone">Entrer votre numéro<span class="required"></span></label>
+                                <input type="number" aria-required="true" size="30" value="" name="phone" id="phone" class="form-control" placeholder="Entrer votre numéro" autocomplete="tel">
                             </div>
                         </div>
 
                         <div class="col-sm-6">
                             <div class="form-group has-placeholder">
-                                <label for="email">Entrer votre sujet<span class="required"></span></label>
-                                <input type="text" aria-required="true" size="30" value="" name="subject" id="email" class="form-control" placeholder="Entrer votre sujet">
+                                <label for="subject">Entrer votre sujet<span class="required"></span></label>
+                                <input type="text" aria-required="true" size="30" value="" name="subject" id="subject" class="form-control" placeholder="Entrer votre sujet" autocomplete="off">
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
 
                             <div class="form-group has-placeholder">
                                 <label for="message">Entrer votre message</label>
-                                <textarea aria-required="true" rows="5" cols="45" name="message" id="message" class="form-control" placeholder="Entrer votre message"></textarea>
+                                <textarea aria-required="true" rows="5" cols="45" name="message" id="message" class="form-control" placeholder="Entrer votre message" autocomplete="off"></textarea>
                             </div>
                         </div>
 
@@ -171,54 +171,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 p-30 box-shadow animate" data-animation="scaleAppear">
-                <div class="page_map">
-                    <div class="marker">
-                        <div class="marker-address">Burki Faso, Mali, Niger, Benin, 66</div>
-                        <div class="marker-title">Afric Consulting Group</div>
-                        <div class="marker-description">
-
-                            <ul class="list-unstyled">
-                                <li>
-                                    <span class="icon-inline">
-                                        <span class="icon-styled color-main">
-                                            <i class="fa fa-map-marker"></i>
-                                        </span>
-
-                                        <span>
-                                            Burki Faso, Mali, Niger, Benin, 66
-                                        </span>
-                                    </span>
-                                </li>
-
-                                <li>
-                                    <span class="icon-inline">
-                                        <span class="icon-styled color-main">
-                                            <i class="fa fa-phone"></i>
-                                        </span>
-
-                                        <span>
-                                            +266 25 41 64 66
-                                        </span>
-                                    </span>
-                                </li>
-                                <li>
-                                    <span class="icon-inline">
-                                        <span class="icon-styled color-main">
-                                            <i class="fa fa-envelope"></i>
-                                        </span>
-
-                                        <span>
-                                            medias@africconsultinggroup.com
-                                        </span>
-                                    </span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="container">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1948.7009024741592!2d-1.5413627091077136!3d12.355995677306993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2e95db59c8410d%3A0xc538aa36edadea3f!2srue%208.38%2C%20Goughin%2C%20Ouagadougou!5e0!3m2!1sfr!2sbf!4v1633337806774!5m2!1sfr!2sbf" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </div>
-                    </div>
-                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1948.7009024741592!2d-1.5413627091077136!3d12.355995677306993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2e95db59c8410d%3A0xc538aa36edadea3f!2srue%208.38%2C%20Goughin%2C%20Ouagadougou!5e0!3m2!1sfr!2sbf!4v1633337806774!5m2!1sfr!2sbf" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>

@@ -42,8 +42,7 @@
                     <div class="col-sm-4">
                         <div class="icon-box text-center text-lg-left small-box">
                             <div class="icon-styled ">
-                            <img class="color-main" style="height:60px; width: 60px;" src="/fonts/icones/smartphone.png" alt="" srcset="">
-                            {{-- <i class="fab fa-wordpress-simple color-main"></i> --}}
+                            <span class="iconify color-main" data-icon="mdi:message-text-outline" style="font-size: 60px;"></span>
                             </div>
                             <h5>Campagne SMS</h5>
                         </div>
@@ -52,8 +51,7 @@
                     <div class="col-sm-4">
                         <div class="icon-box text-center text-lg-left small-box">
                             <div class="icon-styled ">
-                            <img class="color-main" style="height:60px; width: 60px;" src="/fonts/icones/education.png" alt="" srcset="">
-                            {{-- <i class="fi flaticon-005-support color-main"></i> --}}
+                            <span class="iconify color-main" data-icon="mdi:school-outline" style="font-size: 60px;"></span>
                             </div>
                             <h5>Formations</h5>
                         </div>
@@ -62,8 +60,7 @@
                     <div class="col-sm-4">
                         <div class="icon-box text-center text-lg-left small-box">
                             <div class="icon-styled ">
-                            <img class="color-main" style="height:70px; width: 70px;" src="/fonts/icones/codage-web.png" alt="" srcset="">
-                            {{-- <i class="fas fa-hand-holding-usd color-main"></i> --}}
+                            <span class="iconify color-main" data-icon="mdi:code-tags" style="font-size: 70px;"></span>
                             </div>
                             <h5>Développement Web et Mobile</h5>
                         </div>
@@ -136,8 +133,7 @@
                 <div class="media">
                     <div class="icon-styled ">
                         <a href="#">
-                            <img class="color-main" style="height:70px; width: 70px;" src="/fonts/icones/call-center.png" alt="" srcset="">
-                            {{-- <i class="fi flaticon-004-folder-2 color-main"></i> --}}
+                            <span class="iconify color-main" data-icon="mdi:headset" style="font-size: 70px;"></span>
                         </a>
                     </div>
                     <div class="media-body">
@@ -156,8 +152,7 @@
                 <div class="media">
                     <div class="icon-styled ">
                         <a href="service-single.html">
-                            <img class="color-main" style="height:70px; width: 70px;" src="/fonts/icones/computer.png" alt="" srcset="">
-                            {{-- <i class="fi flaticon-017-computer color-main"></i> --}}
+                            <span class="iconify color-main" data-icon="mdi:store-outline" style="font-size: 70px;"></span>
                         </a>
                     </div>
                     <div class="media-body">
@@ -176,8 +171,7 @@
                 <div class="media">
                     <div class="icon-styled ">
                         <a href="service-single.html">
-                            <img class="color-main" style="height:70px; width: 70px;" src="/fonts/icones/codage-web.png" alt="" srcset="">
-                            {{-- <i class="fi flaticon-035-bug color-main"></i> --}}
+                            <span class="iconify color-main" data-icon="mdi:code-tags" style="font-size: 70px;"></span>
                         </a>
                     </div>
                     <div class="media-body">
@@ -195,8 +189,7 @@
                 <div class="media">
                     <div class="icon-styled ">
                         <a href="service-single.html">
-                            <img class="color-main" style="height:70px; width: 70px;" src="/fonts/icones/digitalization.png" alt="" srcset="">
-                            {{-- <i class="fi flaticon-032-cloud color-main"></i> --}}
+                            <span class="iconify color-main" data-icon="mdi:lightning-bolt-outline" style="font-size: 70px;"></span>
                         </a>
                     </div>
                     <div class="media-body">

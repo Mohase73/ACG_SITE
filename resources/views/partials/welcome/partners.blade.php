@@ -10,7 +10,7 @@
             <div class="divider-60 hidden-below-lg"></div>
             <div class="divider-40 hidden-above-lg"></div>
         </div>
-        <ul class="products">
+        <ul class="products" id="partners-carousel">
 
             <li style="list-style-type: none; height: 205px" class="product type-product">
                 <a href="https://www.telecelfaso.bf/" target="_blank">
@@ -86,3 +86,4 @@
 
 
 </div>
+

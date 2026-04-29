@@ -1703,7 +1703,7 @@ function windowLoadInit() {
 
 
 		//woocommerce related products, upsells products
-		$('.related.products ul.products, .upsells.products ul.products, .cross-sells ul.products')
+		$('.related.products ul.products, .upsells.products ul.products, .cross-sells ul.products, #partners-carousel')
 			.addClass('owl-carousel top-right-nav')
 			.owlCarousel({
 				loop: true,

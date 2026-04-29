@@ -123,7 +123,7 @@
                             </p>
                             <div class="divider-55 hidden-below-lg"></div>
                             <div class="divider-40 hidden-above-lg"></div>
-                            <div class=" font-weight-light widget widget_nav_menu" style="color: black !important">
+                            <div class=" font-weight-light widget widget_nav_menu" style="color: #808080 !important">
                                     <div class="menu-container">
                                         <ul class="menu">
 
@@ -233,7 +233,7 @@
                             </p>
                             <div class="divider-55 hidden-below-lg"></div>
                             <div class="divider-40 hidden-above-lg"></div>
-                            <div class=" font-weight-light widget widget_nav_menu" style="color: black !important">
+                            <div class=" font-weight-light widget widget_nav_menu" style="color: #808080 !important">
                                     <div class="menu-container">
                                         <ul class="menu">
 

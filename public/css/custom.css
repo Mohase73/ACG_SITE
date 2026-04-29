@@ -247,5 +247,173 @@ svg.iconify {
 //   cursor: pointer;
 // }
 
+/* ===== SERVICE PAGE TEXT COLOR ===== */
+.text-dark {
+    color: #808080 !important;
+}
+
+/* ===== BOUTIQUE COLORS ===== */
+.onsale,
+.single_add_to_cart_button,
+.button.product_type_variable,
+.button.product_type_simple,
+.add_to_cart_button,
+.wc-forward,
+.woocommerce-mini-cart__buttons .button {
+    background-color: #067368 !important;
+    color: #ffffff !important;
+    border-color: #067368 !important;
+}
+.single_add_to_cart_button:hover,
+.button.product_type_variable:hover,
+.button.product_type_simple:hover,
+.add_to_cart_button:hover,
+.wc-forward:hover {
+    background-color: #BDF2ED !important;
+    color: #067368 !important;
+}
+.star-rating span,
+.star-rating::before,
+.star-rating span::before {
+    color: #067368 !important;
+}
+.price, .woocommerce-Price-amount,
+.amount {
+    color: #067368 !important;
+}
+.woocommerce-tabs ul.tabs li a::after,
+.woocommerce-tabs ul.tabs li.active a::after {
+    background-color: #067368 !important;
+}
+.woocommerce-tabs ul.tabs li a:hover,
+.woocommerce-tabs ul.tabs li.active a {
+    color: #ffffff !important;
+}
+.button::before {
+    border-color: #067368 !important;
+}
+.button::after {
+    background-color: #067368 !important;
+}
+.button:hover {
+    color: #ffffff !important;
+}
+.woocommerce-pagination ul.page-numbers span,
+.woocommerce-pagination ul.page-numbers a:hover {
+    background-color: #067368 !important;
+    color: #ffffff !important;
+}
+
+/* ===== REPLACE #8CC53D BY #BDF2ED ===== */
+[style*="background-color: #8CC53D"],
+[style*="background-color:#8CC53D"] {
+    background-color: #BDF2ED !important;
+}
+[style*="color: 8CC53D"],
+[style*="color: #8CC53D"],
+[style*="color:#8CC53D"] {
+    color: #BDF2ED !important;
+}
+button[style*="background-color: #8CC53D"],
+button[style*="background-color:#8CC53D"] {
+    background-color: #BDF2ED !important;
+}
+
+/* ===== FOCUS INPUTS ===== */
+input:focus,
+textarea:focus,
+select:focus,
+input[type="text"]:focus,
+input[type="text"]:active,
+input[type="email"]:focus,
+input[type="email"]:active,
+input[type="url"]:focus,
+input[type="url"]:active,
+input[type="password"]:focus,
+input[type="password"]:active,
+input[type="search"]:focus,
+input[type="search"]:active,
+input[type="tel"]:focus,
+input[type="tel"]:active,
+input[type="number"]:focus,
+input[type="number"]:active,
+textarea:active,
+select:active,
+.form-control:focus,
+.form-control:active,
+.input-group .form-control:focus,
+.input-group .form-control:active {
+    background-color: #ffffff !important;
+    color: #808080 !important;
+    border-color: #cccccc !important;
+    outline: none !important;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+input,
+textarea,
+select,
+.form-control {
+    color: #808080 !important;
+}
+
+/* ===== BORDER RADIUS GLOBAL ===== */
+.icon-box,
+.card,
+.widget,
+.small-box,
+.shadow-layout,
+.shadow-hover,
+.shadow-hover2,
+.team-item,
+.comment-body,
+.dropdown-menu,
+.input-group,
+.form-control,
+.woocommerce-mini-cart,
+.widget_shopping_cart_content,
+.woocommerce-tabs .panel,
+.media.small-box,
+.box-shadow,
+[role="tablist"] .card,
+.page_footer .widget,
+#toTop {
+    border-radius: 8px !important;
+}
+
+/* ===== HEADER STICKY WIDTH ===== */
+.page_header.affix {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.page_header.affix .row {
+    min-height: 10px !important;
+}
+
+/* ===== HOVER GLOBAL COLOR ===== */
+a:hover,
+a.color-main:hover,
+.ds a:not(.btn).color-main:hover,
+.nav-tabs .nav-link:hover,
+.nav-tabs.vertical-tabs .nav-link:hover,
+.dropdown-menu > li > a:hover,
+.social-icons a.fa:hover,
+.social-icons a.fab:hover,
+.social-icons a.fas:hover,
+.icon-inline a:hover,
+.ds .breadcrumb > li a:not(.btn):hover,
+.breadcrumb > li a:not(.btn):hover,
+.ds.ms.page_footer .widget.widget_nav_menu ul li a:not(.btn):hover {
+    color: #BDF2ED !important;
+}
+
+.btn-maincolor:hover,
+.btn-maincolor2:hover,
+.btn-maincolor3:hover,
+.btn-maincolor4:hover,
+.btn-maincolor5:hover {
+    background-color: #BDF2ED !important;
+    color: #333333 !important;
+}
 
 
