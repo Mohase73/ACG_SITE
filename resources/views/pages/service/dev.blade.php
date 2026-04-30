@@ -108,20 +108,20 @@
                                                         </thead>
                                                         <tbody>
                                                             <tr>
-                                                                <td style="background-color: #8CC53D"> <a  class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Application USSD</a></td>
-                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 10000000 à 20000000f  </a></td>
+                                                                <td style="background-color: #0a7a70; color: #ffffff;">Application USSD</td>
+                                                                <td style="color: #333333;">10000000 à 20000000f</td>
                                                             </tr>
                                                             <tr>
-                                                                <td style="background-color: #8CC53D"> <a class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Site de gestion de contenu</a></td>
-                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 5000000 à 10000000f  </a></td>
+                                                                <td style="background-color: #0a7a70; color: #ffffff;">Site de gestion de contenu</td>
+                                                                <td style="color: #333333;">5000000 à 10000000f</td>
                                                             </tr>
                                                             <tr>
-                                                                <td style="background-color: #8CC53D"> <a  class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Site E-commerce</a></td>
-                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 3000000 à 8000000f  </a></td>
+                                                                <td style="background-color: #0a7a70; color: #ffffff;">Site E-commerce</td>
+                                                                <td style="color: #333333;">3000000 à 8000000f</td>
                                                             </tr>
                                                             <tr>
-                                                                <td style="background-color: #8CC53D"> <a class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Blogs</a></td>
-                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 1000000 à 5000000f  </a></td>
+                                                                <td style="background-color: #0a7a70; color: #ffffff;">Blogs</td>
+                                                                <td style="color: #333333;">1000000 à 5000000f</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
