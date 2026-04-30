@@ -56,12 +56,12 @@
                                                         </thead>
                                                         <tbody>
                                                             <tr>
-                                                                <td style="background-color: #8CC53D"> <a  class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Appels de plusieurs clients en même temps</a></td>
-                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 1000 à 2000f par minute </a></td>
+                                                                <td style="background-color: #0a7a70; color: #ffffff;">Appels de plusieurs clients en même temps</td>
+                                                                <td> 1000 à 2000f par minute</td>
                                                             </tr>
                                                             <tr>
-                                                                <td style="background-color: #8CC53D"> <a class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Appels exclusifs pour un client</a></td>
-                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 5000 à 10000f par minute </a></td>
+                                                                <td style="background-color: #0a7a70; color: #ffffff;">Appels exclusifs pour un client</td>
+                                                                <td> 5000 à 10000f par minute</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
@@ -319,12 +319,12 @@
                                                         </thead>
                                                         <tbody>
                                                             <tr>
-                                                                <td style="background-color: #8CC53D"> <a  class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Appels de plusieurs clients en même temps</a></td>
-                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 1000 à 2000f par minute </a></td>
+                                                                <td style="background-color: #0a7a70; color: #ffffff;">Appels de plusieurs clients en même temps</td>
+                                                                <td> 1000 à 2000f par minute</td>
                                                             </tr>
                                                             <tr>
-                                                                <td style="background-color: #8CC53D"> <a class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Appels exclusifs pour un client</a></td>
-                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 5000 à 10000f par minute </a></td>
+                                                                <td style="background-color: #0a7a70; color: #ffffff;">Appels exclusifs pour un client</td>
+                                                                <td> 5000 à 10000f par minute</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
@@ -415,12 +415,12 @@
                                                         </thead>
                                                         <tbody>
                                                             <tr>
-                                                                <td style="background-color: #8CC53D"> <a  class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Appels de plusieurs clients en même temps</a></td>
-                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 1000 à 2000f par minute </a></td>
+                                                                <td style="background-color: #0a7a70; color: #ffffff;">Appels de plusieurs clients en même temps</td>
+                                                                <td> 1000 à 2000f par minute</td>
                                                             </tr>
                                                             <tr>
-                                                                <td style="background-color: #8CC53D"> <a class="text-white" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" >Appels exclusifs pour un client</a></td>
-                                                                <td> <a class="text-dark" href="#" data-toggle="tooltip" data-placement="top" title="Cliquer pour afficher les détails" > 5000 à 10000f par minute </a></td>
+                                                                <td style="background-color: #0a7a70; color: #ffffff;">Appels exclusifs pour un client</td>
+                                                                <td> 5000 à 10000f par minute</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
