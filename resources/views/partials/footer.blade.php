@@ -119,7 +119,7 @@
         <div class="row align-items-center">
             <div class="divider-25 d-none d-lg-block"></div>
             <div class="col-lg-5 text-center text-lg-left animate" data-animation="scaleAppear">
-                <p>© Copyright <span class="copyright_year">2021</span> ACG_Dev. Tous droits réservés</p>
+                <p>© Copyright <span class="copyright_year">{{ date('Y') }}</span> ACG. Tous droits réservés</p>
             </div>
             <div class="col-lg-7 text-center text-lg-right animate" data-animation="scaleAppear">
                 <div class="widget widget_nav_menu">

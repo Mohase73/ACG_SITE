@@ -390,6 +390,24 @@ select,
     min-height: 10px !important;
 }
 
+/* ===== HOVER NAV AFFIX (header blanc) ===== */
+.page_header.affix .nav a:hover,
+.page_header.affix .sf-menu > li > a:hover {
+    color: #111 !important;
+    opacity: 0.7;
+}
+
+.page_header.affix .far.fa-envelope:hover,
+.page_header.affix .far.fa-user:hover {
+    color: #111111 !important;
+}
+
+/* ===== HOVER DARK DROPDOWN NAV ===== */
+.page_header .sf-menu ul li a:hover,
+.page_header .sf-menu ul li a:focus {
+    color: #111111 !important;
+}
+
 /* ===== HOVER GLOBAL COLOR ===== */
 a:hover,
 a.color-main:hover,
@@ -404,6 +422,36 @@ a.color-main:hover,
 .ds .breadcrumb > li a:not(.btn):hover,
 .breadcrumb > li a:not(.btn):hover,
 .ds.ms.page_footer .widget.widget_nav_menu ul li a:not(.btn):hover {
+    color: #BDF2ED !important;
+}
+
+/* ===== HOVER DARK CONTENU SECTIONS ===== */
+.vertical-item a:not(.btn):hover,
+.item-content a:not(.btn):hover,
+.entry-header a:not(.btn):hover,
+.entry-content a:not(.btn):hover,
+.media-body a:not(.btn):hover,
+.icon-box a:not(.btn):hover,
+.cat-links a:hover,
+.tag-wrapper a:hover,
+.simple_link:hover,
+section:not(.page_header):not(.page_footer):not(.page_copyright) h1 a:hover,
+section:not(.page_header):not(.page_footer):not(.page_copyright) h2 a:hover,
+section:not(.page_header):not(.page_footer):not(.page_copyright) h3 a:hover,
+section:not(.page_header):not(.page_footer):not(.page_copyright) h4 a:hover,
+section:not(.page_header):not(.page_footer):not(.page_copyright) h5 a:hover,
+section:not(.page_header):not(.page_footer):not(.page_copyright) h6 a:hover,
+section:not(.page_header):not(.page_footer):not(.page_copyright) p a:not(.btn):hover,
+section:not(.page_header):not(.page_footer):not(.page_copyright) li a:not(.btn):hover,
+section:not(.page_header):not(.page_footer):not(.page_copyright) .widget a:not(.btn):hover {
+    color: #111111 !important;
+}
+
+/* Annuler le dark hover pour footer et header */
+.page_footer a:not(.btn):hover,
+.page_copyright a:not(.btn):hover,
+footer a:not(.btn):hover,
+.page_header a:not(.btn):hover {
     color: #BDF2ED !important;
 }
 

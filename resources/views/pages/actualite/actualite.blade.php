@@ -69,54 +69,6 @@
                     </div>
                 </article>
 
-                <article class="post ls vertical-item type-post status-publish format-video has-post-thumbnail post_format-post-format-video">
-                    <div class="item-media">
-                        <div class="embed-responsive">
-                            <a href="images/actualite/08.jpg" class="photoswipe-link" data-width="970" data-height="600" data-iframe="https://www.youtube.com/embed/mcixldqDIEQ">
-                                <img src="images/actualite/formation.jpeg" alt="img">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="item-content mt-35">
-
-                        <p class="item-meta ">
-                            <span>
-                                    <i class="far fa-clock color-main"></i>
-                                    <time datetime="2018-03-18T15:15:12+00:00" class="published entry-date">09 Sep 2021</time>
-                            </span>
-                        </p>
-
-                        <h5 class="mt-15 mb-0">
-                        </h5>
-
-                        <p class="mt-3">
-                            La compétence Télécom peut s'acquérir grâce à une formation qui facilitera votre embauche ou votre évolution professionnelle dans le domaine Communication. Pour ceux qui souhaitent trouver un emploi rapidement après une formation Télécom, un stage ou une alternance se révèlent souvent comme des choix pertinents.
-                        </p>
-
-                        <hr class="mt-20">
-
-                        <div class="meta-wrap">
-                            <div class="tag-wrapper">
-                                <span class="cat-links">
-                                    <a href="{{url('a_propos_de_nous')}}">À Propos de nous</a>
-                                    <a href="{{url('nos_partenaire')}}">Partenaires</a>
-                                </span>
-                            </div>
-                            <div class="share_buttons">
-                                <a href="https://www.facebook.com/acgburkinafaso"  target="_blank" class="fab fa-facebook-square " title="facebook"></a>
-                                <a href="https://twitter.com/ConsultingAfric"  target="_blank" class="fab fa-twitter-square " title="twitter"></a>
-                                {{--  <a href="#" class="fab fa-telegram-plane" title="telegram"></a>  --}}
-                                <a href="https://www.linkedin.com/company/afric-consulting-group"  target="_blank" class="fab fa-linkedin " title="linkedin"></a>
-                                {{--  <a href="#" class="fab fa-instagram" title="instagram"></a>  --}}
-                                {{--  <a href="#" class="fab fa-youtube" title="youtube"></a>  --}}
-                            </div>
-                        </div>
-
-                        <a href="#" class="btn btn-maincolor2 btn-short mt-40 mb-0">Lire</a>
-
-                    </div>
-                </article>
-
                 <article class="post ls vertical-item type-post status-publish has-post-thumbnail gallery post_format-post-format-gallery">
                     <div class="owl-carousel owl-theme" data-loop="true" data-margin="0" data-nav="true" data-dots="false" data-themeclass="entry-thumbnail-carousel" data-center="false" data-items="1" data-autoplay="true" data-responsive-xs="1" data-responsive-sm="1" data-responsive-md="1" data-responsive-lg="1">
                         <div class="item">
@@ -529,10 +481,6 @@
 
                     <div class="tagcloud">
 
-                            Formation en ligne
-                        </a>
-
-                            Formation présentielle
                         </a>
 
                         <a href="{{url('boutique')}}" class="tag-cloud-link">
@@ -556,27 +504,15 @@
                     <h3 class="widget-title">Articles populaires</h3>
                     <ul class="list-unstyled">
                         <li class="media">
-                            <a class="media-image" href="blog-single-right.html">
-                                <img src="images/actualite/formation.jpeg" alt="img">
-                            </a>
-                            <div class="media-body">
-                                <h4 class="mb-2">
-                                </h4>
-                                <p class="item-meta">
-                                </p>
-                            </div>
-                        </li>
-
-                        <li class="media">
                             <a class="media-image" href="#">
-                                <img src="images/actualite/Call.jpg" alt="img">
+                                <img src="images/dev/code.jpg" alt="img">
                             </a>
                             <div class="media-body">
                                 <h4 class="mb-2">
-                                    <a href="{{url('centre-appel')}}">Centre d'appel</a>
+                                    <a href="{{url('developpement_web')}}">Développement Web et Mobile</a>
                                 </h4>
                                 <p class="item-meta">
-                                    <a href="{{url('centre-appel')}}"><i class="far color-main fa-clock mr-2"></i> 10 Sep 2021</a>
+                                    <a href="{{url('developpement_web')}}"><i class="far color-main fa-clock mr-2"></i> 10 Sep 2021</a>
                                 </p>
                             </div>
                         </li>

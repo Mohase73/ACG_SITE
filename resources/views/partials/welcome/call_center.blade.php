@@ -3,11 +3,12 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-12 col-lg-6 post_format-post-format-video">
-                    <div class="embed-responsive text-center">
+                    <div class="embed-responsive text-center" style="position: relative;">
                         <a href="images/video-bg.png" class="photoswipe-link" data-width="970" data-height="515" data-iframe="https://www.youtube.com/embed/WwvNiN2_Jlk">
                             {{-- <img src="images/video-bg.png" alt="img"> --}}
                             <img src="images/images/call.png" alt="img">
                         </a>
+
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 section-special right text-center text-lg-left" style="background-color: #F3F2F2 !important">

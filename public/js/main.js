@@ -1708,6 +1708,7 @@ function windowLoadInit() {
 			.owlCarousel({
 				loop: true,
 				autoplay: true,
+				startPosition: 0,
 				margin: 30,
 				nav: true,
 				dots: false,

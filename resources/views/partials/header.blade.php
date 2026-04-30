@@ -46,13 +46,22 @@
                                 <a href="#">Nos solutions</a>
                                 <ul style="width: auto !important">
                                     <li style="width: auto !important">
-                                        <a href="#">Solution 1</a>
+                                        <a href="#">ALERTE JOB</a>
                                     </li>
                                     <li style="width: auto !important">
-                                        <a href="#">Solution 2</a>
+                                        <a href="#">ALERTE IMMOBILIER</a>
                                     </li>
                                     <li style="width: auto !important">
-                                        <a href="#">Solution 3</a>
+                                        <a href="#">LOVELINK</a>
+                                    </li>
+                                    <li style="width: auto !important">
+                                        <a href="#">ASTROLOGIE</a>
+                                    </li>
+                                    <li style="width: auto !important">
+                                        <a href="#">ROYALTURF</a>
+                                    </li>
+                                    <li style="width: auto !important">
+                                        <a href="#">PINGFOOT</a>
                                     </li>
                                 </ul>
                             </li>

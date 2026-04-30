@@ -51,15 +51,6 @@
                     <div class="col-sm-4">
                         <div class="icon-box text-center text-lg-left small-box">
                             <div class="icon-styled ">
-                            <span class="iconify color-main" data-icon="mdi:school-outline" style="font-size: 60px;"></span>
-                            </div>
-                            <h5>Formations</h5>
-                        </div>
-                        <div class="divider-40 hidden-above-sm"></div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="icon-box text-center text-lg-left small-box">
-                            <div class="icon-styled ">
                             <span class="iconify color-main" data-icon="mdi:code-tags" style="font-size: 70px;"></span>
                             </div>
                             <h5>Développement Web et Mobile</h5>
@@ -95,10 +86,6 @@
                         <div class="divider-40 hidden-above-lg"></div>
                         <div class="special-heading font-weight-light">
                             <p class="color-darkgrey">Nous sommes une entreprises qui excelle dans le domaine de la télécommunication et nous euvrons à passer les informations importantes aux communocteurs abonnés.</p>
-                        </div>
-                        <div class="divider-20"></div>
-                        <div class="special-heading font-weight-light">
-                            <p class="color-darkgrey">Nous faisons des formation en initiation à l'information, en entrepreunariat, nous apportons des conseils aux entreprises et aux personnes désirant se lancer dans le digital.</p>
                         </div>
                         <div class="divider-20"></div>
                         <div class="special-heading font-weight-light">

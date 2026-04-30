@@ -44,33 +44,6 @@
                     </div>
                     <div class="vertical-item p-30 shadow-hover mx-10 my-20 text-center">
                         <div class="item-media" >
-                            <img src="images/actualite/formation.jpeg" style=" height: 205px" alt="img">
-                        </div>
-                        <div class="item-content mt-25">
-                            <div class="item-meta">
-                                <span>
-                                    <a href="blog-left.html" rel="bookmark">
-                                        <i class="far fa-clock"></i>
-                                        <time class="published updated" datetime="2018-03-18T15:15:12+00:00">
-                                            09 Sep 2021
-                                        </time>
-                                    </a>
-                                </span>
-                            </div>
-                            <header class="entry-header">
-                                <h6 class="mt-3">
-                                    <a href="{{url('formation')}}" rel="bookmark">
-                                        Formations
-                                    </a>
-                                </h6>
-                            </header>
-                            <div class="entry-content mt-3">
-                                <p>La compétence Télécom peut s'acquérir grâce à une formation qui facilitera votre embauche ou votre évolution professionnelle dans le domaine Communication. Pour ceux qui souhaitent trouver un emploi rapidement.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vertical-item p-30 shadow-hover mx-10 my-20 text-center">
-                        <div class="item-media" >
                             <img style="widows: 800px; height: 205px" src="images/actualite/boutique.jpg" alt="image">
                         </div>
                         <div class="item-content mt-25">
@@ -93,6 +66,33 @@
                             </header>
                             <div class="entry-content mt-3">
                                 <p> Le terme « télécommunications » se réfère à la transmission, l'émission ou la réception à distance de signaux diffusant des informations de toute nature : texte, image, son etc.les télécommunications véhiculent les messages immatériels.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vertical-item p-30 shadow-hover mx-10 my-20 text-center">
+                        <div class="item-media" style="height: 205px">
+                            <img style="height: 205px; width: 100%; object-fit: cover;" src="images/dev/code.jpg" alt="img">
+                        </div>
+                        <div class="item-content mt-25">
+                            <div class="item-meta">
+                                <span>
+                                    <a href="blog-left.html" rel="bookmark">
+                                        <i class="far fa-clock"></i>
+                                        <time class="published updated" datetime="2018-03-18T15:15:12+00:00">
+                                            10 Sep 2021
+                                        </time>
+                                    </a>
+                                </span>
+                            </div>
+                            <header class="entry-header">
+                                <h6 class="mt-3">
+                                    <a href="{{url('developpement_web')}}" rel="bookmark">
+                                        Développement Web et Mobile
+                                    </a>
+                                </h6>
+                            </header>
+                            <div class="entry-content mt-3">
+                                <p>Nous concevons des sites web dynamiques et statiques, des applications web et mobiles, des applications USSD pour satisfaire les besoins de nos clients.</p>
                             </div>
                         </div>
                     </div>
