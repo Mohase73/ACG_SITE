@@ -46,22 +46,22 @@
                                 <a href="#">Nos solutions</a>
                                 <ul style="width: auto !important">
                                     <li style="width: auto !important">
-                                        <a href="#">ALERTE JOB</a>
+                                        <a href="{{ url('alerte-job') }}">ALERTE JOB</a>
                                     </li>
                                     <li style="width: auto !important">
-                                        <a href="#">ALERTE IMMOBILIER</a>
+                                        <a href="{{ url('alerte-immobilier') }}">ALERTE IMMOBILIER</a>
                                     </li>
                                     <li style="width: auto !important">
-                                        <a href="#">LOVELINK</a>
+                                        <a href="{{ url('lovelink') }}">LOVELINK</a>
                                     </li>
                                     <li style="width: auto !important">
-                                        <a href="#">ASTROLOGIE</a>
+                                        <a href="{{ url('astrologie') }}">ASTROLOGIE</a>
                                     </li>
                                     <li style="width: auto !important">
-                                        <a href="#">ROYALTURF</a>
+                                        <a href="{{ url('royalturf') }}">ROYALTURF</a>
                                     </li>
                                     <li style="width: auto !important">
-                                        <a href="#">PINGFOOT</a>
+                                        <a href="{{ url('pingfoot') }}">PINGFOOT</a>
                                     </li>
                                 </ul>
                             </li>
@@ -101,7 +101,11 @@
                             </div>
                         </div> --}}
                         <a href="#" class="far fa-envelope ml-4 mr-2 hidden-below-sm contact_modal_window"></a>
-                        <a href="#" class="far fa-user ml-4 hidden-below-sm login_modal_window"></a>
+                        @auth
+                        <a href="{{ route('profil.client') }}" class="far fa-user ml-4 hidden-below-sm"></a>
+                        @else
+                        <a href="{{ route('choix') }}" class="far fa-user ml-4 hidden-below-sm"></a>
+                        @endauth
                     </div>
                 </div>
 

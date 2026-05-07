@@ -5,10 +5,8 @@
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center" style="position: relative;">
                         <a href="images/video-bg.png" class="photoswipe-link" data-width="970" data-height="515" data-iframe="https://www.youtube.com/embed/WwvNiN2_Jlk">
-                            {{-- <img src="images/video-bg.png" alt="img"> --}}
-                            <img src="images/images/call.png" alt="img">
+                            <img src="images/images/call.png" alt="img" style="width:100%; height:auto;">
                         </a>
-
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 section-special right text-center text-lg-left" style="background-color: #F3F2F2 !important">
@@ -48,7 +46,7 @@
                                     <div class="divider-40 hidden-above-lg"></div>
                                 </div> --}}
                                 <div class="col-sm-4 col-lg-5 m-auto">
-                                    <a href="tel:800%20123%204567">
+                                    <a href="tel:+22625416466">
                                         <div class="icon-box shadow-hover2 p-10 text-center small-box">
                                             <div class="icon-styled ">
                                                 <i class="fas fa-mobile-alt color-main"></i>
@@ -60,7 +58,7 @@
                             </div>
                             <div class="divider-60 hidden-below-lg"></div>
                             <div class="divider-40 hidden-above-lg"></div>
-                            <a href="" class="login_modal_window btn btn-maincolor2 btn-short">S'inscrire</a>
+                            <a href="{{route('register')}}" class="btn btn-maincolor2 btn-short">S'inscrire</a>
                         </div>
                     </div>
                 </div>

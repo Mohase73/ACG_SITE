@@ -17,7 +17,7 @@
                                             <li class="d-flex" style="align-items: center;"><span class="iconify color-main mr-2" data-icon="mdi:headset" style="font-size: 20px;"></span> Centre d'Appel</li>
                                         </ul>
                                     </div>
-                                    <a href="{{url('register')}}" class="btn btn-maincolor2 ">Créer un compte <i class="fas fa-long-arrow-alt-right"></i></a>
+                                    <a href="{{route('register')}}" class="btn btn-maincolor2">Créer un compte <i class="fas fa-long-arrow-alt-right"></i></a>
                                 </div>
                             </div>
                         </div>

@@ -350,53 +350,6 @@
     </div>
 </section>
 
-<section class="ls s-py-lg-5 s-py-xl-0 container-px-0 c-gutter-0 bg-light">
-    <div class="container-fluid">
-        <div class="container">
-            <div class="col-12 text-center">
-                <h2 class="special-heading underline text-dark">
-                    <span>Lovelink</span>
-                </h2>
-                <div class="divider-55 hidden-below-lg"></div>
-                <div class="divider-40 hidden-above-lg"></div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-6 section-special right text-center text-lg-left">
-                    <div class="ls ms ">
-                        <div>
-                            <div class=" col-12 text-center">
-                                <p class=" text-center text-rigth">
-                                    Lovelink est le meilleur site de rencontre et de chat pour trouver l'amour. Connectez-vous avec des milliers de célibataires, discutez en toute sécurité et trouvez la personne qui vous correspond vraiment grâce à notre algorithme de matchmaking avancé.
-                                </p>
-                                <div class="row pt-3 pl-md-4">
-                                    <div class="text-center d-flex">
-                                        <div class="col-md-4">
-                                            <a href="#" class="btn btn-maincolor2 btn-short" > <span class="text-dark">S'inscrire</span> </a>
-                                        </div>
-                                        <div class="col-md-4"></div>
-                                        <div class="col-md-4">
-                                            <a href="#" class="btn" style="background-color: #cfcfcf"> <span class="text-dark">Découvrir</span> </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="divider-55 hidden-below-lg"></div>
-                                <div class="divider-40 hidden-above-lg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 post_format-post-format-video">
-                    <div class="embed-responsive text-center">
-                            <span class="iconify color-main" data-icon="mdi:heart-outline" style="font-size: 250px;"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="divider-60 hidden-below-lg"></div>
-            <div class="divider-40 hidden-above-lg"></div>
-        </div>
-    </div>
-</section>
-
 @endsection
 
 

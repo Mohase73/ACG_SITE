@@ -17,7 +17,7 @@
                             </div>
                             <div class="divider-45"></div>
                             <div class="field-checkbox input-styled">
-                                <div class="checkbox custom-checkbox ">
+                                <div class="checkbox custom-checkbox">
                                     <div class="form-check form-check-inline">
                                         <input type="checkbox" name="checkboxes" value="" id="form-checkbox">
                                         <label for="form-checkbox">Afric Consulting Group vous remercie pour votre confiance</label>
@@ -30,7 +30,7 @@
                 <div class="divider-60 divider-md-90 divider-xl-150"></div>
             </div>
 
-            <div class="col-lg-4 text-center text-md-left animate" data-animation="fadeInUp">
+            <div class="col-12 col-lg-4 text-center text-md-left animate" data-animation="fadeInUp">
                 <div class="widget widget_text">
                     <h3 class="widget-title text-white text-bold">A propos de nous</h3>
                     <p>
@@ -38,71 +38,47 @@
                     </p>
                 </div>
                 <span class="social-icons">
-                    <a href="https://www.facebook.com/acgburkinafaso"  target="_blank" class="fab fa-facebook-square " title="facebook"></a>
-                    <a href="https://twitter.com/ConsultingAfric"  target="_blank" class="fab fa-twitter-square " title="twitter"></a>
-                    {{--  <a href="#" class="fab fa-telegram-plane" title="telegram"></a>  --}}
-                    <a href="https://www.linkedin.com/company/afric-consulting-group"  target="_blank" class="fab fa-linkedin " title="linkedin"></a>
-                    {{--  <a href="#" class="fab fa-instagram" title="instagram"></a>  --}}
-                    {{--  <a href="#" class="fab fa-youtube" title="youtube"></a>  --}}
+                    <a href="https://www.facebook.com/acgburkinafaso" target="_blank" class="fab fa-facebook-square" title="facebook"></a>
+                    <a href="https://twitter.com/ConsultingAfric" target="_blank" class="fab fa-twitter-square" title="twitter"></a>
+                    <a href="https://www.linkedin.com/company/afric-consulting-group" target="_blank" class="fab fa-linkedin" title="linkedin"></a>
                 </span>
                 <div class="divider-60 divider-lg-0"></div>
             </div>
 
-            <div class="col-lg-4 text-center text-md-left animate" data-animation="fadeInUp">
+            <div class="col-12 col-lg-4 text-center text-md-left animate" data-animation="fadeInUp">
                 <div class="widget widget_mailchimp">
-
                     <h3 class="widget-title text-white text-bold">Newsletter</h3>
-
-                    <p>
-                    </p>
-
                     <form class="signup" action="{{url('subscribe')}}" method="POST">
                         @csrf
                         <label for="mailchimp_email">
-                            <span class="screen-reader-text ">Souscrire:</span>
+                            <span class="screen-reader-text">Souscrire:</span>
                         </label>
-
                         <input id="mailchimp_email" name="from_email" type="email" class="form-control mailchimp_email" placeholder="Entrer votre email">
-
                         <button type="submit" class="search-submit">
                             <span class="screen-reader-text">Souscrire</span>
                         </button>
                         <div class="response"></div>
                     </form>
-
-
                 </div>
                 <div class="divider-60 divider-lg-0"></div>
             </div>
 
-            <div class="col-lg-4 text-center text-md-left animate" data-animation="fadeInUp">
+            <div class="col-12 col-lg-4 text-center text-md-left animate" data-animation="fadeInUp">
                 <div class="widget widget_nav_menu">
                     <h3 class="widget-title text-white text-bold">Liens</h3>
                     <div class="menu-container">
-
                         <ul class="menu">
-
                             <li class="menu-item">
-                                <a href="{{url('a_propos_de_nous')}}">
-                                    A propos de nous
-                                </a>
-                            <li class="menu-item">
-                                <a href="{{url('nous_contactez')}}" class="contact_modal_window">
-                                    Nous contacter
-                                </a>
+                                <a href="{{url('a_propos_de_nous')}}">A propos de nous</a>
                             </li>
                             <li class="menu-item">
-                                </a>
+                                <a href="{{url('nous_contactez')}}">Nous contacter</a>
                             </li>
                             <li class="menu-item">
-                                <a href="{{url('nos_service')}}">
-                                    Nos service
-                                </a>
+                                <a href="{{url('nos-service')}}">Nos services</a>
                             </li>
                             <li class="menu-item">
-                                <a href="{{url('boutique')}}">
-                                    Boutique
-                                </a>
+                                <a href="{{url('boutique')}}">Boutique</a>
                             </li>
                         </ul>
                     </div>
@@ -118,24 +94,16 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="divider-25 d-none d-lg-block"></div>
-            <div class="col-lg-5 text-center text-lg-left animate" data-animation="scaleAppear">
+            <div class="col-12 col-lg-5 text-center text-lg-left animate" data-animation="scaleAppear">
                 <p>© Copyright <span class="copyright_year">{{ date('Y') }}</span> ACG. Tous droits réservés</p>
             </div>
-            <div class="col-lg-7 text-center text-lg-right animate" data-animation="scaleAppear">
+            <div class="col-12 col-lg-7 text-center text-lg-right animate" data-animation="scaleAppear">
                 <div class="widget widget_nav_menu">
                     <ul class="menu">
-                        <li>
-                            <a href="{{url('nos_partenaire')}}">Nos partenaires</a>
-                        </li>
-                        <li>
-                            <a href="{{url('actualite')}}">Actualités</a>
-                        </li>
-                        <li>
-                            <a href="#" class="login_modal_window">Connexion</a>
-                        </li>
-                        <li>
-                            <a href="#" class="login_modal_window">Inscription</a>
-                        </li>
+                        <li><a href="{{url('nos_partenaire')}}">Nos partenaires</a></li>
+                        <li><a href="{{url('actualite')}}">Actualités</a></li>
+                        <li><a href="{{ route('login') }}">Connexion</a></li>
+                        <li><a href="{{ route('register') }}">Inscription</a></li>
                     </ul>
                 </div>
             </div>

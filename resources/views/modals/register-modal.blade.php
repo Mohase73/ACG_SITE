@@ -61,6 +61,11 @@
 						<input type="password" name="password" class="form-control" id="reg-login-password" placeholder="Votre mot de passe">
 					</div>
 
+					<div class="form-group has-placeholder">
+						<label for="reg-login-password-confirm">Confirmer le mot de passe</label>
+						<input type="password" name="password_confirmation" class="form-control" id="reg-login-password-confirm" placeholder="Confirmer votre mot de passe">
+					</div>
+
 				    <div class="divider-45"></div>
 
 				    <button form="form-sign-up" type="submit" class="btn btn-short btn-maincolor2">Inscription</button>

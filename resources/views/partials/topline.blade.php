@@ -24,15 +24,15 @@
                 </div>
                 <div class="col-6 text-center text-lg-right">
                     <span class="icon-inline">
-                        <span class="icon-styled ">
+                        <span class="icon-styled">
                             <i class="fas fa-phone"></i>
                         </span>
                         <span>
                             <a href="phone:+22625416466">+226 25 41 64 66</a>
                         </span>
                     </span>
-                    <span class="icon-inline hidden-below-md">
-                        <span class="icon-styled ">
+                    <span class="icon-inline ml-2">
+                        <span class="icon-styled">
                             <i class="fas fa-pencil-alt"></i>
                         </span>
                         <span>

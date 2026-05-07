@@ -6,7 +6,7 @@
             <div class="col-12 col-md-6 col-lg-5">
                 <div class="card shadow-layout p-5">
                     <h4 class="special-heading underline text-center">
-                        <span>Se connecter</span>
+                        <span>Compte Administrateur</span>
                     </h4>
                     <div class="divider-30"></div>
                     @if($errors->any())
@@ -18,8 +18,16 @@
                         </ul>
                     </div>
                     @endif
-                    <form action="{{ route('login') }}" method="POST">
+                    <form action="{{ route('admin.register.store') }}" method="POST">
                         @csrf
+                        <div class="form-group">
+                            <label>Nom</label>
+                            <input type="text" name="nom" class="form-control" placeholder="Votre nom" value="{{ old('nom') }}" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Prénom</label>
+                            <input type="text" name="prenom" class="form-control" placeholder="Votre prénom" value="{{ old('prenom') }}" required>
+                        </div>
                         <div class="form-group">
                             <label>Email</label>
                             <input type="email" name="email" class="form-control" placeholder="Votre email" value="{{ old('email') }}" required>
@@ -28,18 +36,15 @@
                             <label>Mot de passe</label>
                             <input type="password" name="password" class="form-control" placeholder="Votre mot de passe" required>
                         </div>
-                        <div class="text-right mb-3">
-                            <a href="{{ url('/forgot-password') }}" class="color-main">Mot de passe oublié ?</a>
+                        <div class="form-group">
+                            <label>Confirmer le mot de passe</label>
+                            <input type="password" name="password_confirmation" class="form-control" placeholder="Confirmer votre mot de passe" required>
                         </div>
-                        <button type="submit" class="btn btn-maincolor2 w-100">Se connecter</button>
+                        <button type="submit" class="btn btn-maincolor2 w-100">Créer le compte</button>
                     </form>
                     <div class="divider-20"></div>
                     <div class="text-center">
-                        @if(request('type') == 'admin')
-                            <a href="{{ route('admin.register') }}" class="color-main">Créer un compte admin</a>
-                        @else
-                            <a href="{{ route('register') }}" class="color-main">Pas encore de compte ? S'inscrire</a>
-                        @endif
+                        <a href="{{ route('login') }}?type=admin" class="color-main">Déjà un compte ? Se connecter</a>
                     </div>
                 </div>
             </div>

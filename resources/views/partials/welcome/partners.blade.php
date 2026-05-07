@@ -1,5 +1,5 @@
-<div class="cart-collaterals" >
-
+<div class="cart-collaterals">
+    <div class="container">
     <div class="cross-sells">
         <div class="col-12 text-center">
             <h2 class="special-heading underline">
@@ -81,9 +81,6 @@
                 </a>
             </li>
         </ul>
-
     </div>
-
-
+    </div>
 </div>
-
