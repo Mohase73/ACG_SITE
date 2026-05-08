@@ -8,6 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Actualite extends Model
 {
     use HasFactory;
-    public $timestamps = false;
-    protected $fillable = ['id', 'text1', 'text2', 'text3', 'image'];
+    public $timestamps = true;
+    protected $fillable = ['titre', 'description', 'image', 'categorie', 'lien', 'date_publication'];
 }

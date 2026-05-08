@@ -5,7 +5,7 @@
             <div class="row align-items-center">
                 <div class="col-xl-3 col-md-4 col-sm-5 col-9">
                     <a href="./" class="logo logo-color">
-                        <img src="images/logo_color.png" alt="img">
+                        <img src="/images/logo_color.png" alt="img">
                     </a>
                 </div>
                 <div class="col-xl-8 col-1 d-flex align-items-center justify-content-end px-1">

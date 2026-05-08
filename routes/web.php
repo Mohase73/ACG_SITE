@@ -98,8 +98,15 @@ Route::get('/royalturf', function () {
 })->name('royalturf');
 
 // ===== ACTUALITES =====
-Route::get('/actualite', function () {
-    return view('pages.actualite.actualite');
+Route::get('/actualite/{year?}/{month?}', [App\Http\Controllers\ActualiteController::class, 'index'])->name('actualite');
+
+Route::prefix('admin')->middleware('auth')->group(function () {
+    Route::get('/actualites', [App\Http\Controllers\ActualiteController::class, 'adminIndex'])->name('admin.actualites.index');
+    Route::get('/actualites/create', [App\Http\Controllers\ActualiteController::class, 'create'])->name('admin.actualites.create');
+    Route::post('/actualites', [App\Http\Controllers\ActualiteController::class, 'store'])->name('admin.actualites.store');
+    Route::get('/actualites/{actualite}/edit', [App\Http\Controllers\ActualiteController::class, 'edit'])->name('admin.actualites.edit');
+    Route::put('/actualites/{actualite}', [App\Http\Controllers\ActualiteController::class, 'update'])->name('admin.actualites.update');
+    Route::delete('/actualites/{actualite}', [App\Http\Controllers\ActualiteController::class, 'destroy'])->name('admin.actualites.destroy');
 });
 
 // ===== BOUTIQUE =====

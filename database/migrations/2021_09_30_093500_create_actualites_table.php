@@ -15,11 +15,13 @@ class CreateActualitesTable extends Migration
     {
         Schema::create('actualites', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
-            $table->string('text1');
-            $table->string('text2');
-            $table->string('text3');
-            $table->string('image');
+            $table->string('titre');
+            $table->text('description');
+            $table->string('image')->nullable();
+            $table->string('categorie');
+            $table->string('lien')->nullable();
+            $table->date('date_publication');
+            $table->timestamps();
         });
     }
 
