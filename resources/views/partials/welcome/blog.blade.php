@@ -25,7 +25,7 @@
                                     <a href="blog-left.html" rel="bookmark">
                                         <i class="far fa-clock"></i>
                                         <time class="published updated" datetime="2018-03-18T15:15:12+00:00">
-                                            10 Sep 2021
+                                            10 Sep 2026
                                         </time>
                                     </a>
                                 </span>
@@ -52,7 +52,7 @@
                                     <a href="blog-left.html" rel="bookmark">
                                         <i class="far fa-clock"></i>
                                         <time class="published updated" datetime="2018-03-18T15:15:12+00:00">
-                                            10 Sep 2021
+                                            20 Nov 2026
                                         </time>
                                     </a>
                                 </span>
@@ -79,7 +79,7 @@
                                     <a href="blog-left.html" rel="bookmark">
                                         <i class="far fa-clock"></i>
                                         <time class="published updated" datetime="2018-03-18T15:15:12+00:00">
-                                            10 Sep 2021
+                                            05 Jan 2026
                                         </time>
                                     </a>
                                 </span>

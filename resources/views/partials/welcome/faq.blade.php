@@ -14,7 +14,7 @@
                                 <div class="card-header" role="tab" id="collapse01_header">
                                     <h5>
                                         <a data-toggle="collapse" href="#collapse01" aria-expanded="true" aria-controls="collapse01">
-                                            Pourrai-je créer un compte dans votre site web?
+                                            Pourrai-je créer un compte sur votre site web?
                                         </a>
                                     </h5>
                                 </div>
@@ -60,13 +60,13 @@
                         <div class="d-flex align-items-center justify-content-center justify-content-lg-start flex-column flex-md-row">
                             <div>
                                 <h4 class="special-heading">
-                                    <span class="color-main">Vous pouvez nous contacter</span>
+                                    <span class="color-main">Veuillez nous contacter</span>
                                 </h4>
                                 <div class="special-heading font-weight-light">
                                     <p class="color-darkgrey">Pour plus d'information ou en cas de confusion</p>
                                 </div>
                             </div>
-                            <a href="#" class=" contact_modal_window btn btn-maincolor2 btn-short mt-4 mt-md-0 ml-md-5">Ecrit nous</a>
+                            <a href="#" class=" contact_modal_window btn btn-maincolor2 btn-short mt-4 mt-md-0 ml-md-5 d-flex align-items-center justify-content-center">Ecrivez nous</a>
                         </div>
                     </div>
                 </div>

@@ -20,7 +20,7 @@
                                 <div class="checkbox custom-checkbox">
                                     <div class="form-check form-check-inline">
                                         <input type="checkbox" name="checkboxes" value="" id="form-checkbox">
-                                        <label for="form-checkbox">Afric Consulting Group vous remercie pour votre confiance</label>
+                                        <label for="form-checkbox">Afric Consulting Group Telecom vous remercie pour votre confiance</label>
                                     </div>
                                 </div>
                             </div>
@@ -34,7 +34,7 @@
                 <div class="widget widget_text">
                     <h3 class="widget-title text-white text-bold">A propos de nous</h3>
                     <p>
-                        Afric Consulting Group est une socité à responsabilité limité, intervenant dans le domaine de la télécommunication, presente dans quatre pays dont Burkina Faso, Mali, Niger, Benin.
+                        Afric Consulting Group Telecom est une entreprise, intervenant dans le domaine de la télécommunication, presente dans quatre pays dont Burkina Faso, Mali, Niger, Benin.
                     </p>
                 </div>
                 <span class="social-icons">

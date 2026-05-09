@@ -97,7 +97,7 @@
                 </h2>
                 <div class="divider-55 hidden-below-lg"></div>
                 <div class="divider-40 hidden-above-lg"></div>
-                    <p class="color-darkgrey">AFRIC CONSULTING GROUP couvre tout le Burkina Faso, le Mali, le Niger et le Bénin compte conclure des accords de partenariat avec d’autres opérateurs de télécommunication présents en zone CEDEAO. <br>
+                    <p class="color-darkgrey">
                         Nous assurons  à nos clients des applications et des services sur mesure répondant à leurs besoins à cout  réduit. <br>
                         Nous sommes également partenaire de plusieurs opérateurs médias (radios, journaux) via ses services de communication SMS et audiotel. <br>
                         Nous mettons au profit du grand public un ensemble riche de produits de personnalisation et d’animation autour de la téléphonie mobile at l’envoi groupé de SMS pour les professionnels et TPE : SMS association, SMS mairie, SMS services à la personne, SMS Diagnostic immobilier. <br>

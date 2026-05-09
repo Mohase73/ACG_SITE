@@ -10,14 +10,19 @@
                             <div class="intro_layers_wrapper">
                                 <div class="intro_layers">
                                     <div class="intro-layer title">
-                                        <h2>ACG <span class="color-main">TELECOM</span> <br> <span class="color-main2">Burkina Faso<sub class="font-weight-light" style="color:#ffffff;">/Ouagadougou</sub></span></h2>
+                                        <h2>ACG <span class="color-main">TELECOM</span> <br> <span
+                                                class="color-main2">Burkina Faso<sub class="font-weight-light"
+                                                    style="color:#ffffff;">/Ouagadougou</sub></span></h2>
                                     </div>
                                     <div class="intro-layer lists">
                                         <ul class="list-unstyled">
-                                            <li class="d-flex" style="align-items: center;"><span class="iconify color-main mr-2" data-icon="mdi:headset" style="font-size: 20px;"></span> Centre d'Appel</li>
+                                            <li class="d-flex" style="align-items: center;"><span
+                                                    class="iconify color-main mr-2" data-icon="mdi:headset"
+                                                    style="font-size: 20px;"></span> Centre d'Appel</li>
                                         </ul>
                                     </div>
-                                    <a href="{{route('register')}}" class="btn btn-maincolor2">Créer un compte <i class="fas fa-long-arrow-alt-right"></i></a>
+                                    <a href="{{ route('register') }}" class="btn btn-maincolor2">Créer un compte <i
+                                            class="fas fa-long-arrow-alt-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -37,14 +42,19 @@
                             <div class="intro_layers_wrapper">
                                 <div class="intro_layers">
                                     <div class="intro-layer title">
-                                        <h2>ACG <span class="color-main">TELECOM</span> <br><span class="color-main2">Burkina Faso<sub class="font-weight-light" style="color:#ffffff;">/Ouagadougou</sub></span></h2>
+                                        <h2>ACG <span class="color-main">TELECOM</span> <br><span
+                                                class="color-main2">Burkina Faso<sub class="font-weight-light"
+                                                    style="color:#ffffff;">/Ouagadougou</sub></span></h2>
                                     </div>
                                     <div class="intro-layer lists">
                                         <ul class="list-unstyled">
-                                            <li class="d-flex" style="align-items: center;"><span class="iconify color-main mr-2" data-icon="mdi:cloud-plus-outline" style="font-size: 20px;"></span> Service À Valeur Ajouter</li>
+                                            <li class="d-flex" style="align-items: center;"><span
+                                                    class="iconify color-main mr-2" data-icon="mdi:cloud-plus-outline"
+                                                    style="font-size: 20px;"></span> Service À Valeur Ajouter</li>
                                         </ul>
                                     </div>
-                                    <a href="{{url('nous_contactez')}}" class="btn btn-maincolor2 ">Contacter nous <i class="fas fa-long-arrow-alt-right"></i></a>
+                                    <a href="{{ url('nous_contactez') }}" class="btn btn-maincolor2 ">Contacter nous <i
+                                            class="fas fa-long-arrow-alt-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -60,14 +70,19 @@
                             <div class="intro_layers_wrapper">
                                 <div class="intro_layers">
                                     <div class="intro-layer title">
-                                        <h2>ACG <span class="color-main">TELECOM</span> <br><span class="color-main2">Burkina Faso<sub class="font-weight-light" style="color:#ffffff;">/Ouagadougou</sub></span></h2>
+                                        <h2>ACG <span class="color-main">TELECOM</span> <br><span
+                                                class="color-main2">Burkina Faso<sub class="font-weight-light"
+                                                    style="color:#ffffff;">/Ouagadougou</sub></span></h2>
                                     </div>
                                     <div class="intro-layer lists">
-                                         <ul class="list-unstyled">
-                                            <li class="d-flex" style="align-items: center;"><span class="iconify color-main mr-2" data-icon="mdi:code-tags" style="font-size: 20px;"></span> Développement Web et Mobile</li>
+                                        <ul class="list-unstyled">
+                                            <li class="d-flex" style="align-items: center;"><span
+                                                    class="iconify color-main mr-2" data-icon="mdi:code-tags"
+                                                    style="font-size: 20px;"></span> Développement Web et Mobile</li>
                                         </ul>
                                     </div>
-                                    <a href="{{url('nos-service')}}" class="btn btn-maincolor2 ">Nos Services  <i class="fas fa-long-arrow-alt-right"></i></a>
+                                    <a href="{{ url('nos-service') }}" class="btn btn-maincolor2 ">Nos Services <i
+                                            class="fas fa-long-arrow-alt-right"></i></a>
                                 </div>
                             </div>
                         </div>

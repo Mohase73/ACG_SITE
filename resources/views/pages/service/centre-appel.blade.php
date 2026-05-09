@@ -30,7 +30,7 @@
                 <div class="divider-55 hidden-below-lg"></div>
                 <div class="divider-40 hidden-above-lg"></div>
                 <div class="special-heading font-weight-light">
-                    <p class="color-darkgrey">AFRIC CONSULTING GROUP (ACG) est un groupe
+                    <p class="color-darkgrey">AFRIC CONSULTING GROUP (ACG) TELECOM est une entreprise de télécommunication,
                         implanté dans plusieurs pays à savoir le Burkina Faso, le Mali,
                         et le Niger. Nous intervenons dans le domaine de la télécommunication à travers
                         un réseau de centre d’appel installé et mise à la disposition de

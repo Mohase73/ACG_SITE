@@ -43,7 +43,7 @@
                     <div class="ls ms">
                         <div>
                             <p class=" text-center text-lg-left">
-                                <span>Ici à Afric Consulting Group nous dévéloppons des solutions(sites, applications, ....) numérique, nous concevons des programmes informatiques.Nous prenons un projet Web, qui a été pensée et réfléchie par un client ou une équipe de conception, et la transforme en site Web.</span>
+                                <span>Ici à Afric Consulting Group Telecom nous dévéloppons des solutions(sites, applications, ....) numérique, nous concevons des programmes informatiques.Nous prenons un projet Web, qui a été pensée et réfléchie par un client ou une équipe de conception, et la transforme en site Web.</span>
                             </p>
                             <div class="divider-55 hidden-below-lg"></div>
                             <div class="divider-40 hidden-above-lg"></div>
