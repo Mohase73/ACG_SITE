@@ -10,6 +10,10 @@ use App\Http\Controllers\TransformationDigitalController;
 use App\Http\Controllers\UtilisateursController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\ConnexionController;
+use App\Http\Controllers\ProduitController;
+use App\Http\Controllers\PanierController;
+use App\Http\Controllers\CommandeController;
+use App\Http\Controllers\AdminCommandeController;
 
 // ===== ROUTES ADMIN =====
 Route::prefix('admin')->group(function () {
@@ -110,8 +114,25 @@ Route::prefix('admin')->middleware('auth')->group(function () {
 });
 
 // ===== BOUTIQUE =====
-Route::get('/boutique', function () {
-    return view('pages.boutique.boutique');
+Route::get('/boutique', [ProduitController::class, 'index'])->name('boutique.index');
+Route::get('/boutique/{produit}', [ProduitController::class, 'show'])->name('boutique.show');
+
+// ===== PANIER =====
+Route::get('/panier', [PanierController::class, 'index'])->name('panier.index');
+Route::post('/panier/{produit}', [PanierController::class, 'ajouter'])->name('panier.ajouter');
+Route::delete('/panier/{item}', [PanierController::class, 'supprimer'])->name('panier.supprimer');
+Route::delete('/panier', [PanierController::class, 'vider'])->name('panier.vider');
+
+// ===== COMMANDES =====
+Route::get('/commande/checkout', [CommandeController::class, 'checkout'])->name('commande.checkout');
+Route::post('/commande', [CommandeController::class, 'store'])->name('commande.store');
+Route::get('/commande/confirmation/{reference}', [CommandeController::class, 'confirmation'])->name('commande.confirmation');
+
+// ===== ADMIN COMMANDES =====
+Route::prefix('admin')->middleware('auth')->group(function () {
+    Route::get('/commandes', [AdminCommandeController::class, 'index'])->name('admin.commandes.index');
+    Route::get('/commandes/{commande}', [AdminCommandeController::class, 'show'])->name('admin.commandes.show');
+    Route::patch('/commandes/{commande}/statut', [AdminCommandeController::class, 'updateStatut'])->name('admin.commandes.statut');
 });
 
 // ===== AUTRES PAGES =====

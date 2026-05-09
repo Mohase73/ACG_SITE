@@ -9,6 +9,24 @@
                   <div class="card-body">
                     <div class="row mb-1">
                       <div class="col">
+                        <p style="color: #808080!important;" class="mb-1">Commandes en attente</p>
+                        <h3 class="mb-0 number-font text-warning">{{ \App\Models\Commande::where('statut','en_attente')->count() }}</h3>
+                      </div>
+                      <div class="col-auto mb-0">
+                        <div class="dash-icon text-warning">
+                          <i class="fa fa-shopping-cart"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <a href="{{ route('admin.commandes.index', ['statut' => 'en_attente']) }}" class="btn btn-sm btn-warning mt-2">Voir les commandes</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row mb-1">
+                      <div class="col">
                         <p style="color: #808080!important;" class="mb-1">Utilisateur{{count($utilisateurs) > 0 ? 's' : ''}}</p>
                         <h3 class="mb-0 number-font">{{count($utilisateurs)}}</h3>
                       </div>
