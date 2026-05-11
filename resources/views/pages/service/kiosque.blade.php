@@ -131,7 +131,7 @@
                 </div>
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
-                        <img style="height: 360px !important" src="/images/service/svi.png" alt="img">
+                        <img style="height: 360px !important" src="/images/service/svi.png" alt="img" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -154,7 +154,7 @@
             <div class="col-lg-7">
                 <article class="vertical-item type-event status-publish format-standard has-post-thumbnail">
                     <div class="item-media post-thumbnail">
-                        <img style="height: 650px !important" src="images/kiosque/maj.jpg" alt="img">
+                        <img style="height: 650px !important" src="images/kiosque/maj.jpg" alt="img" class="img-fluid">
                     </div>
                     <div class="item-content mt-40">
                         <div class="entry-content">
@@ -198,7 +198,7 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img src="images/kiosque/sms.png" alt="img">
+                                            <img src="images/kiosque/sms.png" alt="img" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -223,7 +223,7 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img src="images/kiosque/grc.jpeg" alt="img">
+                                            <img src="images/kiosque/grc.jpeg" alt="img" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -250,7 +250,7 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img src="images/kiosque/faith.jpg" alt="img">
+                                            <img src="images/kiosque/faith.jpg" alt="img" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -275,7 +275,7 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img src="images/kiosque/bank.jpg" alt="img">
+                                            <img src="images/kiosque/bank.jpg" alt="img" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -299,7 +299,7 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img src="images/kiosque/COM.png" alt="img">
+                                            <img src="images/kiosque/COM.png" alt="img" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -323,7 +323,7 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img src="images/kiosque/cash.jpeg" alt="img">
+                                            <img src="images/kiosque/cash.jpeg" alt="img" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -348,7 +348,7 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img src="images/kiosque/job.jpeg" alt="img">
+                                            <img src="images/kiosque/job.jpeg" alt="img" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -373,7 +373,7 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img src="images/kiosque/immobilier.png" alt="img">
+                                            <img src="images/kiosque/immobilier.png" alt="img" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -396,7 +396,7 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img src="images/kiosque/nexto.jpeg" alt="img">
+                                            <img src="images/kiosque/nexto.jpeg" alt="img" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -423,7 +423,7 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img src="images/kiosque/presse.jpeg" alt="img">
+                                            <img src="images/kiosque/presse.jpeg" alt="img" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -448,7 +448,7 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img src="images/kiosque/mobile.jpeg" alt="img">
+                                            <img src="images/kiosque/mobile.jpeg" alt="img" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="media-body">

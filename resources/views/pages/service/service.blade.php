@@ -88,7 +88,7 @@
                 </div>
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
-                            <img style="height: 500px !important" src="/images/centre-appel/prix.jpg" alt="img">
+                            <img style="height: 500px !important" src="/images/centre-appel/prix.jpg" alt="img" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
                         <a href="images/video-bg.png" class="photoswipe-link" data-width="970" data-height="515" data-iframe="https://www.youtube.com/embed/WwvNiN2_Jlk">
-                            <img style="height: 600px !important" src="/images/service/sva.jpg" alt="img">
+                            <img style="height: 600px !important" src="/images/service/sva.jpg" alt="img" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -199,7 +199,7 @@
                 </div>
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
-                            <img style="height: 350px !important" src="/images/service/svi.png" alt="img">
+                            <img style="height: 350px !important" src="/images/service/svi.png" alt="img" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -222,7 +222,7 @@
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
                         <a href="images/video-bg.png" class="photoswipe-link" data-width="970" data-height="515" data-iframe="https://youtu.be/WP-QpZTiNDg">
-                            <img style="height: 600px !important" src="/images/service/ussd.jpg" alt="img">
+                            <img style="height: 600px !important" src="/images/service/ussd.jpg" alt="img" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -340,7 +340,7 @@
                 </div>
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
-                            <img style="height: 350px !important" src="/images/service/pe.jpg" alt="img">
+                            <img style="height: 350px !important" src="/images/service/pe.jpg" alt="img" class="img-fluid">
                     </div>
                 </div>
             </div>

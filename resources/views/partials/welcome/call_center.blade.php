@@ -5,7 +5,7 @@
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center" style="position: relative;">
                         <a href="images/video-bg.png" class="photoswipe-link" data-width="970" data-height="515" data-iframe="https://www.youtube.com/embed/WwvNiN2_Jlk">
-                            <img src="images/images/call.png" alt="img" style="width:100%; height:auto;">
+                            <img src="images/images/call.png" alt="img" style="width:100%; height:auto;" class="img-fluid">
                         </a>
                     </div>
                 </div>

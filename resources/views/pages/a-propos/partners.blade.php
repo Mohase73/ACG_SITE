@@ -38,7 +38,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="item-media cover-image">
-                                <img src="images/partners/moovAfrica.jpg" style="height: 200px !important; width: 150px !important;" alt="img">
+                                <img src="images/partners/moovAfrica.jpg" style="height: 200px !important; width: 150px !important;" alt="img" class="img-fluid">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="https://moov-africa.bf/" target="_blank"></a>
                                 </div>
@@ -70,7 +70,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="item-media cover-image">
-                                <img src="images/partners/telecel.jpeg"  alt="img">
+                                <img src="images/partners/telecel.jpeg"  alt="img" class="img-fluid">
                                 <div class="media-links">
                                     <a class="abs-link" title="" target="_blank" href="https://www.telecelfaso.bf/"></a>
                                 </div>
@@ -102,7 +102,7 @@
                     <div class="row">
                         <div class="col-lg-6 order-1 order-lg-2">
                             <div class="item-media cover-image">
-                                <img src="images/partners/Orange.jpg" alt="img">
+                                <img src="images/partners/Orange.jpg" alt="img" class="img-fluid">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="https://www.orange.fr/" target="_blank"></a>
                                 </div>
@@ -133,7 +133,7 @@
                     <div class="row">
                         <div class="col-lg-6 order-1 order-lg-2">
                             <div class="item-media cover-image">
-                                <img src="images/partners/malitel.jpg" alt="img">
+                                <img src="images/partners/malitel.jpg" alt="img" class="img-fluid">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="http://www.moov-africa.ml/" target="_blank"></a>
                                 </div>
@@ -167,7 +167,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="item-media cover-image p-2">
-                                <img src="images/partners/coris.jpg" alt="img">
+                                <img src="images/partners/coris.jpg" alt="img" class="img-fluid">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="https://burkina.coris.bank/" target="_blank"></a>
                                 </div>
@@ -199,7 +199,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="item-media cover-image">
-                                <img class="p-2" src="images/partners/ikoula.png" alt="img">
+                                <img src="images/partners/ikoula.png" alt="img" class="img-fluid p-2">
                                 <div class="media-links">
                                     <a class="abs-link" target="_blank" title="" href="ikoula.com"></a>
                                 </div>
@@ -231,7 +231,7 @@
                     <div class="row">
                         <div class="col-lg-6 order-1 order-lg-2">
                             <div class="item-media cover-image">
-                                <img src="images/partners/itancia.png" alt="img">
+                                <img src="images/partners/itancia.png" alt="img" class="img-fluid">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="itancia.com" target="_blank"></a>
                                 </div>
@@ -262,7 +262,7 @@
                     <div class="row">
                         <div class="col-lg-6 order-1 order-lg-2">
                             <div class="item-media cover-image p-2">
-                                <img src="images/partners/unify.png" alt="img">
+                                <img src="images/partners/unify.png" alt="img" class="img-fluid">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="unify.com" target="_blank"></a>
                                 </div>
@@ -296,7 +296,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="item-media cover-image p-2">
-                                <img src="images/partners/atel.jpg" alt="img">
+                                <img src="images/partners/atel.jpg" alt="img" class="img-fluid">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="https://burkina.coris.bank/" target="_blank"></a>
                                 </div>
@@ -328,7 +328,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="item-media cover-image">
-                                <img class="p-2" src="images/partners/tritux.jpeg" alt="img">
+                                <img src="images/partners/tritux.jpeg" alt="img" class="img-fluid p-2">
                                 <div class="media-links">
                                     <a class="abs-link" target="_blank" title="" href="ikoula.com"></a>
                                 </div>
@@ -360,7 +360,7 @@
                     <div class="row">
                         <div class="col-lg-6 order-1 order-lg-2">
                             <div class="item-media cover-image">
-                                <img src="images/partners/itancia.png" alt="img">
+                                <img src="images/partners/itancia.png" alt="img" class="img-fluid">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="itancia.com" target="_blank"></a>
                                 </div>
@@ -391,7 +391,7 @@
                     <div class="row">
                         <div class="col-lg-6 order-1 order-lg-2">
                             <div class="item-media cover-image p-2">
-                                <img src="images/partners/unify.png" alt="img">
+                                <img src="images/partners/unify.png" alt="img" class="img-fluid">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="unify.com" target="_blank"></a>
                                 </div>

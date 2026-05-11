@@ -22,7 +22,7 @@
         <div class="card h-100">
             <div class="card-header"><h3 class="card-title">Informations client</h3></div>
             <div class="card-body">
-                <table class="table table-sm mb-0">
+                <div class="table-responsive"><table class="table table-sm mb-0">
                     <tr><th>Nom</th><td>{{ $commande->nom }}</td></tr>
                     <tr><th>Téléphone</th><td>{{ $commande->telephone }}</td></tr>
                     <tr><th>Email</th><td>{{ $commande->email ?? '—' }}</td></tr>
@@ -38,7 +38,7 @@
                     @if($commande->note)
                     <tr><th>Note</th><td><em>{{ $commande->note }}</em></td></tr>
                     @endif
-                </table>
+                </table></div>
             </div>
         </div>
     </div>
@@ -78,7 +78,7 @@
 <div class="card">
     <div class="card-header"><h3 class="card-title">Produits commandés</h3></div>
     <div class="card-body">
-        <table class="table table-bordered mb-0">
+        <div class="table-responsive"><table class="table table-bordered mb-0">
             <thead>
                 <tr>
                     <th>Produit</th>
@@ -103,7 +103,7 @@
                     <th>{{ number_format($commande->total, 0, ',', ' ') }} FCFA</th>
                 </tr>
             </tfoot>
-        </table>
+        </table></div>
     </div>
 </div>
 

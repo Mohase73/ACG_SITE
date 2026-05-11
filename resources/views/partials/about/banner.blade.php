@@ -1,6 +1,6 @@
 <div class="title_outer title_without_animation" data-height="123">
     <div class="title title_size_small position_left standard_title" style="height:123px;background-image:url(/wp-content/uploads/2015/09/title-default.jpg);border-bottom-width: 1px; border-bottom-color: #dfe0e1; border-bottom-style: solid;height:360px;">
-        <div class="image not_responsive"><img src="/wp-content/uploads/2015/09/title-default.jpg" alt="&nbsp;" /> </div>
+        <div class="image not_responsive"><img src="/wp-content/uploads/2015/09/title-default.jpg" alt="&nbsp;"  class="img-fluid" /> </div>
         <div class="title_holder" style="height:123px;">
             <div class="container clearfix">
                 <div class="container_inner clearfix">

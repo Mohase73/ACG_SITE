@@ -140,84 +140,69 @@
 															<div class="mkd-sr-rail-holder-inner">
 																<div class="mkd-sr-rail-item" data-width="18.4"
 																	data-leaving="left" data-top="18.6"
-																	data-left="22.3"><img class="mkd-sr-phone upper"
+																	data-left="22.3"><img
 																		src="/wp-content2/themes/burst/img/phone_upper.png"
-																		alt="Phone Frame - Upper"><img width="351"
+																		alt="Phone Frame - Upper" class="img-fluid mkd-sr-phone upper"><img width="351"
 																		height="577"
-																		src="/wp-content2/uploads/2015/10/phone-1.jpg"
-																		class="mkd-sr-rail-img" alt="a"
+																		src="/wp-content2/uploads/2015/10/phone-1.jpg" alt="a"
 																		srcset="/wp-content2/uploads/2015/10/phone-1.jpg 351w, /wp-content2/uploads/2015/10/phone-1-182x300.jpg 182w"
-																		sizes="(max-width: 351px) 100vw, 351px" /><img
-																		class="mkd-sr-phone lower"
+																		sizes="(max-width: 351px) 100vw, 351px"  class="img-fluid mkd-sr-rail-img" /><img
 																		src="/wp-content2/themes/burst/img/phone_lower.png"
-																		alt="Phone Frame - Lower"><img
-																		class="mkd-sr-phone glow"
+																		alt="Phone Frame - Lower" class="img-fluid mkd-sr-phone lower"><img
 																		src="/wp-content2/themes/burst/img/phone_glow.png"
-																		alt="Phone Frame - Lower"></div>
+																		alt="Phone Frame - Lower" class="img-fluid mkd-sr-phone glow"></div>
 																<div class="mkd-sr-rail-item" data-width="18.4"
 																	data-leaving="left" data-top="13.6"
-																	data-left="59.5"><img class="mkd-sr-phone upper"
+																	data-left="59.5"><img
 																		src="/wp-content2/themes/burst/img/phone_upper.png"
-																		alt="Phone Frame - Upper"><img width="351"
+																		alt="Phone Frame - Upper" class="img-fluid mkd-sr-phone upper"><img width="351"
 																		height="577"
-																		src="/wp-content2/uploads/2015/10/phone-5.jpg"
-																		class="mkd-sr-rail-img" alt="a"
+																		src="/wp-content2/uploads/2015/10/phone-5.jpg" alt="a"
 																		srcset="/wp-content2/uploads/2015/10/phone-5.jpg 351w, /wp-content2/uploads/2015/10/phone-5-182x300.jpg 182w"
-																		sizes="(max-width: 351px) 100vw, 351px" /><img
-																		class="mkd-sr-phone lower"
+																		sizes="(max-width: 351px) 100vw, 351px"  class="img-fluid mkd-sr-rail-img" /><img
 																		src="/wp-content2/themes/burst/img/phone_lower.png"
-																		alt="Phone Frame - Lower"><img
-																		class="mkd-sr-phone glow"
+																		alt="Phone Frame - Lower" class="img-fluid mkd-sr-phone lower"><img
 																		src="/wp-content2/themes/burst/img/phone_glow.png"
-																		alt="Phone Frame - Lower"></div>
+																		alt="Phone Frame - Lower" class="img-fluid mkd-sr-phone glow"></div>
 																<div class="mkd-sr-rail-item" data-width="18.4"
 																	data-leaving="right" data-top="33.7"
-																	data-left="84.3"><img class="mkd-sr-phone upper"
+																	data-left="84.3"><img
 																		src="/wp-content2/themes/burst/img/phone_upper.png"
-																		alt="Phone Frame - Upper"><img width="351"
+																		alt="Phone Frame - Upper" class="img-fluid mkd-sr-phone upper"><img width="351"
 																		height="577"
-																		src="/wp-content2/uploads/2015/10/phone-2.jpg"
-																		class="mkd-sr-rail-img" alt="a"
+																		src="/wp-content2/uploads/2015/10/phone-2.jpg" alt="a"
 																		srcset="/wp-content2/uploads/2015/10/phone-2.jpg 351w, /wp-content2/uploads/2015/10/phone-2-182x300.jpg 182w"
-																		sizes="(max-width: 351px) 100vw, 351px" /><img
-																		class="mkd-sr-phone lower"
+																		sizes="(max-width: 351px) 100vw, 351px"  class="img-fluid mkd-sr-rail-img" /><img
 																		src="/wp-content2/themes/burst/img/phone_lower.png"
-																		alt="Phone Frame - Lower"><img
-																		class="mkd-sr-phone glow"
+																		alt="Phone Frame - Lower" class="img-fluid mkd-sr-phone lower"><img
 																		src="/wp-content2/themes/burst/img/phone_glow.png"
-																		alt="Phone Frame - Lower"></div>
+																		alt="Phone Frame - Lower" class="img-fluid mkd-sr-phone glow"></div>
 																<div class="mkd-sr-rail-item" data-width="18.4"
 																	data-leaving="left" data-top="70.7"
-																	data-left="27.4"><img class="mkd-sr-phone upper"
+																	data-left="27.4"><img
 																		src="/wp-content2/themes/burst/img/phone_upper.png"
-																		alt="Phone Frame - Upper"><img width="351"
+																		alt="Phone Frame - Upper" class="img-fluid mkd-sr-phone upper"><img width="351"
 																		height="577"
-																		src="/wp-content2/uploads/2015/10/phone-4.jpg"
-																		class="mkd-sr-rail-img" alt="a"
+																		src="/wp-content2/uploads/2015/10/phone-4.jpg" alt="a"
 																		srcset="/wp-content2/uploads/2015/10/phone-4.jpg 351w, /wp-content2/uploads/2015/10/phone-4-182x300.jpg 182w"
-																		sizes="(max-width: 351px) 100vw, 351px" /><img
-																		class="mkd-sr-phone lower"
+																		sizes="(max-width: 351px) 100vw, 351px"  class="img-fluid mkd-sr-rail-img" /><img
 																		src="/wp-content2/themes/burst/img/phone_lower.png"
-																		alt="Phone Frame - Lower"><img
-																		class="mkd-sr-phone glow"
+																		alt="Phone Frame - Lower" class="img-fluid mkd-sr-phone lower"><img
 																		src="/wp-content2/themes/burst/img/phone_glow.png"
-																		alt="Phone Frame - Lower"></div>
+																		alt="Phone Frame - Lower" class="img-fluid mkd-sr-phone glow"></div>
 																<div class="mkd-sr-rail-item" data-width="18.4"
 																	data-leaving="right" data-top="83.9"
-																	data-left="56.1"><img class="mkd-sr-phone upper"
+																	data-left="56.1"><img
 																		src="/wp-content2/themes/burst/img/phone_upper.png"
-																		alt="Phone Frame - Upper"><img width="351"
+																		alt="Phone Frame - Upper" class="img-fluid mkd-sr-phone upper"><img width="351"
 																		height="577"
-																		src="/wp-content2/uploads/2015/10/phone-3.jpg"
-																		class="mkd-sr-rail-img" alt="a"
+																		src="/wp-content2/uploads/2015/10/phone-3.jpg" alt="a"
 																		srcset="/wp-content2/uploads/2015/10/phone-3.jpg 351w, /wp-content2/uploads/2015/10/phone-3-182x300.jpg 182w"
-																		sizes="(max-width: 351px) 100vw, 351px" /><img
-																		class="mkd-sr-phone lower"
+																		sizes="(max-width: 351px) 100vw, 351px"  class="img-fluid mkd-sr-rail-img" /><img
 																		src="/wp-content2/themes/burst/img/phone_lower.png"
-																		alt="Phone Frame - Lower"><img
-																		class="mkd-sr-phone glow"
+																		alt="Phone Frame - Lower" class="img-fluid mkd-sr-phone lower"><img
 																		src="/wp-content2/themes/burst/img/phone_glow.png"
-																		alt="Phone Frame - Lower"></div>
+																		alt="Phone Frame - Lower" class="img-fluid mkd-sr-phone glow"></div>
 															</div>
 														</div>
 														<div class="mkd-sr-content">
@@ -239,10 +224,9 @@
 																								<img width="868"
 																									height="618"
 																									src="/wp-content/uploads/2015/10/1logo-dark-fixed.png"
-																									class="vc_single_image-img attachment-full"
 																									alt="a"
 																									srcset="/wp-content/uploads/2015/10/1logo-dark-fixed.png 668w, /wp-content/uploads/2015/10/1logo-dark-fixed.png 300w"
-																									sizes="(max-width: 868px) 100vw, 468px" />
+																									sizes="(max-width: 868px) 100vw, 468px"  class="img-fluid vc_single_image-img attachment-full" />
 																							</div>
 																						</div>
 																					</div>
@@ -272,17 +256,17 @@
 														<div class="mkd_icon_holder" style="bottom:-19px;">
 															<div class="mkd_separator_icon_holder">
 																<div class="mkd_line_before"
-																	style="border-color: #d5d8dc;border-bottom-width:1px;width:118px;border-style: solid;margin-bottom:-0.5px;margin-right:18px;">
+																	style="border-color: #d5d8dc;border-style: solid;margin-bottom:-0.5px;margin-right:18px;">
 																</div><span
 																	class="mkd_icon_shade mkd_icon_shortcode simple_line_icons circle   "
 																	data-hover-background-color=#fe4743
-																	style="background-color: #FDEF01;border-width: 0px!important; border-style:solid;line-height:38px;width:38px;height:38px;"><i
+																	style="background-color: #FDEF01;border- border-style:solid;line-"><i
 																		class="mkd_icon_simple_line_icon icon-energy "
-																		style="color: #ffffff;line-height:38px;font-size: 20px; "
+																		style="color: #ffffff;line-font-size: 20px; "
 																		data-color="#ffffff"
 																		data-hover-color="#ffffff"></i></span>
 																<div class="mkd_line_after"
-																	style="border-color: #d5d8dc;border-bottom-width:1px;width:118px;border-style: solid;margin-bottom:-0.5px;margin-left:18px;">
+																	style="border-color: #d5d8dc;border-style: solid;margin-bottom:-0.5px;margin-left:18px;">
 																</div>
 															</div>
 														</div>
@@ -315,158 +299,126 @@
 													<div class="mkd-if-main-holder" data-margin-top=""
 														data-margin-bottom="80" data-margin-side="385">
 														<div class="mkd-if-main-image"><img width="416" height="1182"
-																src="/wp-content2/uploads/2015/10/fusion-background-double.jpg"
-																class="attachment-full size-full" alt="a"
+																src="/wp-content2/uploads/2015/10/fusion-background-double.jpg" alt="a"
 																srcset="/wp-content2/uploads/2015/10/fusion-background-double.jpg 416w, /wp-content2/uploads/2015/10/fusion-background-double-106x300.jpg 106w, /wp-content2/uploads/2015/10/fusion-background-double-360x1024.jpg 360w"
-																sizes="(max-width: 416px) 100vw, 416px" /></div>
+																sizes="(max-width: 416px) 100vw, 416px"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="-200" data-top=""><img
 																width="181" height="181"
-																src="/wp-content2/uploads/2015/10/fusion-watch.png"
-																class="attachment-full size-full" alt="a"
+																src="/wp-content2/uploads/2015/10/fusion-watch.png" alt="a"
 																srcset="/wp-content2/uploads/2015/10/fusion-watch.png 181w, /wp-content2/uploads/2015/10/fusion-watch-110x110.png 110w"
-																sizes="(max-width: 181px) 100vw, 181px" /></div>
+																sizes="(max-width: 181px) 100vw, 181px"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="435" data-top=""><img
 																width="27" height="495"
-																src="/wp-content2/uploads/2015/10/fusion-pencil.jpg"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-pencil.jpg" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="-265" data-top=""><img
 																width="56" height="116"
-																src="/wp-content2/uploads/2015/10/fusion-rubber-1.png"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-rubber-1.png" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="475" data-top=""><img
 																width="149" height="304"
-																src="/wp-content2/uploads/2015/10/fusion-phone.jpg"
-																class="attachment-full size-full" alt="a"
+																src="/wp-content2/uploads/2015/10/fusion-phone.jpg" alt="a"
 																srcset="/wp-content2/uploads/2015/10/fusion-phone.jpg 149w, /wp-content2/uploads/2015/10/fusion-phone-147x300.jpg 147w"
-																sizes="(max-width: 149px) 100vw, 149px" /></div>
+																sizes="(max-width: 149px) 100vw, 149px"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="-240" data-top="170">
 															<img width="220" height="109"
-																src="/wp-content2/uploads/2015/10/fusion-pen-1.png"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-pen-1.png" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="630" data-top=""><img
 																width="47" height="382"
-																src="/wp-content2/uploads/2015/10/fusion-tool-2.png"
-																class="attachment-full size-full" alt="a"
+																src="/wp-content2/uploads/2015/10/fusion-tool-2.png" alt="a"
 																srcset="/wp-content2/uploads/2015/10/fusion-tool-2.png 47w, /wp-content2/uploads/2015/10/fusion-tool-2-37x300.png 37w"
-																sizes="(max-width: 47px) 100vw, 47px" /></div>
+																sizes="(max-width: 47px) 100vw, 47px"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="-330" data-top="110">
 															<img width="114" height="176"
-																src="/wp-content2/uploads/2015/10/fusion-feather.png"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-feather.png" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="-170" data-top="280">
 															<img width="155" height="302"
-																src="/wp-content2/uploads/2015/10/fusion-pic.jpg"
-																class="attachment-full size-full" alt="a"
+																src="/wp-content2/uploads/2015/10/fusion-pic.jpg" alt="a"
 																srcset="/wp-content2/uploads/2015/10/fusion-pic.jpg 155w, /wp-content2/uploads/2015/10/fusion-pic-154x300.jpg 154w"
-																sizes="(max-width: 155px) 100vw, 155px" /></div>
+																sizes="(max-width: 155px) 100vw, 155px"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="480" data-top="316">
 															<img width="157" height="270"
-																src="/wp-content2/uploads/2015/10/fusion-ruler.png"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-ruler.png" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="372" data-top="250">
 															<img width="287" height="286"
-																src="/wp-content2/uploads/2015/10/fusion-earphones-2.png"
-																class="attachment-full size-full" alt="a"
+																src="/wp-content2/uploads/2015/10/fusion-earphones-2.png" alt="a"
 																srcset="/wp-content2/uploads/2015/10/fusion-earphones-2.png 287w, /wp-content2/uploads/2015/10/fusion-earphones-2-110x110.png 110w"
-																sizes="(max-width: 287px) 100vw, 287px" /></div>
+																sizes="(max-width: 287px) 100vw, 287px"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="-220" data-top="265">
 															<img width="32" height="307"
-																src="/wp-content2/uploads/2015/10/fusion-pen-2.png"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-pen-2.png" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="565" data-top="380">
 															<img width="138" height="92"
-																src="/wp-content2/uploads/2015/10/fusion-chalks.png"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-chalks.png" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="625" data-top="490">
 															<img width="80" height="90"
-																src="/wp-content2/uploads/2015/10/fusion-button.png"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-button.png" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="712" data-top="200">
 															<img width="25" height="406"
-																src="/wp-content2/uploads/2015/10/fusion-knife.png"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-knife.png" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="-330" data-top="275">
 															<img width="107" height="317"
-																src="/wp-content2/uploads/2015/10/fusion-glasses.jpg"
-																class="attachment-full size-full" alt="a"
+																src="/wp-content2/uploads/2015/10/fusion-glasses.jpg" alt="a"
 																srcset="/wp-content2/uploads/2015/10/fusion-glasses.jpg 107w, /wp-content2/uploads/2015/10/fusion-glasses-101x300.jpg 101w"
-																sizes="(max-width: 107px) 100vw, 107px" /></div>
+																sizes="(max-width: 107px) 100vw, 107px"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="30" data-top="590">
 															<img width="167" height="167"
-																src="/wp-content2/uploads/2015/10/fusion-plane.png"
-																class="attachment-full size-full" alt="a"
+																src="/wp-content2/uploads/2015/10/fusion-plane.png" alt="a"
 																srcset="/wp-content2/uploads/2015/10/fusion-plane.png 167w, /wp-content2/uploads/2015/10/fusion-plane-110x110.png 110w"
-																sizes="(max-width: 167px) 100vw, 167px" /></div>
+																sizes="(max-width: 167px) 100vw, 167px"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="-120" data-top="605">
 															<img width="108" height="453"
-																src="/wp-content2/uploads/2015/10/fusion-tool.png"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-tool.png" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="425" data-top="600">
 															<img width="155" height="311"
-																src="/wp-content2/uploads/2015/10/fusion-phone-2.jpg"
-																class="attachment-full size-full" alt="a"
+																src="/wp-content2/uploads/2015/10/fusion-phone-2.jpg" alt="a"
 																srcset="/wp-content2/uploads/2015/10/fusion-phone-2.jpg 155w, /wp-content2/uploads/2015/10/fusion-phone-2-150x300.jpg 150w"
-																sizes="(max-width: 155px) 100vw, 155px" /></div>
+																sizes="(max-width: 155px) 100vw, 155px"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="-340" data-top="615">
 															<img width="202" height="201"
-																src="/wp-content2/uploads/2015/10/fusion-coffee.png"
-																class="attachment-full size-full" alt="a"
+																src="/wp-content2/uploads/2015/10/fusion-coffee.png" alt="a"
 																srcset="/wp-content2/uploads/2015/10/fusion-coffee.png 202w, /wp-content2/uploads/2015/10/fusion-coffee-110x110.png 110w"
-																sizes="(max-width: 202px) 100vw, 202px" /></div>
+																sizes="(max-width: 202px) 100vw, 202px"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="575" data-top="625">
 															<img width="66" height="214"
-																src="/wp-content2/uploads/2015/10/fusion-pepper.jpg"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-pepper.jpg" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="-145" data-top="825">
 															<img width="46" height="159"
-																src="/wp-content2/uploads/2015/10/fusion-usb-1.jpg"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-usb-1.jpg" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="640" data-top="585">
 															<img width="104" height="295"
-																src="/wp-content2/uploads/2015/10/fusion-tool-3.jpg"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-tool-3.jpg" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="-210" data-top="860">
 															<img width="39" height="119"
-																src="/wp-content2/uploads/2015/10/fusion-usb-2.jpg"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-usb-2.jpg" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="45" data-top="900">
 															<img width="443" height="324"
-																src="/wp-content2/uploads/2015/10/fusion-earphones.png"
-																class="attachment-full size-full" alt="a"
+																src="/wp-content2/uploads/2015/10/fusion-earphones.png" alt="a"
 																srcset="/wp-content2/uploads/2015/10/fusion-earphones.png 443w, /wp-content2/uploads/2015/10/fusion-earphones-300x219.png 300w"
-																sizes="(max-width: 443px) 100vw, 443px" /></div>
+																sizes="(max-width: 443px) 100vw, 443px"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="-290" data-top="1015">
 															<img width="183" height="181"
-																src="/wp-content2/uploads/2015/10/fusion-camera.png"
-																class="attachment-full size-full" alt="a"
+																src="/wp-content2/uploads/2015/10/fusion-camera.png" alt="a"
 																srcset="/wp-content2/uploads/2015/10/fusion-camera.png 183w, /wp-content2/uploads/2015/10/fusion-camera-110x110.png 110w"
-																sizes="(max-width: 183px) 100vw, 183px" /></div>
+																sizes="(max-width: 183px) 100vw, 183px"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="420" data-top="920">
 															<img width="172" height="268"
-																src="/wp-content2/uploads/2015/10/fusion-camera-2.png"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-camera-2.png" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="-385" data-top="835">
 															<img width="111" height="198"
-																src="/wp-content2/uploads/2015/10/fusion-watch-2.png"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-watch-2.png" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="585" data-top="920">
 															<img width="65" height="143"
-																src="/wp-content2/uploads/2015/10/fusion-toy.png"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-toy.png" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="660" data-top="925">
 															<img width="53" height="97"
-																src="/wp-content2/uploads/2015/10/fusion-rubber-2.jpg"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-rubber-2.jpg" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="-345" data-top="1120">
 															<img width="51" height="56"
-																src="/wp-content2/uploads/2015/10/fusion-dice.png"
-																class="attachment-full size-full" alt="a" /></div>
+																src="/wp-content2/uploads/2015/10/fusion-dice.png" alt="a"  class="img-fluid attachment-full size-full" /></div>
 														<div class="mkd-if-side-image" data-left="640" data-top="1065">
 															<img width="122" height="123"
-																src="/wp-content2/uploads/2015/10/fusion-cog.jpg"
-																class="attachment-full size-full" alt="a"
+																src="/wp-content2/uploads/2015/10/fusion-cog.jpg" alt="a"
 																srcset="/wp-content2/uploads/2015/10/fusion-cog.jpg 122w, /wp-content2/uploads/2015/10/fusion-cog-110x110.jpg 110w"
-																sizes="(max-width: 122px) 100vw, 122px" /></div>
+																sizes="(max-width: 122px) 100vw, 122px"  class="img-fluid attachment-full size-full" /></div>
 													</div>
 												</div>
 											</div>
@@ -511,10 +463,9 @@
 																						class="vc_single_image-wrapper  ">
 																						<img width="420" height="263"
 																							src="/wp-content2/uploads/2015/09/One-Page-Demo.jpg"
-																							class="vc_single_image-img attachment-full"
 																							alt="a"
 																							srcset="/wp-content2/uploads/2015/09/One-Page-Demo.jpg 420w, /wp-content2/uploads/2015/09/One-Page-Demo-300x188.jpg 300w"
-																							sizes="(max-width: 420px) 100vw, 420px" />
+																							sizes="(max-width: 420px) 100vw, 420px"  class="img-fluid vc_single_image-img attachment-full" />
 																					</div>
 																				</a>
 																			</div>
@@ -539,10 +490,9 @@
 																						class="vc_single_image-wrapper  ">
 																						<img width="420" height="263"
 																							src="/wp-content2/uploads/2015/09/Left-Menu-Demo.jpg"
-																							class="vc_single_image-img attachment-full"
 																							alt="a"
 																							srcset="/wp-content2/uploads/2015/09/Left-Menu-Demo.jpg 420w, /wp-content2/uploads/2015/09/Left-Menu-Demo-300x188.jpg 300w"
-																							sizes="(max-width: 420px) 100vw, 420px" />
+																							sizes="(max-width: 420px) 100vw, 420px"  class="img-fluid vc_single_image-img attachment-full" />
 																					</div>
 																				</a>
 																			</div>
@@ -567,10 +517,9 @@
 																						class="vc_single_image-wrapper  ">
 																						<img width="420" height="263"
 																							src="/wp-content2/uploads/2015/10/Classic-Demo.jpg"
-																							class="vc_single_image-img attachment-full"
 																							alt="g"
 																							srcset="/wp-content2/uploads/2015/10/Classic-Demo.jpg 420w, /wp-content2/uploads/2015/10/Classic-Demo-300x188.jpg 300w"
-																							sizes="(max-width: 420px) 100vw, 420px" />
+																							sizes="(max-width: 420px) 100vw, 420px"  class="img-fluid vc_single_image-img attachment-full" />
 																					</div>
 																				</a>
 																			</div>
@@ -595,10 +544,9 @@
 																						class="vc_single_image-wrapper  ">
 																						<img width="420" height="263"
 																							src="/wp-content2/uploads/2015/09/Standard-Demo.jpg"
-																							class="vc_single_image-img attachment-full"
 																							alt=""
 																							srcset="/wp-content2/uploads/2015/09/Standard-Demo.jpg 420w, /wp-content2/uploads/2015/09/Standard-Demo-300x188.jpg 300w"
-																							sizes="(max-width: 420px) 100vw, 420px" />
+																							sizes="(max-width: 420px) 100vw, 420px"  class="img-fluid vc_single_image-img attachment-full" />
 																					</div>
 																				</a>
 																			</div>
@@ -628,10 +576,9 @@
 																						class="vc_single_image-wrapper  ">
 																						<img width="420" height="263"
 																							src="/wp-content2/uploads/2015/10/Passepartout-Demo-1.jpg"
-																							class="vc_single_image-img attachment-full"
 																							alt="a"
 																							srcset="/wp-content2/uploads/2015/10/Passepartout-Demo-1.jpg 420w, /wp-content2/uploads/2015/10/Passepartout-Demo-1-300x188.jpg 300w"
-																							sizes="(max-width: 420px) 100vw, 420px" />
+																							sizes="(max-width: 420px) 100vw, 420px"  class="img-fluid vc_single_image-img attachment-full" />
 																					</div>
 																				</a>
 																			</div>
@@ -656,10 +603,9 @@
 																						class="vc_single_image-wrapper  ">
 																						<img width="420" height="263"
 																							src="/wp-content2/uploads/2015/09/Split-Demo.jpg"
-																							class="vc_single_image-img attachment-full"
 																							alt="a"
 																							srcset="/wp-content2/uploads/2015/09/Split-Demo.jpg 420w, /wp-content2/uploads/2015/09/Split-Demo-300x188.jpg 300w"
-																							sizes="(max-width: 420px) 100vw, 420px" />
+																							sizes="(max-width: 420px) 100vw, 420px"  class="img-fluid vc_single_image-img attachment-full" />
 																					</div>
 																				</a>
 																			</div>
@@ -684,10 +630,9 @@
 																						class="vc_single_image-wrapper  ">
 																						<img width="420" height="263"
 																							src="/wp-content2/uploads/2015/09/Shop-Demo.jpg"
-																							class="vc_single_image-img attachment-full"
 																							alt="a"
 																							srcset="/wp-content2/uploads/2015/09/Shop-Demo.jpg 420w, /wp-content2/uploads/2015/09/Shop-Demo-300x188.jpg 300w"
-																							sizes="(max-width: 420px) 100vw, 420px" />
+																							sizes="(max-width: 420px) 100vw, 420px"  class="img-fluid vc_single_image-img attachment-full" />
 																					</div>
 																				</a>
 																			</div>
@@ -712,10 +657,9 @@
 																						class="vc_single_image-wrapper  ">
 																						<img width="420" height="263"
 																							src="/wp-content2/uploads/2015/10/Masonry-Demo.jpg"
-																							class="vc_single_image-img attachment-full"
 																							alt="a"
 																							srcset="/wp-content2/uploads/2015/10/Masonry-Demo.jpg 420w, /wp-content2/uploads/2015/10/Masonry-Demo-300x188.jpg 300w"
-																							sizes="(max-width: 420px) 100vw, 420px" />
+																							sizes="(max-width: 420px) 100vw, 420px"  class="img-fluid vc_single_image-img attachment-full" />
 																					</div>
 																				</a>
 																			</div>
@@ -744,7 +688,7 @@
 													<div class="separator  transparent   "
 														style="margin-top:13px;margin-bottom:0px"></div>
 													<div class="custom_font_holder  "
-														style="font-family: Lato; font-size: 12px; line-height: 20px; font-style: normal; font-weight: 700; color: #ffffff; text-decoration: none; letter-spacing: 1px;; text-transform: uppercase; text-align: center"
+														style="font-family: Lato; font-size: 12px; line- font-style: normal; font-weight: 700; color: #ffffff; text-decoration: none; letter-spacing: 1px;; text-transform: uppercase; text-align: center"
 														data-font-size=12 data-line-height=20>
 														<div>
 															<p>Designed &amp; Developed by Juldo Services</p>
@@ -764,8 +708,7 @@
 																<div class="vc_single_image-wrapper  "><img width="142"
 																		height="100"
 																		src="/wp-content/uploads/2015/10/1logo-dark-fixed.png"
-																		class="vc_single_image-img attachment-full"
-																		alt="a" /></div>
+																		alt="a"  class="img-fluid vc_single_image-img attachment-full" /></div>
 															</div>
 														</div>
 													</div>
@@ -780,7 +723,7 @@
 													<div class="separator  transparent   "
 														style="margin-top:13px;margin-bottom:0px"></div>
 													<div class="custom_font_holder  "
-														style="font-family: Lato; font-siz e: 12px; line-height: 20px; font-style: normal; font-weight: 700; color: #ffffff; text-decoration: none; letter-spacing: 1px;; text-transform: uppercase; text-align: center"
+														style="font-family: Lato; font-siz e: 12px; line- font-style: normal; font-weight: 700; color: #ffffff; text-decoration: none; letter-spacing: 1px;; text-transform: uppercase; text-align: center"
 														data-font-size=12 data-line-height=20>
 														<div>
 															<p><a href="https://qodeinteractive.com/theme-author/mikado-wordpress-themes"

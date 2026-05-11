@@ -47,7 +47,7 @@
                             <div class="wideget-user text-center">
                                 <div class="wideget-user-desc">
                                     <div class="wideget-user-img">
-                                        <img class="" src="{{asset('storage/'. $utilisateur->profile_photo_path)}}" alt="img">
+                                        <img src="{{asset('storage/'. $utilisateur- class="img-fluid">profile_photo_path)}}" alt="img">
                                     </div>
                                     <div class="user-wrap">
                                     <h4 class="mb-1">{{ucfirst($utilisateur->nom). ' ' . ucFirst($utilisateur->prenom)}}</h4>

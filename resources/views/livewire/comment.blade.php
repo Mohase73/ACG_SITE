@@ -32,7 +32,7 @@
                                             <div class="d-flex flex-column align-items-center justify-content-center comment-row m-t-0">
                                                 <span  style="width:5px; height:20px;position: relative; left:-74px;top:-27px;" class="{{$commentaire->auteur->id == Auth()->user()->id ? 'badge badge-success rounded-circle' : '' }} row justify-content-center align-items-center m-0"> <small></small> </span>
                                                 <a href="{{ route('utilisateurs.show', $commentaire->auteur->uuid) }}" data-toggle="tooltip" data-placement="top" title="{{$commentaire->auteur->nom}} {{$commentaire->auteur->prenom}}({{$commentaire->auteur->role->designation}})">
-                                                    <div><img   src="{{asset( 'storage/'.$commentaire->auteur->profile_photo_path)}}" alt="user" height="60" width="60" class="rounded-circle"></div>
+                                                    <div><img   src="{{asset( 'storage/'.$commentaire- class="img-fluid">auteur->profile_photo_path)}}" alt="user" height="60" width="60" class="rounded-circle"></div>
                                                 </a>
                                                 <div class="comment-text w-100">
                                                     <div class="comment-footer">

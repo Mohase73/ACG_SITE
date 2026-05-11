@@ -29,22 +29,22 @@
                         <figure>
                             <div data-thumb="images/shop/11.png">
                                 <a href="images/shop/11.png">
-                                    <img src="images/shop/11.png" alt="img" data-caption="" data-src="images/shop/11.jpg" data-large_image="images/shop/11.jpg" data-large_image_width="1000" data-large_image_height="1000">
+                                    <img src="images/shop/11.png" alt="img" data-caption="" data-src="images/shop/11.jpg" data-large_image="images/shop/11.jpg" data-large_image_width="1000" data-large_image_height="1000" class="img-fluid">
                                 </a>
                             </div>
                             <div data-thumb="images/shop/11_back.jpg">
                                 <a href="images/shop/11_back.jpg">
-                                    <img src="images/shop/11_back.jpg" alt="img" data-caption="" data-src="images/shop/11_back.jpg" data-large_image="images/shop/11_back.jpg" data-large_image_width="1000" data-large_image_height="1000">
+                                    <img src="images/shop/11_back.jpg" alt="img" data-caption="" data-src="images/shop/11_back.jpg" data-large_image="images/shop/11_back.jpg" data-large_image_width="1000" data-large_image_height="1000" class="img-fluid">
                                 </a>
                             </div>
                             <div data-thumb="images/shop/10_back.jpg">
                                 <a href="images/shop/10_back.jpg">
-                                    <img src="images/shop/10_back.jpg" alt="img" data-caption="" data-src="images/shop/10_back.jpg" data-large_image="images/shop/10_back.jpg" data-large_image_width="1000" data-large_image_height="1000">
+                                    <img src="images/shop/10_back.jpg" alt="img" data-caption="" data-src="images/shop/10_back.jpg" data-large_image="images/shop/10_back.jpg" data-large_image_width="1000" data-large_image_height="1000" class="img-fluid">
                                 </a>
                             </div>
                             <div data-thumb="images/shop/10.jpg">
                                 <a href="images/shop/10.jpg">
-                                    <img src="images/shop/10.jpg" alt="img" data-caption="" data-src="images/shop/10.jpg" data-large_image="images/shop/10.jpg" data-large_image_width="1000" data-large_image_height="1000">
+                                    <img src="images/shop/10.jpg" alt="img" data-caption="" data-src="images/shop/10.jpg" data-large_image="images/shop/10.jpg" data-large_image_width="1000" data-large_image_height="1000" class="img-fluid">
                                 </a>
                             </div>
 
@@ -144,7 +144,7 @@
 
                             <h2>Vous pouvez utiliser votre téléphone portable tout comme votre PC pour envoyer un message à un ou à plusieurs groupes.</h2>
 
-                            <table class="shop_attributes">
+                            <div class="table-responsive"><table class="shop_attributes">
 
 
                                 <tbody>
@@ -161,7 +161,7 @@
                                         </td>
                                     </tr>
                                 </tbody>
-                            </table>
+                            </table></div>
                         </div>
                         <div class="panel wc-tab" id="tab-reviews" role="tabpanel" aria-labelledby="tab-title-reviews">
                             <div id="reviews">
@@ -175,7 +175,7 @@
                                             <article class="comment-body">
                                                 <footer class="comment-meta mb-0">
                                                     <div class="comment-author vcard">
-                                                        <img alt="img" src="images/team/testimonials_01.jpg">
+                                                        <img alt="img" src="images/team/testimonials_01.jpg" class="img-fluid">
                                                         <h4 class="mb-0">Nabaloum Louis</h4>
                                                         <p class="font-weight-regular">
                                                            26 dec 2020
@@ -197,7 +197,7 @@
                                             <article class="comment-body">
                                                 <footer class="comment-meta mb-0">
                                                     <div class="comment-author vcard">
-                                                        <img alt="img" src="images/team/testimonials_02.jpg">
+                                                        <img alt="img" src="images/team/testimonials_02.jpg" class="img-fluid">
                                                         <h4 class="mb-0">Koné Cheick</h4>
                                                         <p class="font-weight-regular">
                                                            20 dec 2020
@@ -219,7 +219,7 @@
                                             <article class="comment-body">
                                                 <footer class="comment-meta mb-0">
                                                     <div class="comment-author vcard">
-                                                        <img alt="img" src="images/team/testimonials_03.jpg">
+                                                        <img alt="img" src="images/team/testimonials_03.jpg" class="img-fluid">
                                                         <h4 class="mb-0">Guigma Alain</h4>
                                                         <p class="font-weight-regular">
                                                            18 dec 2020
@@ -320,7 +320,7 @@
                             <li class="product">
                                 <a href="shop-product-left.html">
                                     <span class="onsale">SMS Personnel!</span>
-                                    <img src="images/shop/07.jpg" alt="img">
+                                    <img src="images/shop/07.jpg" alt="img" class="img-fluid">
                                     <h2>Envoie d'SMS personnels</h2>
                                     <div class="star-rating">
                                         <span style="width:80%">Évalué <strong class="rating">4.00</strong> hors de 5</span>
@@ -340,7 +340,7 @@
                             <li class="product">
                                 <a href="shop-product-left.html">
                                     <span class="onsale">SMS Groupés!</span>
-                                    <img src="images/shop/06.jpeg" alt="img">
+                                    <img src="images/shop/06.jpeg" alt="img" class="img-fluid">
                                     <h2>Envoie d'SMS groupés 100</h2>
                                     <div class="star-rating">
                                         <span style="width:80%">Évalué <strong class="rating">4.00</strong> hors de 5</span>
@@ -357,7 +357,7 @@
                             <li class="product">
                                 <a href="shop-product-left.html">
                                     <span class="onsale">SMS Groupés!</span>
-                                    <img src="images/shop/08.jpg" alt="img">
+                                    <img src="images/shop/08.jpg" alt="img" class="img-fluid">
                                     <h2>Envoie d'SMS groupés 500</h2>
                                     <div class="star-rating">
                                         <span style="width:80%">Évalué <strong class="rating">4.00</strong> hors de 5</span>
@@ -373,7 +373,7 @@
                             <li class="product">
                                 <a href="shop-product-left.html">
                                     <span class="onsale">SMS Groupés!</span>
-                                    <img src="images/shop/28.png" alt="img">
+                                    <img src="images/shop/28.png" alt="img" class="img-fluid">
                                     <h2>Envoie d'SMS groupés 1000</h2>
                                     <div class="star-rating">
                                         <span style="width:90%">Évalué <strong class="rating">4.50</strong> hors de 5</span>
@@ -455,7 +455,7 @@
                             <li class="woocommerce-mini-cart-item mini_cart_item">
                                 <a href="#" class="remove" aria-label="Remove this item" data-product_id="73" data-product_sku="">×</a>
                                 <a href="https://www.nexto.bf/">
-                                    <img src="images/shop/26.jpg" alt="img">La vente des SMS est en promotion
+                                    <img src="images/shop/26.jpg" alt="img" class="img-fluid">La vente des SMS est en promotion
                                 </a>
 
                                 <span class="quantity">1 ×
@@ -467,7 +467,7 @@
                             <li class="woocommerce-mini-cart-item mini_cart_item">
                                 <a href="#" class="remove" aria-label="Remove this item" data-product_id="76" data-product_sku="">×</a>
                                 <a href="https://www.nexto.bf/">
-                                    <img src="images/shop/26.jpg" alt="img">Il y'a une réduction de 10% hatez vous stock limité
+                                    <img src="images/shop/26.jpg" alt="img" class="img-fluid">Il y'a une réduction de 10% hatez vous stock limité
                                 </a>
 
                                 <span class="quantity">1 ×
@@ -497,7 +497,7 @@
                     <ul class="product_list_widget">
                         <li>
                             <a href="https://www.nexto.bf/">
-                                <img src="images/shop/01.jpeg" alt="img">
+                                <img src="images/shop/01.jpeg" alt="img" class="img-fluid">
                                 <span class="product-title">SMS Groupés</span>
                             </a>
                             <div class="star-rating">

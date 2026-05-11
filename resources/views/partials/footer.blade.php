@@ -9,9 +9,9 @@
                         </h5>
                         <div class="divider-45"></div>
                         <form method="get" id="search-form">
-                            <div class="input-group">
-                                <input type="text" name="domain-address" class="form-control" placeholder="Entrer le mot clé">
-                                <div class="append">
+                            <div class="input-group flex-column flex-sm-row">
+                                <input type="text" name="domain-address" class="form-control mb-2 mb-sm-0" placeholder="Entrer le mot clé">
+                                <div class="append ml-sm-2">
                                     <button type="submit" form="search-form" class="btn btn-maincolor2 btn-short">Recherche</button>
                                 </div>
                             </div>

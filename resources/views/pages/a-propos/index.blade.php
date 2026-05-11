@@ -13,7 +13,7 @@
                 <p class="header__blurb text-muted" style="font-size: 14px;">Vous pouvez toujours compter sur nous!</p>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset('images/famille-amassur.png') }}" alt="Famille Amassur" srcset="{{ asset('images/famille-amassur.png') }}">
+                <img src="{{ asset('images/famille-amassur.png') }}" alt="Famille Amassur" srcset="{{ asset('images/famille-amassur.png') }}" class="img-fluid">
             </div>
         </div>
        
@@ -23,7 +23,7 @@
   <div class="row">
     <div class="col-xs-12 col-sm-4 col-md-3">
       <div class="col-xs-12">
-          <figure class="snip1374"><a href="#"><img src="https://cdn.shopify.com/s/files/1/2204/2817/files/featurette-10-1000x1000.jpg?98122347912348223" alt="sample66" /></a></figure>
+          <figure class="snip1374"><a href="#"><img src="https://cdn.shopify.com/s/files/1/2204/2817/files/featurette-10-1000x1000.jpg?98122347912348223" alt="sample66"  class="img-fluid" /></a></figure>
       </div>
   </div>
       <div class="col-xs-12 col-sm-8 col-md-9 align-items-center">
@@ -42,7 +42,7 @@
           </div>
           <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-6">
               <div class="col-xs-12 col-sm-12">
-                  <figure class="snip1374"><a href="#"><img src="https://cdn.shopify.com/s/files/1/2204/2817/files/featurette-5-1000x1000.jpg?98122347912348223" alt="sample57" /></a></figure>
+                  <figure class="snip1374"><a href="#"><img src="https://cdn.shopify.com/s/files/1/2204/2817/files/featurette-5-1000x1000.jpg?98122347912348223" alt="sample57"  class="img-fluid" /></a></figure>
               </div>
           </div>
       </div>

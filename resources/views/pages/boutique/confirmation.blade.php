@@ -40,7 +40,7 @@
                     </div>
 
                     <h5 class="mt-4 mb-3">Détail de la commande</h5>
-                    <table class="table table-bordered text-left">
+                    <div class="table-responsive"><table class="table table-bordered text-left">
                         <thead>
                             <tr>
                                 <th>Produit</th>
@@ -63,7 +63,7 @@
                                 <th>{{ number_format($commande->total, 0, ',', ' ') }} FCFA</th>
                             </tr>
                         </tfoot>
-                    </table>
+                    </table></div>
 
                     @if($commande->note)
                         <p class="text-muted"><em>Note : {{ $commande->note }}</em></p>

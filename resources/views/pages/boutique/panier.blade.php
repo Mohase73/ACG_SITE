@@ -26,7 +26,7 @@
         @if($items->isEmpty())
             <p>Votre panier est vide. <a href="{{ route('boutique.index') }}">Continuer vos achats</a></p>
         @else
-        <table class="table table-bordered">
+        <div class="table-responsive"><table class="table table-bordered">
             <thead>
                 <tr>
                     <th>Produit</th>
@@ -40,7 +40,7 @@
                 @foreach($items as $item)
                 <tr>
                     <td>
-                        <img src="/{{ $item->produit->image }}" alt="" style="height:50px;width:50px;object-fit:cover;" class="mr-2">
+                        <img src="/{{ $item- class="img-fluid">produit->image }}" alt="" style="height:50px;width:50px;object-fit:cover;" class="mr-2">
                         {{ $item->produit->nom }}
                     </td>
                     <td>{{ number_format($item->produit->prix, 0, ',', ' ') }} FCFA</td>
@@ -61,7 +61,7 @@
                     <td colspan="2"><strong>{{ number_format($total, 0, ',', ' ') }} FCFA</strong></td>
                 </tr>
             </tfoot>
-        </table>
+        </table></div>
 
         <div class="d-flex justify-content-between mt-3">
             <form action="{{ route('panier.vider') }}" method="POST">

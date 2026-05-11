@@ -22,7 +22,7 @@
 
 				<!-- GLOABAL LOADER -->
 				<div id="global-loader">
-					<img src="{{URL::asset('assets/images/loader.svg')}}" class="loader-img" alt="Loader">
+					<img src="{{URL::asset('assets/images/loader.svg')}}" alt="Loader" class="loader-img">
 				</div>
 				<!-- End GLOABAL LOADER -->
 
@@ -33,9 +33,9 @@
 
 							<div class="text-center">
 
-								<img src="{{ asset('images/logo_yelli.png') }}" class="header-brand-img" alt="">
+								<img src="{{ asset('images/logo_yelli.png') }}" alt="" class="img-fluid header-brand-img">
 
-								{{-- <img src="{{URL::asset('assets/images/brand/logo-3.png')}}" class="header-brand-img" alt=""> --}}
+								{{-- <img src="{{URL::asset('assets/images/brand/logo-3.png')}}" alt="" class="img-fluid header-brand-img"> --}}
 
 							</div>
 						</div>

@@ -84,7 +84,7 @@
                             <div class="wideget-user text-center">
                                 <div class="wideget-user-desc">
                                     <div class="wideget-user-img">
-                                        <img class="" src="{{asset('storage/'. Auth::user()->profile_photo_path)}}" alt="img">
+                                        <img src="{{asset('storage/'. Auth::user()- class="img-fluid">profile_photo_path)}}" alt="img">
 
                                     </div>
                                     <div class="user-wrap">
@@ -124,7 +124,7 @@
                                        @forelse ($coordonateurs as $coordonateur)
 										<tr>
 											<td>
-												<img src="{{asset('storage/'. $coordonateur->profile_photo_path )}}" alt="profile-user" class="brround  avatar-sm w-32 mr-2">
+												<img src="{{asset('storage/'. $coordonateur- class="img-fluid">profile_photo_path )}}" alt="profile-user" class="brround  avatar-sm w-32 mr-2">
 												{{$coordonateur->pay->nom}}
 											</td>
                                         <td>{{$coordonateur->nom}}</td>

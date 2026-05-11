@@ -52,7 +52,7 @@
                         <div class="card-body wideget-user-contact">
                             
                             
-                            <img src="{{asset('storage').'/'.$espece->photo}}" style="min-width:100%; object-fit:cover; object-position: 50% 50%;" alt="" srcset="">
+                            <img src="{{asset('storage').'/'.$espece- class="img-fluid">photo}}" style="min-width:100%; object-fit:cover; object-position: 50% 50%;" alt="" srcset="">
                         </div>
                     </div>
                 </div>

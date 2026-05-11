@@ -27,7 +27,7 @@
             <div class="col-lg-7">
                 <article class="vertical-item type-event status-publish format-standard has-post-thumbnail">
                     <div class="item-media post-thumbnail">
-                        <img src="images/sms/sms.jpg" alt="img">
+                        <img src="images/sms/sms.jpg" alt="img" class="img-fluid">
                     </div>
                     <div class="item-content mt-40">
                         <div class="entry-content">
@@ -71,7 +71,7 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img src="images/sms/SMS.jpg" alt="img">
+                                            <img src="images/sms/SMS.jpg" alt="img" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -96,7 +96,7 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img src="images/sms/SMS.jpg" alt="img">
+                                            <img src="images/sms/SMS.jpg" alt="img" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -123,7 +123,7 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img src="images/sms/SMS.jpg" alt="img">
+                                            <img src="images/sms/SMS.jpg" alt="img" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -148,7 +148,7 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img src="images/sms/SMS.jpg" alt="img">
+                                            <img src="images/sms/SMS.jpg" alt="img" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="media-body">

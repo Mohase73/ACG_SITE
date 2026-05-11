@@ -38,62 +38,62 @@
                     <ul id="lightgallery" class="list-unstyled row">
                         <li class="col-xs-6 col-sm-4 col-md-4 col-xl-4 mb-5 border-bottom-0" data-responsive="{{URL::asset('assets/images/media/1.jpg')}}" data-src="{{URL::asset('assets/images/media/1.jpg')}}" data-sub-html="<h4>Gallery Image 1</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
                             <a href="">
-                                <img class="img-responsive" src="{{URL::asset('assets/images/media/1.jpg')}}" alt="Thumb-1">
+                                <img src="{{URL::asset('assets/images/media/1.jpg')}}" alt="Thumb-1" class="img-fluid img-responsive">
                             </a>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-md-4 col-xl-4 mb-5 border-bottom-0" data-responsive="{{URL::asset('assets/images/media/2.jpg')}}" data-src="{{URL::asset('assets/images/media/2.jpg')}}" data-sub-html="<h4>Gallery Image 2</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
                             <a href="">
-                                <img class="img-responsive" src="{{URL::asset('assets/images/media/2.jpg')}}" alt="Thumb-2">
+                                <img src="{{URL::asset('assets/images/media/2.jpg')}}" alt="Thumb-2" class="img-fluid img-responsive">
                             </a>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-md-4 col-xl-4 mb-5 border-bottom-0" data-responsive="{{URL::asset('assets/images/media/3.jpg')}}" data-src="{{URL::asset('assets/images/media/3.jpg')}}" data-sub-html="<h4>Gallery Image 3</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
                             <a href="">
-                                <img class="img-responsive" src="{{URL::asset('assets/images/media/3.jpg')}}" alt="Thumb-1">
+                                <img src="{{URL::asset('assets/images/media/3.jpg')}}" alt="Thumb-1" class="img-fluid img-responsive">
                             </a>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-md-4 col-xl-4 mb-5 border-bottom-0" data-responsive="{{URL::asset('assets/images/media/4.jpg')}}" data-src="{{URL::asset('assets/images/media/4.jpg')}}" data-sub-html=" <h4>Gallery Image 4</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
                             <a href="">
-                                <img class="img-responsive" src="{{URL::asset('assets/images/media/4.jpg')}}" alt="Thumb-2">
+                                <img src="{{URL::asset('assets/images/media/4.jpg')}}" alt="Thumb-2" class="img-fluid img-responsive">
                             </a>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-md-4 col-xl-4 mb-5 border-bottom-0" data-responsive="{{URL::asset('assets/images/media/5.jpg')}}" data-src="{{URL::asset('assets/images/media/5.jpg')}}" data-sub-html="<h4>Gallery Image 5</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
                             <a href="">
-                                <img class="img-responsive" src="{{URL::asset('assets/images/media/5.jpg')}}" alt="Thumb-1">
+                                <img src="{{URL::asset('assets/images/media/5.jpg')}}" alt="Thumb-1" class="img-fluid img-responsive">
                             </a>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-md-4 col-xl-4 mb-5 border-bottom-0" data-responsive="{{URL::asset('assets/images/media/6.jpg')}}" data-src="{{URL::asset('assets/images/media/6.jpg')}}" data-sub-html="<h4>Gallery Image 6</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
                             <a href="">
-                                <img class="img-responsive" src="{{URL::asset('assets/images/media/6.jpg')}}" alt="Thumb-2">
+                                <img src="{{URL::asset('assets/images/media/6.jpg')}}" alt="Thumb-2" class="img-fluid img-responsive">
                             </a>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-md-4 col-xl-4 mb-5 border-bottom-0" data-responsive="{{URL::asset('assets/images/media/7.jpg')}}" data-src="{{URL::asset('assets/images/media/7.jpg')}}" data-sub-html="<h4>Gallery Image 7</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
                             <a href="">
-                                <img class="img-responsive" src="{{URL::asset('assets/images/media/7.jpg')}}" alt="Thumb-1">
+                                <img src="{{URL::asset('assets/images/media/7.jpg')}}" alt="Thumb-1" class="img-fluid img-responsive">
                             </a>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-md-4 col-xl-4 mb-5 border-bottom-0" data-responsive="{{URL::asset('assets/images/media/8.jpg')}}" data-src="{{URL::asset('assets/images/media/8.jpg')}}" data-sub-html="<h4>Gallery Image 8</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
                             <a href="">
-                                <img class="img-responsive" src="{{URL::asset('assets/images/media/8.jpg')}}" alt="Thumb-2">
+                                <img src="{{URL::asset('assets/images/media/8.jpg')}}" alt="Thumb-2" class="img-fluid img-responsive">
                             </a>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-md-4 col-xl-4 mb-5 border-bottom-0" data-responsive="{{URL::asset('assets/images/media/9.jpg')}}" data-src="{{URL::asset('assets/images/media/9.jpg')}}" data-sub-html="<h4>Gallery Image 9</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
                             <a href="">
-                                <img class="img-responsive mb-0" src="{{URL::asset('assets/images/media/9.jpg')}}" alt="Thumb-1">
+                                <img src="{{URL::asset('assets/images/media/9.jpg')}}" alt="Thumb-1" class="img-fluid img-responsive mb-0">
                             </a>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-md-4 col-xl-4 mb-xl-0 mb-md-0 mb-md-0 mb-5 border-bottom-0" data-responsive="{{URL::asset('assets/images/media/10.jpg')}}" data-src="{{URL::asset('assets/images/media/10.jpg')}}" data-sub-html="<h4>Gallery Image 10</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
                             <a href="">
-                                <img class="img-responsive mb-0" src="{{URL::asset('assets/images/media/10.jpg')}}" alt="Thumb-2">
+                                <img src="{{URL::asset('assets/images/media/10.jpg')}}" alt="Thumb-2" class="img-fluid img-responsive mb-0">
                             </a>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-md-4 col-xl-4 mb-5 mb-md-0 mb-xl-0  border-bottom-0" data-responsive="{{URL::asset('assets/images/media/11.jpg')}}" data-src="{{URL::asset('assets/images/media/11.jpg')}}" data-sub-html="<h4>Gallery Image 11</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
                             <a href="">
-                                <img class="img-responsive mb-0" src="{{URL::asset('assets/images/media/11.jpg')}}" alt="Thumb-1">
+                                <img src="{{URL::asset('assets/images/media/11.jpg')}}" alt="Thumb-1" class="img-fluid img-responsive mb-0">
                             </a>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-md-4 col-xl-4 mb-0 mb-xl-0 border-bottom-0" data-responsive="{{URL::asset('assets/images/media/12.jpg')}}" data-src="{{URL::asset('assets/images/media/12.jpg')}}" data-sub-html="<h4>Gallery Image 12</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
                             <a href="">
-                                <img class="img-responsive mb-0" src="{{URL::asset('assets/images/media/12.jpg')}}" alt="Thumb-2">
+                                <img src="{{URL::asset('assets/images/media/12.jpg')}}" alt="Thumb-2" class="img-fluid img-responsive mb-0">
                             </a>
                         </li>
                     </ul>

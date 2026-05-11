@@ -36,7 +36,7 @@
                                         <div class='mkd_elements_item_inner'>
                                             <div class='mkd_elements_item_content mkd_elements_inner_364613401' style='text-align:left;padding:65px 10px 0px 0px;'>
                                                 <div class="mkd_image_with_text_over  ">
-                                                    <div class="shader"></div><img src="/wp-content/uploads/2015/07/banner-1.jpg" alt="See our offices" />
+                                                    <div class="shader"></div><img src="/wp-content/uploads/2015/07/banner-1.jpg" alt="See our offices"  class="img-fluid" />
                                                     <div class="front_holder">
                                                         <div class="front_holder_inner" style="border:none;">
                                                             <div class="front_holder_content">
@@ -61,7 +61,7 @@
                                         <div class='mkd_elements_item_inner'>
                                             <div class='mkd_elements_item_content mkd_elements_inner_1846002831' style='text-align:left;padding:60px 0px 0px 10px;'>
                                                 <div class="mkd_image_with_text_over  ">
-                                                    <div class="shader"></div><img src="/wp-content/uploads/2015/07/banner-2.jpg" alt="See our offices" />
+                                                    <div class="shader"></div><img src="/wp-content/uploads/2015/07/banner-2.jpg" alt="See our offices"  class="img-fluid" />
                                                     <div class="front_holder">
                                                         <div class="front_holder_inner" style="border:none;">
                                                             <div class="front_holder_content">
@@ -95,21 +95,21 @@
                                             <div data-icon-pack="font_awesome" data-icon-html="&lt;i class=&quot;mkd_icon_font_awesome fa  &quot; &gt;&lt;/i&gt;" id="tab-85060549" class="tab-content">
                                                 <div class="wpb_text_column wpb_content_element ">
                                                     <div class="wpb_wrapper">
-                                                        <p style="text-align: justify;"><a href="/wp-content/uploads/2015/07/icon-tabs.png"><img class="alignleft size-full wp-image-2088" src="/wp-content/uploads/2015/07/icon-tabs.png" alt="a" width="53" height="88" /></a>Tabs are great for arranging content into categories that will be displayed when needed. Create tabs with icons, titles, or a combination of both, and make browsing through your site and finding the right information both convenient and enjoyable. Tabs can be arranged vertically or horizontally.</p>
+                                                        <p style="text-align: justify;"><a href="/wp-content/uploads/2015/07/icon-tabs.png"><img src="/wp-content/uploads/2015/07/icon-tabs.png" alt="a" width="53" height="88"  class="img-fluid alignleft size-full wp-image-2088" /></a>Tabs are great for arranging content into categories that will be displayed when needed. Create tabs with icons, titles, or a combination of both, and make browsing through your site and finding the right information both convenient and enjoyable. Tabs can be arranged vertically or horizontally.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div data-icon-pack="font_awesome" data-icon-html="&lt;i class=&quot;mkd_icon_font_awesome fa  &quot; &gt;&lt;/i&gt;" id="tab-85060550" class="tab-content">
                                                 <div class="wpb_text_column wpb_content_element ">
                                                     <div class="wpb_wrapper">
-                                                        <p style="text-align: justify;"><a href="/wp-content/uploads/2015/07/icon-tabs-2.png"><img class="alignleft size-full wp-image-3871" src="/wp-content/uploads/2015/07/icon-tabs-2.png" alt="a" width="53" height="88" /></a>Tabs are great for arranging content into categories that will be displayed when needed. Create tabs with icons, titles, or a combination of both, and make browsing through your site and finding the right information both convenient and enjoyable. Tabs can be arranged vertically or horizontally.</p>
+                                                        <p style="text-align: justify;"><a href="/wp-content/uploads/2015/07/icon-tabs-2.png"><img src="/wp-content/uploads/2015/07/icon-tabs-2.png" alt="a" width="53" height="88"  class="img-fluid alignleft size-full wp-image-3871" /></a>Tabs are great for arranging content into categories that will be displayed when needed. Create tabs with icons, titles, or a combination of both, and make browsing through your site and finding the right information both convenient and enjoyable. Tabs can be arranged vertically or horizontally.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div data-icon-pack="font_awesome" data-icon-html="&lt;i class=&quot;mkd_icon_font_awesome fa  &quot; &gt;&lt;/i&gt;" id="tab-85060551" class="tab-content">
                                                 <div class="wpb_text_column wpb_content_element ">
                                                     <div class="wpb_wrapper">
-                                                        <p style="text-align: justify;"><a href="/wp-content/uploads/2015/07/icon-tabs-3.png"><img class="alignleft size-full wp-image-3872" src="/wp-content/uploads/2015/07/icon-tabs-3.png" alt="a" width="53" height="88" /></a>Tabs are great for arranging content into categories that will be displayed when needed. Create tabs with icons, titles, or a combination of both, and make browsing through your site and finding the right information both convenient and enjoyable. Tabs can be arranged vertically or horizontally.</p>
+                                                        <p style="text-align: justify;"><a href="/wp-content/uploads/2015/07/icon-tabs-3.png"><img src="/wp-content/uploads/2015/07/icon-tabs-3.png" alt="a" width="53" height="88"  class="img-fluid alignleft size-full wp-image-3872" /></a>Tabs are great for arranging content into categories that will be displayed when needed. Create tabs with icons, titles, or a combination of both, and make browsing through your site and finding the right information both convenient and enjoyable. Tabs can be arranged vertically or horizontally.</p>
                                                     </div>
                                                 </div>
                                             </div>

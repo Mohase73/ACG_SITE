@@ -1,7 +1,7 @@
     <section class="page_topline ds ms s-py-5">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-6 text-center text-md-left">
+                <div class="col-md-6 col-12 text-center text-md-left">
                     <span class="hidden-below-xl ">
                         <span class="social-icons">
                             <a href="https://www.facebook.com/acgburkinafaso"  target="_blank" class="fab fa-facebook-square " title="facebook"></a>
@@ -22,7 +22,7 @@
                         </a>
                     </span>
                 </div>
-                <div class="col-6 text-center text-lg-right">
+                <div class="col-md-6 col-12 text-center text-md-right mt-2 mt-md-0">
                     <span class="icon-inline">
                         <span class="icon-styled">
                             <i class="fas fa-phone"></i>

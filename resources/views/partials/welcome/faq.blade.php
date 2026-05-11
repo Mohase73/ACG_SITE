@@ -73,7 +73,7 @@
             </div>
             <div class="col-12 col-lg-6 order-1 order-lg-2">
                 <div class="item-media" style="position: relative;">
-                    <img src="images/images/faq.png" alt="img" style="width:100%; height:auto;">
+                    <img src="images/images/faq.png" alt="img" style="width:100%; height:auto;" class="img-fluid">
                 </div>
             </div>
         </div>

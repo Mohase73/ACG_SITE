@@ -3,7 +3,7 @@
 				<aside class="app-sidebar">
 				    <div class="side-header">
                         <a class="header-brand1" href="{{route('accueil')}}">
-                            <img src="{{ asset('assets/logo.jpeg') }}" class="header-brand-img" alt="">
+                            <img src="{{ asset('assets/logo.jpeg') }}" alt="" class="img-fluid header-brand-img">
                     </a>
 				    </div>
 				    <ul class="side-menu">

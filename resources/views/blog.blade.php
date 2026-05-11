@@ -17,7 +17,7 @@
                 <div class="owl-carousel" data-nav="false" data-loop="true" data-autoplay="false" data-items="1" data-responsive-lg="3" data-responsive-md="3" data-responsive-sm="2" data-responsive-xs="1">
                     <div class="vertical-item p-30 shadow-hover mx-10 my-20 text-center">
                         <div class="item-media">
-                            <img src="images/events/11.jpg" alt="img">
+                            <img src="images/events/11.jpg" alt="img" class="img-fluid">
                         </div>
                         <div class="item-content mt-25">
                             <div class="item-meta">
@@ -44,7 +44,7 @@
                     </div>
                     <div class="vertical-item p-30 shadow-hover mx-10 my-20 text-center">
                         <div class="item-media">
-                            <img src="images/events/12.jpg" alt="img">
+                            <img src="images/events/12.jpg" alt="img" class="img-fluid">
                         </div>
                         <div class="item-content mt-25">
                             <div class="item-meta">
@@ -71,7 +71,7 @@
                     </div>
                     <div class="vertical-item p-30 shadow-hover mx-10 my-20 text-center">
                         <div class="item-media">
-                            <img src="images/events/13.jpg" alt="img">
+                            <img src="images/events/13.jpg" alt="img" class="img-fluid">
                         </div>
                         <div class="item-content mt-25">
                             <div class="item-meta">

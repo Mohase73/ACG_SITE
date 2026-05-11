@@ -38,7 +38,7 @@
                 <div class="col-md-10">
                     <div class="d-flex justify-content-center">
                         
-                        <img  src="{{asset('assets/LOGO ACG.png')}}" style="max-width: 45vh; object-fit:cover; object-position: 50% 50%;" alt="" srcset="">
+                        <img  src="{{asset('assets/LOGO ACG.png')}}" style="max-width: 45vh; object-fit:cover; object-position: 50% 50%;" alt="" srcset="" class="img-fluid">
                         <br><br>
                     </div>
                 </div>

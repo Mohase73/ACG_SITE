@@ -4,8 +4,8 @@
 						<div class="d-flex">
 							<a class="animated-arrow hor-toggle horizontal-navtoggle"><span></span></a>
 							<a class="header-brand" href="/">
-								<img src="{{ asset('assets/logo3.png') }}" class="header-brand-img mobile-icon" alt="logo">
-								<img src="{{ asset('assets/logo3.png') }}" class="header-brand-img desktop-logo mobile-logo" alt="logo">
+								<img src="{{ asset('assets/logo3.png') }}" alt="logo" class="img-fluid header-brand-img mobile-icon">
+								<img src="{{ asset('assets/logo3.png') }}" alt="logo" class="img-fluid header-brand-img desktop-logo mobile-logo">
 							</a>
 							<div class="header-search d-none d-md-flex">
 								<form class="form-inline">
@@ -166,38 +166,38 @@
 								</div><!-- MESSAGE-BOX --> --}}
 								{{-- <div class="dropdown d-none d-xl-flex country-selector">
 									<a href="#" class="d-flex nav-link  leading-none" data-toggle="dropdown" aria-expanded="true">
-										<img src="{{URL::asset('assets/images/flags/us_flag.jpg')}}" alt="img" class="mr-2 align-self-center">
+										<img src="{{URL::asset('assets/images/flags/us_flag.jpg')}}" alt="img" class="img-fluid mr-2 align-self-center">
 										<div>
 											<strong class="text-dark">English</strong>
 										</div>
 									</a>
 									<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
 										<a href="#" class="dropdown-item d-flex pb-3">
-											<img src="{{URL::asset('assets/images/flags/french_flag.jpg')}}" alt="flag-img" class="avatar  mr-3 align-self-center">
+											<img src="{{URL::asset('assets/images/flags/french_flag.jpg')}}" alt="flag-img" class="img-fluid avatar mr-3 align-self-center">
 											<div>
 												<strong>French</strong>
 											</div>
 										</a>
 										<a href="#" class="dropdown-item d-flex pb-3">
-											<img src="{{URL::asset('assets/images/flags/germany_flag.jpg')}}" alt="flag-img" class="avatar  mr-3 align-self-center">
+											<img src="{{URL::asset('assets/images/flags/germany_flag.jpg')}}" alt="flag-img" class="img-fluid avatar mr-3 align-self-center">
 											<div>
 												<strong>Germany</strong>
 											</div>
 										</a>
 										<a href="#" class="dropdown-item d-flex pb-3">
-											<img src="{{URL::asset('assets/images/flags/italy_flag.jpg')}}" alt="flag-img" class="avatar  mr-3 align-self-center">
+											<img src="{{URL::asset('assets/images/flags/italy_flag.jpg')}}" alt="flag-img" class="img-fluid avatar mr-3 align-self-center">
 											<div>
 												<strong>Italy</strong>
 											</div>
 										</a>
 										<a href="#" class="dropdown-item d-flex pb-3">
-											<img src="{{URL::asset('assets/images/flags/russia_flag.jpg')}}" alt="flag-img" class="avatar  mr-3 align-self-center">
+											<img src="{{URL::asset('assets/images/flags/russia_flag.jpg')}}" alt="flag-img" class="img-fluid avatar mr-3 align-self-center">
 											<div>
 												<strong>Russia</strong>
 											</div>
 										</a>
 										<a href="#" class="dropdown-item d-flex pb-3">
-											<img src="{{URL::asset('assets/images/flags/spain_flag.jpg')}}" alt="flag-img" class="avatar  mr-3 align-self-center">
+											<img src="{{URL::asset('assets/images/flags/spain_flag.jpg')}}" alt="flag-img" class="img-fluid avatar mr-3 align-self-center">
 											<div>
 												<strong>Spain</strong>
 											</div>
@@ -207,7 +207,7 @@
 								{{-- <div class="dropdown profile-1">
 									<a href="#" data-toggle="dropdown" class="nav-link pl-2 pr-2  leading-none d-flex">
 										<span>
-											<img src="{{URL::asset('assets/images/users/10.jpg')}}" alt="profile-user" class="avatar  mr-xl-3 profile-user brround cover-image">
+											<img src="{{URL::asset('assets/images/users/10.jpg')}}" alt="profile-user" class="img-fluid avatar mr-xl-3 profile-user brround cover-image">
 										</span>
 										<div class="text-center mt-1 d-none d-xl-block">
 											<h6 class="text-dark mb-0 fs-13 font-weight-semibold">Jacob Fisher</h6>
@@ -413,38 +413,38 @@
 							</div><!-- MESSAGE-BOX --> --}}
 							{{-- <div class="dropdown d-md-flex country-selector">
 								<a href="#" class="d-flex nav-link icon leading-none" data-toggle="dropdown" aria-expanded="true">
-									<img src="{{URL::asset('assets/images/flags/us_flag.jpg')}}" alt="img" class="mr-2 align-self-center">
+									<img src="{{URL::asset('assets/images/flags/us_flag.jpg')}}" alt="img" class="img-fluid mr-2 align-self-center">
 									<div>
 										<strong class="text-dark fs-13">English</strong>
 									</div>
 								</a>
 								<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
 									<a href="#" class="dropdown-item d-flex pb-3">
-										<img src="{{URL::asset('assets/images/flags/french_flag.jpg')}}" alt="flag-img" class="avatar  mr-3 align-self-center">
+										<img src="{{URL::asset('assets/images/flags/french_flag.jpg')}}" alt="flag-img" class="img-fluid avatar mr-3 align-self-center">
 										<div>
 											<strong>French</strong>
 										</div>
 									</a>
 									<a href="#" class="dropdown-item d-flex pb-3">
-										<img src="{{URL::asset('assets/images/flags/germany_flag.jpg')}}" alt="flag-img" class="avatar  mr-3 align-self-center">
+										<img src="{{URL::asset('assets/images/flags/germany_flag.jpg')}}" alt="flag-img" class="img-fluid avatar mr-3 align-self-center">
 										<div>
 											<strong>Germany</strong>
 										</div>
 									</a>
 									<a href="#" class="dropdown-item d-flex pb-3">
-										<img src="{{URL::asset('assets/images/flags/italy_flag.jpg')}}" alt="flag-img" class="avatar  mr-3 align-self-center">
+										<img src="{{URL::asset('assets/images/flags/italy_flag.jpg')}}" alt="flag-img" class="img-fluid avatar mr-3 align-self-center">
 										<div>
 											<strong>Italy</strong>
 										</div>
 									</a>
 									<a href="#" class="dropdown-item d-flex pb-3">
-										<img src="{{URL::asset('assets/images/flags/russia_flag.jpg')}}" alt="flag-img" class="avatar  mr-3 align-self-center">
+										<img src="{{URL::asset('assets/images/flags/russia_flag.jpg')}}" alt="flag-img" class="img-fluid avatar mr-3 align-self-center">
 										<div>
 											<strong>Russia</strong>
 										</div>
 									</a>
 									<a href="#" class="dropdown-item d-flex pb-3">
-										<img src="{{URL::asset('assets/images/flags/spain_flag.jpg')}}" alt="flag-img" class="avatar  mr-3 align-self-center">
+										<img src="{{URL::asset('assets/images/flags/spain_flag.jpg')}}" alt="flag-img" class="img-fluid avatar mr-3 align-self-center">
 										<div>
 											<strong>Spain</strong>
 										</div>
