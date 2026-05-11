@@ -10,7 +10,7 @@
                             </p>
                         </blockquote>
                         <div class="quote-image">
-                            <img src="images/team/testimonials_01.jpg" alt="шьп">
+                            <img src="images/team/testimonials_01.jpg" alt="шьп" class="img-fluid">
                         </div>
                         <div class="quote-title">
                             <h6 class="mb-3">Ramon L. Wooldridge</h6>
@@ -24,7 +24,7 @@
                             </p>
                         </blockquote>
                         <div class="quote-image">
-                            <img src="images/team/testimonials_02.jpg" alt="шьп">
+                            <img src="images/team/testimonials_02.jpg" alt="шьп" class="img-fluid">
                         </div>
                         <div class="quote-title">
                             <h6 class="mb-3">Holly J. Schultz</h6>
@@ -38,7 +38,7 @@
                             </p>
                         </blockquote>
                         <div class="quote-image">
-                            <img src="images/team/testimonials_03.jpg" alt="шьп">
+                            <img src="images/team/testimonials_03.jpg" alt="шьп" class="img-fluid">
                         </div>
                         <div class="quote-title">
                             <h6 class="mb-3">Marvin S. Reynolds</h6>

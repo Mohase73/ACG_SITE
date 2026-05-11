@@ -5,9 +5,9 @@
                 <div class="z-index-5 ls ms box-shadow">
                     <div class="px-15 px-sm-5 px-xl-0 section-padding">
                         <form method="get" id="domain-form">
-                            <div class="input-group">
-                                <input type="text" name="domain-address" class="form-control" placeholder="Votre recherche">
-                                <div class="append">
+                            <div class="input-group flex-column flex-sm-row">
+                                <input type="text" name="domain-address" class="form-control mb-2 mb-sm-0" placeholder="Votre recherche">
+                                <div class="append ml-sm-2">
                                     <button type="submit" form="domain-form" class="btn btn-maincolor2 btn-short">Recherche</button>
                                 </div>
                             </div>

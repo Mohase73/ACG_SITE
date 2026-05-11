@@ -86,7 +86,7 @@
             <div class="col-lg-5">
                 <div class="box-shadow cont-padding ls">
                     <h4 class="mb-4">Récapitulatif</h4>
-                    <table class="table">
+                    <div class="table-responsive"><table class="table">
                         <tbody>
                             @foreach($items as $item)
                             <tr>
@@ -101,7 +101,7 @@
                                 <th class="text-right">{{ number_format($total, 0, ',', ' ') }} FCFA</th>
                             </tr>
                         </tfoot>
-                    </table>
+                    </table></div>
                     <a href="{{ route('panier.index') }}" class="btn btn-outline-secondary btn-sm">
                         <i class="fa fa-arrow-left mr-1"></i> Modifier le panier
                     </a>

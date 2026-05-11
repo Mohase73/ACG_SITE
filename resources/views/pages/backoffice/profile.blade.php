@@ -35,7 +35,7 @@
                             <div class="wideget-user text-center">
                                 <div class="wideget-user-desc">
                                     <div class="wideget-user-img">
-                                        <img class="" src="{{URL::asset('assets/images/users/10.jpg')}}" alt="img">
+                                        <img src="{{URL::asset('assets/images/users/10.jpg')}}" alt="img" class="img-fluid">
                                     </div>
                                     <div class="user-wrap">
                                         <h4 class="mb-1">Jacob Fisher</h4>
@@ -209,7 +209,7 @@
                                 <div class="card-header">
                                     <div class="d-flex">
                                         <div class="media-user mr-4">
-                                            <div class="main-img-user avatar-md"><img alt="" class="rounded-circle" src="{{URL::asset('assets/images/users/15.jpg')}}"></div>
+                                            <div class="main-img-user avatar-md"><img alt="" src="{{URL::asset('assets/images/users/15.jpg')}}" class="img-fluid rounded-circle"></div>
                                         </div>
                                         <div class="">
                                             <h6 class="mb-0 mt-2">Peter Hill</h6><span class="text-muted">5 mins ago</span>
@@ -228,15 +228,15 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="mg-t-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                                    <div><img alt="img" class="w-100" src="{{URL::asset('assets/images/media/13.jpg')}}"></div>
+                                    <div><img alt="img" src="{{URL::asset('assets/images/media/13.jpg')}}" class="img-fluid w-100"></div>
                                 </div>
                                 <div class="card-footer">
                                     <div class="d-flex">
                                         <div class="avatar-group">
-                                            <a class="avatar avatar-sm" data-toggle="tooltip" href="#" data-original-title="" title=""><img alt="Image placeholder" class="rounded-circle" src="{{URL::asset('assets/images/users/19.jpg')}}"></a>
-                                            <a class="avatar avatar-sm" data-toggle="tooltip" href="#" data-original-title="" title=""><img alt="Image placeholder" class="rounded-circle" src="{{URL::asset('assets/images/users/20.jpg')}}"></a>
-                                            <a class="avatar avatar-sm" data-toggle="tooltip" href="#" data-original-title="" title=""><img alt="Image placeholder" class="rounded-circle" src="{{URL::asset('assets/images/users/1.jpg')}}"></a>
-                                            <a class="avatar avatar-sm" data-toggle="tooltip" href="#" data-original-title="" title=""><img alt="Image placeholder" class="rounded-circle" src="{{URL::asset('assets/images/users/2.jpg')}}"></a>
+                                            <a class="avatar avatar-sm" data-toggle="tooltip" href="#" data-original-title="" title=""><img alt="Image placeholder" src="{{URL::asset('assets/images/users/19.jpg')}}" class="img-fluid rounded-circle"></a>
+                                            <a class="avatar avatar-sm" data-toggle="tooltip" href="#" data-original-title="" title=""><img alt="Image placeholder" src="{{URL::asset('assets/images/users/20.jpg')}}" class="img-fluid rounded-circle"></a>
+                                            <a class="avatar avatar-sm" data-toggle="tooltip" href="#" data-original-title="" title=""><img alt="Image placeholder" src="{{URL::asset('assets/images/users/1.jpg')}}" class="img-fluid rounded-circle"></a>
+                                            <a class="avatar avatar-sm" data-toggle="tooltip" href="#" data-original-title="" title=""><img alt="Image placeholder" src="{{URL::asset('assets/images/users/2.jpg')}}" class="img-fluid rounded-circle"></a>
                                         </div>
                                         <div class="ml-auto">
                                             <div class="dropdown wideget-user-contact">
@@ -390,40 +390,40 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-lg-4 col-md-6">
-                                            <img class="img-fluid rounded mb-5" src="{{URL::asset('assets/images/media/8.jpg')}}" alt="banner image">
+                                            <img src="{{URL::asset('assets/images/media/8.jpg')}}" alt="banner image" class="img-fluid rounded mb-5">
                                         </div>
                                         <div class="col-lg-4 col-md-6">
-                                            <img class="img-fluid rounded mb-5" src="{{URL::asset('assets/images/media/10.jpg')}}" alt="banner image ">
+                                            <img src="{{URL::asset('assets/images/media/10.jpg')}}" alt="banner image " class="img-fluid rounded mb-5">
                                         </div>
                                         <div class="col-lg-4 col-md-6">
-                                            <img class="img-fluid rounded mb-5" src="{{URL::asset('assets/images/media/11.jpg')}}" alt="banner image ">
+                                            <img src="{{URL::asset('assets/images/media/11.jpg')}}" alt="banner image " class="img-fluid rounded mb-5">
                                         </div>
                                         <div class="col-lg-4 col-md-6">
-                                            <img class="img-fluid rounded mb-5 " src="{{URL::asset('assets/images/media/12.jpg')}}" alt="banner image ">
+                                            <img src="{{URL::asset('assets/images/media/12.jpg')}}" alt="banner image " class="img-fluid rounded mb-5">
                                         </div>
                                         <div class="col-lg-4 col-md-6">
-                                            <img class="img-fluid rounded mb-5" src="{{URL::asset('assets/images/media/13.jpg')}}" alt="banner image">
+                                            <img src="{{URL::asset('assets/images/media/13.jpg')}}" alt="banner image" class="img-fluid rounded mb-5">
                                         </div>
                                         <div class="col-lg-4 col-md-6">
-                                            <img class="img-fluid rounded mb-5" src="{{URL::asset('assets/images/media/14.jpg')}}" alt="banner image">
+                                            <img src="{{URL::asset('assets/images/media/14.jpg')}}" alt="banner image" class="img-fluid rounded mb-5">
                                         </div>
                                         <div class="col-lg-4 col-md-6">
-                                            <img class="img-fluid rounded mb-5" src="{{URL::asset('assets/images/media/15.jpg')}}" alt="banner image">
+                                            <img src="{{URL::asset('assets/images/media/15.jpg')}}" alt="banner image" class="img-fluid rounded mb-5">
                                         </div>
                                         <div class="col-lg-4 col-md-6">
-                                            <img class="img-fluid rounded mb-0" src="{{URL::asset('assets/images/media/16.jpg')}}" alt="banner image">
+                                            <img src="{{URL::asset('assets/images/media/16.jpg')}}" alt="banner image" class="img-fluid rounded mb-0">
                                         </div>
                                         <div class="col-lg-4 col-md-6">
-                                            <img class="img-fluid rounded mb-0" src="{{URL::asset('assets/images/media/17.jpg')}}" alt="banner image">
+                                            <img src="{{URL::asset('assets/images/media/17.jpg')}}" alt="banner image" class="img-fluid rounded mb-0">
                                         </div>
                                         <div class="col-lg-4 col-md-6">
-                                            <img class="img-fluid rounded mb-0" src="{{URL::asset('assets/images/media/18.jpg')}}" alt="banner image">
+                                            <img src="{{URL::asset('assets/images/media/18.jpg')}}" alt="banner image" class="img-fluid rounded mb-0">
                                         </div>
                                         <div class="col-lg-4 col-md-6">
-                                            <img class="img-fluid rounded mb-0" src="{{URL::asset('assets/images/media/19.jpg')}}" alt="banner image">
+                                            <img src="{{URL::asset('assets/images/media/19.jpg')}}" alt="banner image" class="img-fluid rounded mb-0">
                                         </div>
                                         <div class="col-lg-4 col-md-6">
-                                            <img class="img-fluid rounded" src="{{URL::asset('assets/images/media/20.jpg')}}" alt="banner image">
+                                            <img src="{{URL::asset('assets/images/media/20.jpg')}}" alt="banner image" class="img-fluid rounded">
                                         </div>
                                     </div>
                                 </div>
@@ -434,7 +434,7 @@
                                 <div class=" col-lg-6 col-md-12">
                                     <div class="card borderover-flow-hidden">
                                         <div class="d-flex card-body media-xs overflow-visible ">
-                                            <img class="avatar brround avatar-md mr-3" src="{{URL::asset('assets/images/users/18.jpg')}}" alt="avatar-img">
+                                            <img src="{{URL::asset('assets/images/users/18.jpg')}}" alt="avatar-img" class="img-fluid avatar brround avatar-md mr-3">
                                             <div class="media-body valign-middle mt-1">
                                                 <a href="" class=" font-weight-semibold text-dark">John Paige</a>
                                                 <p class="text-muted mb-0">johan@gmail.com</p>
@@ -476,7 +476,7 @@
                                 <div class=" col-lg-6 col-md-12">
                                     <div class="card borderover-flow-hidden">
                                         <div class="d-flex card-body media-xs overflow-visible ">
-                                            <img class="avatar brround avatar-md mr-3" src="{{URL::asset('assets/images/users/2.jpg')}}" alt="avatar-img">
+                                            <img src="{{URL::asset('assets/images/users/2.jpg')}}" alt="avatar-img" class="img-fluid avatar brround avatar-md mr-3">
                                             <div class="media-body valign-middle mt-1">
                                                 <a href="" class="text-dark font-weight-semibold">Harry Fisher</a>
                                                 <p class="text-muted mb-0">harryuqt</p>
@@ -490,7 +490,7 @@
                                 <div class=" col-lg-6 col-md-12">
                                     <div class="card borderover-flow-hidden">
                                         <div class="d-flex card-body media-xs overflow-visible ">
-                                            <img class="avatar brround avatar-md mr-3" src="{{URL::asset('assets/images/users/19.jpg')}}" alt="avatar-img">
+                                            <img src="{{URL::asset('assets/images/users/19.jpg')}}" alt="avatar-img" class="img-fluid avatar brround avatar-md mr-3">
                                             <div class="media-body valign-middle mt-1">
                                                 <a href="" class=" font-weight-semibold text-dark">John Paige</a>
                                                 <p class="text-muted mb-0">johan@gmail.com</p>
@@ -504,7 +504,7 @@
                                 <div class=" col-lg-6 col-md-12">
                                     <div class="card borderover-flow-hidden">
                                         <div class="d-flex card-body media-xs overflow-visible">
-                                            <img class="avatar brround avatar-md mr-3" src="{{URL::asset('assets/images/users/15.jpg')}}" alt="avatar-img">
+                                            <img src="{{URL::asset('assets/images/users/15.jpg')}}" alt="avatar-img" class="img-fluid avatar brround avatar-md mr-3">
                                             <div class="media-body valign-middle mt-1">
                                                 <a href="" class="font-weight-semibold text-dark">Lillian Quinn</a>
                                                 <p class="text-muted mb-0">lilliangore</p>
@@ -518,7 +518,7 @@
                                 <div class=" col-lg-6 col-md-12">
                                     <div class="card borderover-flow-hidden mb-lg-0">
                                         <div class="d-flex card-body media-xs overflow-visible ">
-                                            <img class="avatar brround avatar-md mr-3" src="{{URL::asset('assets/images/users/8.jpg')}}" alt="avatar-img">
+                                            <img src="{{URL::asset('assets/images/users/8.jpg')}}" alt="avatar-img" class="img-fluid avatar brround avatar-md mr-3">
                                             <div class="media-body valign-middle mt-1">
                                                 <a href="" class="font-weight-semibold text-dark">Irene Harris</a>
                                                 <p class="text-muted mb-0">irharris@gmail.com</p>
@@ -532,7 +532,7 @@
                                 <div class=" col-lg-6 col-md-12">
                                     <div class="card borderover-flow-hidden mb-lg-0">
                                         <div class="d-flex card-body media-xs overflow-visible ">
-                                            <img class="avatar brround avatar-md mr-3" src="{{URL::asset('assets/images/users/5.jpg')}}" alt="avatar-img">
+                                            <img src="{{URL::asset('assets/images/users/5.jpg')}}" alt="avatar-img" class="img-fluid avatar brround avatar-md mr-3">
                                             <div class="media-body valign-middle mt-1">
                                                 <a href="" class="text-dark font-weight-semibold">Harry Fisher</a>
                                                 <p class="text-muted mb-0">harryuqt</p>

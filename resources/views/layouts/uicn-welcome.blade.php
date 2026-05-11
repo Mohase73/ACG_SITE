@@ -5,7 +5,7 @@
 						<div class="card-body">
 							<div class="row">
 								<div class="col-xl-3 col-lg-2 text-center">
-									<img src="{{URL::asset('assets/logo.png')}}" alt="img" class="w-95">
+									<img src="{{URL::asset('assets/logo.png')}}" alt="img" class="img-fluid w-95">
 								</div>
 								<div class="mt-3" class="col-xl-9 col-lg-10 pl-lg-0">
 									<div class="row">

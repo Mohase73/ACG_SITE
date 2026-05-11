@@ -26,7 +26,7 @@
             </div>
             <div class="show-carte d-flex flex-column m-2" style="width:100%;">
              <div class="show-carte-tete">
-               <a href="{{ route('articles.show',['article'=>$article->slug,'categorie'=>$article->categorie->slug]) }}"> <img src="{{ asset('storage').'/'.$article->image }}" alt="" class="show-carte-image"></a>
+               <a href="{{ route('articles.show',['article'=>$article->slug,'categorie'=>$article->categorie->slug]) }}"> <img src="{{ asset('storage').'/'.$article- class="img-fluid">image }}" alt="" class="show-carte-image"></a>
               
              </div>
              <div class="show-carte-corps  d-flex flex-column justify-content-between">
@@ -50,7 +50,7 @@
              <div class="row no-gutters">
                <div class="col-md-6">
                  <div style="height:100%">
-                  <a style="height:100%!important; overflow:hidden;" href="{{ route('articles.show',['article'=>$article->slug,'categorie'=>$article->categorie->slug]) }}"><img style="min-width:100%; object-fit:cover; object-position: 50% 50%; " src="{{ asset('storage').'/'.$article->image }}" alt="amassur" class="img-fluid" /></a>
+                  <a style="height:100%!important; overflow:hidden;" href="{{ route('articles.show',['article'=>$article->slug,'categorie'=>$article->categorie->slug]) }}"><img style="min-width:100%; object-fit:cover; object-position: 50% 50%; " src="{{ asset('storage').'/'.$article- class="img-fluid">image }}" alt="amassur" class="img-fluid" /></a>
                  </div>
                  
                </div>

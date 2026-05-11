@@ -25,7 +25,7 @@
 
         <div class="row">
             <div class="col-md-5 mb-4">
-                <img src="/{{ $produit->image }}" alt="{{ $produit->nom }}" class="img-fluid">
+                <img src="/{{ $produit- class="img-fluid">image }}" alt="{{ $produit->nom }}" class="img-fluid">
             </div>
             <div class="col-md-7">
                 <h2 class="product_title">{{ $produit->nom }}</h2>
@@ -56,7 +56,7 @@
                 <div class="col-sm-6 col-lg-3 mb-4">
                     <div class="product text-center">
                         <a href="{{ route('boutique.show', $s) }}">
-                            <img src="/{{ $s->image }}" alt="{{ $s->nom }}" class="img-fluid mb-2" style="height:150px;object-fit:cover;width:100%;">
+                            <img src="/{{ $s- class="img-fluid">image }}" alt="{{ $s->nom }}" class="img-fluid mb-2" style="height:150px;object-fit:cover;width:100%;">
                             <h6>{{ $s->nom }}</h6>
                         </a>
                         <p><strong>{{ number_format($s->prix, 0, ',', ' ') }} FCFA</strong></p>

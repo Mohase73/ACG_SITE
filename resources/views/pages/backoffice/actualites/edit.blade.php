@@ -40,7 +40,7 @@
             <div class="form-group">
                 <label>Image</label>
                 @if($actualite->image)
-                    <div class="mb-2"><img src="{{ asset('storage/' . $actualite->image) }}" height="80" style="border-radius:5px;"></div>
+                    <div class="mb-2"><img src="{{ asset('storage/' . $actualite- class="img-fluid">image) }}" height="80" style="border-radius:5px;"></div>
                 @endif
                 <input type="file" name="image" class="form-control-file">
             </div>

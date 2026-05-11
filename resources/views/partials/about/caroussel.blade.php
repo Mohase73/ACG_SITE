@@ -31,26 +31,26 @@
                                 });
                             </script>
                             <div id="layerslider_1_1" class="ls-wp-container" style="width:1100px;height:460px;margin:0 auto;margin-bottom: 0px;">
-                                {{-- <div class="ls-slide" data-ls="transition2d:1;"><img src="/wp-content/uploads/2015/07/slider-8.png" class="ls-bg" alt="a" />
+                                {{-- <div class="ls-slide" data-ls="transition2d:1;"><img src="/wp-content/uploads/2015/07/slider-8.png" alt="a"  class="img-fluid ls-bg" />
 
                                     <h2 class="ls-l" style="top:300px;left:48px;font-weight: 900; letter-spacing: 1px;padding-top:6px;padding-right:17px;padding-bottom:6px;padding-left:17px;font-family:Lato;font-size:32px;line-height:40px;color:#ffffff;background:#283033;">ABOUT THE STUDIO</h2>
                                     <h3 class="ls-l" style="top:355px;left:48px;font-weight: 900; letter-spacing: 1px; ;padding-top:11px;padding-right:18px;padding-bottom:11px;padding-left:18px;font-family:Lato;font-size:18px;line-height:30px;color:#ffffff;background:#18cfab;white-space: nowrap;">WE ARE AN AWESOME TEAM OF EXPERTS</h3>
 
 
                                 </div> --}}
-                                <div class="ls-slide" data-ls="transition2d:1;"><img src="/wp-content/uploads/2015/09/leseneve/images/d.png" class="ls-bg" alt="a" />
+                                <div class="ls-slide" data-ls="transition2d:1;"><img src="/wp-content/uploads/2015/09/leseneve/images/d.png" alt="a"  class="img-fluid ls-bg" />
                                     {{-- <div class="ls-l" style="top:300px;left:48px;font-weight: 900; letter-spacing: 1px;padding-top:6px;padding-right:17px;padding-bottom:6px;padding-left:17px;font-family:Lato;font-size:32px;line-height:40px;color:#ffffff;background:#283033;">ABOUT THE STUDIO</div>
                                     <h3 class="ls-l" style="top:355px;left:48px;font-weight: 900; letter-spacing: 1px; ;padding-top:11px;padding-right:18px;padding-bottom:11px;padding-left:18px;font-family:Lato;font-size:18px;line-height:30px;color:#ffffff;background:#18cfab;white-space: nowrap;">WE ARE AN AWESOME TEAM OF EXPERTS</h3> --}}
                                 </div>
-                                <div class="ls-slide" data-ls="transition2d:1;"><img src="/wp-content/uploads/2015/09/leseneve/images/e.png" class="ls-bg" alt="a" />
+                                <div class="ls-slide" data-ls="transition2d:1;"><img src="/wp-content/uploads/2015/09/leseneve/images/e.png" alt="a"  class="img-fluid ls-bg" />
                                     {{-- <div class="ls-l" style="top:300px;left:48px;font-weight: 900; letter-spacing: 1px;padding-top:6px;padding-right:17px;padding-bottom:6px;padding-left:17px;font-family:Lato;font-size:32px;line-height:40px;color:#ffffff;background:#283033;">ABOUT THE STUDIO</div>
                                     <h3 class="ls-l" style="top:355px;left:48px;font-weight: 900; letter-spacing: 1px; ;padding-top:11px;padding-right:18px;padding-bottom:11px;padding-left:18px;font-family:Lato;font-size:18px;line-height:30px;color:#ffffff;background:#18cfab;white-space: nowrap;">WE ARE AN AWESOME TEAM OF EXPERTS</h3> --}}
                                 </div>
-                                <div class="ls-slide" data-ls="transition2d:1;"><img src="/wp-content/uploads/2015/09/leseneve/images/f.png" class="ls-bg" alt="a" />
+                                <div class="ls-slide" data-ls="transition2d:1;"><img src="/wp-content/uploads/2015/09/leseneve/images/f.png" alt="a"  class="img-fluid ls-bg" />
                                     {{-- <div class="ls-l" style="top:300px;left:48px;font-weight: 900; letter-spacing: 1px;padding-top:6px;padding-right:17px;padding-bottom:6px;padding-left:17px;font-family:Lato;font-size:32px;line-height:40px;color:#ffffff;background:#283033;">ABOUT THE STUDIO</div>
                                     <h3 class="ls-l" style="top:355px;left:48px;font-weight: 900; letter-spacing: 1px; ;padding-top:11px;padding-right:18px;padding-bottom:11px;padding-left:18px;font-family:Lato;font-size:18px;line-height:30px;color:#ffffff;background:#18cfab;white-space: nowrap;">WE ARE AN AWESOME TEAM OF EXPERTS</h3> --}}
                                 </div>
-                                <div class="ls-slide" data-ls="transition2d:1;"><img src="/wp-content/uploads/2015/09/leseneve/images/z.png" class="ls-bg" alt="a" />
+                                <div class="ls-slide" data-ls="transition2d:1;"><img src="/wp-content/uploads/2015/09/leseneve/images/z.png" alt="a"  class="img-fluid ls-bg" />
                                     {{-- <div class="ls-l" style="top:300px;left:48px;font-weight: 900; letter-spacing: 1px;padding-top:6px;padding-right:17px;padding-bottom:6px;padding-left:17px;font-family:Lato;font-size:32px;line-height:40px;color:#ffffff;background:#283033;">ABOUT THE STUDIO</div>
                                     <h3 class="ls-l" style="top:355px;left:48px;font-weight: 900; letter-spacing: 1px; ;padding-top:11px;padding-right:18px;padding-bottom:11px;padding-left:18px;font-family:Lato;font-size:18px;line-height:30px;color:#ffffff;background:#18cfab;white-space: nowrap;">WE ARE AN AWESOME TEAM OF EXPERTS</h3> --}}
                                 </div>

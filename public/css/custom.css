@@ -463,3 +463,16 @@ footer a:not(.btn):hover,
     background-color: #BDF2ED !important;
     color: #333333 !important;
 }
+
+body { overflow-x: hidden; }
+img { max-width: 100%; height: auto; }
+
+.row { margin-left: 0; margin-right: 0; }
+.container, .container-fluid { overflow-x: hidden; }
+
+@media (max-width: 576px) {
+    h1 { font-size: 1.8rem !important; }
+    h2 { font-size: 1.5rem !important; }
+    h3 { font-size: 1.3rem !important; }
+    .special-heading { font-size: 1.5rem !important; }
+}

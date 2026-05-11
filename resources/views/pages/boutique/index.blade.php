@@ -27,7 +27,7 @@
             <div class="col-sm-6 col-lg-3 mb-4">
                 <div class="product text-center">
                     <a href="{{ route('boutique.show', $produit) }}">
-                        <img src="/{{ $produit->image }}" alt="{{ $produit->nom }}" class="img-fluid mb-3" style="height:180px;object-fit:cover;width:100%;">
+                        <img src="/{{ $produit- class="img-fluid">image }}" alt="{{ $produit->nom }}" class="img-fluid mb-3" style="height:180px;object-fit:cover;width:100%;">
                         <h5>{{ $produit->nom }}</h5>
                     </a>
                     <p class="price"><strong>{{ number_format($produit->prix, 0, ',', ' ') }} FCFA</strong></p>

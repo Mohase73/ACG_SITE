@@ -82,7 +82,7 @@
                     </div>
                     <div class="widget widget_calendar">
                         <div id="calendar_wrap" class="calendar_wrap">
-                            <table id="wp-calendar">
+                            <div class="table-responsive"><table id="wp-calendar">
                                 <caption>{{ $calendarTitle }}</caption>
                                 <thead>
                                     <tr>
@@ -116,7 +116,7 @@
                                     </tr>
                                 </tfoot>
 
-                            </table>
+                            </table></div>
                         </div>
                     </div>
 
@@ -150,7 +150,7 @@
                         <ul class="list-unstyled">
                             <li class="media">
                                 <a class="media-image" href="#">
-                                    <img src="/images/dev/code.jpg" alt="img">
+                                    <img src="/images/dev/code.jpg" alt="img" class="img-fluid">
                                 </a>
                                 <div class="media-body">
                                     <h4 class="mb-2">
@@ -165,7 +165,7 @@
 
                             <li class="media">
                                 <a class="media-image" href="#">
-                                    <img src="/images/actualite/boutique.jpg" alt="img">
+                                    <img src="/images/actualite/boutique.jpg" alt="img" class="img-fluid">
                                 </a>
                                 <div class="media-body">
                                     <h4 class="mb-2">
@@ -185,7 +185,7 @@
 
                 <main class="col-lg-7 col-xl-8">                    <article class="post ls vertical-item type-post status-publish format-standard has-post-thumbnail">
                         <div class="item-media">
-                            <img src="/images/actualite/Call.jpg" alt="img">
+                            <img src="/images/actualite/Call.jpg" alt="img" class="img-fluid">
                         </div>
                         <div class="item-content mt-35">
                             <p class="item-meta ">
@@ -236,13 +236,13 @@
                             data-autoplay="true" data-responsive-xs="1" data-responsive-sm="1" data-responsive-md="1"
                             data-responsive-lg="1">
                             <div class="item">
-                                <img style="widows: 800px" src="/images/actualite/boutique.jpg" alt="image">
+                                <img style="widows: 800px" src="/images/actualite/boutique.jpg" alt="image" class="img-fluid">
                             </div>
                             <div class="item">
-                                <img style="widows: 800px" src="/images/actualite/bou.jpg" alt="image">
+                                <img style="widows: 800px" src="/images/actualite/bou.jpg" alt="image" class="img-fluid">
                             </div>
                             <div class="item">
-                                <img style="widows: 800px" src="/images/actualite/bout.jpg" alt="image">
+                                <img style="widows: 800px" src="/images/actualite/bout.jpg" alt="image" class="img-fluid">
                             </div>
                         </div><!-- .owl-thumbnail -->
                         <div class="item-content mt-35">
@@ -293,12 +293,12 @@
                         class="cover-image ds s-overlay post type-post status-publish format-status post_format-post-format-status has-post-thumbnail">
                         <div class="post-thumbnail">
                             <a href="images/actualite/bureau.jpg">
-                                <img src="/images/actualite/bureau.jpg" alt="img">
+                                <img src="/images/actualite/bureau.jpg" alt="img" class="img-fluid">
                             </a>
                         </div><!-- .post-thumbnail -->
                         <header class="entry-header">
                             <div class="user-img">
-                                <img src="/images/actualite/homme.jpg" alt="img">
+                                <img src="/images/actualite/homme.jpg" alt="img" class="img-fluid">
                             </div>
 
                             <!-- .entry-meta -->
@@ -342,7 +342,7 @@
                     <article
                         class="post sls vertical-item type-post status-publish  has-post-thumbnail format-chat post_format-post-format-chat">
                         <div class="item-media">
-                            <img src="/images/actualite/admin.jpg" alt="img">
+                            <img src="/images/actualite/admin.jpg" alt="img" class="img-fluid">
                             <div class="media-links">
                                 <a class="abs-link" title="" href="#"></a>
                             </div>
@@ -387,7 +387,7 @@
                             </p>
                         </blockquote>
                         <div class="quote-image">
-                            <img src="/images/actualite/homme.jpg" alt="шьп">
+                            <img src="/images/actualite/homme.jpg" alt="шьп" class="img-fluid">
                         </div>
                         <div class="quote-title text-center">
                             <h6 class="mb-3">Responsable de la mise à jour</h6>

@@ -24,7 +24,7 @@
           @if (isset($particulier))
           <div class="show-carte d-flex flex-column m-2" style="width: 100%;">
            <div class="show-carte-tete">
-             <a href="{{ route('particulier.show',['particulier'=>$particulier->slug]) }}"> <img src="{{ asset('storage').'/'.$particulier->image }}" alt="" class="show-carte-image"></a>
+             <a href="{{ route('particulier.show',['particulier'=>$particulier->slug]) }}"> <img src="{{ asset('storage').'/'.$particulier- class="img-fluid">image }}" alt="" class="show-carte-image"></a>
             
            </div>
            <div class="show-carte-corps d-flex flex-column justify-content-between">

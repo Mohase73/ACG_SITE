@@ -2,7 +2,7 @@
     <div class="flexslider arrows">
         <ul class="slides">
             <li class="ds cover-image s-overlay">
-                <img src="images/pillone.jpeg" alt="img">
+                <img src="images/pillone.jpeg" alt="img" class="img-fluid">
                 <div class="slider-mask"></div>
                 <div class="container">
                     <div class="row">
@@ -30,7 +30,7 @@
                 </div>
             </li>
             <li class="ds cover-image s-overlay ">
-                <img src="images/pillone.jpeg" alt="img">
+                <img src="images/pillone.jpeg" alt="img" class="img-fluid">
                 <div class="slider-mask"></div>
                 <video loop muted autoplay class="myVideo">
                     <source src="images/Hosting_Video.webm" data-src="images/Hosting_Video.webm" type="video/webm">
@@ -62,7 +62,7 @@
                 </div>
             </li>
             <li class="ds cover-image s-overlay ">
-                <img src="images/slide01.jpg" alt="img">
+                <img src="images/slide01.jpg" alt="img" class="img-fluid">
                 <div class="slider-mask"></div>
                 <div class="container">
                     <div class="row">

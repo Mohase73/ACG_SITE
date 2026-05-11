@@ -35,7 +35,7 @@
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
                         <a href="images/video-bg.png" class="photoswipe-link" data-width="970" data-height="515" data-iframe="https://www.youtube.com/embed/WwvNiN2_Jlk">
-                            <img style="height: 530px !important" src="/images/dev/code.jpg" alt="img">
+                            <img style="height: 530px !important" src="/images/dev/code.jpg" alt="img" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                 </div>
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
-                            <img style="height: 490px !important" src="/images/dev/cla.jpg" alt="img">
+                            <img style="height: 490px !important" src="/images/dev/cla.jpg" alt="img" class="img-fluid">
                     </div>
                 </div>
             </div>

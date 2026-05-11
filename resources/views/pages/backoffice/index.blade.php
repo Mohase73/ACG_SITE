@@ -222,7 +222,7 @@
 									<tbody>
 										<tr>
 											<td>
-												<img src="{{URL::asset('assets/images/users/3.jpg')}}" alt="profile-user" class="brround  avatar-sm w-32 mr-2">
+												<img src="{{URL::asset('assets/images/users/3.jpg')}}" alt="profile-user" class="img-fluid brround avatar-sm w-32 mr-2">
 												Vashti Riccio
 											</td>
 											<td>#89345</td>
@@ -235,7 +235,7 @@
 										</tr>
 										<tr>
 											<td>
-												<img src="{{URL::asset('assets/images/users/4.jpg')}}" alt="profile-user" class="brround  avatar-sm w-32 mr-2">
+												<img src="{{URL::asset('assets/images/users/4.jpg')}}" alt="profile-user" class="img-fluid brround avatar-sm w-32 mr-2">
 												Harriett Lauver
 											</td>
 											<td>#39281</td>
@@ -248,7 +248,7 @@
 										</tr>
 										<tr>
 											<td>
-												<img src="{{URL::asset('assets/images/users/5.jpg')}}" alt="profile-user" class="brround  avatar-sm w-32 mr-2">
+												<img src="{{URL::asset('assets/images/users/5.jpg')}}" alt="profile-user" class="img-fluid brround avatar-sm w-32 mr-2">
 												Darci Faw
 											</td>
 											<td>#35825</td>
@@ -261,7 +261,7 @@
 										</tr>
 										<tr>
 											<td>
-												<img src="{{URL::asset('assets/images/users/6.jpg')}}" alt="profile-user" class="brround  avatar-sm w-32 mr-2">
+												<img src="{{URL::asset('assets/images/users/6.jpg')}}" alt="profile-user" class="img-fluid brround avatar-sm w-32 mr-2">
 												Jamie Norville
 											</td>
 											<td>#62391</td>
@@ -274,7 +274,7 @@
 										</tr>
 										<tr>
 											<td>
-												<img src="{{URL::asset('assets/images/users/7.jpg')}}" alt="profile-user" class="brround  avatar-sm w-32 mr-2">
+												<img src="{{URL::asset('assets/images/users/7.jpg')}}" alt="profile-user" class="img-fluid brround avatar-sm w-32 mr-2">
 												Danae Kaba
 											</td>
 											<td>#92481</td>
@@ -287,7 +287,7 @@
 										</tr>
 										<tr>
 											<td>
-												<img src="{{URL::asset('assets/images/users/8.jpg')}}" alt="profile-user" class="brround  avatar-sm w-32 mr-2">
+												<img src="{{URL::asset('assets/images/users/8.jpg')}}" alt="profile-user" class="img-fluid brround avatar-sm w-32 mr-2">
 												Jeromy Tricarico
 											</td>
 											<td>#29381</td>
@@ -458,7 +458,7 @@
 									<tbody>
 										<tr>
 											<td>
-												<img src="{{URL::asset('assets/images/pngs/1.png')}}" alt="img" class="h-7 w-7">
+												<img src="{{URL::asset('assets/images/pngs/1.png')}}" alt="img" class="img-fluid h-7 w-7">
 												<p class="d-inline-block align-middle mb-0 ml-1">
 													<a href="" class="d-inline-block align-middle mb-0 product-name text-dark font-weight-semibold">Arm Chair</a>
 													<br>
@@ -475,7 +475,7 @@
 										</tr>
 										<tr>
 											<td>
-												<img src="{{URL::asset('assets/images/pngs/2.png')}}" alt="img" class="h-7 w-7">
+												<img src="{{URL::asset('assets/images/pngs/2.png')}}" alt="img" class="img-fluid h-7 w-7">
 												<p class="d-inline-block align-middle mb-0 ml-1">
 													<a href="" class="d-inline-block align-middle mb-0 product-name text-dark font-weight-semibold">Arm Chair</a>
 													<br>
@@ -492,7 +492,7 @@
 										</tr>
 										<tr>
 											<td>
-												<img src="{{URL::asset('assets/images/pngs/3.png')}}" alt="img" class="h-7 w-7">
+												<img src="{{URL::asset('assets/images/pngs/3.png')}}" alt="img" class="img-fluid h-7 w-7">
 												<p class="d-inline-block align-middle mb-0 ml-1">
 													<a href="" class="d-inline-block align-middle mb-0 product-name text-dark font-weight-semibold">Arm Chair</a>
 													<br>
@@ -509,7 +509,7 @@
 										</tr>
 										<tr>
 											<td>
-												<img src="{{URL::asset('assets/images/pngs/4.png')}}" alt="img" class="h-7 w-7">
+												<img src="{{URL::asset('assets/images/pngs/4.png')}}" alt="img" class="img-fluid h-7 w-7">
 												<p class="d-inline-block align-middle mb-0 ml-1">
 													<a href="" class="d-inline-block align-middle mb-0 product-name text-dark font-weight-semibold">Arm Chair</a>
 													<br>

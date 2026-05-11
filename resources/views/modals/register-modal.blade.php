@@ -4,7 +4,7 @@
 	<div class="modal ls" id="registrate_modal">
 		<div class="modal_login_form">
 			<div class="menu-img ds d-flex flex-column align-items-center justify-content-center s-overlay cover-image p-20 text-center">
-				<img src="images/events/08.jpg" alt="bg">
+				<img src="images/events/08.jpg" alt="bg" class="img-fluid">
 				<h5 class="special-heading">
 					<span>Vous avez un compte?</span>
 				</h5>

@@ -49,7 +49,7 @@
             <div class="row align-items-center">
                 <div class="col-12 col-lg-6">
                     <div class="item-media cover-image">
-                        <img style="height: 650px" src="images/pillone_about.jpeg" alt="img">
+                        <img style="height: 650px" src="images/pillone_about.jpeg" alt="img" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 section-special right text-center text-lg-left z-index-2">
@@ -188,7 +188,7 @@
             <div class="row align-items-center">
                 <div class="col-12 col-lg-6">
                     <div class="item-media cover-image">
-                        <img style="height: 650px" src="images/mission.jpg" alt="img">
+                        <img style="height: 650px" src="images/mission.jpg" alt="img" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 section-special right z-index-2">
@@ -242,7 +242,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="item-media cover-image">
-                                    <img src="images/team/03.jpg" alt="img">
+                                    <img src="images/team/03.jpg" alt="img" class="img-fluid">
                                     <div class="media-links">
                                         <a class="abs-link" title="" href="team-single.html"></a>
                                     </div>
@@ -282,7 +282,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="item-media cover-image">
-                                    <img src="images/team/01.jpg" alt="img">
+                                    <img src="images/team/01.jpg" alt="img" class="img-fluid">
                                     <div class="media-links">
                                         <a class="abs-link" title="" href="team-single.html"></a>
                                     </div>
@@ -321,7 +321,7 @@
                         <div class="row">
                             <div class="col-lg-6 order-1 order-lg-2">
                                 <div class="item-media cover-image">
-                                    <img src="images/team/02.jpg" alt="img">
+                                    <img src="images/team/02.jpg" alt="img" class="img-fluid">
                                     <div class="media-links">
                                         <a class="abs-link" title="" href="team-single.html"></a>
                                     </div>
@@ -359,7 +359,7 @@
                         <div class="row">
                             <div class="col-lg-6 order-1 order-lg-2">
                                 <div class="item-media cover-image">
-                                    <img src="images/team/05.jpg" alt="img">
+                                    <img src="images/team/05.jpg" alt="img" class="img-fluid">
                                     <div class="media-links">
                                         <a class="abs-link" title="" href="team-single.html"></a>
                                     </div>

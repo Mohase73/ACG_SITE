@@ -17,7 +17,7 @@
                 <div class="owl-carousel" data-nav="false" data-loop="true" data-autoplay="false" data-items="1" data-responsive-lg="3" data-responsive-md="3" data-responsive-sm="2" data-responsive-xs="1">
                     <div class="vertical-item p-30 shadow-hover mx-10 my-20 text-center">
                         <div class="item-media" style="height: 205px; overflow: hidden;">
-                            <img src="images/actualite/Call.jpg" alt="img" style="width:100%; height:205px; object-fit:cover;">
+                            <img src="images/actualite/Call.jpg" alt="img" style="width:100%; height:205px; object-fit:cover;" class="img-fluid">
                         </div>
                         <div class="item-content mt-25">
                             <div class="item-meta">
@@ -44,7 +44,7 @@
                     </div>
                     <div class="vertical-item p-30 shadow-hover mx-10 my-20 text-center">
                         <div class="item-media" style="height: 205px">
-                            <img style="width: 100%; height: 205px; object-fit: cover;" src="images/actualite/boutique.jpg" alt="image">
+                            <img style="width: 100%; height: 205px; object-fit: cover;" src="images/actualite/boutique.jpg" alt="image" class="img-fluid">
                         </div>
                         <div class="item-content mt-25">
                             <div class="item-meta">
@@ -71,7 +71,7 @@
                     </div>
                     <div class="vertical-item p-30 shadow-hover mx-10 my-20 text-center">
                         <div class="item-media" style="height: 205px">
-                            <img style="height: 205px; width: 100%; object-fit: cover;" src="images/dev/code.jpg" alt="img">
+                            <img style="height: 205px; width: 100%; object-fit: cover;" src="images/dev/code.jpg" alt="img" class="img-fluid">
                         </div>
                         <div class="item-content mt-25">
                             <div class="item-meta">

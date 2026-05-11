@@ -5,10 +5,10 @@
             <div class="row align-items-center">
                 <div class="col-xl-3 col-md-4 col-sm-5 col-9">
                     <a href="./" class="logo logo-color">
-                        <img src="/images/logo_color.png" alt="img">
+                        <img src="/images/logo_color.png" alt="img" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-xl-8 col-1 d-flex align-items-center justify-content-end px-1">
+                <div class="col-xl-8 d-none d-xl-flex align-items-center justify-content-end px-1">
                     <!-- main nav start -->
                     <nav class="top-nav">
                         <ul class="nav sf-menu">
@@ -81,7 +81,7 @@
                     </nav>
                     <!-- eof main nav -->
                 </div>
-                <div class="col-xl-1 col-md-6 col-sm-5 justify-content-end d-flex align-items-center">
+                <div class="col-xl-1 col-md-8 col-sm-7 col-3 justify-content-end d-flex align-items-center">
                     <div class="icons-wrap d-flex align-items-center justify-content-end">
                         {{-- <div class="dropdown hidden-below-sm widget_search">
                             <a class="dropdown-toggle dropdown-toggle-split" href="#" id="headerSearchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

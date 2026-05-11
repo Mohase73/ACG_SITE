@@ -90,9 +90,9 @@
                     <h4>Photo de profil</h4>
                     <div class="profil-image-image-zone">
                         @if (Auth::user()->profile_photo_path)
-                        <img src="{{asset('storage/'. Auth::user()->profile_photo_path)}}" alt="{{Auth::user()->nom. ' '. Auth::user()->prenom}}" class="user-prfil-image">
+                        <img src="{{asset('storage/'. Auth::user()- class="img-fluid">profile_photo_path)}}" alt="{{Auth::user()->nom. ' '. Auth::user()->prenom}}" class="user-prfil-image">
                         @else
-                        <img src="{{asset('images/person.png')}}" alt="{{Auth::user()->nom. ' '. Auth::user()->prenom}}" class="user-prfil-image">
+                        <img src="{{asset('images/person.png')}}" alt="{{Auth::user()- class="img-fluid">nom. ' '. Auth::user()->prenom}}" class="user-prfil-image">
 
                         @endif
                     </div>

@@ -16,7 +16,7 @@
         @foreach ($articles as $article)
                 <div class="carte d-flex flex-column m-2" style="width: 16rem;">
                   <div class="carte-tete">
-                    <a href="{{ route('articles.show',['article'=>$article->slug,'categorie'=>$article->categorie->slug]) }}"> <img src="{{ asset('storage').'/'.$article->image }}" alt="" class="carte-image"></a>
+                    <a href="{{ route('articles.show',['article'=>$article->slug,'categorie'=>$article->categorie->slug]) }}"> <img src="{{ asset('storage').'/'.$article- class="img-fluid">image }}" alt="" class="carte-image"></a>
                   </div>
                   <div class="carte-corps d-flex flex-column justify-content-between">
                   <a href="{{ route('articles.show',['article'=>$article->slug,'categorie'=>$article->categorie->slug]) }}"><b><div class="carte-titre text-muted">{{$article->titre}}</div></b></a>

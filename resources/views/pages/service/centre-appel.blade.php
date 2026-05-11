@@ -54,7 +54,7 @@
                     <div class="icon-styled ">
                         <a href="#">
                             {{-- <i class="color-main fi flaticon-022-hosting-1"></i> --}}
-                            <img style="height: 100px; width:100px" src="/images/centre-appel/telesecretariat.png" alt="">
+                            <img style="height: 100px; width:100px" src="/images/centre-appel/telesecretariat.png" alt="" class="img-fluid">
                         </a>
                     </div>
                     <h5><a href="#">Télésécretariat</a></h5>
@@ -68,7 +68,7 @@
                     <div class="icon-styled ">
                         <a href="#">
                             {{-- <i class="color-main fi flaticon-017-computer"></i> --}}
-                            <img style="height: 100px; width:100px" src="/images/centre-appel/appelentrant.png" alt="">
+                            <img style="height: 100px; width:100px" src="/images/centre-appel/appelentrant.png" alt="" class="img-fluid">
                         </a>
                     </div>
                     <h5><a href="#">Appel Entrant</a></h5>
@@ -82,7 +82,7 @@
                     <div class="icon-styled ">
                         <a href="#">
                             {{-- <i class="color-main fi flaticon-035-bug"></i> --}}
-                            <img style="height: 100px; width:100px" src="/images/centre-appel/appelsortant.png" alt="">
+                            <img style="height: 100px; width:100px" src="/images/centre-appel/appelsortant.png" alt="" class="img-fluid">
                         </a>
                     </div>
                     <h5><a href="#">Appel Sortant</a></h5>
@@ -95,7 +95,7 @@
                 <div class="icon-box shadow-layout text-center">
                     <div class="icon-styled ">
                         <a href="#">
-                            <img style="height: 100px; width:100px" src="/images/centre-appel/conseil.jpg" alt="">
+                            <img style="height: 100px; width:100px" src="/images/centre-appel/conseil.jpg" alt="" class="img-fluid">
                             {{-- <i class="color-main fi flaticon-032-cloud"></i> --}}
                         </a>
                     </div>
@@ -109,7 +109,7 @@
                 <div class="icon-box shadow-layout text-center">
                     <div class="icon-styled ">
                         <a href="#">
-                            <img style="height: 100px; width:100px" src="/images/centre-appel/client.jpg" alt="">
+                            <img style="height: 100px; width:100px" src="/images/centre-appel/client.jpg" alt="" class="img-fluid">
                             {{-- <i class="color-main fi flaticon-001-website"></i> --}}
                         </a>
                     </div>
@@ -123,7 +123,7 @@
                 <div class="icon-box shadow-layout text-center">
                     <div class="icon-styled ">
                         <a href="#">
-                            <img style="height: 100px; width:100px" src="/images/centre-appel/assistance.png" alt="">
+                            <img style="height: 100px; width:100px" src="/images/centre-appel/assistance.png" alt="" class="img-fluid">
                             {{-- <i class="color-main fi flaticon-023-search"></i> --}}
                         </a>
                     </div>
@@ -197,7 +197,7 @@
                 </div>
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
-                            <img style="height: 600px !important" src="/images/centre-appel/equipement.jpg" alt="img">
+                            <img style="height: 600px !important" src="/images/centre-appel/equipement.jpg" alt="img" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -220,7 +220,7 @@
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
                         <a href="images/video-bg.png" class="photoswipe-link" data-width="970" data-height="515" data-iframe="https://www.youtube.com/embed/WwvNiN2_Jlk">
-                            <img style="height: 700px !important" src="/images/centre-appel/call.jpg" alt="img">
+                            <img style="height: 700px !important" src="/images/centre-appel/call.jpg" alt="img" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -334,7 +334,7 @@
                 </div>
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
-                            <img style="height: 550px !important" src="/images/centre-appel/benefice.jpg" alt="img">
+                            <img style="height: 550px !important" src="/images/centre-appel/benefice.jpg" alt="img" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -392,7 +392,7 @@
                 </div>
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
-                        <img style="height: 510px !important" src="/images/centre-appel/benefice.jpg" alt="img">
+                        <img style="height: 510px !important" src="/images/centre-appel/benefice.jpg" alt="img" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -413,7 +413,7 @@
                 <div class="col-12 col-lg-6 post_format-post-format-video">
                     <div class="embed-responsive text-center">
                         <a href="images/video-bg.png" class="photoswipe-link" data-width="970" data-height="515" data-iframe="https://www.youtube.com/embed/WwvNiN2_Jlk">
-                            <img style="height: 465px !important" src="/images/centre-appel/avantages.jpeg" alt="img">
+                            <img style="height: 465px !important" src="/images/centre-appel/avantages.jpeg" alt="img" class="img-fluid">
                         </a>
                     </div>
                 </div>

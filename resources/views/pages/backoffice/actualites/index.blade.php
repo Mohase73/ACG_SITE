@@ -27,7 +27,7 @@
                     <tr>
                         <td>
                             @if($article->image)
-                                <img src="{{ asset('storage/' . $article->image) }}" width="60" height="50" style="object-fit:cover; border-radius:5px;">
+                                <img src="{{ asset('storage/' . $article- class="img-fluid">image) }}" width="60" height="50" style="object-fit:cover; border-radius:5px;">
                             @else
                                 <span class="text-muted">—</span>
                             @endif
