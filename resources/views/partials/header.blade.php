@@ -43,29 +43,6 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Nos solutions</a>
-                                <ul style="width: auto !important">
-                                    <li style="width: auto !important">
-                                        <a href="{{ url('alerte-job') }}">ALERTE JOB</a>
-                                    </li>
-                                    <li style="width: auto !important">
-                                        <a href="{{ url('alerte-immobilier') }}">ALERTE IMMOBILIER</a>
-                                    </li>
-                                    <li style="width: auto !important">
-                                        <a href="{{ url('lovelink') }}">LOVELINK</a>
-                                    </li>
-                                    <li style="width: auto !important">
-                                        <a href="{{ url('astrologie') }}">ASTROLOGIE</a>
-                                    </li>
-                                    <li style="width: auto !important">
-                                        <a href="{{ url('royalturf') }}">ROYALTURF</a>
-                                    </li>
-                                    <li style="width: auto !important">
-                                        <a href="{{ url('pingfoot') }}">PINGFOOT</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
                                 <a href="{{ url('actualite') }}">Actualités</a>
                             </li>
                             <!-- eof blog -->
